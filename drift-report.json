@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-08-19T15:46:04.051Z",
+  "generated_at": "2026-08-19T16:58:08.663Z",
   "count": 4,
   "items": [
     {
-      "full_name": "EdgeTypE/dsh-better-deepseek",
-      "previous": "web-ui",
-      "current": "other",
-      "desc_now": "DeepSeek Harness bridge plugin for Better DeepSeek Chrome extension.",
-      "desc_prev": "DeepSeek Harness bridge plugin for Better DeepSeek Chrome extension."
+      "full_name": "Han-1413141/dsh-cost-meter",
+      "previous": "resource",
+      "current": "notify",
+      "desc_now": "DeepSeek Harness session cost meter plugin: session/daily cost, budget, history, OpenCode Go quota, official & custom-provider balance, Codex-like token heatmap, peak/off-peak pricing with pre-switch popup & system-notification alerts, official price sync, 90+ model pricing catalog, Coding Plan quota queries (7 vendors), bilingual zh/en UI",
+      "desc_prev": "DeepSeek Harness Session Cost Statistics & OpenCode Go Quota Display, DS Official Balance & Custom Provider Balance Lookup, Codex-like Token Heatmap Plugin: Session/Daily Cost, Budget, History, Peak/off-peak pricing, Price Sync, Multi-vendor pricing (90+ catalog), Coding Plan quota queries (6 vendors), Balance progress bar"
     },
     {
-      "full_name": "Yuer6327/NoLetMe",
+      "full_name": "hyqibot/DeepSeek-Harness-Token-Free",
+      "previous": "model",
+      "current": "vision",
+      "desc_now": "A token-free desktop client for the DeepSeek Harness，enjoy！为 DeepSeek Harness (DSH)     生态打造的全免Token费的桌面端 ，极简极易。内置多模态+顶尖工具链能力的大模型 HYQi（Flash / Pro / Image / Video）：生图+生视频均免token费，无需API， 有疑问可二维码进社区交流",
+      "desc_prev": "A token-free desktop client for the DeepSeek Harness，enjoy！为 DeepSeek Harness (DSH)     生态打造的全免Token费的桌面端 ，极简极易。 有疑问或需帮助可二维码进社区交流"
+    },
+    {
+      "full_name": "chenaptx/deepseek-harness-mac",
       "previous": "other",
-      "current": "web-ui",
-      "desc_now": "Deepseek v4 神鬼二象性观测面板",
+      "current": "coding",
+      "desc_now": "Tiny macOS shell for DeepSeek Harness — 132KB Swift+WKWebView, zero Electron",
       "desc_prev": null
     },
     {
-      "full_name": "Chael-Chael/dsh-reference-anything",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "Unified @ references for DeepSeek Harness—search workspace files, DSH sessions, and ChatGPT, Claude, Gemini, DeepSeek, Grok & Kimi history | DSH 统一 @ 引用插件：搜索文件、会话与六大 AI 平台历史对话",
-      "desc_prev": null
-    },
-    {
-      "full_name": "kaieye/dsh-AIR",
-      "previous": "other",
-      "current": "conversation",
-      "desc_now": "使用 ↑ / ↓ 切换历史发送记录，并通过 /btw 打开停靠式侧边对话。",
-      "desc_prev": null
+      "full_name": "daha1216/dsh-skill-adult-tension-narrative",
+      "previous": "agent",
+      "current": "memory",
+      "desc_now": "DeepSeek Harness 成年人(18+/adult)互动叙事 Skill：NPC 活人感（有记忆/立场/底线）、自带破甲与张力引擎、随机开局可预锁、时间推进、全维 YAML 存档。仅限虚构成年人。",
+      "desc_prev": "DeepSeek Harness & AI agent skill: adult-tension-narrative 成年人互动叙事引擎（虚构成年人，含张力引擎/存档）"
     }
   ]
 }
