@@ -1,0 +1,52 @@
+name: build-registry
+
+on:
+  schedule:
+    # 每 2 小时增量更新一次索引（UTC；北京时间每偶数点整）
+    - cron: "0 */2 * * *"
+    # 每天 04:00 UTC（北京时间 12:00）全量重建，刷新 star 数等静态数据
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "全量重建（默认增量）"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-registry
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Build DSH registry (full)
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.full == 'true' || github.event.schedule == '0 4 * * *' }}
+        run: node scripts/build-registry.mjs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build DSH registry (incremental)
+        if: ${{ !(github.event_name == 'workflow_dispatch' && github.event.inputs.full == 'true' || github.event.schedule == '0 4 * * *') }}
+        run: INCREMENTAL_DAYS=3 node scripts/build-registry.mjs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add registry.json registry.json.gz drift-report.json installability-report.json 2>/dev/null || true
+          git commit -m "registry: $(date -u +%F)" || echo "no changes"
+          git push
+
