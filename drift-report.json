@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-08-19T15:03:38.024Z",
-  "count": 1,
+  "generated_at": "2026-08-19T15:46:04.051Z",
+  "count": 4,
   "items": [
     {
-      "full_name": "Roarpeng/GraphFlow",
+      "full_name": "EdgeTypE/dsh-better-deepseek",
+      "previous": "web-ui",
+      "current": "other",
+      "desc_now": "DeepSeek Harness bridge plugin for Better DeepSeek Chrome extension.",
+      "desc_prev": "DeepSeek Harness bridge plugin for Better DeepSeek Chrome extension."
+    },
+    {
+      "full_name": "Yuer6327/NoLetMe",
       "previous": "other",
-      "current": "memory",
-      "desc_now": "Local-first code knowledge graph and context harness for coding agents. MCP + DeepSeek Harness (dsh) plugin.",
+      "current": "web-ui",
+      "desc_now": "Deepseek v4 神鬼二象性观测面板",
+      "desc_prev": null
+    },
+    {
+      "full_name": "Chael-Chael/dsh-reference-anything",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "Unified @ references for DeepSeek Harness—search workspace files, DSH sessions, and ChatGPT, Claude, Gemini, DeepSeek, Grok & Kimi history | DSH 统一 @ 引用插件：搜索文件、会话与六大 AI 平台历史对话",
+      "desc_prev": null
+    },
+    {
+      "full_name": "kaieye/dsh-AIR",
+      "previous": "other",
+      "current": "conversation",
+      "desc_now": "使用 ↑ / ↓ 切换历史发送记录，并通过 /btw 打开停靠式侧边对话。",
       "desc_prev": null
     }
   ]
