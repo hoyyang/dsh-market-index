@@ -35,12 +35,14 @@ jobs:
         run: node scripts/build-registry.mjs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_REGISTRY: https://registry.npmjs.org
 
       - name: Build DSH registry (incremental)
         if: ${{ !(github.event_name == 'workflow_dispatch' && github.event.inputs.full == 'true' || github.event.schedule == '0 4 * * *') }}
         run: INCREMENTAL_DAYS=1 node scripts/build-registry.mjs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_REGISTRY: https://registry.npmjs.org
 
       - name: Commit index
         run: |

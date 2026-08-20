@@ -1326,15 +1326,18 @@ async function enrichPkgNames(repos, includeVersion = false) {
 async function enrichNpmVersions(repos) {
   const todo = repos.filter((r) => typeof r.pkg_name === "string" && r.pkg_name.length > 0 && !r.npm_version);
   if (todo.length === 0) return;
+  // v1.6.1：registry 可配（CI 在美国 runner 上走 npmjs 官方源，npmmirror 跨洋
+  // 延迟高，6000+ 请求会把全量构建拖到 1h+）；本地/国内环境可设 npmmirror。
+  const REGISTRY = process.env.NPM_REGISTRY ?? "https://registry.npmmirror.com";
   let cursor = 0;
   let hit = 0;
   const worker = async () => {
     while (cursor < todo.length) {
       const r = todo[cursor++];
       try {
-        const res = await fetch(`https://registry.npmmirror.com/${encodeURIComponent(r.pkg_name)}`, {
+        const res = await fetch(`${REGISTRY}/${encodeURIComponent(r.pkg_name)}`, {
           headers: { "User-Agent": "dsh-plugin-marketplace-registry" },
-          signal: AbortSignal.timeout(8000)
+          signal: AbortSignal.timeout(5000)
         });
         if (!res.ok) continue;
         const d = await res.json();
@@ -1347,7 +1350,7 @@ async function enrichNpmVersions(repos) {
       } catch { /* npm 不可达：保持缺失（前端手动检测兜底） */ }
     }
   };
-  await Promise.all(Array.from({ length: 16 }, () => worker()));
+  await Promise.all(Array.from({ length: 24 }, () => worker()));
   log(`npm 版本富化完成：${hit}/${todo.length}`);
 }
 
