@@ -48,14 +48,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # 并发运行竞态修复（v1.5）：每日全量 04:00 UTC 与每 2h 增量可能同时收尾，
-          # 两个运行各自在旧 checkout 上 commit，后 push 的会被 "fetch first" 拒绝，
-          # 导致刚重建的数据整体丢失（2026-08-20 全量两次因此白跑）。
-          # 改为：fetch 最新 remote → reset --soft 把本次重建的文件以最新 main
-          # 为基底重新提交（产物文件由构建整体覆盖，不会冲突）→ push 带重试。
+          # 并发运行竞态修复（v1.5/v1.6.2）：两个运行可能同时收尾，后 push 的会被
+          # "fetch first" 拒绝。改为：fetch 最新 remote → reset --mixed 把索引（index）
+          # 对齐最新 main（保留工作区里刚重建的产物文件）→ 只 add 数据产物 →
+          # commit → push 带重试。
+          # v1.6.2 关键修复：不能用 --soft——soft 会把 checkout 时旧版
+          # .github/workflows/* 也带进提交，GitHub 拒绝 GITHUB_TOKEN 推送任何
+          # 改动 workflow 文件的提交（2026-08-20 全量 1h27m 白跑即此因）。
+          # --mixed 只重置索引不碰工作区，提交里只有数据产物，不再触发该限制。
           for attempt in 1 2 3; do
             git fetch origin main
-            git reset --soft origin/main
+            git reset --mixed origin/main
             git add registry.json registry.json.gz drift-report.json installability-report.json 2>/dev/null || true
             if git diff --cached --quiet; then
               echo "no changes"
