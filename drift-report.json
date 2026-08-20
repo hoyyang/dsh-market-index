@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T18:02:54.048Z",
-  "count": 7,
+  "generated_at": "2026-08-20T19:23:12.219Z",
+  "count": 8,
   "items": [
     {
       "full_name": "franksong2702/dsh-codex-connect",
@@ -10,25 +10,18 @@
       "desc_prev": "ChatGPT OAuth and Codex models for DeepSeek Harness."
     },
     {
-      "full_name": "TLNing260310/dsh-researcher",
-      "previous": "tool",
-      "current": "coding",
-      "desc_now": "Read-only Project Intelligence Layer for DeepSeek Harness · 基于证据的只读项目认知层 — prevents AI coding agents from making locally correct changes that gradually break the whole project",
-      "desc_prev": "Restores understanding when AI's reasonable-looking changes drift the architecture: read-only build-shaping agent preset for DeepSeek Harness (Research -> Plan -> Code upstream)"
-    },
-    {
-      "full_name": "webkong/dsh-plugin-manager",
-      "previous": "resource",
+      "full_name": "dongsheng123132/dsh-capability-receipt",
+      "previous": "other",
       "current": "tool",
-      "desc_now": "DSH 插件管理器：在 Web 设置页管理内置与三方插件——安装、卸载、启用、停用，支持 GitHub 搜索安装与非 bundle 插件一键装载",
-      "desc_prev": "DSH 插件管理器：内置/三方插件安装、卸载、启动、停用与 GitHub 直跳"
+      "desc_now": "Content-addressed receipts for skills actually loaded by DeepSeek Harness",
+      "desc_prev": "Content-addressed receipts for skills actually loaded by DeepSeek Harness"
     },
     {
-      "full_name": "Vast-Unhurried/dsh-toolkit",
-      "previous": "web-ui",
-      "current": "memory",
-      "desc_now": "DeepSeek Harness 实用工具箱：便签、API 余额与费用、删除会话、第三方模型推理等级、对话节点导航条、轻拟物皮肤",
-      "desc_prev": "DeepSeek Harness 实用工具箱：便签、API 余额与费用、删除会话、第三方模型推理等级、对话节点导航条、轻拟物皮肤"
+      "full_name": "ailoushu666/dsh-feishu-bridge",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "Feishu/Lark bot bridge for DeepSeek Harness — control DSH agents remotely from Feishu.",
+      "desc_prev": null
     },
     {
       "full_name": "codelogickeep/deepseek-harness-plugin",
@@ -38,6 +31,20 @@
       "desc_prev": "DeepSeek Harness (DSH) 插件集合仓库与安装脚手架。"
     },
     {
+      "full_name": "AKS1st/dock-editor",
+      "previous": "coding",
+      "current": "memory",
+      "desc_now": "DSH 生态中最好的文本编辑插件：撤销重做、Ctrl+S 保存、未保存确认、二进制检测、悬浮窗几何记忆，dock-files 的默认文本查看器；依赖 dock 与 dock-files | The best text editor for DSH: undo/redo, Ctrl+S save, unsaved-change confirmation, binary detection, window geometry memory; the default dock-files viewer; requires dock and dock-files",
+      "desc_prev": "DSH dock 文本查看/编辑器：撤销重做、Ctrl+S 保存、未保存确认 | Text viewer/editor for the DSH dock: undo/redo, Ctrl+S save, unsaved-change confirmation"
+    },
+    {
+      "full_name": "AKS1st/dock-markdown",
+      "previous": "web-ui",
+      "current": "coding",
+      "desc_now": "DSH 生态中最好的 Markdown 查看插件：GFM 渲染、DOMPurify 消毒、文档大纲、相对路径图片/链接解析、一键切换编辑；依赖 dock/dock-files/dock-editor | The best Markdown viewer for DSH: GFM rendering, DOMPurify sanitization, document outline, relative image/link resolution, one-click switch to editing; requires dock/dock-files/dock-editor",
+      "desc_prev": "DSH dock Markdown 查看器：md/markdown/mdx 渲染，一键切换编辑 | Markdown viewer for the DSH dock: renders md/markdown/mdx with one-click switch to editing"
+    },
+    {
       "full_name": "ywzhang1031/dsh-aside",
       "previous": "memory",
       "current": "conversation",
@@ -45,11 +52,11 @@
       "desc_prev": "把追问绑定到主对话具体文字并持久保存的 DeepSeek Harness 只读旁注插件。Persistent read-only side conversations anchored to exact prose."
     },
     {
-      "full_name": "twelvecarbon/dsh-conversation-toc",
-      "previous": "conversation",
-      "current": "web-ui",
-      "desc_now": "类似网页版deepseek的边栏气泡，可以查看历史会话主题并支持快速跳转",
-      "desc_prev": null
+      "full_name": "0x5446/reins",
+      "previous": "coding",
+      "current": "tool",
+      "desc_now": "Native iOS client for DeepSeek Harness (dsh). Answer your agent from your phone — the relay only ever sees ciphertext.",
+      "desc_prev": "Answer your coding agent from your phone. End-to-end encrypted; the relay only ever sees ciphertext."
     }
   ]
 }
