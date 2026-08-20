@@ -668,13 +668,16 @@ export function classifyRepo(repo) {
  * pkg_name 冲突消解（纯函数）：同名 npm 包在 node_modules 的安装目标互斥（同目录互相覆盖），
  * 索引并列会误导（显示两张卡、装一个盖掉另一个，如 dsh-archive-viewer 的 keepermttl/csiroqa）。
  * 保留 Star 高者，低者移入 dropped。无 pkg_name 的条目按 full_name 天然唯一，不参与冲突。
+ * v1.7：只有 npm 注册表里真实存在的包名（npm_version 非空）才参与冲突消解——大量仓库的
+ * package.json name 撞名但根本没发布过（2026-08-20 全量构建 994 个条目因此被隐藏，
+ * 商店总数比 GitHub 实际少约 700 条），未发布名字不占 node_modules 安装目标，无需去重。
  * @returns {{ repos: Array, dropped: string[] }} dropped 为被隐藏条目的 full_name 列表。
  */
 export function dedupeByPkgName(repos) {
   const byKey = new Map();
   const dropped = [];
   for (const r of repos) {
-    const key = r.pkg_name ? `pkg:${r.pkg_name}` : `repo:${r.full_name}`;
+    const key = r.pkg_name && r.npm_version ? `pkg:${r.pkg_name}` : `repo:${r.full_name}`;
     const prev = byKey.get(key);
     if (!prev) {
       byKey.set(key, r);
