@@ -1036,6 +1036,57 @@ async function probeAll(repos, probeQueue) {
   log(`探测完成：${probeDone}/${probeQueue.length}（${probeStop ? "额度护栏触发" : "队列耗尽"}）`);
 }
 
+/** README.zh 候选文件名（按优先级）。 */
+const ZH_README_CANDIDATES = ["README.zh.md", "README_zh.md", "README.zh-CN.md", "README_zh_CN.md", "README-ZH.md"];
+
+/** 从 Markdown 文本提取简介首段（去标记、链接、图片，≤160 字）。 */
+export function stripMdIntro(text) {
+  for (const raw of String(text).split(/\r?\n/)) {
+    const line = raw
+      .replace(/<[^>]+>/g, "")
+      .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
+      .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+      .replace(/^#+\s*/, "")
+      .replace(/^\s*[-*+]\s+/, "")
+      .replace(/[*_`~]/g, "")
+      .trim();
+    if (line === "" || /^(license|mit|apache|#)/i.test(line)) continue;
+    return line.slice(0, 160);
+  }
+  return "";
+}
+
+/** 中文简介富化：抓取默认分支下 README.zh 候选文件的首段，写入 description_zh。 */
+async function enrichZhDescriptions(repos) {
+  const todo = repos.filter((r) => !r.description_zh);
+  if (todo.length === 0) return;
+  let cursor = 0;
+  let hit = 0;
+  const worker = async () => {
+    while (cursor < todo.length) {
+      const r = todo[cursor++];
+      const branch = r.default_branch ?? "main";
+      for (const name of ZH_README_CANDIDATES) {
+        try {
+          const res = await fetch(`https://raw.githubusercontent.com/${r.full_name}/${branch}/${name}`, {
+            headers: { "User-Agent": "dsh-plugin-marketplace-registry" },
+            signal: AbortSignal.timeout(8000)
+          });
+          if (!res.ok) continue;
+          const intro = stripMdIntro(await res.text());
+          if (intro !== "") {
+            r.description_zh = intro;
+            hit++;
+          }
+          break; // 命中文件即停（即使没有可用段落也不再尝试其它候选）
+        } catch { /* 网络失败：保持缺失，下次构建重试 */ }
+      }
+    }
+  };
+  await Promise.all(Array.from({ length: 16 }, () => worker()));
+  log(`中文简介富化完成：${hit}/${todo.length}`);
+}
+
 async function loadExisting() {
   // skills 模式优先读断点快照（比正式索引新，含中断前的探测进度），实现断点续跑
   const candidates = MODE === "skills" ? [PROBE_FILE, OUT_FILE] : [OUT_FILE];
@@ -1138,6 +1189,9 @@ async function main() {
     // v1.6：只在每日全量跑（增量继承旧字段即可）——每次增量 2000+ 次 npmmirror
     // 请求约 2.5 分钟，是增量从 30 分钟缩到 <10 分钟的关键一刀。
     if (MODE === "dsh" && !incremental) await enrichNpmVersions(repos);
+    // v1.8：中文简介富化（商店语言切换的数据源）——只抓 README.zh 候选文件首段，
+    // 仅全量跑（增量继承）；并发 16、超时 8s，9k 仓库约 3 分钟。
+    if (MODE === "dsh" && !incremental) await enrichZhDescriptions(repos);
   }
 
   // dsh 模式：按简介/标签关键词分类（skills 模式本期不分类）。
