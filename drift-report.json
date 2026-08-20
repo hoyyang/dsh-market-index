@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T16:14:13.244Z",
-  "count": 4,
+  "generated_at": "2026-08-20T16:53:11.235Z",
+  "count": 5,
   "items": [
     {
       "full_name": "yu-wenchao/deepseek-harness-desktop-Install",
@@ -10,6 +10,13 @@
       "desc_prev": "deepseek harness桌面客户端 一键安装包，双击DeepSeekHarnessSetup-desktop.exe就可以一键安装，适合小白！"
     },
     {
+      "full_name": "TLNing260310/dsh-researcher",
+      "previous": "tool",
+      "current": "coding",
+      "desc_now": "Read-only Project Intelligence Layer for DeepSeek Harness · 基于证据的只读项目认知层 — prevents AI coding agents from making locally correct changes that gradually break the whole project",
+      "desc_prev": "Restores understanding when AI's reasonable-looking changes drift the architecture: read-only build-shaping agent preset for DeepSeek Harness (Research -> Plan -> Code upstream)"
+    },
+    {
       "full_name": "XHR666/dsh-mpkg-wallpaper",
       "previous": "web-ui",
       "current": "resource",
@@ -17,18 +24,18 @@
       "desc_prev": "Load Wallpaper Engine .mpkg files as the DeepSeek Harness web background: embedded mp4, time-of-day switching, unified frosted blur, lens zoom. 浏览器内直接加载壁纸引擎 mpkg 作为 DSH 网页背景：内嵌视频、多时段切换、统一磨砂虚化、镜头缩放。"
     },
     {
-      "full_name": "ciky20171114/dsh-plugin-midscene",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "Midscene-based AI UI automation plugin for DeepSeek Harness (android_ui + web_ui)",
-      "desc_prev": null
+      "full_name": "webkong/dsh-plugin-manager",
+      "previous": "resource",
+      "current": "tool",
+      "desc_now": "DSH 插件管理器：在 Web 设置页管理内置与三方插件——安装、卸载、启用、停用，支持 GitHub 搜索安装与非 bundle 插件一键装载",
+      "desc_prev": "DSH 插件管理器：内置/三方插件安装、卸载、启动、停用与 GitHub 直跳"
     },
     {
-      "full_name": "0x5446/reins",
-      "previous": "coding",
-      "current": "tool",
-      "desc_now": "Native iOS client for DeepSeek Harness (dsh). Answer your agent from your phone — the relay only ever sees ciphertext.",
-      "desc_prev": "Answer your coding agent from your phone. End-to-end encrypted; the relay only ever sees ciphertext."
+      "full_name": "Vast-Unhurried/dsh-toolkit",
+      "previous": "web-ui",
+      "current": "memory",
+      "desc_now": "DeepSeek Harness 实用工具箱：便签、API 余额与费用、删除会话、第三方模型推理等级、对话节点导航条、轻拟物皮肤",
+      "desc_prev": "DeepSeek Harness 实用工具箱：便签、API 余额与费用、删除会话、第三方模型推理等级、对话节点导航条"
     }
   ]
 }
