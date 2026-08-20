@@ -1250,6 +1250,22 @@ async function main() {
     }
   }
 
+  // pkg_name 人工对照表（v1.7.1）：仓库根无 package.json 的 monorepo 等
+  // 富化失败场景补上真实 npm 发布名（如 tt-a1i/archify 的 DSH 集成
+  // integrations/deepseek-harness 发布为 @tt-a1i/archify-dsh）。
+  if (MODE === "dsh") {
+    const PKG_NAME_OVERRIDES = new Map([["tt-a1i/archify", "@tt-a1i/archify-dsh"]]);
+    for (const repo of repos) {
+      if (!repo.pkg_name) {
+        const override = PKG_NAME_OVERRIDES.get(String(repo.full_name));
+        if (override) {
+          repo.pkg_name = override;
+          log(`pkg_name 对照表：${repo.full_name} → ${override}`);
+        }
+      }
+    }
+  }
+
   // 清理内部判定标记（不进索引产物）
   for (const repo of repos) delete repo.__plainPkg;
 
