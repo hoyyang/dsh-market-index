@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-08-20T12:00:28.071Z",
+  "count": 4,
+  "items": [
+    {
+      "full_name": "FeatherHunter/dsh-chinese-skill-patch",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "让 DSH 原生支持中文技能名 · Make DSH discover Chinese skill names without renaming — /私 → 私家大厨 · More by @FeatherHunter: 🎨 dsh-opencode-palette · ⚡ dsh-prompt",
+      "desc_prev": "DSH plugin: allow Chinese (Unicode-letter) skill names in SKILL.md without renaming to kebab-case"
+    },
+    {
+      "full_name": "GooDAnDReaDY/dsh-key-rotation",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "Per-provider API key rotation for DeepSeek Harness: a key pool per provider, automatic switch to the next key on quota or rate-limit failures, with live key status in the Web UI",
+      "desc_prev": null
+    },
+    {
+      "full_name": "Angel-GP/dsh-gitpeek",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "GitHub panel for DeepSeek Harness: Actions runs, Commits & Releases side by side, right in your DSH session",
+      "desc_prev": null
+    },
+    {
+      "full_name": "DON738110198/dsh-session-integrity",
+      "previous": "tool",
+      "current": "agent",
+      "desc_now": "Diagnose poisoned DeepSeek Harness sessions and continue from provider-safe recovery boundaries",
+      "desc_prev": "Read-only provider transcript and tool-call integrity checks for DeepSeek Harness sessions"
+    }
+  ]
+}
