@@ -1,6 +1,6 @@
 # dsh-market-index
 
-DSH 插件市场（dsh-plugin-market）的静态索引构建仓库：GitHub Actions 定时抓取
+DSH 商店（dsh-store）的静态索引构建仓库：GitHub Actions 定时抓取
 GitHub 上所有带 #dsh-plugin 标签的仓库，生成 registry.json（含 gzip 副本），
 经 jsDelivr CDN 分发，插件端零 API 限流。
 

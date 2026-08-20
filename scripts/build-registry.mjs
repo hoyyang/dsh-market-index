@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 生成静态索引 —— DSH 插件市场 / 通用 Skills 栏目的数据源。
+ * 生成静态索引 —— DSH 商店（dsh-store）市场目录 / 通用 Skills 栏目的数据源。
  *
  * 数据源：GitHub Search API。由 GitHub Actions 定时执行（见 .github/workflows/registry.yml），
  * 产物提交回 main 分支，插件通过 jsDelivr CDN 读取，零 API 限流。
