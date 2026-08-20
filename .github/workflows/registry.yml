@@ -46,7 +46,26 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add registry.json registry.json.gz drift-report.json installability-report.json 2>/dev/null || true
-          git commit -m "registry: $(date -u +%F)" || echo "no changes"
-          git push
+          # 并发运行竞态修复（v1.5）：每日全量 04:00 UTC 与每 2h 增量可能同时收尾，
+          # 两个运行各自在旧 checkout 上 commit，后 push 的会被 "fetch first" 拒绝，
+          # 导致刚重建的数据整体丢失（2026-08-20 全量两次因此白跑）。
+          # 改为：fetch 最新 remote → reset --soft 把本次重建的文件以最新 main
+          # 为基底重新提交（产物文件由构建整体覆盖，不会冲突）→ push 带重试。
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --soft origin/main
+            git add registry.json registry.json.gz drift-report.json installability-report.json 2>/dev/null || true
+            if git diff --cached --quiet; then
+              echo "no changes"
+              exit 0
+            fi
+            git commit -m "registry: $(date -u +%F)"
+            if git push; then
+              echo "pushed"
+              exit 0
+            fi
+            echo "push rejected by a concurrent run; retrying ($attempt/3)"
+          done
+          echo "push failed after 3 attempts"
+          exit 1
 

@@ -68,14 +68,18 @@ const SKILL_STAR_SEGMENTS = [ // 起始分段（大 star 段大概率 <1000 直�
 ];
 const SEGMENT_QUEUE_LIMIT = 120; // 防无限分裂的安全上限（超过则停止分裂，接受部分结果）
 /** 单值段时间窗口最小粒度（天）：0-star 长尾仓库极多，按周切会无限查询；
- *  窗口窄于该值仍超 1000 条就接受部分结果。
+ *  窗口窄于该值仍超 1000 条 → splitSegment 转入 created 第三维二分，两维都到
+ *  最小粒度才接受部分结果。
  *  v1.4.8：dsh 模式收紧到 1 天——实测 topic:dsh-plugin 的 0-star 仓库几乎全部在近 3 天
  *  pushed（窗口 1155 > 1000），30 天粒度下必然截断，导致聚合页收录的 0-star 插件
  *  持续进不了索引（awesome-dsh-plugin 收录缺失 83 个中的 19 个即此因）。
- *  1 天粒度下每日新增 0-star ~400 条 < 1000，可全量收敛；全量模式查询量增加但可接受。
- *  skills 模式保持 30 天：0-star 长尾规模大一个数量级（数万条），穷尽成本不成比例，
- *  且其 0-star 仓库价值更低（README 已声明接受部分结果）。 */
+ *  v1.5：生态爆发期单日 pushed 的 0-star 仓库已达 1500+（1 天窗口仍超 1000 条），
+ *  pushed 维度最小粒度下继续按 created 日期二分（实测 created: 区间查询正常），
+ *  否则索引长期比 GitHub 真实总量少几百条。skills 模式保持 30 天：0-star 长尾
+ *  规模大一个数量级（数万条），穷尽成本不成比例，且其 0-star 仓库价值更低。 */
 const MIN_WINDOW_DAYS = MODE === "dsh" ? 1 : 30;
+/** 时间/创建维度二分的最小日期下界（GitHub 公开仓库最早 2008-01）。 */
+const MIN_DATE = "2008-01-01";
 /** 增量模式窗口（天）：>0 时只拉最近 N 天 pushed 的仓库（新/更新仓库），
  *  老仓库从旧索引继承 + stale 剔除。CI 每 2 小时用增量（几分钟），每天全量刷新 star。 */
 const INCREMENTAL_DAYS = Number(process.env.INCREMENTAL_DAYS ?? 0);
@@ -697,7 +701,8 @@ export function starRangeQuery(topic, seg, since) {
     ? `stars:>=${seg.min}`
     : (seg.min === max ? `stars:${seg.min}` : `stars:${seg.min}..${max}`);
   const time = seg.timeRange ? ` pushed:${seg.timeRange}` : (since ? ` pushed:>=${since}` : "");
-  return `topic:${topic} ${range}${time}`;
+  const created = seg.createdRange ? ` created:${seg.createdRange}` : "";
+  return `topic:${topic} ${range}${time}${created}`;
 }
 
 /** 日期字符串取中（YYYY-MM-DD），用于时间窗口二分。 */
@@ -707,25 +712,50 @@ export function midDateStr(a, b) {
   return new Date(Math.floor((ta + tb) / 2)).toISOString().slice(0, 10);
 }
 
-/** 段分裂：普通段按 star 对半；单值段（min===max）按 pushed 时间窗口二分（第二维度）。
- *  时间窗口窄于 MIN_WINDOW_DAYS 天时不再分裂（0-star 长尾仓库极多，按周切会无限查询）。 */
+/** 段分裂：普通段按 star 对半；单值段（min===max）三维二分——
+ *  ① pushed 时间窗口二分（第二维度），窗口窄于 MIN_WINDOW_DAYS 天进入 ②；
+ *  ② created 时间窗口二分（第三维度，v1.5：0-star 仓库单日 pushed >1000 条时
+ *     仅靠 pushed 维度必然截断——实测 topic:dsh-plugin 单日新增 0-star 仓库
+ *     1500+，pushed 一天窗口仍拉满 1000，必须再按创建时间切开才能全量收敛）；
+ *  ③ 两维都到最小粒度仍超 1000 条 → 返回 []（接受部分结果）。 */
 export function splitSegment(seg) {
-  if (seg.min === seg.max) {
-    const [a, b] = (seg.timeRange || "2008-01-01..2026-12-31").split("..");
-    const days = Math.round((Date.parse(b + "T00:00:00Z") - Date.parse(a + "T00:00:00Z")) / 86400000);
-    if (days <= MIN_WINDOW_DAYS) return []; // 窗口已到最小粒度，接受该窗口最多 1000 条
-    const mid = midDateStr(a, b);
-    if (mid === a || mid === b) return [];
+  if (seg.min !== seg.max) {
+    const hi = seg.max ?? 100000000;
+    const mid = Math.floor((hi + seg.min) / 2);
     return [
-      { min: seg.min, max: seg.max, timeRange: `${a}..${mid}` },
-      { min: seg.min, max: seg.max, timeRange: `${mid}..${b}` }
+      { min: seg.min, max: mid },
+      { min: mid + 1, max: seg.max }
     ];
   }
-  const hi = seg.max ?? 100000000;
-  const mid = Math.floor((hi + seg.min) / 2);
+  const range = seg.createdRange === undefined
+    ? (seg.timeRange ?? `${MIN_DATE}..${incrementalEndDate()}`)
+    : seg.createdRange;
+  const [a, b] = range.split("..");
+  const days = Math.round((Date.parse(b + "T00:00:00Z") - Date.parse(a + "T00:00:00Z")) / 86400000);
+  if (days <= MIN_WINDOW_DAYS) {
+    if (seg.createdRange === undefined) {
+      // pushed 维度已到最小粒度 → 引入 created 第三维度（全范围对半起）
+      const end = incrementalEndDate();
+      const mid = midDateStr(MIN_DATE, end);
+      if (mid === MIN_DATE || mid === end) return [];
+      return [
+        { ...seg, createdRange: `${MIN_DATE}..${mid}` },
+        { ...seg, createdRange: `${mid}..${end}` }
+      ];
+    }
+    return []; // pushed + created 两维都到最小粒度仍超 1000 条，接受部分结果
+  }
+  const mid = midDateStr(a, b);
+  if (mid === a || mid === b) return [];
+  if (seg.createdRange === undefined) {
+    return [
+      { ...seg, timeRange: `${a}..${mid}` },
+      { ...seg, timeRange: `${mid}..${b}` }
+    ];
+  }
   return [
-    { min: seg.min, max: mid },
-    { min: mid + 1, max: seg.max }
+    { ...seg, createdRange: `${a}..${mid}` },
+    { ...seg, createdRange: `${mid}..${b}` }
   ];
 }
 
@@ -773,12 +803,11 @@ async function fetchStarSegment(topic, seg, since) {
 async function crawlByStars(topic, since) {
   const all = [];
   const seen = new Set();
-  // 增量模式：单值段初始时间窗口 = since..未来（避免 splitSegment 用 2008 默认下界）
-  const queue = since
-    ? SKILL_STAR_SEGMENTS.map((seg) => seg.min === seg.max
-        ? { ...seg, timeRange: `${since}..${incrementalEndDate()}` }
-        : { ...seg })
-    : [...SKILL_STAR_SEGMENTS];
+  // 单值段（stars:0）初始时间窗口：增量模式 = since..未来（只拉最近更新的仓库）；
+  // 全量模式 = 2008..未来。随后 splitSegment 依次按 pushed / created 两个时间维度二分。
+  const queue = SKILL_STAR_SEGMENTS.map((seg) => seg.min === seg.max
+    ? { ...seg, timeRange: since ? `${since}..${incrementalEndDate()}` : `${MIN_DATE}..${incrementalEndDate()}` }
+    : { ...seg });
   let complete = true;
   while (queue.length > 0) {
     if (queue.length > SEGMENT_QUEUE_LIMIT) {
