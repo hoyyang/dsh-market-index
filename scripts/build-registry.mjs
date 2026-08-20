@@ -693,16 +693,17 @@ export function dedupeByPkgName(repos) {
 }
 
 /** 构造 star 范围查询串：{ min:100, max:null } → "stars:>=100"；{ min:0, max:0 } → "stars:0"；
- *  带 timeRange 时追加 " pushed:YYYY-MM-DD..YYYY-MM-DD"（单值段的第二维度）；
- *  增量模式（since 非空且无 timeRange）时追加 " pushed:>=YYYY-MM-DD"。 */
-export function starRangeQuery(topic, seg, since) {
+ *  主维度（dim：pushed 或 created）带 timeRange 时用区间限定，否则增量模式用 >=since；
+ *  副维度（otherRange）用另一时间轴区间限定（v1.6 双通道：created 通道下仍可按 pushed 再切）。 */
+export function starRangeQuery(topic, seg, since, dim = "pushed") {
   const max = seg.max ?? null;
   const range = max === null
     ? `stars:>=${seg.min}`
     : (seg.min === max ? `stars:${seg.min}` : `stars:${seg.min}..${max}`);
-  const time = seg.timeRange ? ` pushed:${seg.timeRange}` : (since ? ` pushed:>=${since}` : "");
-  const created = seg.createdRange ? ` created:${seg.createdRange}` : "";
-  return `topic:${topic} ${range}${time}${created}`;
+  const primary = seg.timeRange ? ` ${dim}:${seg.timeRange}` : (since ? ` ${dim}:>=${since}` : "");
+  const otherDim = dim === "created" ? "pushed" : "created";
+  const secondary = seg.otherRange ? ` ${otherDim}:${seg.otherRange}` : "";
+  return `topic:${topic} ${range}${primary}${secondary}`;
 }
 
 /** 日期字符串取中（YYYY-MM-DD），用于时间窗口二分。 */
@@ -713,10 +714,10 @@ export function midDateStr(a, b) {
 }
 
 /** 段分裂：普通段按 star 对半；单值段（min===max）三维二分——
- *  ① pushed 时间窗口二分（第二维度），窗口窄于 MIN_WINDOW_DAYS 天进入 ②；
- *  ② created 时间窗口二分（第三维度，v1.5：0-star 仓库单日 pushed >1000 条时
- *     仅靠 pushed 维度必然截断——实测 topic:dsh-plugin 单日新增 0-star 仓库
- *     1500+，pushed 一天窗口仍拉满 1000，必须再按创建时间切开才能全量收敛）；
+ *  ① 主维度（dim：pushed 或 created 通道）时间窗口二分，窗口窄于
+ *     MIN_WINDOW_DAYS 天进入 ②；
+ *  ② 副维度（另一时间轴，v1.5：0-star 仓库单日 >1000 条时主维度必然截断，
+ *     必须再按另一时间轴切开才能全量收敛；v1.6 双通道下两维角色互换）；
  *  ③ 两维都到最小粒度仍超 1000 条 → 返回 []（接受部分结果）。 */
 export function splitSegment(seg) {
   if (seg.min !== seg.max) {
@@ -727,35 +728,35 @@ export function splitSegment(seg) {
       { min: mid + 1, max: seg.max }
     ];
   }
-  const range = seg.createdRange === undefined
+  const range = seg.otherRange === undefined
     ? (seg.timeRange ?? `${MIN_DATE}..${incrementalEndDate()}`)
-    : seg.createdRange;
+    : seg.otherRange;
   const [a, b] = range.split("..");
   const days = Math.round((Date.parse(b + "T00:00:00Z") - Date.parse(a + "T00:00:00Z")) / 86400000);
   if (days <= MIN_WINDOW_DAYS) {
-    if (seg.createdRange === undefined) {
-      // pushed 维度已到最小粒度 → 引入 created 第三维度（全范围对半起）
+    if (seg.otherRange === undefined) {
+      // 主维度已到最小粒度 → 引入副维度（全范围对半起）
       const end = incrementalEndDate();
       const mid = midDateStr(MIN_DATE, end);
       if (mid === MIN_DATE || mid === end) return [];
       return [
-        { ...seg, createdRange: `${MIN_DATE}..${mid}` },
-        { ...seg, createdRange: `${mid}..${end}` }
+        { ...seg, otherRange: `${MIN_DATE}..${mid}` },
+        { ...seg, otherRange: `${mid}..${end}` }
       ];
     }
-    return []; // pushed + created 两维都到最小粒度仍超 1000 条，接受部分结果
+    return []; // 两维都到最小粒度仍超 1000 条，接受部分结果
   }
   const mid = midDateStr(a, b);
   if (mid === a || mid === b) return [];
-  if (seg.createdRange === undefined) {
+  if (seg.otherRange === undefined) {
     return [
       { ...seg, timeRange: `${a}..${mid}` },
       { ...seg, timeRange: `${mid}..${b}` }
     ];
   }
   return [
-    { ...seg, createdRange: `${a}..${mid}` },
-    { ...seg, createdRange: `${mid}..${b}` }
+    { ...seg, otherRange: `${a}..${mid}` },
+    { ...seg, otherRange: `${mid}..${b}` }
   ];
 }
 
@@ -766,8 +767,8 @@ export function splitSegment(seg) {
  *   newCount=0 表示本段没有新增仓库（数据已被其他段覆盖）→ 调用方直接收敛，不再分裂；
  *   failed=true 表示中途有页面失败（限流/网络）→ 数据可能不全，调用方标记未完成但不分裂。
  */
-async function fetchStarSegment(topic, seg, since) {
-  const query = starRangeQuery(topic, seg, since);
+async function fetchStarSegment(topic, seg, since, dim = "pushed") {
+  const query = starRangeQuery(topic, seg, since, dim);
   const collected = [];
   const seen = new Set();
   let newCount = 0;
@@ -800,14 +801,14 @@ async function fetchStarSegment(topic, seg, since) {
  * 单值段（stars:0）初始时间窗口以 since 为下界；老仓库由调用方从旧索引继承。
  * 返回 { repos, complete }（complete=true 表示所有段都收敛）。
  */
-async function crawlByStars(topic, since) {
+async function crawlByStars(topic, since, dim = "pushed", segments = SKILL_STAR_SEGMENTS) {
   const all = [];
   const seen = new Set();
-  // 单值段（stars:0）初始时间窗口：增量模式 = since..未来（只拉最近更新的仓库）；
-  // 全量模式 = 2008..未来。随后 splitSegment 依次按 pushed / created 两个时间维度二分。
-  const queue = SKILL_STAR_SEGMENTS.map((seg) => seg.min === seg.max
-    ? { ...seg, timeRange: since ? `${since}..${incrementalEndDate()}` : `${MIN_DATE}..${incrementalEndDate()}` }
-    : { ...seg });
+  // 单值段（stars:0）初始时间窗口：增量模式 = since..未来（只拉最近创建的仓库）；
+  // 全量模式 = 2008..未来。随后 splitSegment 先按主维度（dim）再按副维度二分。
+  const queue = segments.map((seg) => seg.min === seg.max
+    ? { ...seg, timeRange: since ? `${since}..${incrementalEndDate()}` : `${MIN_DATE}..${incrementalEndDate()}`, dim }
+    : { ...seg, dim });
   let complete = true;
   while (queue.length > 0) {
     if (queue.length > SEGMENT_QUEUE_LIMIT) {
@@ -816,7 +817,7 @@ async function crawlByStars(topic, since) {
       break;
     }
     const seg = queue.shift();
-    const { repos, newCount, full, failed } = await fetchStarSegment(topic, seg, since);
+    const { repos, newCount, full, failed } = await fetchStarSegment(topic, seg, since, dim);
     let added = 0;
     for (const r of repos) {
       if (seen.has(r.full_name)) continue;
@@ -824,7 +825,7 @@ async function crawlByStars(topic, since) {
       all.push(r);
       added++;
     }
-    log(`[${topic}] 段 ${starRangeQuery(topic, seg, since)}：+${added}（累计 ${all.length}）${failed ? "，部分失败不完整" : (newCount === 0 ? "，无新增收敛" : (full ? "，收敛" : "，拉满需分裂"))}`);
+    log(`[${topic}] 段 ${starRangeQuery(topic, seg, since, dim)}：+${added}（累计 ${all.length}）${failed ? "，部分失败不完整" : (newCount === 0 ? "，无新增收敛" : (full ? "，收敛" : "，拉满需分裂"))}`);
     if (failed) {
       // 段内页面失败（限流/网络）：数据可能不全，标记未完成；不再分裂，避免限流下雪崩
       complete = false;
@@ -832,7 +833,7 @@ async function crawlByStars(topic, since) {
       // 拉满 1000 条且有新增 → 分裂（普通段按 star 对半；单值段按时间窗口二分）
       const children = splitSegment(seg);
       if (children.length === 0) {
-        log(`[${topic}] 段 ${starRangeQuery(topic, seg, since)} 已到最小粒度仍超 1000 条，接受部分结果`);
+        log(`[${topic}] 段 ${starRangeQuery(topic, seg, since, dim)} 已到最小粒度仍超 1000 条，接受部分结果`);
         complete = false;
       } else {
         queue.push(...children);
@@ -862,10 +863,20 @@ async function fetchAllTopics() {
     for (const q of QUERIES) {
       // QUERIES 是完整 Search query（"topic:dsh-plugin" / "topic:agent-skills"），分段需要纯 topic 名
       const topic = String(q).replace(/^topic:/, "");
-      const { repos, complete } = await crawlByStars(topic, since);
+      const { repos, complete } = await crawlByStars(topic, since, "pushed");
       if (!complete) allComplete = false;
       for (const r of repos) {
         if (!merged.has(r.full_name)) merged.set(r.full_name, r);
+      }
+      if (since) {
+        // v1.6 created 通道：新创建的仓库即使从未 pushed 也会被增量收录
+        // （仓库打上 topic 不改变 pushed 时间，纯 pushed 通道永远看不见它们）。
+        // 只跑 0-star 段：新建仓库几乎全部 0-star，带星段由每日全量兜底。
+        const created = await crawlByStars(topic, since, "created", [SKILL_STAR_SEGMENTS[SKILL_STAR_SEGMENTS.length - 1]]);
+        if (!created.complete) allComplete = false;
+        for (const r of created.repos) {
+          if (!merged.has(r.full_name)) merged.set(r.full_name, r);
+        }
       }
     }
     return { repos: [...merged.values()], complete: allComplete, stars: true, incremental: since ? true : false };
@@ -1120,8 +1131,10 @@ async function main() {
       const after = repos.filter((r) => r.installable === "non-plugin").length;
       if (after > before) log(`高 star 兜底盖章：${after - before} 个条目 → non-plugin`);
     }
-    // v1.4.11：npm 版本富化（issue #26）——npm 发布型插件的升级提示数据源
-    if (MODE === "dsh") await enrichNpmVersions(repos);
+    // v1.4.11：npm 版本富化（issue #26）——npm 发布型插件的升级提示数据源。
+    // v1.6：只在每日全量跑（增量继承旧字段即可）——每次增量 2000+ 次 npmmirror
+    // 请求约 2.5 分钟，是增量从 30 分钟缩到 <10 分钟的关键一刀。
+    if (MODE === "dsh" && !incremental) await enrichNpmVersions(repos);
   }
 
   // dsh 模式：按简介/标签关键词分类（skills 模式本期不分类）。

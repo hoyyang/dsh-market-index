@@ -2,8 +2,8 @@ name: build-registry
 
 on:
   schedule:
-    # 每 2 小时增量更新一次索引（UTC；北京时间每偶数点整）
-    - cron: "0 */2 * * *"
+    # v1.6：每 30 分钟增量一次（pushed+created 双通道，单次 <10 分钟）
+    - cron: "*/30 * * * *"
     # 每天 04:00 UTC（北京时间 12:00）全量重建，刷新 star 数等静态数据
     - cron: "0 4 * * *"
   workflow_dispatch:
@@ -38,7 +38,7 @@ jobs:
 
       - name: Build DSH registry (incremental)
         if: ${{ !(github.event_name == 'workflow_dispatch' && github.event.inputs.full == 'true' || github.event.schedule == '0 4 * * *') }}
-        run: INCREMENTAL_DAYS=3 node scripts/build-registry.mjs
+        run: INCREMENTAL_DAYS=1 node scripts/build-registry.mjs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
