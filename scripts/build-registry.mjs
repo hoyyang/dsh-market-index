@@ -80,6 +80,9 @@ const SEGMENT_QUEUE_LIMIT = 120; // 防无限分裂的安全上限（超过则�
 const MIN_WINDOW_DAYS = MODE === "dsh" ? 1 : 30;
 /** 时间/创建维度二分的最小日期下界（GitHub 公开仓库最早 2008-01）。 */
 const MIN_DATE = "2008-01-01";
+/** size 第三维：仓库大小（KB）二分上界（10GB 足够覆盖）与最小粒度（64KB）。 */
+const SIZE_MAX_KB = 10_485_760;
+const MIN_SIZE_KB = 64;
 /** 增量模式窗口（天）：>0 时只拉最近 N 天 pushed 的仓库（新/更新仓库），
  *  老仓库从旧索引继承 + stale 剔除。CI 每 2 小时用增量（几分钟），每天全量刷新 star。 */
 const INCREMENTAL_DAYS = Number(process.env.INCREMENTAL_DAYS ?? 0);
@@ -706,7 +709,8 @@ export function starRangeQuery(topic, seg, since, dim = "pushed") {
   const primary = seg.timeRange ? ` ${dim}:${seg.timeRange}` : (since ? ` ${dim}:>=${since}` : "");
   const otherDim = dim === "created" ? "pushed" : "created";
   const secondary = seg.otherRange ? ` ${otherDim}:${seg.otherRange}` : "";
-  return `topic:${topic} ${range}${primary}${secondary}`;
+  const size = seg.sizeRange ? ` size:${seg.sizeRange}` : "";
+  return `topic:${topic} ${range}${primary}${secondary}${size}`;
 }
 
 /** 日期字符串取中（YYYY-MM-DD），用于时间窗口二分。 */
@@ -747,7 +751,20 @@ export function splitSegment(seg) {
         { ...seg, otherRange: `${mid}..${end}` }
       ];
     }
-    return []; // 两维都到最小粒度仍超 1000 条，接受部分结果
+    // 两时间维都到最小粒度仍超 1000 条 → v1.9 引入第三维 size（KB）二分
+    if (seg.sizeRange === undefined) {
+      return [
+        { ...seg, sizeRange: `0..${Math.floor(SIZE_MAX_KB / 2)}` },
+        { ...seg, sizeRange: `${Math.floor(SIZE_MAX_KB / 2) + 1}..${SIZE_MAX_KB}` }
+      ];
+    }
+    const [lo, hi] = seg.sizeRange.split("..").map(Number);
+    if (hi - lo <= MIN_SIZE_KB) return []; // size 已到最小粒度，接受部分结果
+    const mid = Math.floor((hi + lo) / 2);
+    return [
+      { ...seg, sizeRange: `${lo}..${mid}` },
+      { ...seg, sizeRange: `${mid + 1}..${hi}` }
+    ];
   }
   const mid = midDateStr(a, b);
   if (mid === a || mid === b) return [];
@@ -1036,8 +1053,17 @@ async function probeAll(repos, probeQueue) {
   log(`探测完成：${probeDone}/${probeQueue.length}（${probeStop ? "额度护栏触发" : "队列耗尽"}）`);
 }
 
-/** README.zh 候选文件名（按优先级）。 */
-const ZH_README_CANDIDATES = ["README.zh.md", "README_zh.md", "README.zh-CN.md", "README_zh_CN.md", "README-ZH.md"];
+/** 各语言 README 候选文件名（按优先级）。v1.9：多语言简介富化。 */
+const LANG_README_CANDIDATES = {
+  zh: ["README.zh.md", "README_zh.md", "README.zh-CN.md", "README_zh_CN.md", "README-ZH.md"],
+  ja: ["README.ja.md", "README_ja.md", "README.ja-JP.md"],
+  ko: ["README.ko.md", "README_ko.md", "README.ko-KR.md"],
+  es: ["README.es.md", "README_es.md", "README.es-ES.md"],
+  fr: ["README.fr.md", "README_fr.md", "README.fr-FR.md"],
+  de: ["README.de.md", "README_de.md", "README.de-DE.md"],
+  pt: ["README.pt.md", "README_pt.md", "README.pt-BR.md", "README_pt_BR.md"],
+  ru: ["README.ru.md", "README_ru.md", "README.ru-RU.md"]
+};
 
 /** 从 Markdown 文本提取简介首段（去标记、链接、图片，≤160 字）。 */
 export function stripMdIntro(text) {
@@ -1056,7 +1082,8 @@ export function stripMdIntro(text) {
   return "";
 }
 
-/** 中文简介富化：抓取默认分支下 README.zh 候选文件的首段，写入 description_zh。 */
+/** 多语言简介富化：抓取默认分支下各语言 README 候选文件的首段，
+ *  写入 description_<lang> 字段。已有该语言简介的仓库跳过。 */
 async function enrichZhDescriptions(repos) {
   const todo = repos.filter((r) => !r.description_zh);
   if (todo.length === 0) return;
@@ -1066,25 +1093,28 @@ async function enrichZhDescriptions(repos) {
     while (cursor < todo.length) {
       const r = todo[cursor++];
       const branch = r.default_branch ?? "main";
-      for (const name of ZH_README_CANDIDATES) {
-        try {
-          const res = await fetch(`https://raw.githubusercontent.com/${r.full_name}/${branch}/${name}`, {
-            headers: { "User-Agent": "dsh-plugin-marketplace-registry" },
-            signal: AbortSignal.timeout(8000)
-          });
-          if (!res.ok) continue;
-          const intro = stripMdIntro(await res.text());
-          if (intro !== "") {
-            r.description_zh = intro;
-            hit++;
-          }
-          break; // 命中文件即停（即使没有可用段落也不再尝试其它候选）
-        } catch { /* 网络失败：保持缺失，下次构建重试 */ }
+      for (const [lang, candidates] of Object.entries(LANG_README_CANDIDATES)) {
+        if (r[`description_${lang}`]) continue;
+        for (const name of candidates) {
+          try {
+            const res = await fetch(`https://raw.githubusercontent.com/${r.full_name}/${branch}/${name}`, {
+              headers: { "User-Agent": "dsh-plugin-marketplace-registry" },
+              signal: AbortSignal.timeout(8000)
+            });
+            if (!res.ok) continue;
+            const intro = stripMdIntro(await res.text());
+            if (intro !== "") {
+              r[`description_${lang}`] = intro;
+              hit++;
+            }
+            break; // 命中文件即停（即使没有可用段落也不再尝试其它候选）
+          } catch { /* 网络失败：保持缺失，下次构建重试 */ }
+        }
       }
     }
   };
   await Promise.all(Array.from({ length: 16 }, () => worker()));
-  log(`中文简介富化完成：${hit}/${todo.length}`);
+  log(`多语言简介富化完成：${hit} 个（lang=${Object.keys(LANG_README_CANDIDATES).join("/")}）`);
 }
 
 async function loadExisting() {
