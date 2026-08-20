@@ -1,13 +1,41 @@
 {
-  "generated_at": "2026-08-20T12:00:28.071Z",
-  "count": 4,
+  "generated_at": "2026-08-20T12:42:24.092Z",
+  "count": 8,
   "items": [
+    {
+      "full_name": "Vast-Unhurried/dsh-toolkit",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "DeepSeek Harness 实用工具箱：便签、API 余额与费用、删除会话、第三方模型推理等级、对话节点导航条",
+      "desc_prev": "DeepSeek Harness 实用工具箱：便签、API 余额与费用、删除会话、第三方模型推理等级"
+    },
+    {
+      "full_name": "lumi-lei/interchange-plugin",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "Local-first role-based collaboration tools for DeepSeek Harness, with an embedded panel and human-confirmed delivery.",
+      "desc_prev": null
+    },
+    {
+      "full_name": "Vergil-long/dsh-custom-font",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "DSH自定义界面字体插件",
+      "desc_prev": null
+    },
     {
       "full_name": "FeatherHunter/dsh-chinese-skill-patch",
       "previous": "other",
       "current": "tool",
       "desc_now": "让 DSH 原生支持中文技能名 · Make DSH discover Chinese skill names without renaming — /私 → 私家大厨 · More by @FeatherHunter: 🎨 dsh-opencode-palette · ⚡ dsh-prompt",
       "desc_prev": "DSH plugin: allow Chinese (Unicode-letter) skill names in SKILL.md without renaming to kebab-case"
+    },
+    {
+      "full_name": "autorouter0-ai/dsh-llm-autorouter",
+      "previous": "model",
+      "current": "other",
+      "desc_now": "DeepSeek Harness plugin: use AutoRouter as your LLM provider — unified routing, failover, and model discovery",
+      "desc_prev": "AutoRouter (model routing gateway / relay) LLM adapter for the DeepSeek Harness"
     },
     {
       "full_name": "GooDAnDReaDY/dsh-key-rotation",
