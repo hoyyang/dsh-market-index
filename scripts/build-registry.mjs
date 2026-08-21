@@ -1222,6 +1222,24 @@ async function main() {
     // v1.8：中文简介富化（商店语言切换的数据源）——只抓 README.zh 候选文件首段，
     // 仅全量跑（增量继承）；并发 16、超时 8s，9k 仓库约 3 分钟。
     if (MODE === "dsh" && !incremental) await enrichZhDescriptions(repos);
+    // v1.11：GitHub tags 富化——v1.10 只定义了 enrichLatestTags 但从未调用，
+    // latest_tag 全空（纯 tag 仓库在商店里没有版本号）。先继承旧索引已有的
+    // latest_tag（全量整体替换不丢历史结果、额度只花在缺口上），再对仍缺的
+    // 仓库查 tags?per_page=1。全量/增量皆跑：增量只覆盖新增仓库，缺口随
+    // 每次运行逐步补齐（Actions GITHUB_TOKEN 约 1000 req/h，超限自动跳过）。
+    if (MODE === "dsh") {
+      let inherited = 0
+      for (const repo of repos) {
+        if (repo.latest_tag !== undefined) continue
+        const prev = oldMap.get(repo.full_name)
+        if (prev && typeof prev.latest_tag === "string" && prev.latest_tag !== "") {
+          repo.latest_tag = prev.latest_tag
+          inherited++
+        }
+      }
+      if (inherited > 0) log("latest_tag 继承旧索引：" + inherited + " 条")
+      await enrichLatestTags(repos)
+    }
   }
 
   // dsh 模式：按简介/标签关键词分类（skills 模式本期不分类）。
@@ -1459,8 +1477,8 @@ async function enrichNpmVersions(repos) {
 
 /**
  * GitHub tags 富化（v1.10）：对无 npm_version 的仓库查最新 tag（tags?per_page=1），
- * 写入 latest_tag。GITHUB_TOKEN 由 CI 注入（额度 5000/h），本地运行时也可设
- * GITHUB_TOKEN；匿名会很快撞 60/h 限流。
+ * 写入 latest_tag。GITHUB_TOKEN 由 CI 注入（Actions 内置 token 约 1000 req/h），
+ * 本地运行时也可设 GITHUB_TOKEN；匿名会很快撞 60/h 限流。
  * 继承策略：合并后旧条目保留 latest_tag；全量（complete 整体替换）全部重查。
  */
 async function enrichLatestTags(repos) {
