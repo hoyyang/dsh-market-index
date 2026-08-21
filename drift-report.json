@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T09:12:07.476Z",
-  "count": 10,
+  "generated_at": "2026-08-21T10:46:36.593Z",
+  "count": 11,
   "items": [
     {
       "full_name": "tong-io/tongflow",
@@ -8,13 +8,6 @@
       "current": "other",
       "desc_now": "TongFlow — Multimodal GenAI Studio",
       "desc_prev": "TongFlow — multimodal workflow studio and engine (canvas + Python plugin engine) and dsh-tongflow, the DeepSeek Harness studio plugin"
-    },
-    {
-      "full_name": "Tabbit-Browser/dsh-plugin",
-      "previous": "tool",
-      "current": "resource",
-      "desc_now": "Tabbit Broser plugins for Deepseek Harness",
-      "desc_prev": "Tabbit Broser plugins for Deepseek Harness"
     },
     {
       "full_name": "PolinniZhong/dsh-personal-center",
@@ -31,6 +24,13 @@
       "desc_prev": "月汐 kimi-tide — DeepSeek Harness（DSH）双模型自动分工路由插件：按任务逐步骤在 Kimi 与 DeepSeek 之间选路（能力评分 × 预算窗口 × 图像护栏），决策全程可观测；0.4.x 起经官方 pi-ai kimi-coding 路由 API key 直连。"
     },
     {
+      "full_name": "lonelymoon87/dsh-gitflow",
+      "previous": "agent",
+      "current": "tool",
+      "desc_now": "Git status, diff, log, commit, branch, and optional Change Ledger tools for DeepSeek Harness.",
+      "desc_prev": "Git status, diff, commit, pull request, and worktree workflows for DeepSeek Harness."
+    },
+    {
       "full_name": "Laplace-bit/dsh-bell-notify",
       "previous": "conversation",
       "current": "other",
@@ -38,25 +38,11 @@
       "desc_prev": "DeepSeek Harness (dsh) 社区插件：为 Agent 生命周期事件合成铃声 + 右下角呼吸状态点，每个事件可上传自定义音频。dsh plugin that rings bells and shows a breathing status dot for Agent lifecycle events."
     },
     {
-      "full_name": "openrect/dsh-community-installer",
-      "previous": "resource",
-      "current": "coding",
-      "desc_now": "Clean Windows installer and auto-update companion for DeepSeek Harness (DSH), with lightweight online and offline setups.",
-      "desc_prev": "Unofficial community installer for @deepseek-ai/dsh on Windows."
-    },
-    {
-      "full_name": "liguobao/dsh-file-viewer",
+      "full_name": "nightwhale-dev/nightwhale",
       "previous": "web-ui",
-      "current": "document",
-      "desc_now": "DeepSeek Harness 通用只读文件预览插件，支持图片、PDF、CSV、Markdown、JSON、YAML、源码及大文件。",
-      "desc_prev": "A universal file preview layer for DeepSeek Harness: open and inspect files right inside the web UI — no external application needed."
-    },
-    {
-      "full_name": "iqingyoung/429-throttle-mcp",
-      "previous": "model",
-      "current": "agent",
-      "desc_now": "带限流 MCP 代理 + Agent 操作员技能,告别免费 API 的 HTTP 429;自动控速、口语调参、长任务复盘 | Rate-limited MCP proxy + agent operator skill — no more HTTP 429 on free LLM APIs.",
-      "desc_prev": "带速率限制的 MCP 代理 — 模型通过此 MCP 调用外部 API，自动控制每分钟调用次数和 Token 用量，不再被 429 拒绝"
+      "current": "coding",
+      "desc_now": "The community power-layer for DeepSeek Harness (dsh). 夜鲲 — 吞并生态好能力,评测集筛选,只喂真正有效的增强。",
+      "desc_prev": "The community power-layer for DeepSeek Harness (dsh). 夜鲲 — 吞并生态好能力,评测集筛选,只喂真正有效的增强。"
     },
     {
       "full_name": "xie-tj/dsh-plugin-usage-ledger",
@@ -66,11 +52,32 @@
       "desc_prev": "Persistent Usage ledger and Web dashboard dsh plugin for DeepSeek Harness"
     },
     {
+      "full_name": "Mrlilili/dsh-plugin-model-switcher",
+      "previous": "other",
+      "current": "model",
+      "desc_now": "⌨️ DSH 插件：快捷键切换模型 (Ctrl+Shift+M) 和推理等级 (Ctrl+Shift+R)。纯客户端实现，无需 Host。  DSH plugin: keyboard shortcuts to cycle models (Ctrl+Shift+M) and reasoning effort levels (Ctrl+Shift+R). Pure client bundle, no Host required.",
+      "desc_prev": null
+    },
+    {
+      "full_name": "nickhelion/dsh-serverchan-notify",
+      "previous": "conversation",
+      "current": "other",
+      "desc_now": "Archived: moved to nickhelion/dsh-plugins",
+      "desc_prev": "DeepSeek Harness plugin: ServerChan3 (Server酱) push notifications whenever an agent turn finishes an answer — codex Stop-hook parity"
+    },
+    {
       "full_name": "TOBYCAI/dsh-sessions-manager",
       "previous": "conversation",
       "current": "web-ui",
       "desc_now": "DSH 会话管理面板插件：归档/恢复/彻底删除/跨工作区移动，带工作区标签、会话日期、批量多选与每条会话详情统计（磁盘/工具/文件/血统）。A Session Manager plugin for DeepSeek Harness: archive/restore/delete/move sessions, workspace tags, batch actions & per-session detail stats.",
       "desc_prev": "Manage archived sessions in DSH — view / restore / permanently delete, with workspace tags, session dates & batch multi-select. | DSH 归档会话管理器：查看/恢复/彻底删除已归档 session，含工作区标签、会话日期与批量多选。"
+    },
+    {
+      "full_name": "lasdrder0705/dsh-chat-zone",
+      "previous": "web-ui",
+      "current": "tool",
+      "desc_now": "DSH Web 插件「对话区」。安装：dsh plugin --profile web add github:lasdrder0705/dsh-chat-zone",
+      "desc_prev": "DSH Web plugin: Chat zone (对话区) — one-click chats under ~/dsh_CHAT and split/mixed sidebar layout"
     }
   ]
 }
