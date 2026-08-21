@@ -1457,6 +1457,48 @@ async function enrichNpmVersions(repos) {
   log(`npm 版本富化完成：${hit}/${todo.length}`);
 }
 
+/**
+ * GitHub tags 富化（v1.10）：对无 npm_version 的仓库查最新 tag（tags?per_page=1），
+ * 写入 latest_tag。GITHUB_TOKEN 由 CI 注入（额度 5000/h），本地运行时也可设
+ * GITHUB_TOKEN；匿名会很快撞 60/h 限流。
+ * 继承策略：合并后旧条目保留 latest_tag；全量（complete 整体替换）全部重查。
+ */
+async function enrichLatestTags(repos) {
+  const todo = repos.filter((r) => !r.npm_version && r.latest_tag === undefined && r.full_name && !r.fork);
+  if (todo.length === 0) return;
+  const token = process.env.GITHUB_TOKEN ?? "";
+  let cursor = 0;
+  let hit = 0;
+  const worker = async () => {
+    while (cursor < todo.length) {
+      const r = todo[cursor++];
+      try {
+        const res = await fetch(`https://api.github.com/repos/${r.full_name}/tags?per_page=1`, {
+          headers: {
+            "User-Agent": "dsh-plugin-marketplace-registry",
+            Accept: "application/vnd.github+json",
+            ...(token ? { Authorization: `Bearer ${token}` } : {})
+          },
+          signal: AbortSignal.timeout(8000)
+        });
+        if (!res.ok) {
+          // 限流/网络失败：本次跳过（下次增量/全量再试）
+          continue;
+        }
+        const tags = await res.json();
+        if (Array.isArray(tags) && tags.length > 0 && typeof tags[0]?.name === "string" && tags[0].name.length > 0) {
+          r.latest_tag = tags[0].name;
+          hit++;
+        } else {
+          r.latest_tag = null;
+        }
+      } catch { /* 跳过 */ }
+    }
+  };
+  await Promise.all(Array.from({ length: 16 }, () => worker()));
+  log(`GitHub tags 富化完成：${hit}/${todo.length}`);
+}
+
 // 直接运行才执行 main（被 smoke-tests import 时只暴露纯函数，无副作用）
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main().catch((error) => {
