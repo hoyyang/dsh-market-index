@@ -1,132 +1,13 @@
 {
-  "generated_at": "2026-08-21T14:52:33.247Z",
-  "count": 25,
+  "generated_at": "2026-08-21T16:31:29.883Z",
+  "count": 7,
   "items": [
-    {
-      "full_name": "tong-io/tongflow",
-      "previous": "coding",
-      "current": "other",
-      "desc_now": "TongFlow — Multimodal GenAI Studio",
-      "desc_prev": "TongFlow — multimodal workflow studio and engine (canvas + Python plugin engine) and dsh-tongflow, the DeepSeek Harness studio plugin"
-    },
-    {
-      "full_name": "franksong2702/dsh-codex-connect",
-      "previous": "conversation",
-      "current": "vision",
-      "desc_now": "Use openai-codex models and image generation via ChatGPT OAuth for DeepSeek Harness.",
-      "desc_prev": "ChatGPT OAuth and Codex models for DeepSeek Harness."
-    },
-    {
-      "full_name": "PolinniZhong/dsh-personal-center",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "DeepSeek Harness 个人中心:用量统计 / 自定义指令 / 成本估算 / 桌面宠物(纯本地，不联网）。 Personal center & custom instructions for DSH",
-      "desc_prev": "DeepSeek Harness 个人中心插件:个人资料统计(Token/工具调用/按模型分布/Token 活动)+ 个性化自定义指令。本地运行,不联网。 · Personal center & custom instructions for DSH"
-    },
     {
       "full_name": "WSL043/dsh-codex-subscription",
       "previous": "tool",
       "current": "vision",
       "desc_now": "DeepSeek Harness 的 ChatGPT/Codex 订阅插件：独立 OAuth、模型、真实额度、搜索与图片；无需 API Key 或 Codex CLI",
-      "desc_prev": "在 DeepSeek Harness 中直接使用 ChatGPT/Codex 订阅，无需 OpenAI API Key 或 Codex CLI，支持 OAuth 登录、订阅搜索与额度显示 | ChatGPT/Codex subscription plugin for DSH"
-    },
-    {
-      "full_name": "dongsheng123132/dsh-capability-receipt",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "Content-addressed receipts for skills actually loaded by DeepSeek Harness",
-      "desc_prev": "Content-addressed receipts for skills actually loaded by DeepSeek Harness"
-    },
-    {
-      "full_name": "TLNing260310/dsh-researcher",
-      "previous": "tool",
-      "current": "coding",
-      "desc_now": "Read-only Project Intelligence Layer for DeepSeek Harness · 基于证据的只读项目认知层 — prevents AI coding agents from making locally correct changes that gradually break the whole project",
-      "desc_prev": "Restores understanding when AI's reasonable-looking changes drift the architecture: read-only build-shaping agent preset for DeepSeek Harness (Research -> Plan -> Code upstream)"
-    },
-    {
-      "full_name": "tafcear/kimi-tide",
-      "previous": "coding",
-      "current": "web-ui",
-      "desc_now": "🌊 kimi-tide（月汐）— DSH 模型路由插件：预设+规则驱动，每步自动在 Kimi 与 DeepSeek 间选路；图像护栏 + 配额面板 + 决策可观测 · preset+rule model router for DeepSeek Harness",
-      "desc_prev": "月汐 kimi-tide — DeepSeek Harness（DSH）双模型自动分工路由插件：按任务逐步骤在 Kimi 与 DeepSeek 之间选路（能力评分 × 预算窗口 × 图像护栏），决策全程可观测；0.4.x 起经官方 pi-ai kimi-coding 路由 API key 直连。"
-    },
-    {
-      "full_name": "webkong/dsh-plugin-manager",
-      "previous": "resource",
-      "current": "tool",
-      "desc_now": "DSH 插件管理器：在 Web 设置页管理内置与三方插件——安装、卸载、启用、停用，支持 GitHub 搜索安装与非 bundle 插件一键装载",
-      "desc_prev": "DSH 插件管理器：内置/三方插件安装、卸载、启动、停用与 GitHub 直跳"
-    },
-    {
-      "full_name": "lonelymoon87/dsh-gitflow",
-      "previous": "agent",
-      "current": "tool",
-      "desc_now": "Git status, diff, log, commit, branch, and optional Change Ledger tools for DeepSeek Harness.",
-      "desc_prev": "Git status, diff, commit, pull request, and worktree workflows for DeepSeek Harness."
-    },
-    {
-      "full_name": "Gaq152/dsh-credits",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "DeepSeek Harness（dsh web）额度插件：跟随当前模型显示官方余额或 OpenCode Go 订阅用量，支持本会话估算、跨会话累计消耗与可视化设置。",
-      "desc_prev": null
-    },
-    {
-      "full_name": "Laplace-bit/dsh-bell-notify",
-      "previous": "conversation",
-      "current": "other",
-      "desc_now": "Configurable, unobtrusive Web Audio lifecycle notifications for DeepSeek Harness (dsh): 10 events, custom sounds, offline playback.",
-      "desc_prev": "DeepSeek Harness (dsh) 社区插件：为 Agent 生命周期事件合成铃声 + 右下角呼吸状态点，每个事件可上传自定义音频。dsh plugin that rings bells and shows a breathing status dot for Agent lifecycle events."
-    },
-    {
-      "full_name": "3361805598-gif/dsh-md-annotator",
-      "previous": "web-ui",
-      "current": "vision",
-      "desc_now": "DSH Markdown sidebar viewer and editor with block- and text-range annotations for structured revision requests.",
-      "desc_prev": null
-    },
-    {
-      "full_name": "ywzhang1031/dsh-aside",
-      "previous": "memory",
-      "current": "conversation",
-      "desc_now": "把追问绑定到主对话具体文字并持久保存的 DeepSeek Harness 只读旁注插件。Persistent read-only side conversations anchored to exact prose.",
-      "desc_prev": "把追问绑定到主对话具体文字并持久保存的 DeepSeek Harness 只读旁注插件。Persistent read-only side conversations anchored to exact prose."
-    },
-    {
-      "full_name": "nightwhale-dev/nightwhale",
-      "previous": "web-ui",
-      "current": "coding",
-      "desc_now": "The community power-layer for DeepSeek Harness (dsh). 夜鲲 — 吞并生态好能力,评测集筛选,只喂真正有效的增强。",
-      "desc_prev": "The community power-layer for DeepSeek Harness (dsh). 夜鲲 — 吞并生态好能力,评测集筛选,只喂真正有效的增强。"
-    },
-    {
-      "full_name": "Vast-Unhurried/dsh-toolkit",
-      "previous": "web-ui",
-      "current": "memory",
-      "desc_now": "DeepSeek Harness 实用工具箱：便签、API 余额与费用、删除会话、第三方模型推理等级、对话节点导航条、轻拟物皮肤",
-      "desc_prev": "DeepSeek Harness 实用工具箱：便签、API 余额与费用、删除会话、第三方模型推理等级、对话节点导航条、轻拟物皮肤"
-    },
-    {
-      "full_name": "openrect/dsh-community-installer",
-      "previous": "resource",
-      "current": "coding",
-      "desc_now": "Clean Windows installer and auto-update companion for DeepSeek Harness (DSH), with lightweight online and offline setups.",
-      "desc_prev": "Unofficial community installer for @deepseek-ai/dsh on Windows."
-    },
-    {
-      "full_name": "liguobao/dsh-file-viewer",
-      "previous": "web-ui",
-      "current": "document",
-      "desc_now": "DeepSeek Harness 通用只读文件预览插件，支持图片、PDF、CSV、Markdown、JSON、YAML、源码及大文件。",
-      "desc_prev": "A universal file preview layer for DeepSeek Harness: open and inspect files right inside the web UI — no external application needed."
-    },
-    {
-      "full_name": "kevinshi3200/persona-auditor",
-      "previous": "other",
-      "current": "agent",
-      "desc_now": "Persona Auditor — audit AI-generated code from a real user's perspective. Digital personas exhaustively traverse every user journey, then god's-eye attribution collapses bugs into a few root causes for precise fixing. Agent skill (Claude Code / Codex / Cursor / DSH).",
-      "desc_prev": null
+      "desc_prev": "在 DeepSeek Harness 中直接使用 ChatGPT/Codex 订阅，无需 OpenAI API Key 或额外客户端，支持 OAuth 登录、订阅搜索与额度显示 | ChatGPT/Codex subscription plugin for DSH"
     },
     {
       "full_name": "EIGHTfs/dsh-git-rescue",
@@ -136,46 +17,39 @@
       "desc_prev": "DSH git 版本管理 + 崩溃自动救援插件（仅 GitHub token 方案）"
     },
     {
-      "full_name": "codelogickeep/deepseek-harness-plugin",
-      "previous": "resource",
-      "current": "tool",
-      "desc_now": "DeepSeek Harness (dsh) plugins + scaffold: file tree with live git status, browser-reader, MiniMax search, cron scheduler, flash-worker preset, DingTalk bridge. MIT.",
-      "desc_prev": "DeepSeek Harness (DSH) 插件集合仓库与安装脚手架。"
-    },
-    {
-      "full_name": "nickhelion/dsh-serverchan-notify",
-      "previous": "conversation",
-      "current": "other",
-      "desc_now": "Archived: moved to nickhelion/dsh-plugins",
-      "desc_prev": "DeepSeek Harness plugin: ServerChan3 (Server酱) push notifications whenever an agent turn finishes an answer — codex Stop-hook parity"
-    },
-    {
-      "full_name": "AKS1st/dock-editor",
-      "previous": "coding",
-      "current": "memory",
-      "desc_now": "DSH 生态中最好的文本编辑插件：撤销重做、Ctrl+S 保存、未保存确认、二进制检测、悬浮窗几何记忆，dock-files 的默认文本查看器；依赖 dock 与 dock-files | The best text editor for DSH: undo/redo, Ctrl+S save, unsaved-change confirmation, binary detection, window geometry memory; the default dock-files viewer; requires dock and dock-files",
-      "desc_prev": "DSH dock 文本查看/编辑器：撤销重做、Ctrl+S 保存、未保存确认 | Text viewer/editor for the DSH dock: undo/redo, Ctrl+S save, unsaved-change confirmation"
-    },
-    {
-      "full_name": "AKS1st/dock-markdown",
-      "previous": "web-ui",
-      "current": "coding",
-      "desc_now": "DSH 生态中最好的 Markdown 查看插件：GFM 渲染、DOMPurify 消毒、文档大纲、相对路径图片/链接解析、一键切换编辑；依赖 dock/dock-files/dock-editor | The best Markdown viewer for DSH: GFM rendering, DOMPurify sanitization, document outline, relative image/link resolution, one-click switch to editing; requires dock/dock-files/dock-editor",
-      "desc_prev": "DSH dock Markdown 查看器：md/markdown/mdx 渲染，一键切换编辑 | Markdown viewer for the DSH dock: renders md/markdown/mdx with one-click switch to editing"
-    },
-    {
-      "full_name": "zhuifengqug/dsh-adaptive-reasoning",
+      "full_name": "duhu2000/dsh-mcp-connector",
       "previous": "other",
-      "current": "model",
-      "desc_now": "面向 DeepSeek Harness Web GUI 的、基于模型能力的推理档位滑块。",
+      "current": "tool",
+      "desc_now": "DeepSeek Harness 通用 MCP连接器、连接管理与扩展市场：连接 MCP Server，发现工具与 Prompt，扩展 AI 技能；支持 OAuth/PKCE、API Key、JSON 导入。由企查查（Qichacha/QCC）团队发起维护。General-purpose MCP connector, connection manager, plugin, extension and integration marketplace.",
+      "desc_prev": "DeepSeek Harness MCP Connector marketplace and connection manager"
+    },
+    {
+      "full_name": "qiqiangvae/dsh-input-enhancer",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "一个输入框增强工具，可以锁住发送按钮、暂存输入框内容",
+      "desc_prev": "An extension to enhance the DeepSeek Harness input box"
+    },
+    {
+      "full_name": "baidang201/dsh-hardware-buddy",
+      "previous": "other",
+      "current": "agent",
+      "desc_now": "DeepSeek Harness host plugin: mirror agent state to a StickS3 pet over USB CDC, physical A/B approval, cheerleader voice (dsh-plugin)",
       "desc_prev": null
     },
     {
-      "full_name": "twelvecarbon/dsh-conversation-toc",
-      "previous": "conversation",
-      "current": "web-ui",
-      "desc_now": "类似网页版deepseek的边栏气泡，可以查看历史会话主题并支持快速跳转",
-      "desc_prev": null
+      "full_name": "dshhub-co/dshhub-market",
+      "previous": "tool",
+      "current": "resource",
+      "desc_now": "DeepSeek Harness 口令插件市场客户端：输码解锁插件，连接创作者与买家（DSHHub.co 驱动）",
+      "desc_prev": "Plugin market inside DeepSeek Harness powered by DSHHub.co — browse, search, one-click install community plugins (fork of dsh-market)"
+    },
+    {
+      "full_name": "lynsucceed/dsh-openclaw-persona",
+      "previous": "web-ui",
+      "current": "memory",
+      "desc_now": "Reuse OpenClaw persona files (SOUL/IDENTITY/USER/MEMORY/TOOLS.md) as the DSH agent persona, with a Web GUI editor — edit the .md files in the sidebar and the change takes effect on the next request.",
+      "desc_prev": "把 OpenClaw 五件套 Persona 定义搬进 DeepSeek Harness——侧边栏直接编辑，保存即生效"
     }
   ]
 }
