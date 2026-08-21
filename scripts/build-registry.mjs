@@ -1487,8 +1487,10 @@ async function enrichLatestTags(repos) {
   const token = process.env.GITHUB_TOKEN ?? "";
   let cursor = 0;
   let hit = 0;
+  let attempted = 0;
+  let stoppedReason = "";
   const worker = async () => {
-    while (cursor < todo.length) {
+    while (!stoppedReason && cursor < todo.length) {
       const r = todo[cursor++];
       try {
         const res = await fetch(`https://api.github.com/repos/${r.full_name}/tags?per_page=1`, {
@@ -1499,9 +1501,13 @@ async function enrichLatestTags(repos) {
           },
           signal: AbortSignal.timeout(8000)
         });
+        attempted++;
         if (!res.ok) {
-          // 限流/网络失败：本次跳过（下次增量/全量再试）
-          continue;
+          // v1.12：限流/网络失败立即停止本轮（此前 continue 会让 16 个 worker
+          // 在坏网络上各等 8s 超时 ×6160 条，把增量拖到 50 分钟+）。
+          // 缺口留给下一次增量（每 30 分钟一次，额度每小时重置，自动收敛）。
+          stoppedReason = "HTTP " + res.status;
+          return;
         }
         const tags = await res.json();
         if (Array.isArray(tags) && tags.length > 0 && typeof tags[0]?.name === "string" && tags[0].name.length > 0) {
@@ -1510,11 +1516,20 @@ async function enrichLatestTags(repos) {
         } else {
           r.latest_tag = null;
         }
-      } catch { /* 跳过 */ }
+        // v1.12：单轮 1000 条上限（GITHUB_TOKEN 约 1000 req/h），到量即停，
+        // 给同一小时内其他 API 用量留余地。
+        if (attempted >= 1000) {
+          stoppedReason = "quota cap 1000";
+          return;
+        }
+      } catch {
+        stoppedReason = "network error";
+        return;
+      }
     }
   };
   await Promise.all(Array.from({ length: 16 }, () => worker()));
-  log(`GitHub tags 富化完成：${hit}/${todo.length}`);
+  log(`GitHub tags 富化完成：${hit}/${todo.length}${stoppedReason !== "" ? "（提前停止：" + stoppedReason + "）" : ""}`);
 }
 
 // 直接运行才执行 main（被 smoke-tests import 时只暴露纯函数，无副作用）
