@@ -1,7 +1,14 @@
 {
-  "generated_at": "2026-08-21T07:36:06.642Z",
+  "generated_at": "2026-08-21T09:12:07.476Z",
   "count": 10,
   "items": [
+    {
+      "full_name": "tong-io/tongflow",
+      "previous": "coding",
+      "current": "other",
+      "desc_now": "TongFlow — Multimodal GenAI Studio",
+      "desc_prev": "TongFlow — multimodal workflow studio and engine (canvas + Python plugin engine) and dsh-tongflow, the DeepSeek Harness studio plugin"
+    },
     {
       "full_name": "Tabbit-Browser/dsh-plugin",
       "previous": "tool",
@@ -10,25 +17,25 @@
       "desc_prev": "Tabbit Broser plugins for Deepseek Harness"
     },
     {
-      "full_name": "Web0926/dsh-llm-verifier",
-      "previous": "other",
-      "current": "coding",
-      "desc_now": "Best-of-3/5 LLM-as-a-Verifier plugin for DeepSeek Harness",
-      "desc_prev": "Best-of-3/5 LLM-as-a-Verifier plugin for DeepSeek Harness"
+      "full_name": "PolinniZhong/dsh-personal-center",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "DeepSeek Harness 个人中心:用量统计 / 自定义指令 / 成本估算 / 桌面宠物(纯本地，不联网）。 Personal center & custom instructions for DSH",
+      "desc_prev": "DeepSeek Harness 个人中心插件:个人资料统计(Token/工具调用/按模型分布/Token 活动)+ 个性化自定义指令。本地运行,不联网。 · Personal center & custom instructions for DSH"
     },
     {
-      "full_name": "Gaq152/dsh-credits",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "DeepSeek Harness（dsh web）额度插件：跟随当前模型显示官方余额或 OpenCode Go 订阅用量，支持本会话估算、跨会话累计消耗与可视化设置。",
-      "desc_prev": null
+      "full_name": "tafcear/kimi-tide",
+      "previous": "coding",
+      "current": "web-ui",
+      "desc_now": "🌊 kimi-tide（月汐）— DSH 模型路由插件：预设+规则驱动，每步自动在 Kimi 与 DeepSeek 间选路；图像护栏 + 配额面板 + 决策可观测 · preset+rule model router for DeepSeek Harness",
+      "desc_prev": "月汐 kimi-tide — DeepSeek Harness（DSH）双模型自动分工路由插件：按任务逐步骤在 Kimi 与 DeepSeek 之间选路（能力评分 × 预算窗口 × 图像护栏），决策全程可观测；0.4.x 起经官方 pi-ai kimi-coding 路由 API key 直连。"
     },
     {
-      "full_name": "3361805598-gif/dsh-md-annotator",
-      "previous": "web-ui",
-      "current": "vision",
-      "desc_now": "DSH Markdown sidebar viewer and editor with block- and text-range annotations for structured revision requests.",
-      "desc_prev": null
+      "full_name": "Laplace-bit/dsh-bell-notify",
+      "previous": "conversation",
+      "current": "other",
+      "desc_now": "Configurable, unobtrusive Web Audio lifecycle notifications for DeepSeek Harness (dsh): 10 events, custom sounds, offline playback.",
+      "desc_prev": "DeepSeek Harness (dsh) 社区插件：为 Agent 生命周期事件合成铃声 + 右下角呼吸状态点，每个事件可上传自定义音频。dsh plugin that rings bells and shows a breathing status dot for Agent lifecycle events."
     },
     {
       "full_name": "openrect/dsh-community-installer",
@@ -45,20 +52,6 @@
       "desc_prev": "A universal file preview layer for DeepSeek Harness: open and inspect files right inside the web UI — no external application needed."
     },
     {
-      "full_name": "kevinshi3200/persona-auditor",
-      "previous": "other",
-      "current": "agent",
-      "desc_now": "Persona Auditor — audit AI-generated code from a real user's perspective. Digital personas exhaustively traverse every user journey, then god's-eye attribution collapses bugs into a few root causes for precise fixing. Agent skill (Claude Code / Codex / Cursor / DSH).",
-      "desc_prev": null
-    },
-    {
-      "full_name": "zhuifengqug/dsh-adaptive-reasoning",
-      "previous": "other",
-      "current": "model",
-      "desc_now": "面向 DeepSeek Harness Web GUI 的、基于模型能力的推理档位滑块。",
-      "desc_prev": null
-    },
-    {
       "full_name": "iqingyoung/429-throttle-mcp",
       "previous": "model",
       "current": "agent",
@@ -66,11 +59,18 @@
       "desc_prev": "带速率限制的 MCP 代理 — 模型通过此 MCP 调用外部 API，自动控制每分钟调用次数和 Token 用量，不再被 429 拒绝"
     },
     {
-      "full_name": "DreamsTOF/dsh-prompt-customizer",
+      "full_name": "xie-tj/dsh-plugin-usage-ledger",
+      "previous": "other",
+      "current": "model",
+      "desc_now": "DeepSeek Harness 的持久化用量账本与 Web 用量仪表盘插件",
+      "desc_prev": "Persistent Usage ledger and Web dashboard dsh plugin for DeepSeek Harness"
+    },
+    {
+      "full_name": "TOBYCAI/dsh-sessions-manager",
       "previous": "conversation",
       "current": "web-ui",
-      "desc_now": "DeepSeek Harness (dsh) 系统提示词与工具定制插件：屏蔽/替换/注入/排序提示词段、黑白名单隐藏工具、预设保存/应用/导出/导入，全部通过设置面板操作。",
-      "desc_prev": null
+      "desc_now": "DSH 会话管理面板插件：归档/恢复/彻底删除/跨工作区移动，带工作区标签、会话日期、批量多选与每条会话详情统计（磁盘/工具/文件/血统）。A Session Manager plugin for DeepSeek Harness: archive/restore/delete/move sessions, workspace tags, batch actions & per-session detail stats.",
+      "desc_prev": "Manage archived sessions in DSH — view / restore / permanently delete, with workspace tags, session dates & batch multi-select. | DSH 归档会话管理器：查看/恢复/彻底删除已归档 session，含工作区标签、会话日期与批量多选。"
     }
   ]
 }
