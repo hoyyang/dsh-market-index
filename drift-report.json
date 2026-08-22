@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-08-22T16:47:26.258Z",
+  "count": 1,
+  "items": [
+    {
+      "full_name": "chokwinlee/deepseek-harness-desktop",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "Compact DeepSeek Harness desktop host with a native SwiftUI iPhone Remote source preview.",
+      "desc_prev": "Compact DeepSeek Harness desktop host. macOS downloads under 90 MB with Tauri; Windows uses Electron."
+    }
+  ]
+}
