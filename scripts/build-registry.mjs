@@ -1512,7 +1512,8 @@ async function enrichNpmVersions(repos) {
 async function enrichLatestTags(repos) {
   const todo = repos.filter((r) => !r.npm_version && r.latest_tag === undefined && r.full_name && !r.fork);
   if (todo.length === 0) return;
-  const token = process.env.GITHUB_TOKEN ?? "";
+  // v1.16：CI 只注入 GH_TOKEN（secrets.GITHUB_TOKEN），GITHUB_TOKEN 读不到导致匿名限流。
+  const token = process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN ?? "";
   let cursor = 0;
   let hit = 0;
   let attempted = 0;
@@ -1589,8 +1590,9 @@ function pkgPathUseful(path) {
 async function scanBundles(repos, oldMap) {
   const todo = repos.filter((r) => r.bundled === undefined && r.full_name && !r.fork);
   if (todo.length === 0) return;
-  const token = process.env.GITHUB_TOKEN ?? "";
-  if (token === "") { log("bundle 扫描跳过：无 GITHUB_TOKEN"); return; }
+  // v1.16：CI 只注入 GH_TOKEN（secrets.GITHUB_TOKEN），GITHUB_TOKEN 读不到导致匿名限流。
+  const token = process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN ?? "";
+  if (token === "") { log("bundle 扫描跳过：无 token"); return; }
   let hit = 0;
   let stopped = "";
   let requests = 0;
