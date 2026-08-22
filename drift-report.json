@@ -1,13 +1,20 @@
 {
-  "generated_at": "2026-08-22T01:25:52.489Z",
-  "count": 1,
+  "generated_at": "2026-08-22T02:38:49.144Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "Airmetro/dsh-update-checker",
-      "previous": "web-ui",
-      "current": "resource",
-      "desc_now": "DeepSeek Harness 主程序与插件更新管理：npm/GitHub 双源 semver 比对、多语言横幅、一键更新（主程序自动备份/校验/回滚，插件临时目录安装）、更新后看门狗重启。Update management for DeepSeek Harness and its plugins: dual-source semver checks, locale banner, one-click updates with backup/rollback, watchdog restart.",
-      "desc_prev": "全栈更新管理：对 DeepSeek Harness 主程序与每个已装第三方插件做 npm/GitHub 双源 semver 比对，GUI 横幅随系统语言（中/英）提示可更新插件；一键更新主程序或任意插件，自动备份可回滚，更新后看门狗自动重启服务。Whole-stack update management for DeepSeek Harness: dual-source semver checks of the main program and every third-party plugin, a locale-aware banner, one-click updates with backup/rollback and watchdog-guarded restart."
+      "full_name": "Mr-Neutr0n/dsh-medseek",
+      "previous": "tool",
+      "current": "memory",
+      "desc_now": "Clinical tools for DeepSeek Harness: handover and discharge drafts, de-identification, completeness checks, and cited lookups. Draft-only, not a medical device.",
+      "desc_prev": "Clinical tools for DeepSeek Harness: handover and discharge drafts, de-identification, completeness checks, and cited lookups. Draft-only, not a medical device."
+    },
+    {
+      "full_name": "siweimofang/dsh-plugin-zhishe-baojia-shenhe",
+      "previous": "other",
+      "current": "vision",
+      "desc_now": "知设装修报价审核DSH插件 - 支持视觉OCR截图输入",
+      "desc_prev": null
     }
   ]
 }
