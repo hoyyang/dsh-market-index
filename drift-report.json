@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-08-22T22:08:19.937Z",
+  "count": 1,
+  "items": [
+    {
+      "full_name": "robauto-ai/dsh-growth",
+      "previous": "resource",
+      "current": "agent",
+      "desc_now": "Digital growth and commerce harness. Grow your brand and transact agent to agent. Monetize your repo or skill via Robauto or let the agent grow your site traffic.  Deepseek harness plugin, works with MetaAI, Copilot, Grok, Claude, Google, Bing, Hubspot and Perplexity agents. ",
+      "desc_prev": "Robauto Digital Signal Hub growth plugin — thin MIT-licensed client for Robauto Signal Strength, llms.txt generation, AI search data and the AgentHub catalog."
+    }
+  ]
+}
