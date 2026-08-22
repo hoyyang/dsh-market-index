@@ -32,14 +32,18 @@ jobs:
 
       - name: Build DSH registry (full)
         if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.full == 'true' || github.event.schedule == '0 4 * * *' }}
-        run: node scripts/build-registry.mjs
+        run: |
+          node scripts/build-registry.mjs
+          node scripts/build-exclusions.mjs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_REGISTRY: https://registry.npmjs.org
 
       - name: Build DSH registry (incremental)
         if: ${{ !(github.event_name == 'workflow_dispatch' && github.event.inputs.full == 'true' || github.event.schedule == '0 4 * * *') }}
-        run: INCREMENTAL_DAYS=1 node scripts/build-registry.mjs
+        run: |
+          INCREMENTAL_DAYS=1 node scripts/build-registry.mjs
+          node scripts/build-exclusions.mjs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_REGISTRY: https://registry.npmjs.org
@@ -59,7 +63,7 @@ jobs:
           for attempt in 1 2 3; do
             git fetch origin main
             git reset --mixed origin/main
-            git add registry.json registry.json.gz drift-report.json installability-report.json 2>/dev/null || true
+            git add registry.json registry.json.gz exclusions.json drift-report.json installability-report.json 2>/dev/null || true
             if git diff --cached --quiet; then
               echo "no changes"
               exit 0
@@ -73,4 +77,3 @@ jobs:
           done
           echo "push failed after 3 attempts"
           exit 1
-
