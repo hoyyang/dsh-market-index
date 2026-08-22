@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-22T16:47:26.258Z",
+  "generated_at": "2026-08-22T17:14:20.826Z",
   "count": 1,
   "items": [
     {
-      "full_name": "chokwinlee/deepseek-harness-desktop",
+      "full_name": "hyperion2144/dsh-desktop-tauriapp",
       "previous": "other",
-      "current": "tool",
-      "desc_now": "Compact DeepSeek Harness desktop host with a native SwiftUI iPhone Remote source preview.",
-      "desc_prev": "Compact DeepSeek Harness desktop host. macOS downloads under 90 MB with Tauri; Windows uses Electron."
+      "current": "coding",
+      "desc_now": "Tauri 2 desktop shell wrapping the DeepSeek Harness Web GUI (macOS + Windows) — tray daemon, auto-launch/reuse of local dsh, --patch plugin injection, mobile access via LAN/tunnel pairing with cloudflared one-click tunnel.",
+      "desc_prev": null
     }
   ]
 }
