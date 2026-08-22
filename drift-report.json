@@ -1,20 +1,13 @@
 {
-  "generated_at": "2026-08-22T14:41:45.514Z",
-  "count": 2,
+  "generated_at": "2026-08-22T15:08:01.811Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "Top-Celestial-Company-Ltd/dsh-dros-vajraclaw",
-      "previous": "tool",
-      "current": "resource",
-      "desc_now": "⚡ DROS™ VajraClaw for DSH: Deterministic Runtime Execution Governance & Security Circuit-Breaker Plugin",
-      "desc_prev": "⚡ DROS™ VajraClaw for DSH: Deterministic Runtime Execution Governance & Security Circuit-Breaker Plugin"
-    },
-    {
-      "full_name": "xuqingsakura/dsh-subagent-team",
-      "previous": "agent",
-      "current": "tool",
-      "desc_now": "一个官方 bundle 形态的独立插件，可经 GitHub / npm 安装到 DSH（桌面端与 web 端皆可）。 提供模型可见的角色工具（team_read / team_write / team_code_write / team_code_review …）， 以及一套真正的事件驱动团队运行时（建队 / 成员 / 任务依赖 / 邮箱 / 自动调度 / 右下角活动浮层）。",
-      "desc_prev": null
+      "full_name": "ZhuoSir/dsh-cron",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "DeepSeek Harness 定时任务插件：对话中自然语言创建，到点自动执行并在会话中回复，支持 cron 表达式与 Web 管理面板",
+      "desc_prev": "dsh 的定时任务仓库"
     }
   ]
 }
