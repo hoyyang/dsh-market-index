@@ -1152,6 +1152,18 @@ async function main() {
       ? new Date().toISOString()
       : (r.registry_seen_at || "1970-01-01T00:00:00.000Z");
     if (Date.parse(seenAt) < now - STALE_DAYS * 24 * 3600 * 1000) continue;
+    // v1.13：增量重新抓取的仓库（fresh）会整条替换旧条目，导致只在每日全量
+    // 跑的富化字段（npm_version/npm_pkg_name/latest_tag/description_zh 等）
+    // 被冲成 null——商店「更新」按钮与版本号跟着消失（dshmarket 实测）。
+    // fresh 条目缺失这些字段时从旧索引继承。
+    if (freshNames.has(r.full_name)) {
+      const old = oldMap.get(r.full_name);
+      if (old) {
+        for (const field of ["npm_version", "npm_pkg_name", "latest_tag", "description_zh", "pkg_name"]) {
+          if (r[field] === undefined && old[field] !== undefined) r[field] = old[field];
+        }
+      }
+    }
     merged.set(r.full_name, { ...r, registry_seen_at: seenAt });
   }
   let repos = [...merged.values()].sort((a, b) => (b.stargazers_count ?? 0) - (a.stargazers_count ?? 0));
