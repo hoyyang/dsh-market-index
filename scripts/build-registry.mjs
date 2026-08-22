@@ -1251,6 +1251,22 @@ async function main() {
       }
       if (inherited > 0) log("latest_tag 继承旧索引：" + inherited + " 条")
       await enrichLatestTags(repos)
+      // v1.15 治理：先继承旧索引的 bundle/npm 校验结论，再补扫缺口（额度友好）。
+      let govInherited = 0
+      for (const repo of repos) {
+        const prev = oldMap.get(repo.full_name)
+        if (prev === undefined) continue
+        if (repo.bundled === undefined && typeof prev.bundled === "boolean") {
+          repo.bundled = prev.bundled
+          if (typeof prev.bundled_at === "string") repo.bundled_at = prev.bundled_at
+          govInherited++
+        }
+        if (repo.npm_linked === undefined && typeof prev.npm_linked === "boolean") repo.npm_linked = prev.npm_linked
+      }
+      if (govInherited > 0) log("bundle 结论继承旧索引：" + govInherited + " 条")
+      markDormant(repos)
+      await scanBundles(repos, oldMap)
+      await enrichNpmLinked(repos)
     }
   }
 
@@ -1542,6 +1558,151 @@ async function enrichLatestTags(repos) {
   };
   await Promise.all(Array.from({ length: 16 }, () => worker()));
   log(`GitHub tags 富化完成：${hit}/${todo.length}${stoppedReason !== "" ? "（提前停止：" + stoppedReason + "）" : ""}`);
+}
+
+// ------------------------------------------------------------------ v1.15 治理
+
+/**
+ * dsh.bundle 全树扫描（v1.15）：GraphQL 按 50 仓别名批取树结构（1 请求），
+ * 再对树里的 package.json 路径做 raw 内容检查（不占 API 额度），任一 manifest
+ * 含 dsh.bundle → bundled=true；取到 manifest 且均无 → false；树被截断/内容
+ * 不可读 → null（未判定）。继承旧值，缺口逐轮收敛；额度/网络错误立即停止本轮。
+ */
+const GQL_BATCH = 50
+const BUNDLE_MAX_TREE_PKGS = 8
+const BUNDLE_MAX_REQUESTS = 150
+const GQL_ENDPOINT = "https://api.github.com/graphql"
+
+function repoPair(fullName) {
+  const idx = String(fullName).indexOf("/")
+  if (idx <= 0) return null
+  return { owner: fullName.slice(0, idx), name: fullName.slice(idx + 1) }
+}
+
+function pkgPathUseful(path) {
+  const p = String(path)
+  if (!p.endsWith("package.json")) return false
+  if (/node_modules|\/test|\/tests|\/fixtures|\/examples|\/dist|\/build\//i.test(p)) return false
+  return true
+}
+
+async function scanBundles(repos, oldMap) {
+  const todo = repos.filter((r) => r.bundled === undefined && r.full_name && !r.fork);
+  if (todo.length === 0) return;
+  const token = process.env.GITHUB_TOKEN ?? "";
+  if (token === "") { log("bundle 扫描跳过：无 GITHUB_TOKEN"); return; }
+  let hit = 0;
+  let stopped = "";
+  let requests = 0;
+  const scanAt = new Date().toISOString().slice(0, 10);
+  for (let start = 0; start < todo.length && !stopped && requests < BUNDLE_MAX_REQUESTS; start += GQL_BATCH) {
+    const batch = todo.slice(start, start + GQL_BATCH);
+    const aliases = [];
+    const variables = {};
+    const treeInfo = new Map();
+    for (let i = 0; i < batch.length; i++) {
+      const pair = repoPair(batch[i].full_name);
+      if (pair === null) continue;
+      const alias = "a" + i;
+      aliases.push(alias + ": repository(owner: $o" + i + ", name: $n" + i + ") { object(expression: \"HEAD:\") { ... on Tree { entries { path type } } } }");
+      variables["o" + i] = pair.owner;
+      variables["n" + i] = pair.name;
+      treeInfo.set(alias, batch[i]);
+    }
+    if (aliases.length === 0) continue;
+    requests++;
+    try {
+      const res = await fetch(GQL_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: "Bearer " + token, "User-Agent": "dsh-plugin-marketplace-registry" },
+        body: JSON.stringify({ query: "query { " + aliases.join(" ") + " }", variables }),
+        signal: AbortSignal.timeout(20_000),
+      });
+      if (!res.ok) { stopped = "GQL HTTP " + res.status; break; }
+      const body = await res.json();
+      if (body.errors && Array.isArray(body.errors) && body.errors.length > 0) {
+        const msg = String(body.errors[0]?.message ?? "");
+        if (/rate limit|abuse/i.test(msg)) { stopped = "GQL quota"; break; }
+      }
+      const data = body.data ?? {};
+      for (const [alias, repo] of treeInfo) {
+        const obj = data[alias]?.object;
+        if (!obj || obj.entries === undefined || obj.entries === null) { repo.bundled = null; continue; }
+        const entries = Array.isArray(obj.entries) ? obj.entries : [];
+        if (entries.length === 0) { repo.bundled = false; repo.bundled_at = scanAt; hit++; continue; }
+        const pkgs = entries.filter((e) => e && e.type === "blob" && pkgPathUseful(e.path)).slice(0, BUNDLE_MAX_TREE_PKGS);
+        if (pkgs.length === 0) { repo.bundled = false; repo.bundled_at = scanAt; hit++; continue; }
+        let verdict = false;
+        for (const pkg of pkgs) {
+          try {
+            const raw = await fetch("https://raw.githubusercontent.com/" + repo.full_name + "/HEAD/" + pkg.path, {
+              headers: { "User-Agent": "dsh-plugin-marketplace-registry" },
+              signal: AbortSignal.timeout(10_000),
+            });
+            if (!raw.ok) continue;
+            const text = await raw.text();
+            const parsed = JSON.parse(text.slice(0, 200_000));
+            if (parsed && typeof parsed === "object" && parsed.dsh && typeof parsed.dsh === "object" && parsed.dsh.bundle !== undefined) { verdict = true; break; }
+          } catch { /* 单包不可读：继续 */ }
+        }
+        repo.bundled = verdict;
+        repo.bundled_at = scanAt;
+        hit++;
+      }
+    } catch {
+      stopped = "network error";
+      break;
+    }
+  }
+  log("bundle 扫描完成：" + hit + "/" + todo.length + (stopped !== "" ? "（提前停止：" + stopped + "）" : ""));
+}
+
+/**
+ * npm 回指校验（v1.15）：对已有 npm_version 的条目查 registry 最新 manifest 的
+ * repository 字段是否指向同一 GitHub 仓库（防抢注/防冒挂）；网络失败保持 null。
+ */
+async function enrichNpmLinked(repos) {
+  const queue = repos.filter((r) => r.npm_version && r.npm_linked === undefined && r.pkg_name);
+  if (queue.length === 0) return;
+  const total = queue.length;
+  let done = 0;
+  let linked = 0;
+  const worker = async () => {
+    while (queue.length > 0) {
+      const r = queue.shift();
+      if (r === undefined) return;
+      try {
+        const res = await fetch("https://registry.npmjs.org/" + encodeURIComponent(r.pkg_name), {
+          headers: { "User-Agent": "dsh-plugin-marketplace-registry" },
+          signal: AbortSignal.timeout(10_000),
+        });
+        if (!res.ok) continue;
+        const meta = await res.json();
+        const latest = typeof meta["dist-tags"]?.latest === "string" ? meta["dist-tags"].latest : null;
+        const repository = (latest === null ? null : meta.versions?.[latest]?.repository) ?? meta.repository;
+        const repoField = typeof repository === "string" ? repository : repository?.url ?? "";
+        r.npm_linked = repoField.toLowerCase().includes(r.full_name.toLowerCase());
+        if (r.npm_linked) linked++;
+        done++;
+      } catch { /* 保持 null */ }
+    }
+  };
+  await Promise.all(Array.from({ length: 8 }, () => worker()));
+  log("npm 回指校验完成：" + done + "/" + total + "（linked " + linked + "）");
+}
+
+/**
+ * dormant 标记（v1.15）：pushed_at 距今超过 180 天（腐烂信号，纯计算）。
+ */
+function markDormant(repos) {
+  const cutoff = Date.now() - 180 * 24 * 3600 * 1000;
+  let count = 0;
+  for (const r of repos) {
+    const pushed = Date.parse(String(r.pushed_at ?? ""));
+    r.dormant = Number.isFinite(pushed) && pushed < cutoff;
+    if (r.dormant) count++;
+  }
+  log("dormant 标记完成：" + count + " 条");
 }
 
 // 直接运行才执行 main（被 smoke-tests import 时只暴露纯函数，无副作用）
