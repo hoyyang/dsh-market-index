@@ -1,20 +1,13 @@
 {
-  "generated_at": "2026-08-22T12:48:09.330Z",
-  "count": 2,
+  "generated_at": "2026-08-22T13:50:57.740Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "godchen520/dsh-web-remote",
-      "previous": "web-ui",
-      "current": "notify",
-      "desc_now": "DSH 手机/外网远程访问插件：免配置公网隧道 + 局域网 HTTPS 直连 + 自定义公网链接/端口 + 微信机器人",
-      "desc_prev": "DSH 手机/外网远程访问插件：Cloudflare Quick Tunnel 公网隧道 + token 鉴权 + gzip 压缩 + 局域网 HTTPS 直连 + 手机图标面板 + QQ 机器人取链接"
-    },
-    {
-      "full_name": "DIAG5/dsh-better-input",
-      "previous": "document",
-      "current": "tool",
-      "desc_now": "BetterInput是一套输入增强套件：从语音识别、AI 润色、提示词优化，到把各类文件转成结构清晰的Md，再到交互体验优化等——把每一种喂给智能体的输入都变得更好。BetterInput is an input-enhancement suite for DSH: voice recognition, AI polishing, prompt optimization, turning files into structured Markdown, and UX refinements — making every input you feed an agent better.",
-      "desc_prev": "Better input experience for DeepSeek Harness : voice input, AI prompt polishing, PDF & image input.DeepSeek Harness输入体验增强：语音输入、AI提示词润色、PDF转md、图片输入。"
+      "full_name": "andyzhuang233/dsh-favorites",
+      "previous": "conversation",
+      "current": "web-ui",
+      "desc_now": "DeepSeek Harness plugin: a 收藏夹 (favorites) feature — star a session to keep it, list favorites in a sidebar entry, and protect favorited sessions from archive (fork and rename stay available).",
+      "desc_prev": "DeepSeek Harness 收藏夹插件：收藏会话、防止误删。"
     }
   ]
 }
