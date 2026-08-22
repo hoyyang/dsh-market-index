@@ -1,20 +1,13 @@
 {
-  "generated_at": "2026-08-22T02:38:49.144Z",
-  "count": 2,
+  "generated_at": "2026-08-22T03:47:32.067Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "Mr-Neutr0n/dsh-medseek",
+      "full_name": "fyjgtddco/DSH-SW-and-CAD",
       "previous": "tool",
-      "current": "memory",
-      "desc_now": "Clinical tools for DeepSeek Harness: handover and discharge drafts, de-identification, completeness checks, and cited lookups. Draft-only, not a medical device.",
-      "desc_prev": "Clinical tools for DeepSeek Harness: handover and discharge drafts, de-identification, completeness checks, and cited lookups. Draft-only, not a medical device."
-    },
-    {
-      "full_name": "siweimofang/dsh-plugin-zhishe-baojia-shenhe",
-      "previous": "other",
-      "current": "vision",
-      "desc_now": "知设装修报价审核DSH插件 - 支持视觉OCR截图输入",
-      "desc_prev": null
+      "current": "web-ui",
+      "desc_now": "专为SW和CAD设计的插件！内置DeepSeek Harness“工程模式”，让DeepSeek Harness以“完成工图”作为第一目标，避免分心，此插件还可以以SW一键转化为CAD图纸，无需任何操作",
+      "desc_prev": "（目前只是测试！用不了，先不要用！实在不行也可以帮我修bug）这个是DeepSeek Harness一键式导入工程模式，然后可以让DeepSeek Harness直接将“完成工图”作为第一目标，你可以选择让AI帮你直接作图，在完成复杂的工艺流程图的时候，可以完全按照AI的想法去做或者自己下命令"
     }
   ]
 }
