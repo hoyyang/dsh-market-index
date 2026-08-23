@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-08-23T23:50:10.937Z",
+  "count": 2,
+  "items": [
+    {
+      "full_name": "liustack/pptwise",
+      "previous": "agent",
+      "current": "tool",
+      "desc_now": "A real PowerPoint file. Not a picture of one. Tell your AI what to cover and pptwise builds an editable deck on your own machine. Agent skill + DSH plugin, no account and no API key to render. | 真正的 PPT，不是一张图。跟 AI 说要讲什么，pptwise 在你自己电脑上做出一份能改的 PPT。Agent skill + DSH 插件，不用注册，渲染不用 API key。",
+      "desc_prev": "Make your deck in minutes, not hours. Tell your AI what to cover and pptwise renders a real, editable PPTX on your own machine. Agent skill + DSH plugin, no account and no API key to render. | PPT 不用等，马上就好。跟 AI 说要讲什么，pptwise 在你自己电脑上渲染出一份真的、能改的 PPTX。Agent skill + DSH 插件，不用注册，渲染不用 API key。"
+    },
+    {
+      "full_name": "leonardoxr/dsh-routed-subagent",
+      "previous": "agent",
+      "current": "web-ui",
+      "desc_now": "Complexity-routed subagent delegation for DeepSeek Harness: the model picks the runtime tier per task.",
+      "desc_prev": "Complexity-routed subagent delegation for DeepSeek Harness: the model picks the runtime tier per task."
+    }
+  ]
+}
