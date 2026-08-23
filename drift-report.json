@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-23T14:29:33.606Z",
+  "generated_at": "2026-08-23T14:54:52.335Z",
   "count": 2,
   "items": [
     {
-      "full_name": "ZekaiShi/smart-subagent",
+      "full_name": "MistyBridge/dsh-agent-bus",
       "previous": "agent",
-      "current": "memory",
-      "desc_now": "Unified DeepSeek Harness plugin: role-based subagent routing + per-agent evolution (prefercmd/memory as knowledge allow/deny lists), so repeated tasks start from proven commands and save tokens. Unified subagent routing and evolution: prefercmd/memory serve as knowledge allow/deny lists, saving tokens.",
-      "desc_prev": "按 agent_key 将 DeepSeek Harness subagent 严格路由到已注册 provider/model 的轻量插件"
+      "current": "conversation",
+      "desc_now": "Multi-agent orchestration for DeepSeek Harness: turn isolated sessions into a team that assigns work, reviews output, and runs DAG workflows — durable task ledger, real reviewers, crash-safe recovery.",
+      "desc_prev": "Multi-agent orchestration for DeepSeek Harness. Sessions in one workspace assign work, review results, and run DAG workflows — without you as the messenger."
     },
     {
-      "full_name": "mba1398/dsh-done",
-      "previous": "other",
-      "current": "model",
-      "desc_now": "One plugin that don't consume tokens.",
-      "desc_prev": null
+      "full_name": "maskshell/solidforge-dsh",
+      "previous": "conversation",
+      "current": "coding",
+      "desc_now": "让 DSH Coding 流程更具有确定性！以 DSH 预设与全局插件（任意会话皆可使用）两种形式交付。收敛 → 规范化 → 实现：并行 TDD 双环收敛门禁、对抗式跨源评审、对源逐条引用核查、先行技术碰撞检索——每道门控均提供诚实记录，绝不静默转绿",
+      "desc_prev": "面向 DeepSeek Harness 的收敛工程（Loop-Engineering）系统，以 DSH 预设与任意会话皆可使用的全局插件两种形式交付。收敛 → 规格化 → 实现：并行 TDD 双环收敛门禁、对抗式跨源评审、对源逐条引用核查、先行技术碰撞检索——每道门控均提供诚实记录，绝不静默转绿。"
     }
   ]
 }
