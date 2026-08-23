@@ -1,13 +1,20 @@
 {
-  "generated_at": "2026-08-23T13:36:56.570Z",
-  "count": 1,
+  "generated_at": "2026-08-23T14:29:33.606Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "EthanYoQ/AI-Novel-Writer",
-      "previous": "memory",
-      "current": "other",
-      "desc_now": "AI 小说创作软件：把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可控流程；提供 Windows/macOS 桌面版、Ollama 与 DSH 插件预览。",
-      "desc_prev": "开源、本地优先的 AI 小说创作工作台，提供 Windows/macOS 桌面版与 DeepSeek Harness（DSH）插件开发预览，支持长篇大纲、角色、章节蓝图、审稿修稿、知识库与 Ollama。"
+      "full_name": "ZekaiShi/smart-subagent",
+      "previous": "agent",
+      "current": "memory",
+      "desc_now": "Unified DeepSeek Harness plugin: role-based subagent routing + per-agent evolution (prefercmd/memory as knowledge allow/deny lists), so repeated tasks start from proven commands and save tokens. Unified subagent routing and evolution: prefercmd/memory serve as knowledge allow/deny lists, saving tokens.",
+      "desc_prev": "按 agent_key 将 DeepSeek Harness subagent 严格路由到已注册 provider/model 的轻量插件"
+    },
+    {
+      "full_name": "mba1398/dsh-done",
+      "previous": "other",
+      "current": "model",
+      "desc_now": "One plugin that don't consume tokens.",
+      "desc_prev": null
     }
   ]
 }
