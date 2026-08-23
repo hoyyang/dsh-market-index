@@ -1,13 +1,20 @@
 {
-  "generated_at": "2026-08-23T01:38:43.745Z",
-  "count": 1,
+  "generated_at": "2026-08-23T03:07:35.166Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "guhanfei-ai/dsh-grafana",
-      "previous": "coding",
-      "current": "other",
-      "desc_now": "让DSH帮你丰富对物理世界的可观测",
-      "desc_prev": "Paste a Grafana dashboard URL and fine-tune it through conversation with DeepSeek Harness — 贴大盘 URL，对话微调，写回 Grafana 调试可视化"
+      "full_name": "LittleFishStars/dsh-opencode-tui",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "为 DeepSeek Harness 制作的仿 OpenCode 的 TUI 界面插件",
+      "desc_prev": null
+    },
+    {
+      "full_name": "Tinnikx/dsh-desktop",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "DeepSeek Harness 的 Linux Electron 桌面客户端，由claude opus生成, 打包后开箱即用, 已更新至0.1.1-rc.2, 插件安装方式与web端一致, 支持\"插件市场\"插件, 可以安装插件市场后在插件市场中搜索并安装插件, 也可以通过正常命令 ./bin/dsh plugin --profile web add xxxx, download in the Release Page.",
+      "desc_prev": "DeepSeek Harness 的 Linux Electron 桌面客户端，由claude opus生成, 打包后开箱即用, 已更新至0.1.1-rc.2, 插件安装方式与web端一致, download in Release Page."
     }
   ]
 }
