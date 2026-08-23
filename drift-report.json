@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-08-23T12:48:15.184Z",
+  "count": 2,
+  "items": [
+    {
+      "full_name": "EthanYoQ/AI-Novel-Writer",
+      "previous": "coding",
+      "current": "memory",
+      "desc_now": "开源、本地优先的 AI 小说创作工作台，提供 Windows/macOS 桌面版与 DeepSeek Harness（DSH）插件开发预览，支持长篇大纲、角色、章节蓝图、审稿修稿、知识库与 Ollama。",
+      "desc_prev": "本地优先 AI 小说创作工作台，提供 Windows/macOS 桌面版与 DeepSeek Harness 插件开发预览，支持角色、大纲、章节蓝图、审稿修稿和本地模型。"
+    },
+    {
+      "full_name": "maskshell/solidforge-dsh",
+      "previous": "coding",
+      "current": "conversation",
+      "desc_now": "面向 DeepSeek Harness 的收敛工程（Loop-Engineering）系统，以 DSH 预设与任意会话皆可使用的全局插件两种形式交付。收敛 → 规格化 → 实现：并行 TDD 双环收敛门禁、对抗式跨源评审、对源逐条引用核查、先行技术碰撞检索——每道门控均提供诚实记录，绝不静默转绿。",
+      "desc_prev": "让测试绿了不等于你做对了 — 双轴收敛纪律 (spec-gaming orthogonal axis) 的 DeepSeek Harness 原生实现 | Two-axis convergence discipline for coding agents"
+    }
+  ]
+}
