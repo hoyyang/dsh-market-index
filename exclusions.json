@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-23T14:54:53.801Z",
-  "count": 991,
+  "generated_at": "2026-08-23T15:29:24.716Z",
+  "count": 990,
   "entries": {
     "0326/dsh-plugin-market": {
       "kind": "market",
@@ -1122,10 +1122,6 @@
     "melandlabs/opencontext": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone agentic context runtime \"designed to be embedded into any host process\"; the dsh-opencontext plugin is one integration target, not the repo's primary purpose."
-    },
-    "mem9-ai/mem9": {
-      "kind": "excluded",
-      "reason": "Not a DSH plugin — a standalone multi-host memory product (OpenClaw-first); the dsh-plugin/ adapter directory is a bundled add-on, not the repo's purpose; stars accrued by the generic product (same rider pattern as MemTensor/MemOS)."
     },
     "menantonio83-hue/tnt-house": {
       "kind": "excluded",
