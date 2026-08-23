@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-08-23T18:36:54.690Z",
+  "count": 1,
+  "items": [
+    {
+      "full_name": "zhouzhencheng07/dsh-kit",
+      "previous": "coding",
+      "current": "tool",
+      "desc_now": "Free keyless Tavily web search tool for DeepSeek Harness (dsh)",
+      "desc_prev": "DSH web 页面能力插件包：VSCode 风格页内终端（首个能力），零依赖零构建"
+    }
+  ]
+}
