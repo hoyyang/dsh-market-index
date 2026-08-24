@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-08-24T21:39:50.650Z",
+  "count": 1,
+  "items": [
+    {
+      "full_name": "dat-lequoc/dsh-kiro",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "Kiro provider for DeepSeek Harness with Builder ID login, live model discovery, and reasoning effort controls",
+      "desc_prev": "Kiro provider for DeepSeek Harness with Builder ID login, live model discovery, and reasoning effort controls"
+    }
+  ]
+}
