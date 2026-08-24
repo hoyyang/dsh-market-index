@@ -127,6 +127,12 @@ function normalize(r) {
     description: r.description,
     html_url: r.html_url,
     stargazers_count: r.stargazers_count,
+    // v1.18：Search API 响应本就携带这三个字段（零额外额度），此前被丢弃——
+    // 补上后商店侧五维评分的维护（issue 健康度）/热度（fork 参与率）/信号
+    // （homepage）三处降级即可按 dsh-market 全公式计算。
+    forks_count: r.forks_count ?? null,
+    open_issues_count: r.open_issues_count ?? null,
+    homepage: r.homepage ?? null,
     updated_at: r.updated_at,
     default_branch: r.default_branch ?? "main",
     topics: r.topics ?? [],
@@ -1262,10 +1268,16 @@ async function main() {
           govInherited++
         }
         if (repo.npm_linked === undefined && typeof prev.npm_linked === "boolean") repo.npm_linked = prev.npm_linked
+        // v1.18：skill 结论继承旧索引（true 一次性判定的稳定结论；null 缺口每轮重试）
+        if ((repo.has_skill === undefined || repo.has_skill === null) && typeof prev.has_skill === "boolean") {
+          repo.has_skill = prev.has_skill
+          if (typeof prev.skilled_at === "string") repo.skilled_at = prev.skilled_at
+        }
       }
       if (govInherited > 0) log("bundle 结论继承旧索引：" + govInherited + " 条")
       markDormant(repos)
       await scanBundles(repos, oldMap)
+      await scanSkills(repos, oldMap)
       await enrichNpmLinked(repos)
     }
   }
@@ -1600,6 +1612,43 @@ async function scanBundles(repos, oldMap) {
   };
   await Promise.all(Array.from({ length: BUNDLE_RAW_CONCURRENCY }, () => worker()));
   log("bundle 扫描完成：" + hit + "/" + todo.length + "（raw 根 manifest 判定；null 缺口运行时补扫/下轮重试）");
+}
+
+/**
+ * skill 型扫描（v1.18）：raw 直读根 SKILL.md（零 API 额度，与 bundle 扫描同管线）。
+ * - 命中 SKILL.md → has_skill = true；
+ * - 404 → 保持 null（未判定）——skills/ 子目录形态交给商店运行时 top-up
+ *   （API 树抽查，24h 缓存）补判，避免 CI 写错误的 false；
+ * - 网络失败 → null，下轮重试；旧索引结论继承。
+ */
+const SKILL_RAW_CONCURRENCY = 16
+const SKILL_MAX_RAWS = 12000
+
+async function scanSkills(repos, oldMap) {
+  const todo = repos.filter((r) => (r.has_skill === undefined || r.has_skill === null) && r.full_name && !r.fork);
+  if (todo.length === 0) return;
+  const queue = todo.slice(0, SKILL_MAX_RAWS);
+  let hit = 0;
+  const scanAt = new Date().toISOString().slice(0, 10);
+  const worker = async () => {
+    while (queue.length > 0) {
+      const r = queue.shift();
+      if (r === undefined) return;
+      try {
+        const res = await fetch("https://raw.githubusercontent.com/" + r.full_name + "/HEAD/SKILL.md", {
+          headers: { "User-Agent": "dsh-plugin-marketplace-registry" },
+          signal: AbortSignal.timeout(10_000),
+        });
+        if (res.status === 404) continue; // 无根 SKILL.md：保持 null，运行时 top-up 补扫 skills/ 目录
+        if (!res.ok) continue;
+        r.has_skill = true;
+        r.skilled_at = scanAt;
+        hit++;
+      } catch { /* 网络失败：保持 null 下轮重试 */ }
+    }
+  };
+  await Promise.all(Array.from({ length: SKILL_RAW_CONCURRENCY }, () => worker()));
+  log("skill 扫描完成：" + hit + "/" + todo.length + "（raw 根 SKILL.md 判定；skills/ 目录形态运行时补扫）");
 }
 
 /**
