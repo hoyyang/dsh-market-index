@@ -1,13 +1,20 @@
 {
-  "generated_at": "2026-08-24T21:39:50.650Z",
-  "count": 1,
+  "generated_at": "2026-08-24T22:35:53.563Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "dat-lequoc/dsh-kiro",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "Kiro provider for DeepSeek Harness with Builder ID login, live model discovery, and reasoning effort controls",
-      "desc_prev": "Kiro provider for DeepSeek Harness with Builder ID login, live model discovery, and reasoning effort controls"
+      "full_name": "TLNing260310/dsh-researcher",
+      "previous": "tool",
+      "current": "memory",
+      "desc_now": "Read-only repository research, durable project memory, and evidence-gated definitions of done for AI coding agents on DeepSeek Harness.",
+      "desc_prev": "Evidence-backed project cognition and host-governed definitions of done for DeepSeek Harness."
+    },
+    {
+      "full_name": "ns-zzj/dsh-hos-scrcpy",
+      "previous": "coding",
+      "current": "vision",
+      "desc_now": "在DeepSeek Harness网页中控制鸿蒙手机并让AI识别内容",
+      "desc_prev": "在DeepSeek Harness网页中控制鸿蒙手机"
     }
   ]
 }
