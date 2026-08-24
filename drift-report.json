@@ -1,41 +1,13 @@
 {
-  "generated_at": "2026-08-24T11:49:13.585Z",
-  "count": 5,
+  "generated_at": "2026-08-24T12:59:07.797Z",
+  "count": 1,
   "items": [
-    {
-      "full_name": "Cerbur/clutch-dsh",
-      "previous": "web-ui",
-      "current": "other",
-      "desc_now": "Open-source DSH plugins for DeepSeek Harness, clutch-dsh-worktree.",
-      "desc_prev": "Open-source DSH plugins for DeepSeek Harness, starting with a Git worktree-aware Session view for the DSH Web UI."
-    },
-    {
-      "full_name": "LongSir0419/dsh-git-branch-manage",
-      "previous": "other",
-      "current": "resource",
-      "desc_now": "DSH bundle: 当前 Git 分支徽标。在会话 header 与新会话欢迎页显示当前分支，支持切换、新建、更新、拉取、推送、删除（仅本地分支，IDEA 风格目录树）。",
-      "desc_prev": null
-    },
-    {
-      "full_name": "dff652/deepseek-harness-community-plugins",
-      "previous": "tool",
-      "current": "memory",
-      "desc_now": "Reviewed configuration-only DeepSeek Harness bundles for AI Asset Hub, Agent Mail, and AgentMemory",
-      "desc_prev": "Configuration-only DeepSeek Harness bundle for AI Asset Hub's reviewed read-only MCP tools"
-    },
     {
       "full_name": "taxueseek/taxue-dsh-artisan",
       "previous": "tool",
       "current": "vision",
       "desc_now": "taxue 画师：DeepSeek Harness 一体化视觉创作工具链（提示词反推/优化 + 多供应商生图，支持异步后台出图）",
       "desc_prev": "taxue 画师：DeepSeek Harness 一体化视觉创作工具链（提示词反推/优化 + 多供应商生图，支持异步后台出图）"
-    },
-    {
-      "full_name": "WSL043/dsh-native-reasoning-slider",
-      "previous": "other",
-      "current": "web-ui",
-      "desc_now": "Model-aware reasoning effort slider for DeepSeek Harness, with a Claude-inspired WebGL energy field, native themes, and a live demo.",
-      "desc_prev": "DSH Native Effort Slider — model-aware reasoning control with native modes and custom light/dark colors"
     }
   ]
 }
