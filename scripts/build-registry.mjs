@@ -1716,6 +1716,7 @@ async function scanBundles(repos, oldMap) {
   const todo = repos.filter((r) => (r.bundled === undefined || r.bundled === null) && r.full_name && !r.fork);
   if (todo.length === 0) return;
   const queue = todo.slice(0, BUNDLE_MAX_RAWS);
+  const monorepoQueue = []
   let hit = 0;
   const scanAt = new Date().toISOString().slice(0, 10);
   const worker = async () => {
@@ -1731,19 +1732,54 @@ async function scanBundles(repos, oldMap) {
         if (!res.ok) continue;
         const parsed = JSON.parse((await res.text()).slice(0, 200_000));
         // v1.20：根 manifest 存在但无 dsh.bundle 时不写 false（monorepo 等形态
-        // 的插件清单在子目录，根判定会误伤——如 dsh-web-ui）；保持 null，
-        // 交给商店运行时 Trees top-up（全树抽查）做准确判定。false 只由全树扫描给出。
+        // 的插件清单在子目录，根判定会误伤——如 dsh-web-ui）；保持 null。
         const hasBundle = parsed !== null && typeof parsed === "object" && parsed.dsh && typeof parsed.dsh === "object" && parsed.dsh.bundle !== undefined;
         if (hasBundle) {
           r.bundled = true;
           r.bundled_at = scanAt;
           hit++;
+        } else {
+          // v1.20.1：根 manifest 无 bundle → Trees 抽查子包（monorepo 判定，
+          // CI 有 GITHUB_TOKEN 额度）；抽到 bundle 才写 true，否则保持 null。
+          monorepoQueue.push(r);
         }
       } catch { /* 网络失败：保持 null 下轮重试 */ }
     }
   };
   await Promise.all(Array.from({ length: BUNDLE_RAW_CONCURRENCY }, () => worker()));
-  log("bundle 扫描完成：" + hit + "/" + todo.length + "（raw 根 manifest 判定；null 缺口运行时补扫/下轮重试）");
+  // v1.20.1 第二遍：根 manifest 无 bundle 的仓库做 Trees 子包抽查
+  let monoHit = 0
+  const monoWorker = async () => {
+    while (monorepoQueue.length > 0) {
+      const r = monorepoQueue.shift()
+      if (r === undefined) return
+      try {
+        const res = await fetch('https://api.github.com/repos/' + r.full_name + '/git/trees/HEAD?recursive=1', {
+          headers: { 'user-agent': 'dsh-plugin-marketplace-registry', authorization: 'Bearer ' + (process.env.GH_TOKEN ?? ''), accept: 'application/vnd.github+json' },
+          signal: AbortSignal.timeout(15_000),
+        })
+        if (!res.ok) continue
+        const body = await res.json()
+        if (body.truncated === true) continue
+        const pkgs = (body.tree ?? [])
+          .filter(t => t.type === 'blob' && (t.path ?? '').endsWith('package.json') && !/node_modules/.test(t.path ?? ''))
+          .sort((a, b) => ((a.path ?? '').split('/').length - (b.path ?? '').split('/').length))
+          .slice(0, 20)
+        for (const pkg of pkgs) {
+          const raw = await fetch('https://raw.githubusercontent.com/' + r.full_name + '/HEAD/' + pkg.path, {
+            headers: { 'user-agent': 'dsh-plugin-marketplace-registry' },
+            signal: AbortSignal.timeout(10_000),
+          })
+          if (!raw.ok) continue
+          const parsed = JSON.parse((await raw.text()).slice(0, 200_000))
+          const hb = parsed !== null && typeof parsed === 'object' && parsed.dsh && typeof parsed.dsh === 'object' && parsed.dsh.bundle !== undefined
+          if (hb) { r.bundled = true; r.bundled_at = scanAt; monoHit++; break }
+        }
+      } catch { /* 保持 null */ }
+    }
+  }
+  await Promise.all(Array.from({ length: 4 }, monoWorker))
+  log("bundle 扫描完成：" + hit + "/" + todo.length + "（raw 根 manifest 判定 + Trees 子包抽查 " + monoHit + "；null 缺口运行时补扫/下轮重试）");
 }
 
 /**
