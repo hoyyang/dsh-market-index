@@ -1123,6 +1123,112 @@ async function enrichZhDescriptions(repos) {
   log(`多语言简介富化完成：${hit} 个（lang=${Object.keys(LANG_README_CANDIDATES).join("/")}）`);
 }
 
+// ------------------------------------------------------------------ v1.19
+
+/** README 结构信号（v1.19）：商店五维评分「实用/便捷」两维的静态数据源，
+ *  全部由正则得出，零 LLM。字段契约：
+ *  - readme_len: README 字符数（截断前长度代理）
+ *  - readme_install_section: 有无安装/使用章节标题（en/zh）
+ *  - readme_code_blocks: 代码块数量（``` 成对计）
+ *  - readme_heading: 有无一级标题（README 结构完整性）
+ *  - readme_cmds: 安装命令 ≤3 条（章节定位→代码块+$前缀→清洗→白名单）
+ *  - readme_needs_config: 需要 API key/环境变量（否定语境先摘除）
+ */
+const INSTALL_SECTION_RE = /^(install|installation|setup|getting started|quick start|deploy|安装|快速开始|开始使用|使用说明)/i;
+const INSTALL_CMD_RE =
+  /^(git clone|git submodule|dsh plugin|dsh\s+.*\sadd|pnpm (add|i)\b|npm (install|i)\b|npx skills add|npx @[^\s]+ add|curl .*install|pip install|uv (tool )?install|brew install|cargo install|yarn (add|global add))/;
+const CONFIG_KEY_RE =
+  /(?:^|[^A-Za-z])(GITHUB_TOKEN|GH_TOKEN|OPENAI_API_KEY|ANTHROPIC_API_KEY|DEEPSEEK_API_KEY|LLM_API_KEY|API_KEY|CLAUDE_API_KEY|AZURE_OPENAI|AWS_ACCESS_KEY|STRIPE_API_KEY|WEBHOOK_SECRET|SESSION_KEY)(?:[^A-Za-z]|$)/i;
+const NEGATION_RE =
+  /(?:不需要|无需|不用|免[^。；\n]{0,10}(?:配置|token|key)|no (?:api ?key|token|config|setup|configuration)|without (?:any )?(?:api ?key|token|config)|no configuration required|zero-?config|works (?:out of the box|without))/i;
+
+/** 从 README 文本提取结构信号（纯函数，可单测）。 */
+export function readmeSignals(text) {
+  const t = String(text ?? "");
+  const len = t.length;
+  // 安装章节定位：同级或更高级标题结束
+  let section = "";
+  const lines = t.split(/\r?\n/);
+  let start = -1;
+  let level = 0;
+  let hasInstallSection = false;
+  for (let i = 0; i < lines.length; i++) {
+    const m = lines[i].match(/^(#{1,4})\s+(.+)$/);
+    if (!m) continue;
+    const lv = m[1].length;
+    const title = m[2].toLowerCase();
+    if (start < 0) {
+      if (INSTALL_SECTION_RE.test(m[2])) { start = i; level = lv; hasInstallSection = true; }
+    } else if (lv <= level) {
+      section = lines.slice(start + 1, i).join("\n");
+      start = -2; // 已截取，不再更新
+    }
+  }
+  if (start >= 0) section = lines.slice(start + 1).join("\n");
+  const codeBlocks = (t.match(/\x60\x60\x60/g) ?? []).length;
+  const hasHeading = /^#\s+./m.test(t);
+
+  // 安装命令提取：章节内代码块 + $/# 前缀行 → 清洗 → 白名单 → 去重 ≤3
+  const cmds = [];
+  const push = (line) => {
+    let c = line.trim();
+    c = c.replace(/^[$#>]\s*/, "");
+    c = c.replace(/\s*#.*$/, "").trim();
+    if (/^(cd |mkdir |echo |touch |cat >|ls |rm )/.test(c) && !c.includes("&&")) return;
+    if (c && INSTALL_CMD_RE.test(c) && !cmds.includes(c) && cmds.length < 3) cmds.push(c);
+  };
+  // 章节提取；章节无果则兜底全文（与商店运行时 install-parse 同语义）
+  const scanForCmds = (src) => {
+    for (const m of src.matchAll(/\x60\x60\x60(?:bash|sh|shell|console|zsh)?\s*\n([\s\S]*?)\x60\x60\x60/g)) {
+      for (const line of m[1].split(/\r?\n/)) if (cmds.length < 3) push(line);
+    }
+    for (const line of src.split(/\r?\n/)) {
+      if (cmds.length >= 3) break;
+      if (/^\s*[$#>]\s*/.test(line)) push(line);
+    }
+  };
+  scanForCmds(section);
+  if (cmds.length === 0) scanForCmds(t);
+
+  const needsConfig = CONFIG_KEY_RE.test(t.replace(NEGATION_RE, " "));
+  return {
+    readme_len: len > 0 ? len : null,
+    readme_install_section: hasInstallSection,
+    readme_code_blocks: codeBlocks,
+    readme_heading: hasHeading,
+    readme_cmds: cmds,
+    readme_needs_config: needsConfig,
+  };
+}
+
+/** README 结构信号富化：对缺 readme_len 的仓库 raw 抓 README.md（零额度，
+ *  16 并发、8s 超时；全量约 3-6 分钟）。404/网络失败 → 不写字段（下轮重试）。 */
+async function enrichReadmeSignals(repos) {
+  const todo = repos.filter((r) => r.readme_len === undefined || r.readme_len === null);
+  if (todo.length === 0) return;
+  let cursor = 0;
+  let hit = 0;
+  const worker = async () => {
+    while (cursor < todo.length) {
+      const r = todo[cursor++];
+      const branch = r.default_branch ?? "main";
+      try {
+        const res = await fetch(`https://raw.githubusercontent.com/${r.full_name}/${branch}/README.md`, {
+          headers: { "User-Agent": "dsh-plugin-marketplace-registry" },
+          signal: AbortSignal.timeout(8000)
+        });
+        if (!res.ok) continue;
+        const text = (await res.text()).slice(0, 200000);
+        if (text.trim() === "") continue;
+        Object.assign(r, readmeSignals(text));
+        hit++;
+      } catch { /* 网络失败：保持缺失，下次构建重试 */ }
+    }
+  };
+  await Promise.all(Array.from({ length: 16 }, () => worker()));
+  log(`README 结构信号富化完成：${hit}/${todo.length}（readme_len/install_section/code_blocks/cmds/needs_config）`);
+}
+
 async function loadExisting() {
   // skills 模式优先读断点快照（比正式索引新，含中断前的探测进度），实现断点续跑
   const candidates = MODE === "skills" ? [PROBE_FILE, OUT_FILE] : [OUT_FILE];
@@ -1240,6 +1346,26 @@ async function main() {
     // v1.8：中文简介富化（商店语言切换的数据源）——只抓 README.zh 候选文件首段，
     // 仅全量跑（增量继承）；并发 16、超时 8s，9k 仓库约 3 分钟。
     if (MODE === "dsh" && !incremental) await enrichZhDescriptions(repos);
+    // v1.19：README 结构信号（评分实用/便捷两维静态数据源）——先继承旧索引，
+    // 再对缺口 raw 抓 README.md（零额度、16 并发、8s 超时，全量约 3-6 分钟）。
+    if (MODE === "dsh") {
+      let sigInherited = 0
+      for (const repo of repos) {
+        if (repo.readme_len !== undefined) continue
+        const prev = oldMap.get(repo.full_name)
+        if (prev && typeof prev.readme_len === "number") {
+          repo.readme_len = prev.readme_len
+          repo.readme_install_section = prev.readme_install_section
+          repo.readme_code_blocks = prev.readme_code_blocks
+          repo.readme_heading = prev.readme_heading
+          repo.readme_cmds = prev.readme_cmds
+          repo.readme_needs_config = prev.readme_needs_config
+          sigInherited++
+        }
+      }
+      if (sigInherited > 0) log("README 信号继承旧索引：" + sigInherited + " 条")
+      await enrichReadmeSignals(repos)
+    }
     // v1.11：GitHub tags 富化——v1.10 只定义了 enrichLatestTags 但从未调用，
     // latest_tag 全空（纯 tag 仓库在商店里没有版本号）。先继承旧索引已有的
     // latest_tag（全量整体替换不丢历史结果、额度只花在缺口上），再对仍缺的
