@@ -1730,9 +1730,15 @@ async function scanBundles(repos, oldMap) {
         if (res.status === 404) continue; // 无根 manifest：保持 null，运行时补扫
         if (!res.ok) continue;
         const parsed = JSON.parse((await res.text()).slice(0, 200_000));
-        r.bundled = parsed !== null && typeof parsed === "object" && parsed.dsh && typeof parsed.dsh === "object" && parsed.dsh.bundle !== undefined;
-        r.bundled_at = scanAt;
-        hit++;
+        // v1.20：根 manifest 存在但无 dsh.bundle 时不写 false（monorepo 等形态
+        // 的插件清单在子目录，根判定会误伤——如 dsh-web-ui）；保持 null，
+        // 交给商店运行时 Trees top-up（全树抽查）做准确判定。false 只由全树扫描给出。
+        const hasBundle = parsed !== null && typeof parsed === "object" && parsed.dsh && typeof parsed.dsh === "object" && parsed.dsh.bundle !== undefined;
+        if (hasBundle) {
+          r.bundled = true;
+          r.bundled_at = scanAt;
+          hit++;
+        }
       } catch { /* 网络失败：保持 null 下轮重试 */ }
     }
   };
