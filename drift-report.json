@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-08-24T14:51:54.349Z",
-  "count": 3,
+  "generated_at": "2026-08-24T15:50:40.268Z",
+  "count": 5,
   "items": [
+    {
+      "full_name": "398894496-arch/runtime36",
+      "previous": "vision",
+      "current": "memory",
+      "desc_now": "Second brain for coding agents. Seal the day, distill into Obsidian, hit that page tomorrow. Cursor, Codex, Claude Code, DeepSeek Harness.",
+      "desc_prev": "DSH-KRouter — Agent knowledge OS. Self-evolution. Timer on by default; API key or subscription is the key. First qualifying day auto-provisional; second accepted task → formal. Correction-first. Retrieval is the lock, not the product. Cursor, Codex, Claude Code, DeepSeek Harness."
+    },
+    {
+      "full_name": "qkycir-123/dsh-run2skill",
+      "previous": "agent",
+      "current": "conversation",
+      "desc_now": "Automatically turn successful DeepSeek Harness sessions into reusable, reviewable Agent Skills.",
+      "desc_prev": "DSH-native, local-first Run-to-Skill plugin for DeepSeek Harness"
+    },
     {
       "full_name": "iyam-x/iyam-dsh-desktop",
       "previous": "notify",
