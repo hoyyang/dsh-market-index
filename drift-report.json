@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-08-25T07:36:46.491Z",
+  "count": 2,
+  "items": [
+    {
+      "full_name": "superfish058/dsh-llm-proxy",
+      "previous": "other",
+      "current": "vision",
+      "desc_now": "DSH 模型代理插件：按模型粒度走代理（Clash 等）+ 失败自动重试 + 多模态模型镜像 + 逐模型测试连接，模型列表与官方同步，设置页实时生效。",
+      "desc_prev": "DSH 模型代理插件：按模型走代理（Clash 等）+ 失败自动重试，设置页实时生效。"
+    },
+    {
+      "full_name": "biggerboy/dsh-conversation-anchors",
+      "previous": "web-ui",
+      "current": "conversation",
+      "desc_now": "Codex-style conversation tick-rail for DeepSeek Harness Web GUI: per-turn dashes, hover preview, and click-to-scroll.",
+      "desc_prev": "Sidebar conversation anchor navigation plugin for DeepSeek Harness web GUI"
+    }
+  ]
+}
