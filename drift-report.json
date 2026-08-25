@@ -1,13 +1,20 @@
 {
-  "generated_at": "2026-08-25T14:57:11.502Z",
-  "count": 1,
+  "generated_at": "2026-08-25T15:54:53.781Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "cherrchen/dsh-plugin-git",
-      "previous": "other",
+      "full_name": "aorucshiea/dsh-preset-switch",
+      "previous": "agent",
       "current": "web-ui",
-      "desc_now": "DSH Git 仓库服务与 Client UI 插件，依赖 Details Host；DeepSeek Harness Desktop 预装。 / DSH Git repository service and client UI; requires Details Host; pre-installed in DeepSeek Harness Desktop.",
-      "desc_prev": null
+      "desc_now": "Optional mid-session agent-preset switching for DeepSeek Harness",
+      "desc_prev": "Optional mid-session agent-preset switching for DeepSeek Harness"
+    },
+    {
+      "full_name": "yangdongzhen590/dsh-knj-scheduler",
+      "previous": "conversation",
+      "current": "web-ui",
+      "desc_now": "Cron task scheduler for DeepSeek Harness: scheduled sessions with your prompt, workspace-aware placement, paginated execution history, open-session from the panel.",
+      "desc_prev": "Cron task scheduler for DeepSeek Harness: create a new session with your prompt on a schedule."
     }
   ]
 }
