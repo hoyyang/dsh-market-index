@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-08-25T14:57:11.502Z",
+  "count": 1,
+  "items": [
+    {
+      "full_name": "cherrchen/dsh-plugin-git",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "DSH Git 仓库服务与 Client UI 插件，依赖 Details Host；DeepSeek Harness Desktop 预装。 / DSH Git repository service and client UI; requires Details Host; pre-installed in DeepSeek Harness Desktop.",
+      "desc_prev": null
+    }
+  ]
+}
