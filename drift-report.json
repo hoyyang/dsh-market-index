@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-08-25T10:44:42.608Z",
+  "count": 1,
+  "items": [
+    {
+      "full_name": "Letter2025/dsh-task-worktree",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "Complete Git worktree support for DeepSeek Harness: task-scoped isolated checkouts on their own branches, recorded in a per-repo manifest that survives sessions and restarts",
+      "desc_prev": null
+    }
+  ]
+}
