@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-08-25T08:54:18.370Z",
+  "count": 2,
+  "items": [
+    {
+      "full_name": "NaNQiQ/deepseek-harness-remote-ssh",
+      "previous": "coding",
+      "current": "tool",
+      "desc_now": "让 DeepSeek Harness（DSH） 使用原生工具直接操作远程 Linux 服务器，自由切换服务器",
+      "desc_prev": "DeepSeek Harness（DSH）的远程 SSH 执行环境扩展插件，可在本地与远程 Linux/Unix 环境之间切换，让 DSH 原生文件、搜索、Shell 与终端工具直接在远端运行，无需修改 DSH 源码或在服务器安装额外 Agent。"
+    },
+    {
+      "full_name": "v587d/dsh-LLM-quotes",
+      "previous": "web-ui",
+      "current": "other",
+      "desc_now": "Latest LLM provider API prices, right inside DeepSeek Harness (dsh) → Settings → Models.最新的大模型（LLM）厂商 API 价格，直接显示在 DeepSeek Harness（dsh） 的 设置 → 模型 页面中。",
+      "desc_prev": "A dsh web plugin that shows current LLM API prices for every provider you have configured. Each provider card gets a compact Quotes block with per-model input/output prices and a details popup — no tab-switching, no manual lookups."
+    }
+  ]
+}
