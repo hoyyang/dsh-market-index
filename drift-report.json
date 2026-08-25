@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-25T08:54:18.370Z",
+  "generated_at": "2026-08-25T09:27:21.246Z",
   "count": 2,
   "items": [
     {
-      "full_name": "NaNQiQ/deepseek-harness-remote-ssh",
-      "previous": "coding",
+      "full_name": "biggerboy/dsh-conversation-anchors",
+      "previous": "conversation",
       "current": "tool",
-      "desc_now": "让 DeepSeek Harness（DSH） 使用原生工具直接操作远程 Linux 服务器，自由切换服务器",
-      "desc_prev": "DeepSeek Harness（DSH）的远程 SSH 执行环境扩展插件，可在本地与远程 Linux/Unix 环境之间切换，让 DSH 原生文件、搜索、Shell 与终端工具直接在远端运行，无需修改 DSH 源码或在服务器安装额外 Agent。"
+      "desc_now": "Codex-style tick-rail and thinking-process fold for DeepSeek Harness Web GUI: per-turn dashes, hover preview, click-to-scroll, eager history, collapsed Think/tool rows.",
+      "desc_prev": "Codex-style conversation tick-rail for DeepSeek Harness Web GUI: per-turn dashes, hover preview, and click-to-scroll."
     },
     {
-      "full_name": "v587d/dsh-LLM-quotes",
-      "previous": "web-ui",
-      "current": "other",
-      "desc_now": "Latest LLM provider API prices, right inside DeepSeek Harness (dsh) → Settings → Models.最新的大模型（LLM）厂商 API 价格，直接显示在 DeepSeek Harness（dsh） 的 设置 → 模型 页面中。",
-      "desc_prev": "A dsh web plugin that shows current LLM API prices for every provider you have configured. Each provider card gets a compact Quotes block with per-model input/output prices and a details popup — no tab-switching, no manual lookups."
+      "full_name": "popeye1113/dsh-question-jump-bar",
+      "previous": "other",
+      "current": "conversation",
+      "desc_now": "DSH Web 插件：会话右侧的问题索引标尺（Question Jump Bar），每个刻度一次提问，悬停预览、点击/键盘跳转。",
+      "desc_prev": null
     }
   ]
 }
