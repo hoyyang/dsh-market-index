@@ -1,21 +1,7 @@
 {
-  "generated_at": "2026-08-25T05:23:50.239Z",
-  "count": 5,
+  "generated_at": "2026-08-25T05:27:45.854Z",
+  "count": 3,
   "items": [
-    {
-      "full_name": "pointer-a/dsh-server-login",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "面向公网的多租户 DSH 托管平台 —— 部署到一台公网服务器后，多个用户注册并经管理员审核，各自获得一套相互隔离的 deepseek-harness（DSH）环境，随时通过域名安全访问。",
-      "desc_prev": "面向公网的多租户 DSH 托管平台 —— 部署到一台公网服务器后，多个用户注册并经管理员审核，各自获得一套相互隔离的 deepseek-harness（DSH）环境，随时通过域名安全访问。"
-    },
-    {
-      "full_name": "cxdyun/dsh-skills-marketplace",
-      "previous": "coding",
-      "current": "resource",
-      "desc_now": "DeepSeek Harness 版本的类 CodeX 插件市场",
-      "desc_prev": "DeepSeek Harness 版本的类 CodeX 插件市场"
-    },
     {
       "full_name": "Punky971210/dsh-punky-swarm",
       "previous": "coding",
@@ -24,11 +10,11 @@
       "desc_prev": "expandable-coding-team and plugins on dsh"
     },
     {
-      "full_name": "ac0033/dsh-ctm",
+      "full_name": "imkingjh999/dsh-deepsea",
       "previous": "other",
-      "current": "coding",
-      "desc_now": "dsh 插件：CTM 上下文/终端管理，把模型上下文变成可见、可编辑、可评分的一等对象",
-      "desc_prev": null
+      "current": "web-ui",
+      "desc_now": "DSH plugin: 深海摸鱼 —— context 越深潜得越深，答完摸鱼集镭射生物卡 | Deep-sea slacking holo cards",
+      "desc_prev": "DSH plugin: 深海垂钓 —— context 越深钩越沉，答完钓起镭射生物卡 | Deep-sea fishing holo cards"
     },
     {
       "full_name": "kongdexu/dsh-win-notify",
