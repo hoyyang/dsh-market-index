@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T11:38:33.675Z",
-  "count": 1101,
+  "generated_at": "2026-08-25T13:01:56.679Z",
+  "count": 1098,
   "entries": {
     "0326/dsh-plugin-market": {
       "kind": "market",
@@ -822,18 +822,6 @@
     "dsh-ai-org/top-dsh-plugins": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a plugin ranking/leaderboard site."
-    },
-    "dsh-external/awesome-dsh-plugins": {
-      "kind": "excluded",
-      "reason": "Not a DSH plugin — an auto-tested plugin radar/curated ranking (Top 50 + full index directory)."
-    },
-    "dsh-external/dsh-deeptag": {
-      "kind": "excluded",
-      "reason": "Not a DSH plugin — a WIP design-stage repo (\"尚无可安装插件\"), only product goals and architecture docs."
-    },
-    "dsh-external/dsh-sentinel": {
-      "kind": "excluded",
-      "reason": "Not a DSH plugin — a migrated tombstone repo pointing to fuhefei/dsh-sentinel; no content of its own."
     },
     "dsh-plugin/dsh-plugin.github.io": {
       "kind": "market",

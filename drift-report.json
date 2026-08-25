@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-08-25T13:01:55.056Z",
+  "count": 1,
+  "items": [
+    {
+      "full_name": "AlexKaiqi/dsh-multi-model-provider",
+      "previous": "other",
+      "current": "resource",
+      "desc_now": "Model catalog, portraits, Agent selection, and multimodal runtimes for DeepSeek Harness",
+      "desc_prev": "多模型支持"
+    }
+  ]
+}
