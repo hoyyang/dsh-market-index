@@ -1728,7 +1728,7 @@ async function scanBundles(repos, oldMap) {
           headers: { "User-Agent": "dsh-plugin-marketplace-registry" },
           signal: AbortSignal.timeout(10_000),
         });
-        if (res.status === 404) continue; // 无根 manifest：保持 null，运行时补扫
+        if (res.status === 404) { monorepoQueue.push(r); continue } // 无根 manifest：子包形态，交第二遍全树判
         if (!res.ok) continue;
         const parsed = JSON.parse((await res.text()).slice(0, 200_000));
         // v1.20：根 manifest 存在但无 dsh.bundle 时不写 false（monorepo 等形态
@@ -1739,21 +1739,58 @@ async function scanBundles(repos, oldMap) {
           r.bundled_at = scanAt;
           hit++;
         } else {
-          // v1.20.1：根 manifest 无 bundle → Trees 抽查子包（monorepo 判定，
-          // CI 有 GITHUB_TOKEN 额度）；抽到 bundle 才写 true，否则保持 null。
+          // v1.21：根 manifest 无 bundle → 全树子包抽查（jsDelivr data API 零额度优先，
+          // GitHub Trees API 兜底）；抽到 bundle 才写 true，否则保持 null。
           monorepoQueue.push(r);
         }
       } catch { /* 网络失败：保持 null 下轮重试 */ }
     }
   };
   await Promise.all(Array.from({ length: BUNDLE_RAW_CONCURRENCY }, () => worker()));
-  // v1.20.1 第二遍：根 manifest 无 bundle 的仓库做 Trees 子包抽查
+  // v1.21 第二遍：全树子包抽查——jsDelivr data API 文件树（零 API 额度，覆盖
+  // monorepo + 无根 manifest 两种形态）；jsDelivr 404/失败时退回 GitHub Trees。
   let monoHit = 0
+  let monoViaJsd = 0
+  const collectPkgPaths = (files, prefix = '', out = []) => {
+    for (const f of files ?? []) {
+      if (f && f.type === 'file' && typeof f.name === 'string') {
+        const p = prefix + f.name
+        if (p.endsWith('package.json') && !/node_modules/.test(p)) out.push(p)
+      } else if (f && f.type === 'directory' && typeof f.name === 'string') {
+        collectPkgPaths(f.files, prefix + f.name + '/', out)
+      }
+    }
+    return out
+  }
   const monoWorker = async () => {
     while (monorepoQueue.length > 0) {
       const r = monorepoQueue.shift()
       if (r === undefined) return
       try {
+        const branch = typeof r.default_branch === 'string' && r.default_branch !== '' ? r.default_branch : 'main'
+        const jsd = await fetch('https://data.jsdelivr.com/v1/packages/gh/' + r.full_name + '@' + branch, {
+          headers: { 'user-agent': 'dsh-plugin-marketplace-registry' },
+          signal: AbortSignal.timeout(15_000),
+        })
+        if (jsd.ok) {
+          const body = await jsd.json()
+          const pkgs = collectPkgPaths(body?.files)
+            .sort((a, b) => a.split('/').length - b.split('/').length)
+            .slice(0, 20)
+          for (const pkg of pkgs) {
+            const raw = await fetch('https://raw.githubusercontent.com/' + r.full_name + '/HEAD/' + pkg, {
+              headers: { 'user-agent': 'dsh-plugin-marketplace-registry' },
+              signal: AbortSignal.timeout(10_000),
+            })
+            if (!raw.ok) continue
+            const parsed = JSON.parse((await raw.text()).slice(0, 200_000))
+            const hb = parsed !== null && typeof parsed === 'object' && parsed.dsh && typeof parsed.dsh === 'object' && parsed.dsh.bundle !== undefined
+            if (hb) { r.bundled = true; r.bundled_at = scanAt; monoHit++; monoViaJsd++; break }
+          }
+          if (r.bundled === true) continue
+          if (pkgs.length > 0) continue // jsDelivr 树里确实没有带 bundle 的 manifest，不再耗 API 额度
+        }
+        // GitHub Trees API 兜底（token 额度有限）
         const res = await fetch('https://api.github.com/repos/' + r.full_name + '/git/trees/HEAD?recursive=1', {
           headers: { 'user-agent': 'dsh-plugin-marketplace-registry', authorization: 'Bearer ' + (process.env.GH_TOKEN ?? ''), accept: 'application/vnd.github+json' },
           signal: AbortSignal.timeout(15_000),
@@ -1778,8 +1815,8 @@ async function scanBundles(repos, oldMap) {
       } catch { /* 保持 null */ }
     }
   }
-  await Promise.all(Array.from({ length: 4 }, monoWorker))
-  log("bundle 扫描完成：" + hit + "/" + todo.length + "（raw 根 manifest 判定 + Trees 子包抽查 " + monoHit + "；null 缺口运行时补扫/下轮重试）");
+  await Promise.all(Array.from({ length: 8 }, monoWorker))
+  log("bundle 扫描完成：" + hit + "/" + todo.length + "（raw 根 manifest 判定 + 全树子包抽查 " + monoHit + "（jsDelivr " + monoViaJsd + "）；null 缺口运行时补扫/下轮重试）");
 }
 
 /**
