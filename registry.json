@@ -399591,15 +399591,9 @@
       ],
       "license": "MIT",
       "pkg_name": "dsh-mall",
-<<<<<<< Updated upstream
       "registry_seen_at": "2026-08-25T09:42:00.174Z",
       "version": "1.7.67",
-      "readme_len": 5683,
-=======
-      "registry_seen_at": "2026-08-25T09:24:50.168Z",
-      "version": "1.7.66",
       "readme_len": 3349,
->>>>>>> Stashed changes
       "readme_install_section": true,
       "readme_code_blocks": 2,
       "readme_heading": true,
