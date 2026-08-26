@@ -35,6 +35,8 @@ jobs:
         run: |
           node scripts/build-registry.mjs
           node scripts/build-exclusions.mjs
+          node scripts/downloads.mjs
+          node scripts/star-history.mjs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_REGISTRY: https://registry.npmjs.org
@@ -63,7 +65,7 @@ jobs:
           for attempt in 1 2 3; do
             git fetch origin main
             git reset --mixed origin/main
-            git add registry.json registry.json.gz exclusions.json drift-report.json installability-report.json 2>/dev/null || true
+            git add registry.json registry.json.gz exclusions.json drift-report.json installability-report.json downloads.json star-history.json 2>/dev/null || true
             if git diff --cached --quiet; then
               echo "no changes"
               exit 0
