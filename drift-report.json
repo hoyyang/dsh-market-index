@@ -1,27 +1,34 @@
 {
-  "generated_at": "2026-08-26T04:16:27.585Z",
-  "count": 3,
+  "generated_at": "2026-08-26T06:09:50.472Z",
+  "count": 4,
   "items": [
     {
-      "full_name": "yuxino/dsh-blue-whale-maid",
-      "previous": "web-ui",
-      "current": "notify",
-      "desc_now": "DeepSeek Harness 桌宠插件。跟随任务状态动作，在需要确认、任务结束或失败时提醒你。",
-      "desc_prev": "运行在 deepseek harness 上的女仆酱"
+      "full_name": "pointer-a/dsh-server-login",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "面向公网的多租户 DSH 托管平台 —— 部署到一台公网服务器后，多个用户注册并经管理员审核，各自获得一套相互隔离的 deepseek-harness（DSH）环境，随时通过域名安全访问。",
+      "desc_prev": "面向公网的多租户 DSH 托管平台 —— 部署到一台公网服务器后，多个用户注册并经管理员审核，各自获得一套相互隔离的 deepseek-harness（DSH）环境，随时通过域名安全访问。"
     },
     {
-      "full_name": "f20880479-lab/dsh-peak-gate",
-      "previous": "resource",
-      "current": "other",
-      "desc_now": "deep seek harness插件，可以将高峰时段的工作延迟到空闲时段再工作",
-      "desc_prev": "deep seek harness插件，可以将高峰时段的工作延迟到空闲时段再工作"
+      "full_name": "cxdyun/dsh-skills-marketplace",
+      "previous": "coding",
+      "current": "resource",
+      "desc_now": "DeepSeek Harness 版本的类 CodeX 插件市场",
+      "desc_prev": "DeepSeek Harness 版本的类 CodeX 插件市场"
     },
     {
-      "full_name": "outprintHelloLi/dsh-piggy-bank",
-      "previous": "web-ui",
-      "current": "model",
-      "desc_now": "dsh插件：DeepSeek 余额展示",
-      "desc_prev": "dsh插件：DeepSeek 官方余额状态栏（DSH web 插件）"
+      "full_name": "ac0033/dsh-ctm",
+      "previous": "other",
+      "current": "coding",
+      "desc_now": "dsh 插件：CTM 上下文/终端管理，把模型上下文变成可见、可编辑、可评分的一等对象",
+      "desc_prev": null
+    },
+    {
+      "full_name": "Muredsa/dsh-benchup",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "Install with npm i dsh-benchup. Reproducible, profile-aware benchmarks for DeepSeek Harness — compare models, plugins, prompts, and agent strategies.",
+      "desc_prev": null
     }
   ]
 }
