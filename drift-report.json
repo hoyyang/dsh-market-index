@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-08-26T08:17:46.522Z",
+  "count": 1,
+  "items": [
+    {
+      "full_name": "SiriLee/dsh-rewind",
+      "previous": "tool",
+      "current": "memory",
+      "desc_now": "DeepSeek Harness plugin: in-place conversation rewind in the same session window (Claude Code /rewind semantics) + optional file restore",
+      "desc_prev": "DeepSeek Harness plugin: in-place conversation rewind in the same session window (Claude Code /rewind semantics) + optional file restore"
+    }
+  ]
+}
