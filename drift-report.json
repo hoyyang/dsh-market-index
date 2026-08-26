@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-26T13:17:30.399Z",
+  "generated_at": "2026-08-26T14:21:41.851Z",
   "count": 2,
   "items": [
     {
-      "full_name": "AndrasSama/dsh-omp-advisor",
-      "previous": "agent",
-      "current": "tool",
-      "desc_now": "Ward concil is oh-my-pi advisor subsystem ported to DeepSeek Harness — independent reviewer models watch your agent and advise it (nit injects, concern/blocker steer) it also include an auto resume and git checkpoints",
-      "desc_prev": "oh-my-pi advisor subsystem ported to DeepSeek Harness — independent reviewer models watch your agent and advise it (nit injects, concern/blocker steer)"
+      "full_name": "baosfeng/my-dsh-plugins",
+      "previous": "web-ui",
+      "current": "notify",
+      "desc_now": "DSH（DeepSeek Harness）插件集合仓库：文件活动、思考增强、Mermaid 渲染、通知提醒、插件守护、Skill 管理、任务可靠性、插件开发模式等 8 个插件，独立版本、GitHub Release 发布",
+      "desc_prev": "DSH 侧边栏文件活动插件：记录文件读取 / 新增 / 修改历史与统计，按文件夹平铺展示，基于 dsh-better-sidebar"
     },
     {
-      "full_name": "liujia-io/dsh-image-picker",
-      "previous": "conversation",
+      "full_name": "0N3-0/dsh-tui-mcp-manager",
+      "previous": "other",
       "current": "tool",
-      "desc_now": "Paperclip image-picker button for the DeepSeek Harness web composer - pick reference images via the system file dialog and feed them into the official attachment pipeline.",
-      "desc_prev": null
+      "desc_now": "  面向 dsh-TUI 的原生 MCP Server 管理插件：通过 /mcp-manager 浮窗完成 MCP CRUD、启停、Sets、复制、Inspector、Tool schema、Doctor Lite 和凭据引用管理，并将配   置原子写入当前 profile，支持 Cordis HMR 热重载。",
+      "desc_prev": "在dsh-TUI提供/mcp-manager命令，可以热插拔、实时配置mcp"
     }
   ]
 }
