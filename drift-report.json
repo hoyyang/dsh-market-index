@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-26T10:14:51.404Z",
+  "generated_at": "2026-08-26T11:10:46.850Z",
   "count": 1,
   "items": [
     {
-      "full_name": "qwe225380/dsh-omni-router",
-      "previous": "agent",
-      "current": "tool",
-      "desc_now": "Task-level reliability layer for DeepSeek Harness - decide when to intervene, prepare context, verify evidence, recover from failure. Reuses existing Skills/Tools/Plugins.",
-      "desc_prev": "Capability-aware reliability layer for DeepSeek Harness - reuse existing Skills/Plugins, fill gaps, recover from failures, prove completion."
+      "full_name": "sakthiveltofficial/dsh-shopify-plugins",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "Shopify plugin for DeepSeek Harness: 213 model-facing shopify_* tools over the Shopify Admin REST + GraphQL APIs (products, orders, customers, inventory, fulfillments, discounts, content, webhooks, themes, billing, bulk operations) with Admin API access-token auth.",
+      "desc_prev": null
     }
   ]
 }
