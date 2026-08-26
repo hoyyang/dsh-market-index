@@ -1,13 +1,48 @@
 {
-  "generated_at": "2026-08-26T08:17:46.522Z",
-  "count": 1,
+  "generated_at": "2026-08-26T09:18:54.530Z",
+  "count": 6,
   "items": [
     {
-      "full_name": "SiriLee/dsh-rewind",
+      "full_name": "lamost423/dsh-maze",
+      "previous": "agent",
+      "current": "conversation",
+      "desc_now": "DeepSeek Harness 的执行迷宫——看 Agent 真实怎么干活：迷宫时间轴 · 数据轨道 · 确定性执行分析 · 多会话对比 | The execution maze for DSH agents: maze timeline, per-step data tracks, deterministic execution analysis, multi-session comparison. Formerly dsh-trace-compare.",
+      "desc_prev": "The execution maze for DeepSeek Harness agents — see how the agent actually worked: maze timeline, per-step data tracks, deterministic execution analysis, multi-session comparison. Formerly dsh-trace-compare."
+    },
+    {
+      "full_name": "Ultronen/dsh-archived-chats",
       "previous": "tool",
-      "current": "memory",
-      "desc_now": "DeepSeek Harness plugin: in-place conversation rewind in the same session window (Claude Code /rewind semantics) + optional file restore",
-      "desc_prev": "DeepSeek Harness plugin: in-place conversation rewind in the same session window (Claude Code /rewind semantics) + optional file restore"
+      "current": "resource",
+      "desc_now": "会话档案 / Session Archive for DeepSeek Harness：按工作区浏览和全文搜索归档聊天，原生只读预览消息、工具活动与已存储图片，管理标签备注、历史版本恢复为副本与 ZIP 备份恢复；提供带保护快照的可撤销回收站、空间分账、保留策略及来源与分支。所有数据留在本机。 Session Archive: full-text search, read-only preview, History restore-as-copy, ZIP backups, Recycle Bin, storage accounting, retention, and lineage. All data stays local.",
+      "desc_prev": "本地归档聊天中心：搜索和预览完整对话、历史版本与恢复副本、ZIP 备份、可撤销回收站、保留策略及来源与分支。Local archived-chat manager: full-text preview, local history, restore-as-copy, ZIP backups, Recycle Bin, retention, and Origins & Branches."
+    },
+    {
+      "full_name": "pointer-a/dsh-server-login",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "面向公网的多租户 DSH 托管平台 —— 部署到一台公网服务器后，多个用户注册并经管理员审核，各自获得一套相互隔离的 deepseek-harness（DSH）环境，随时通过域名安全访问。",
+      "desc_prev": "面向公网的多租户 DSH 托管平台 —— 部署到一台公网服务器后，多个用户注册并经管理员审核，各自获得一套相互隔离的 deepseek-harness（DSH）环境，随时通过域名安全访问。"
+    },
+    {
+      "full_name": "SiriLee/dsh-edit-approval",
+      "previous": "coding",
+      "current": "other",
+      "desc_now": "Per-edit approval gate for DeepSeek Harness — red/green line diff review before write/edit/stream operations · DSH 插件：逐操作审批门，write/edit/stream 执行前进行红绿行级 diff 审查",
+      "desc_prev": "DeepSeek Harness plugin: per-edit approval with red/green line diff before write/edit/str_replace_editor (approve / reject / always allow)"
+    },
+    {
+      "full_name": "YINGCHAO-98/dsh-private-plugins",
+      "previous": "resource",
+      "current": "tool",
+      "desc_now": "在 DeepSeek Harness Web 设置中统一导入、启用、更新和管理本地及云端私有插件。",
+      "desc_prev": "dsh-plugin-manager"
+    },
+    {
+      "full_name": "stultuss/dsh-clear-tool-results",
+      "previous": "tool",
+      "current": "resource",
+      "desc_now": "DSH 宿主插件：每轮对话结束后，把该轮的原始工具结果归档（tool result）到会话目录（tool-result-logs），并从上下文中清除，减少 Token 消耗；模型可用 read_tool_result_log 工具按轮次或时间自主读取归档数据。",
+      "desc_prev": "DeepSeek Harness（DSH）host 平面插件：**每个 turn 结束时，把上一轮产生的 `tool/result` 从模型上下文中清除**，并提供聊天命令开关："
     }
   ]
 }
