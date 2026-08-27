@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-27T00:37:13.982Z",
-  "count": 1162,
+  "generated_at": "2026-08-27T11:07:50.257Z",
+  "count": 1178,
   "entries": {
     "0326/dsh-plugin-market": {
       "kind": "market",
@@ -1926,6 +1926,14 @@
     "zzhang82/Agent-Memory-Bridge": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic MCP memory server for coding agents."
+    },
+    "Minglink/dsh-infinite-gen-2": {
+      "kind": "excluded",
+      "reason": "A DeepSeek-focused prompt-injection (\"armor-breaking\") jailbreak plugin that suppresses the host model's system instructions; kept out of the catalog on safety grounds."
+    },
+    "harness-home/harness-ai-plugins": {
+      "kind": "excluded",
+      "reason": "Not an installable DSH plugin — an npm-registry scanner and its generated community-plugin-catalog snapshot feeding harnessai.io."
     },
     "adoresever/graph-memory": {
       "kind": "leaderboard",
@@ -4650,6 +4658,62 @@
     "ztmajor/DSCoder": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a Tauri desktop shell for DSH; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "imsai-sh/dsh-1024store": {
+      "kind": "market",
+      "reason": "A DSH plugin market / store (deepseek1024.com site, in-app Store plugin and public query API) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "dsh-plugins/dsh-plugin-market": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "loiasdi/dsh-prompthub-ecosystem": {
+      "kind": "market",
+      "reason": "A read-only plugin/skill catalog directory built into DSH Settings — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "BISTU-guheihei/DSH-SessionManager": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — a standalone GUI session-manager tool for local ~/.dsh files; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "NekroAI/nekro-nxt": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — an instant-messaging group-chat agent platform that embeds the DSH runtime kernel; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Jackywxsz/DSH-Creator": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — a local content-creator workbench app distributed via GitHub Releases on top of DSH Desktop; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Ranz-Feng/dsh-web-import": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — a standalone npm CLI that imports DeepSeek Web chat history into Harness; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "lyuwen/dsh-as-service": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — systemd user-service scripts for running `dsh web` in the background; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "cslht11/dsh-provider-config": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — provider configuration templates and retry-policy best-practice documentation; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Ya-MiC/zhanzhen": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — an accounting-audit risk platform (FastAPI + Vue3 with pip/exe distribution) that only ships a small dsh-plugin adapter subfolder; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "zdjmrq/dsh-chat-mode": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — a chat-mode preset plus a git-apply source patch over a Harness checkout; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "wanyexin1998/dsh-workbench": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — requires building a pinned Harness fork locally; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "buchylx/create-dsh-content-plugin": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — an npx scaffolding CLI that generates content-automation plugin projects; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Che-Year/dsh-pet-lulu": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — a standalone Python desktop-pet toy run alongside DSH; stays in the catalog and leaderboard, excluded from the downstream market."
     }
   }
 }
