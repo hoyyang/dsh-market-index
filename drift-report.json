@@ -1,41 +1,27 @@
 {
-  "generated_at": "2026-08-29T12:23:26.131Z",
-  "count": 5,
+  "generated_at": "2026-08-29T14:22:13.236Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "chuspeeism/dashi-taskboard",
+      "full_name": "fb0sh/dsh-pentester",
       "previous": "other",
       "current": "web-ui",
-      "desc_now": "现代化可灵活嵌入的任务面板，支持 Codex、DeepSeek Harness",
+      "desc_now": "基于 DeepSeek Harness 的多 Agent PTES 渗透测试编排插件，支持自动化侦察、漏洞分析、验证与报告，使用 Docker/Kali 隔离工具箱 | Multi-agent PTES penetration testing plugin for DeepSeek Harness with automated recon, vulnerability analysis, validation, reporting, and Docker/Kali toolbox",
       "desc_prev": null
     },
     {
-      "full_name": "ai-eks/dsh-docking-layout",
-      "previous": "web-ui",
-      "current": "coding",
-      "desc_now": "Organize unlimited conversation tabs into editor-style, drag-to-split groups for DeepSeek Harness Web.",
-      "desc_prev": null
+      "full_name": "See-Sol-Lab/DeepSeekGUI",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "A Windows desktop client for DeepSeek Harness. V1 wraps the official Web UI; v2 (independent workbench) in development.",
+      "desc_prev": "一个非官方的基于dsh的GUI。An unofficial Windows desktop workbench for DeepSeek Harness."
     },
     {
-      "full_name": "ccll/dsh-activity-pane",
-      "previous": "other",
-      "current": "conversation",
-      "desc_now": "Activity session overview pane for DeepSeek Harness (DSH) web — running sessions, sub-agents, waiting-for-action reminders & recent history at a glance / DSH 活动会话总览窗格",
-      "desc_prev": null
-    },
-    {
-      "full_name": "omdsh-dev/dsh-accessibility",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "DSH accessibility companion, core remediation, test tooling, assistive-technology evidence, and accessible authoring.",
-      "desc_prev": "Screen-reader guidance and in-app accessibility diagnostics for DeepSeek Harness"
-    },
-    {
-      "full_name": "Missher12/deepseek-harness-desktop",
-      "previous": "other",
-      "current": "vision",
-      "desc_now": "Unofficial Intel macOS desktop app for DeepSeek Harness",
-      "desc_prev": "Unofficial Intel macOS desktop app for DeepSeek Harness"
+      "full_name": "wp-a/dsh-academic-paper-search",
+      "previous": "tool",
+      "current": "document",
+      "desc_now": "DeepSeek Harness 的中文学术论文检索 Bundle：复用 Academic Paper Search MCP，支持多源检索去重、引用核验、引文图谱、MeSH、试验检索与审计导出。",
+      "desc_prev": "DeepSeek Harness Bundle for verified multi-source academic paper search"
     }
   ]
 }
