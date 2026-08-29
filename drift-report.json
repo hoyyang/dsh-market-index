@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-08-29T17:55:06.241Z",
+  "generated_at": "2026-08-29T20:45:28.815Z",
   "count": 4,
   "items": [
     {
-      "full_name": "Likenttt/garmin-connect-plugin-for-dsh",
-      "previous": "other",
-      "current": "coding",
-      "desc_now": "A TypeScript-based Garmin Connect plugin and MCP server with secure browser-based MFA, built for DeepSeek Harness and designed to work with other AI agents.",
-      "desc_prev": "DeepSeek Harness plugin for Garmin Connect — AI-powered fitness data access"
-    },
-    {
-      "full_name": "w1661884010-jpg/dsh-plugin-github-market",
+      "full_name": "left0ver/dsh-file-review",
       "previous": "tool",
       "current": "web-ui",
-      "desc_now": "DSH web client plugin: browse GitHub dsh-plugin topic repositories - plugin market tab, category tags, three-part filters, growth ranking, fuzzy search, favorites, install-command copy",
-      "desc_prev": "DSH web client plugin: browse GitHub dsh-plugin topic repositories (fuzzy search, sort, favorites, install-command copy, optional token)"
+      "desc_now": "dsh插件 - 立刻审查agent对文件的修改，查看diff，支持dsh-better-sidebar。a dsh plugin - review  files that an agent just changed,you can see the diff,support dsh-better-sidebar",
+      "desc_prev": "dsh插件 - 立刻审查agent对文件的修改，查看diff。a dsh plugin - review  files that an agent just changed,you can see the diff"
     },
     {
-      "full_name": "FloatingLifeTL/dsh-plugin_session-manager-custom",
-      "previous": "other",
-      "current": "coding",
-      "desc_now": "DeepSeek Harness Web plugin for local session data management | 当前项目仓库暂停开发且作归档状态",
-      "desc_prev": "DeepSeek Harness Web plugin for local session data management"
-    },
-    {
-      "full_name": "rogerdigital/dsh-vet",
+      "full_name": "WODE25500/dsh-skillopt",
       "previous": "other",
       "current": "tool",
-      "desc_now": "Security vetting for DeepSeek Harness (DSH) plugins: permission & supply-chain audits before install, graded via the open dsh-vet/v1 report standard.",
-      "desc_prev": null
+      "desc_now": "Nightly self-improvement for your DeepSeek Harness agent: harvest past sessions, replay recurring tasks, and consolidate validated skills behind a held-out gate. Brings microsoft/SkillOpt's SkillOpt-Sleep engine to dsh as native tools + a bundled skill (MIT).",
+      "desc_prev": "Microsoft SkillOpt-Sleep integration for DeepSeek Harness (dsh): nightly sleep cycle - harvest sessions, replay recurring tasks, consolidate validated skills behind a held-out gate. ?? DSH ? SkillOpt ??"
+    },
+    {
+      "full_name": "WSL043/dsh-deepseek-dashboard",
+      "previous": "model",
+      "current": "web-ui",
+      "desc_now": "DeepSeek Harness 的 DeepSeek API 余额与本地用量面板：请求、Token、缓存和模型统计。",
+      "desc_prev": "DeepSeek API cash balance and private DSH-local request, token, cache, daily, and per-model usage charts."
+    },
+    {
+      "full_name": "WSL043/dsh-image-viewer",
+      "previous": "memory",
+      "current": "tool",
+      "desc_now": "DeepSeek Harness 图片查看器：缩放、平移、原图下载、图库与区域标注。",
+      "desc_prev": "Zoom, pan, download, gallery, and region-note image viewing for DeepSeek Harness."
     }
   ]
 }
