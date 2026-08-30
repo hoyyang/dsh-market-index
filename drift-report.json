@@ -1,34 +1,20 @@
 {
-  "generated_at": "2026-08-30T18:04:40.559Z",
-  "count": 4,
+  "generated_at": "2026-08-30T21:02:32.063Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "Suiwan/whale-purse",
-      "previous": "web-ui",
-      "current": "notify",
-      "desc_now": "A cute whale desktop pet for DeepSeek Harness that keeps an eye on your DeepSeek balance and session usage/cost. Drag her anywhere, click to open a live panel with real-time spend, peak/off-peak pricing, budget alerts, and history trends.",
-      "desc_prev": null
+      "full_name": "pgmi-builds/better-dsh",
+      "previous": "coding",
+      "current": "memory",
+      "desc_now": "Make your dsh ready for serious coding tasks. (Tools x Schemas)^REPL. skill://, ctx://, agent://, dvc://, dsh://, IPython REPL, Context as Variables, cross compactions recallable, full context revive. hash-edit, dvc://browser, subagent as function, workflow as function.",
+      "desc_prev": "dsh RLM mode (Recursive Language Models), iPython REPL tool-calling interface, context-as-variables, in dsh Everything is a Plugin ecosystem."
     },
     {
-      "full_name": "GooDAnDReaDY/dsh-tts",
-      "previous": "web-ui",
-      "current": "other",
-      "desc_now": "Text-to-speech for DeepSeek Harness: neural voice read-aloud with multi-provider fallback chains",
-      "desc_prev": "Text-to-speech for DeepSeek Harness Web UI: speak agent replies via a provider fallback chain (OpenAI, ElevenLabs, Google, Azure, Groq, Deepgram, OpenRouter, Edge, Piper, eSpeak)"
-    },
-    {
-      "full_name": "GooDAnDReaDY/dsh-lanmode",
-      "previous": "other",
-      "current": "web-ui",
-      "desc_now": "LAN network routing and browser media API compatibility helper for DeepSeek Harness Web UI",
-      "desc_prev": "Settings over the LAN for DeepSeek Harness"
-    },
-    {
-      "full_name": "chen70456-lang/dsh-tmwebdriver",
+      "full_name": "bruc3van/dsh-doctor",
       "previous": "tool",
-      "current": "vision",
-      "desc_now": "One tool, infinite reach: arbitrary JS in your real logged-in browser. Unlike fixed-action plugins, browser_execute_js does anything DevTools can — read, click, type, fill, navigate, screenshot, CDP. Plus list_tabs/snapshot/type. Zero-setup, self-healing.",
-      "desc_prev": "DSH plugin: give your agent direct control of your real logged-in browser (list tabs, run JS, CDP, cookies) with GA-compatible lazy master start."
+      "current": "coding",
+      "desc_now": "帮助 Agent 诊断和升级 DeepSeek Harness 插件，从 DSH 0.1.1 适配到 0.1.2：识别 API 变化、修改代码、处理语义迁移，并为重新发布做好准备。",
+      "desc_prev": "DSH Doctor 面向 DSH 与插件使用者，帮助快速找出导致 DSH 启动异常或升级后不可用的插件，集中说明每个插件的问题、影响与处理方式，并检查常见的 profile 配置和版本漂移。诊断默认完全只读；只有显式使用 --fix、核对并确认精确的修复计划后才会执行，文件修改会先创建备份。"
     }
   ]
 }
