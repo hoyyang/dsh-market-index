@@ -1,20 +1,41 @@
 {
-  "generated_at": "2026-08-30T11:20:52.112Z",
-  "count": 2,
+  "generated_at": "2026-08-30T14:01:26.745Z",
+  "count": 5,
   "items": [
     {
-      "full_name": "Nyasers/dsh-hanako",
+      "full_name": "LaoQianwocao/dsh-sound-player",
       "previous": "other",
-      "current": "agent",
-      "desc_now": "DSHana, let DeepSeek Harness work as subagent for HanaAgent",
-      "desc_prev": "DSH for Hanako"
+      "current": "tool",
+      "desc_now": "DSH Web 音效播放器（设置页管理）：对话完成、发送消息、权限请求、被提问、服务终止、子代理运行完成、最后一个子代理运行完成等 7 类场景触发提示音；内置 Web Audio 合成音效与 Windows 系统提示音，可导入自定义音频并逐项绑定；提供 soundPlayer API 供其他插件集成",
+      "desc_prev": "DSH Web 音效播放器插件（悬浮窗 + 情况触发音效 + 供其他插件使用的 API）"
     },
     {
-      "full_name": "Stylelinzzz/dsh-chat-history",
-      "previous": "conversation",
+      "full_name": "MarecGents/deepseek-harness-hub",
+      "previous": "resource",
+      "current": "coding",
+      "desc_now": "DeepSeek Harness 生态的 Windows 桌面插件项目。 A Windows desktop plugin project for the DeepSeek Harness ecosystem.",
+      "desc_prev": "windows desktop project as plugin for deepseek harness"
+    },
+    {
+      "full_name": "zhang-jiazhi/dsh-stats-panel",
+      "previous": "web-ui",
       "current": "resource",
-      "desc_now": "Chat history TOC for DeepSeek Harness: a History conversation view tab listing user messages with auto-paging and click-to-jump back into the chat. / DeepSeek Harness 会话目录插件：用户消息历史一键跳转。",
+      "desc_now": "DeepSeek Harness Token 用量统计面板：模型/渠道聚合、余额配额、精确归档与费用估算",
+      "desc_prev": "dsh插件"
+    },
+    {
+      "full_name": "PianoPrince/dsh-workspace-mover",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "拖拽跨工作区真迁移 DSH 会话：批量移动、挂错归位、分组合并；步步备份回滚，零 token 消耗 / Move DSH sessions across workspaces by drag & drop — true migration, batch move, misfiled homing, group merge; backups + rollback, zero tokens.",
       "desc_prev": null
+    },
+    {
+      "full_name": "maiziman/deepseek-harness-portable",
+      "previous": "tool",
+      "current": "vision",
+      "desc_now": "Community-built Windows desktop wrapper for official tagged DeepSeek Harness source — unzip and run; no Node.js, installer, or admin rights.",
+      "desc_prev": "Portable, zero-install DeepSeek Harness desktop app for Windows — one ZIP, no Node.js or admin rights."
     }
   ]
 }
