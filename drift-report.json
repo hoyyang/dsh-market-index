@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-08-31T16:24:59.570Z",
+  "count": 3,
+  "items": [
+    {
+      "full_name": "tttnny/my-dsh",
+      "previous": "resource",
+      "current": "other",
+      "desc_now": "DeepSeek Harness 插件/补丁/preset 合集 | DSH plugins, patches & presets",
+      "desc_prev": "DeepSeek Harness 插件/补丁/preset 合集：沉浸式官网皮肤（极光·鲸鱼·星座 + 玻璃拟态/Beam/Orbs）、工作区多级树、吸顶 Prompt、双通道翻译、A6API 聚合接入 | DSH plugins, patches & presets"
+    },
+    {
+      "full_name": "Rainronin/dsh-balance-monitor",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "DeepSeek Harness 插件：DeepSeek API 余额实时监测（官方 /user/balance 快照 + ds_balance 工具 + 峰谷计价状态 + 单会话费用估算 + dsh 原生风格侧边栏徽章）",
+      "desc_prev": "一个好看、简单、实用的余额监视器｜DeepSeek Harness 插件：官方余额快照 + ds_balance 工具 + 峰谷计价区间 + Matrix/原生双风格徽章"
+    },
+    {
+      "full_name": "WhaleHarness/WhaleHarness",
+      "previous": "web-ui",
+      "current": "resource",
+      "desc_now": "WhaleHarness: a curated DeepSeek Harness plugin store — every plugin boot-verified in an isolated sandbox and sha256-pinned, transparent public review, plus a live 6-hourly audit of the whole DSH ecosystem (counts in /audit.json). AI-agent-readable (agent.json / llms.txt / rankings.json). We verify, you install.",
+      "desc_prev": "WhaleHarness: verified plugin store & audit for DeepSeek Harness. 180 verified plugins, 2752 audited DSH repos (2053 authors), AI-agent-readable data (agent.json/llms.txt/audit.json/rankings.json). We verify, you install."
+    }
+  ]
+}
