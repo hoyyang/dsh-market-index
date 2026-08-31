@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-30T23:29:01.340Z",
+  "generated_at": "2026-08-31T01:35:41.387Z",
   "count": 1,
   "items": [
     {
-      "full_name": "Jstn-1g/dsh-live-voice",
-      "previous": "conversation",
-      "current": "notify",
-      "desc_now": "DSH Live Voice: consent-bound one-turn voice for DeepSeek Harness, with a credential-free local synthetic demo, exact-Session isolation, and explicit draft handoff.",
-      "desc_prev": "DSH Live Voice preview: consent-bound voice add-on for DeepSeek Harness with exact-Session isolation and one bounded manual audio turn."
+      "full_name": "zhu1090093659/dsh-web",
+      "previous": "resource",
+      "current": "web-ui",
+      "desc_now": "DeepSeek Harness (DSH) Web Plugin Aggregation Ecosystem · Everything is a plugin, distributed via the Creative Workshop",
+      "desc_prev": "DeepSeek Harness（DSH）Web 插件聚合生态包 · 一切皆插件，创意工坊分发"
     }
   ]
 }
