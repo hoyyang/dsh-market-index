@@ -1,34 +1,13 @@
 {
-  "generated_at": "2026-09-01T06:45:24.778Z",
-  "count": 4,
+  "generated_at": "2026-09-01T10:40:07.880Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "A3Boy/dsh-web-tools",
+      "full_name": "doublemolu/dsh-costometer",
       "previous": "web-ui",
-      "current": "tool",
-      "desc_now": "Multi-provider Web Search & Fetch for DeepSeek Harness — 8 deeply adapted providers, SearchHints, resilient fallback, and native X / Xiaohongshu retrieval.",
-      "desc_prev": "Multi-provider Web Search & Fetch for DeepSeek Harness — Tavily, Exa, Firecrawl, Brave, You.com, Jina & SearXNG with fallback and native settings UI."
-    },
-    {
-      "full_name": "AFAP/dsh-input-file-ref",
-      "previous": "web-ui",
-      "current": "tool",
-      "desc_now": "【已归档】dsh-input-file-ref（不再维护）：DeepSeek Harness 0.1.2-alpha.3 起已原生支持 @ 选取文件/文件夹/会话，请直接升级最新版，无需本插件。",
-      "desc_prev": "输入框文件引用插件：在 DeepSeek Harness Web GUI 输入框里像 Kimicode/Cursor 那样，输入 @ 弹出可搜索、可逐级下钻的文件选择面板，选中后把 @相对路径 回填进输入框（保留 @、末尾一空格），让模型按路径读取该文件。"
-    },
-    {
-      "full_name": "yuioi666/dsh-conversation-nav-dots",
-      "previous": "conversation",
-      "current": "web-ui",
-      "desc_now": "dsh-conversation-nav-dots 在 DSH Web 对话界面的右侧添加一列导航标记。每个标记对应一条用户消息。点击即可跳转，悬停可预览所有消息内容。",
-      "desc_prev": null
-    },
-    {
-      "full_name": "aiyacharley/dsh-pubmed",
-      "previous": "tool",
-      "current": "memory",
-      "desc_now": "DSH plugin for DeepSeek Harness: 20 model tools for PubMed & Europe PMC — search, metadata, full text, citations, MeSH & ID tools — plus a personal literature knowledge graph with an AI-powered PubTator3 concept layer (normalized entities, curated relations, evidence-backed edges).",
-      "desc_prev": "把 pubmed-mcp-server 的核心能力 移植成 DSH 原生模型工具：搜索、文章元数据、全文、引用格式化、MeSH、ID 转换等 11 个工具， 直接对接 NCBI E-utilities 与 Europe PMC REST，无需额外的 MCP 客户端配置。"
+      "current": "model",
+      "desc_now": "花知多少 · Cost-O-Meter — DeepSeek Harness cost & balance meter: account balance, recharge history, per-conversation spend & tokens, 50-yuan segmented progress bar, low-balance guard, 8 languages & currencies with auto FX rates (CNY base).",
+      "desc_prev": "DeepSeek Harness balance dock: balance card, per-conversation spend/tokens, 50-yuan segmented progress bar, recharge button, position guard"
     }
   ]
 }
