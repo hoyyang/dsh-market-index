@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-01T10:40:07.880Z",
+  "generated_at": "2026-09-01T12:31:08.049Z",
   "count": 1,
   "items": [
     {
-      "full_name": "doublemolu/dsh-costometer",
-      "previous": "web-ui",
-      "current": "model",
-      "desc_now": "花知多少 · Cost-O-Meter — DeepSeek Harness cost & balance meter: account balance, recharge history, per-conversation spend & tokens, 50-yuan segmented progress bar, low-balance guard, 8 languages & currencies with auto FX rates (CNY base).",
-      "desc_prev": "DeepSeek Harness balance dock: balance card, per-conversation spend/tokens, 50-yuan segmented progress bar, recharge button, position guard"
+      "full_name": "jimmyzhang219/dsh-plan-and-execute",
+      "previous": "other",
+      "current": "agent",
+      "desc_now": "DeepSeek Harness (dsh) 的 Plan-and-Execute 编排插件",
+      "desc_prev": "dsh插件plan-and-execute"
     }
   ]
 }
