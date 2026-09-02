@@ -1,13 +1,20 @@
 {
-  "generated_at": "2026-09-02T00:32:07.542Z",
-  "count": 1,
+  "generated_at": "2026-09-02T05:02:19.289Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "FoyonaCZY/dsh-kit",
-      "previous": "notify",
-      "current": "tool",
-      "desc_now": "DeepSeek Harness plugins for the failures nobody catches: auto-format, generated-file guard, .env drift detection, and a typecheck gate that runs before the agent says it's done. Four gaps the 13k-plugin ecosystem hasn't filled.",
-      "desc_prev": "Six quality-of-life plugins for DeepSeek Harness: /rewind workspace undo, desktop notifications, auto-format, live git context, secret redaction, and a done-means-green verify gate. No build step."
+      "full_name": "KongFangXun/sofagent",
+      "previous": "tool",
+      "current": "coding",
+      "desc_now": "FDE Harness: audit-first governance for AI coding agents — 24 rules, HMAC chain, snapshot rollback (80 tools, 13 plugins)",
+      "desc_prev": "Open-source FDE Harness layer for enterprise AI: 24-rule git-diff audit, auto snapshot rollback, rule injection, self-evolution. Ships as 13 plugins (9 DSH + 4 OpenClaw) + MCP server (79 tools). MIT."
+    },
+    {
+      "full_name": "lovaxi/Rubato_Plugins",
+      "previous": "other",
+      "current": "coding",
+      "desc_now": "Make your AI's working state visible on a physical desk device - one Rubato plugin per coding agent.",
+      "desc_prev": "Rubato is a palm-sized retro-Macintosh screen built for one job: looking after the bodies of programmers and heavy AI users."
     }
   ]
 }
