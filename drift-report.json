@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-09-02T00:32:07.542Z",
+  "count": 1,
+  "items": [
+    {
+      "full_name": "FoyonaCZY/dsh-kit",
+      "previous": "notify",
+      "current": "tool",
+      "desc_now": "DeepSeek Harness plugins for the failures nobody catches: auto-format, generated-file guard, .env drift detection, and a typecheck gate that runs before the agent says it's done. Four gaps the 13k-plugin ecosystem hasn't filled.",
+      "desc_prev": "Six quality-of-life plugins for DeepSeek Harness: /rewind workspace undo, desktop notifications, auto-format, live git context, secret redaction, and a done-means-green verify gate. No build step."
+    }
+  ]
+}
