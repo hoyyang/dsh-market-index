@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T01:26:24.749Z",
-  "count": 1300,
+  "generated_at": "2026-09-03T06:23:27.183Z",
+  "count": 1322,
   "entries": {
     "0326/dsh-plugin-market": {
       "kind": "market",
@@ -399,6 +399,10 @@
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — a Docker/Caddy deployment packaging of the DSH web service"
     },
+    "DaYanQLQ/DSH-Shortcut": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a Windows desktop shortcut and launcher utility script for dsh web."
+    },
     "ddtcorex/govard": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a Go-based local-development orchestrator for Magento/Laravel/Symfony/WordPress stacks with no DSH content in its README; rides the dsh-plugin topic."
@@ -583,6 +587,14 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone local-first AI-agent workspace desktop app."
     },
+    "ewceniza9009/wilsonix-studio": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a desktop digital audio workstation (DAW); rides the dsh-plugin topic."
+    },
+    "Exaggarate/dshpkg": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Python security and health audit CLI for DSH plugins."
+    },
     "fakechris/dsh-harness-ops": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — deployment packaging (Docker/K8s/ops tooling)"
@@ -626,6 +638,10 @@
     "FrankHu-HK/mnemosyne": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic local-first AI memory system (MCP/API/CLI) whose only DSH story is an MCP deploy doc; no dsh plugin install path."
+    },
+    "freerpa/Hrequest": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic Node.js multithreaded API load-testing utility; rides the dsh-plugin topic."
     },
     "freestylefly/awesome-gpt-image-2": {
       "kind": "excluded",
@@ -778,6 +794,10 @@
     "HOWILLMAKEIT/football-mcp": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic football-data MCP server for any MCP client."
+    },
+    "huaweicloud/huaweicloud-devkit": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an external multi-agent cloud devkit CLI installer (OpenCode/Codex/DSH) rather than a native DSH plugin."
     },
     "huawolf/news-agent": {
       "kind": "excluded",
@@ -1119,6 +1139,14 @@
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — a VS Code extension/IDE integration."
     },
+    "Liyuan1992/memdsl": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic Python MCP memory server; rides the dsh-plugin topic."
+    },
+    "Liyuan1992/rawmem": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic Python raw-evidence ledger and MCP server; rides the dsh-plugin topic."
+    },
     "lonelymoon87/dsh-vscode": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — a VS Code extension"
@@ -1163,6 +1191,10 @@
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — deployment packaging (Docker/K8s/ops tooling)"
     },
+    "mapan0424/deepseek-harness-plugins": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an unofficial community plugins collection and monorepo rather than an installable DSH plugin."
+    },
     "Mappedinfo/PlainDeck": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a slide editor."
@@ -1186,6 +1218,10 @@
     "menantonio83-hue/tnt-house": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a Solana token-audit platform + generic MCP server (Claude/Cursor); unrelated to DSH, rides the topic."
+    },
+    "MerlinShieh/Agent-skill-wechatPush": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic WeChat push notification agent skill with no DSH install path."
     },
     "MerlinShieh/AgentMemHub": {
       "kind": "excluded",
@@ -1459,6 +1495,10 @@
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — documentation/tutorial"
     },
+    "plastic-labs/honcho": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — the generic Honcho memory library and platform; its DSH integration plugin is plastic-labs/dsh-honcho."
+    },
     "Platohykj/dsh-vsc": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — a VS Code extension"
@@ -1542,6 +1582,10 @@
     "RGarvel/dsh-channel-spec": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — an RFC/spec document repository for session-channel classification; the reference implementation lives in RGarvel/dsh-channel-view."
+    },
+    "rhczz/dshctl": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a background service management CLI script for dsh web."
     },
     "RiChenyv/bamboo-cicada-3d": {
       "kind": "excluded",
@@ -1658,6 +1702,10 @@
     "SiliconPsycheLabs/PSA-core": {
       "kind": "excluded",
       "reason": "Generic LLM behavioral analysis engine; not a DSH plugin."
+    },
+    "SiriusNEO/StarAgent": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Python agent multiplexer and web dashboard for cross-machine coding agent sessions; rides the dsh-plugin topic."
     },
     "sisyphus-iambe/northstar-exam": {
       "kind": "excluded",
@@ -1870,6 +1918,10 @@
     "Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a benchmark report on the DeepSeek V4 model × Anthropic J-Space research (sibling of the excluded J-Space-Cognition-Suite); rides the dsh-plugin topic."
+    },
+    "Tiger3807861189/GLM-5.3-Flash-J-Space-Capability-Realization-Report": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a benchmark presentation and generic agent skill for the J-Space Cognition Suite with no DSH install path; rides the dsh-plugin topic."
     },
     "Tiger3807861189/J-Space-Cognition-Suite-V3.6": {
       "kind": "excluded",
@@ -2246,6 +2298,10 @@
     "xiaoxiao44443/dfy-dsh-plugins": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a personal pnpm-workspace monorepo of @dfy-plugins plugins; each plugin publishes and installs separately from npm, not this repo."
+    },
+    "xing-shuyin/pi-web-ui": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone web UI for the Pi coding agent (@earendil-works/pi-coding-agent); rides the dsh-plugin topic."
     },
     "xingyingyuzhui/dsh-claw-suite": {
       "kind": "excluded",
@@ -2851,6 +2907,10 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "cxy9204/dsh-skill-store": {
+      "kind": "market",
+      "reason": "DeepSeek Harness community skill store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
     "cyber-moshen/dsh-plugin-market": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -2862,6 +2922,10 @@
     "czzzlq/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "d4551/DeepTail": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
     },
     "dabaicai001/star-dsh-desktop": {
       "kind": "market",
@@ -3138,6 +3202,10 @@
     "GreatV/oardsh": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop wrapper; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Gru110110110/dsh-launcher": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
     },
     "guoxiucai/dsh-code": {
       "kind": "market",
@@ -3446,6 +3514,10 @@
     "KokuYu-sysu/dsh-market-desktop": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "koompi/dsh-desktop": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
     },
     "kriskwok/dsh-ios-app": {
       "kind": "market",
@@ -3835,6 +3907,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "Oissp/harness-desktop": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
+    },
     "oli-bot/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop client/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -3902,6 +3978,10 @@
     "Pagemalthusian934/deepseek-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop app; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "pax-beehive/dsh-hub-cli": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "pbwheel/dsh-agency-market": {
       "kind": "market",
@@ -4043,6 +4123,10 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
     },
+    "Roxy-gl373/dsh-desktop": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
+    },
     "rpvvn/EasyDSH": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -4174,6 +4258,10 @@
     "SnowCrescenter-tech/dsh-launcher": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "snzhi000-sys/harness-macos-desktop-plugin-suite": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
     },
     "Socialist-Sister/dsh-deck": {
       "kind": "market",
@@ -4310,10 +4398,6 @@
     "Tiee7/EzDSH": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop client/launcher app bundling the runtime; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "Tinnikx/dsh-desktop": {
-      "kind": "market",
-      "reason": "Includes a built-in plugin marketplace — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "titanwings/distilly": {
       "kind": "leaderboard",
@@ -4610,6 +4694,10 @@
     "ylw-a/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "youridol/dsh-launcher": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
     },
     "yu-wenchao/deepseek-harness-desktop-Install": {
       "kind": "market",
