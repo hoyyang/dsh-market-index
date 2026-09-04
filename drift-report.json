@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-04T17:05:09.976Z",
+  "generated_at": "2026-09-04T19:31:35.437Z",
   "count": 2,
   "items": [
     {
-      "full_name": "T-Auto/dsh-ecosystem-spec",
-      "previous": "coding",
-      "current": "other",
-      "desc_now": "deepseek-harness Plugin Access and Implementation Standards / deepseek-harness交互生态插件规范与实施标准",
-      "desc_prev": "deepseek-harness TUI Plugin Access and Implementation Standards / deepseek-harness终端交互生态插件准入规范与实施标准"
+      "full_name": "zeng6125-rgb/dsh-llm-retry-settings",
+      "previous": "other",
+      "current": "model",
+      "desc_now": "DSH 插件：LLM 自动重试设置卡片——重试次数/退避/抖动与 25 个错误码可勾选，回答被输出 token 上限截断时还能自动续写，改完实时生效。",
+      "desc_prev": "DSH 插件：LLM 自动重试设置卡片——调整重试次数与退避时间实时生效，可勾选额外可重试错误码（默认补入 INVALID_REQUEST：OpenAI thinking 模式 HTTP 400 自动重试）。npm: dsh-llm-retry-settings"
     },
     {
-      "full_name": "hytime/dsh-thinking-effort",
-      "previous": "agent",
+      "full_name": "gcry13067381632-jpg/dsh-qqbot",
+      "previous": "other",
       "current": "tool",
-      "desc_now": "A DeepSeek Harness plugin for reasoning-effort defaults and protocol-aware gateway compatibility settings for llm-pi-ai models.",
-      "desc_prev": "Configurable reasoning levels for hand-declared DSH llm-pi-ai models, with bilingual settings and subagent defaults."
+      "desc_now": "DSH接入腾讯官方qqbot/富媒体/表情包/多开不同预设的机器人/定时消息/远程审批",
+      "desc_prev": "DSH接入官方qqbot/富媒体/表情包/多开不同人格/定时消息/"
     }
   ]
 }
