@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T09:41:13.076Z",
-  "count": 3,
+  "generated_at": "2026-09-04T10:55:50.596Z",
+  "count": 2,
   "items": [
     {
       "full_name": "BeforeWave/dsh-with-chatgpt",
@@ -8,13 +8,6 @@
       "current": "tool",
       "desc_now": "Let ChatGPT in your browser work directly with your local project — and hand work off to DSH when needed.",
       "desc_prev": "Bring ChatGPT’s reasoning to your local codebase. Work directly, or delegate larger tasks to DSH."
-    },
-    {
-      "full_name": "UNLINEARITY/dsh-code",
-      "previous": "tool",
-      "current": "coding",
-      "desc_now": " Claude-Code-style TUI bundle for DeepSeek Harness. 充分结合 DSH 的核心机制和高级特性与Codex CLI 、Claude Code 等主流交互机制，打造的 DSH-Code. （对齐DSH官方上游最新版本！持续更新中！支持DSH 特殊模式，插件系统，模型管理，子代理管理，切换模型特殊动画）注：自 DSH-Code 1.0.0起，代码由DSH-Code 自迭代完善，不使用外部 agent /CLI 完成！",
-      "desc_prev": " Claude-Code-style TUI bundle for DeepSeek Harness. 充分结合 DSH 的核心机制和高级特性与Codex CLI 、Claude Code 等主流交互机制，打造的 DSH-Code. （对齐DSH官方上游最新版本！持续更新中！支持DSH 特殊模式，插件系统，模型管理，子代理管理，切换模型特殊动画）"
     },
     {
       "full_name": "gongyijie85/dsh-agent-frugality",
