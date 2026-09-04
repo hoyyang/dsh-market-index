@@ -1,13 +1,20 @@
 {
-  "generated_at": "2026-09-04T13:21:40.837Z",
-  "count": 1,
+  "generated_at": "2026-09-04T17:05:09.976Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "mrbbbaixue/dsh-desktop",
-      "previous": "web-ui",
+      "full_name": "T-Auto/dsh-ecosystem-spec",
+      "previous": "coding",
       "current": "other",
-      "desc_now": ".NET WPF + WebView2 desktop launcher for DeepSeek Harness (dsh): managed child process, tray controls, HiDPI",
-      "desc_prev": ".NET 10 WPF + WebView2 desktop launcher for DeepSeek Harness (dsh): managed child process, tray controls, HiDPI, native title bar theme following"
+      "desc_now": "deepseek-harness Plugin Access and Implementation Standards / deepseek-harness交互生态插件规范与实施标准",
+      "desc_prev": "deepseek-harness TUI Plugin Access and Implementation Standards / deepseek-harness终端交互生态插件准入规范与实施标准"
+    },
+    {
+      "full_name": "hytime/dsh-thinking-effort",
+      "previous": "agent",
+      "current": "tool",
+      "desc_now": "A DeepSeek Harness plugin for reasoning-effort defaults and protocol-aware gateway compatibility settings for llm-pi-ai models.",
+      "desc_prev": "Configurable reasoning levels for hand-declared DSH llm-pi-ai models, with bilingual settings and subagent defaults."
     }
   ]
 }
