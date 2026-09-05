@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-09-05T15:05:50.884Z",
+  "count": 2,
+  "items": [
+    {
+      "full_name": "FeatherHunter/dsh-opencode-palette",
+      "previous": "web-ui",
+      "current": "coding",
+      "desc_now": "🎨 为长时间编程而生：34 款 opencode 护眼配色，一键换上 DSH | 34 eye-friendly opencode themes for DeepSeek Harness, one click",
+      "desc_prev": "🎨 看腻了 DSH 默认皮肤？34 款 opencode 经典配色一键换上——tokyonight、dracula、gruvbox、matrix、rose-pine……即点即换，重启不丢。34 opencode themes for DeepSeek Harness, one click, persisted. More by @FeatherHunter: ⚡ dsh-prompt · 🧠 dsh-mattpocock-skills-deck"
+    },
+    {
+      "full_name": "jcaiagent7143-ui/linkdigest-mcp",
+      "previous": "tool",
+      "current": "memory",
+      "desc_now": "MCP server for LinkDigest — turn a Xiaohongshu, Douyin, TikTok, YouTube or X link into LLM-ready text: transcript, on-screen text, image descriptions, caption and metadata. Streamable HTTP.",
+      "desc_prev": "MCP server for LinkDigest — turn a Xiaohongshu, Douyin, TikTok, YouTube or X link into LLM-ready text: transcript, on-screen text, image descriptions, caption and metadata. Streamable HTTP."
+    }
+  ]
+}
