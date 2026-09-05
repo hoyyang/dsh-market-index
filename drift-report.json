@@ -1,27 +1,20 @@
 {
-  "generated_at": "2026-09-05T03:45:12.342Z",
-  "count": 3,
+  "generated_at": "2026-09-05T09:31:00.487Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "yu-wenchao/dsh-tool-lipsync",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "免 Key、免登录的 AI 对口型口播视频生成插件，为 DeepSeek Harness (DSH) 注册 5 个工具，使用免费开放 API 生成对口型视频。FreeLipSync lip-sync video plugin for DeepSeek Harness - No API key required",
-      "desc_prev": "FreeLipSync lip-sync video plugin for DeepSeek Harness - No API key required"
-    },
-    {
-      "full_name": "gcry13067381632-jpg/dsh-qqbot",
-      "previous": "tool",
-      "current": "resource",
-      "desc_now": "DSH 接入官方 QQ 机器人增：富媒体收发 · 表情包图库 · 多预设多开 · 定时唤醒 · 远程审批 · 延迟聚合回复 · 自主静默or回复",
-      "desc_prev": "DSH接入腾讯官方qqbot/富媒体/表情包/多开不同预设的机器人/定时消息/远程审批"
-    },
-    {
-      "full_name": "flykit-cc/dsh-flykit",
+      "full_name": "UNLINEARITY/dsh-code",
       "previous": "tool",
       "current": "coding",
-      "desc_now": "flykit for DeepSeek Harness — explorer with live file watch, agent terminals (Claude Code, Pi, Codex), DSH agent tools, a searchable model picker and a Claude-Code-style status line. Fly your agents.",
-      "desc_prev": "FlyKit for DeepSeek Harness — file viewer, live file watch, Claude Code TUI orchestration, and a Claude-Code-style status line. Fly your agents."
+      "desc_now": " Claude-Code-style TUI bundle for DeepSeek Harness. 充分结合 DSH 的核心机制和高级特性与Codex CLI 、Claude Code 等主流交互机制，打造的 DSH-Code. （对齐DSH官方上游最新版本！持续更新中！支持DSH 特殊模式，插件系统，模型管理，子代理管理，切换模型特殊动画）注：自 DSH-Code 1.0.0起，代码由DSH-Code 自迭代完善，不使用外部 agent /CLI 完成！",
+      "desc_prev": " Claude-Code-style TUI bundle for DeepSeek Harness. 充分结合 DSH 的核心机制和高级特性与Codex CLI 、Claude Code 等主流交互机制，打造的 DSH-Code. （对齐DSH官方上游最新版本！持续更新中！支持DSH 特殊模式，插件系统，模型管理，子代理管理，切换模型特殊动画）"
+    },
+    {
+      "full_name": "cayan0x/Lume",
+      "previous": "other",
+      "current": "memory",
+      "desc_now": "微光 (Lume) — DSH Desktop 增强插件：Codex 风格自适应任务执行协议 + 人设系统（聊天记录蒸馏具名角色、长期记忆、风格纠偏自动捕获）",
+      "desc_prev": "Lume - DSH Desktop persona-switching plugin (loli/senpai/none) with P0-P3 thinking logic"
     }
   ]
 }
