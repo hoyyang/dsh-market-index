@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-09-06T12:21:51.860Z",
+  "generated_at": "2026-09-06T15:43:34.776Z",
   "count": 4,
   "items": [
     {
-      "full_name": "UNLINEARITY/dsh-code",
-      "previous": "tool",
-      "current": "coding",
-      "desc_now": " Claude-Code-style TUI bundle for DeepSeek Harness. 充分结合 DSH 的核心机制和高级特性与Codex CLI 、Claude Code 等主流交互机制，打造的 DSH-Code. （对齐DSH官方上游最新版本！持续更新中！支持DSH 特殊模式，插件系统，模型管理，子代理管理，切换模型特殊动画）注：自 DSH-Code 1.0.0起，代码由DSH-Code 自迭代完善，不使用外部 agent /CLI 完成！",
-      "desc_prev": " Claude-Code-style TUI bundle for DeepSeek Harness. 充分结合 DSH 的核心机制和高级特性与Codex CLI 、Claude Code 等主流交互机制，打造的 DSH-Code. （对齐DSH官方上游最新版本！持续更新中！支持DSH 特殊模式，插件系统，模型管理，子代理管理，切换模型特殊动画）"
+      "full_name": "Liora2050348900/dsh-token-optimizer",
+      "previous": "model",
+      "current": "resource",
+      "desc_now": "Layered token-optimization pipeline for DeepSeek Harness: output ladder, MCP lazy loading,compaction driver, cache-hit reporting. Built on real DSH plugin APIs; ~40-60% input saved in long sessions.",
+      "desc_prev": "Layered token-optimization pipeline for DeepSeek Harness: output ladder, MCP lazy loading,compaction driver, cache-hit reporting. Built on real DSH plugin APIs; ~40-60% input saved in long sessions."
     },
     {
-      "full_name": "See-Sol-Lab/DeepSeekGUI",
-      "previous": "web-ui",
-      "current": "memory",
-      "desc_now": "基于 DeepSeek Harness（DSH）的桌面工作台，集成Git、内置浏览器与记忆功能 | DeepSeek Harness desktop GUI with local workspaces, Git, browser and memory.",
-      "desc_prev": "A Windows desktop client for DeepSeek Harness. V1 wraps the official Web UI; v2 (independent workbench) in development."
+      "full_name": "Liora2050348900/dsh-behavior-enhancer",
+      "previous": "tool",
+      "current": "resource",
+      "desc_now": "Behavior-management plugin for DeepSeek Harness: tool-call discipline prompt section, failure-triggered parallelism convergence (pool drops to 1, auto-restores), consecutive-failure user intervention. Complements dsh-token-optimizer; works standalone.",
+      "desc_prev": "Behavior-management plugin for DeepSeek Harness: tool-call discipline prompt section, failure-triggered parallelism convergence (pool drops to 1, auto-restores), consecutive-failure user intervention. Complements dsh-token-optimizer; works standalone."
     },
     {
       "full_name": "WSK-build/DSHBox",
-      "previous": "coding",
-      "current": "tool",
-      "desc_now": "Run DeepSeek Harness locally on Android. One APK with Debian, Node.js, DSH, and WebView — no root or Termux required. 在 Android 手机上本机运行完整 DSH。",
-      "desc_prev": "Run DeepSeek Harness on Android — a layered runtime (Debian + Node.js + DSH) inside a rootless PRoot sandbox, with an embedded WebView UI, file manager, persistent terminal, and one-tap runtime/DSH updates. Install the APK and go."
+      "previous": "tool",
+      "current": "agent",
+      "desc_now": "Run DeepSeek Harness locally on Android phones and tablets. One APK with Debian, Node.js, DSH, and WebView — no root or Termux required. 在安卓手机和平板上本机运行完整 DSH。",
+      "desc_prev": "Run DeepSeek Harness locally on Android. One APK with Debian, Node.js, DSH, and WebView — no root or Termux required. 在 Android 手机上本机运行完整 DSH。"
     },
     {
-      "full_name": "Oscar-Williams/dsh-deepcanary",
-      "previous": "vision",
-      "current": "notify",
-      "desc_now": "Know when your DeepSeek Harness tasks need you. Local alerts, quiet notifications, and a task inbox.",
-      "desc_prev": "Local attention supervision for DeepSeek Harness: evidence-first signals, quiet notifications, and an actionable inbox."
+      "full_name": "chuxindd/dsh-context-enhancement",
+      "previous": "coding",
+      "current": "tool",
+      "desc_now": "适用于 DeepSeek Harness 的单会话上下文增强工具，力求化解会话在触发 /compact 上下文压缩后损失信息过多，导致前后表现“判若两人”的技术困境。",
+      "desc_prev": "面向 DeepSeek Harness 编程会话的持久化任务状态与上下文感知压缩。"
     }
   ]
 }
