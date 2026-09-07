@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-07T00:51:03.709Z",
-  "count": 1357,
+  "generated_at": "2026-09-07T05:53:24.506Z",
+  "count": 1366,
   "entries": {
     "0326/dsh-plugin-market": {
       "kind": "market",
@@ -2587,6 +2587,30 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — an ecosystem observation site and open-data pipeline (health scores, weekly reports; dsh-insights.com)."
     },
+    "HarcoChen/deepseek-harness-vscode": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a VS Code extension distributed via the VS Code / Open VSX marketplaces."
+    },
+    "HarcoChen/dsh-intellij-integration": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a JetBrains IDE plugin distributed via the JetBrains marketplace."
+    },
+    "PerryLink/dsh-cert-mcp": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone read-only MCP server run via npx, with no DSH install path."
+    },
+    "cmyfqwq/webauthn-for-webview-shells": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an Android LSPosed module for WebView-shell browsers, unrelated to DSH."
+    },
+    "noah-qiao/dsh-human-agent-paradigm-web": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a VitePress documentation website for the dsh-human-agent-paradigm project."
+    },
+    "ice5kysl/dsh-insights": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an ecosystem observatory site with open data (plugin health scores, rankings, weekly reports)."
+    },
     "01men/ybkk-AIOS": {
       "kind": "market",
       "reason": "An enterprise AI-resource platform bundling skill/plugin markets — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -3903,10 +3927,6 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "moonwellxh/DSH-Launcher": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a desktop shell/launcher/client (Windows one-click tray launcher generator), not an installable DSH plugin. Stays in the catalog."
-    },
     "mos-7/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell (Electron); stays in the catalog and leaderboard, excluded from the downstream market."
@@ -4022,10 +4042,6 @@
     "oioioioioioioioioioio/oi-dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "Oissp/harness-desktop": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
     },
     "oli-bot/dsh-desktop": {
       "kind": "market",
@@ -4999,13 +5015,37 @@
       "kind": "market",
       "reason": "Includes a built-in app-plugin market (sidebar browse/install/upgrade of community plugins) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "Oissp/dsh-desktop": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
+    },
+    "Fogggy-Chao/dsh-plugin-hub": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "PerryLink/dsh-catalog": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "wsifan31-bit/Smart-DSH-Market": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "zaimokuza-yoshiteru/dsh-plugin-hub": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "MoonlitDropOfBlood/DSH-Desktop": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
+    },
+    "kaerf15/dsh-plus": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
+    },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "2421873411a-rgb/dsh-console": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a standalone console app; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "AgentsDanceAI/deepseek-harness-cloud": {
       "kind": "market",
@@ -5358,10 +5398,6 @@
     "wpc725562-dotcom/deepfusion": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone fused agent engine that consumes DSH plugins; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "wsifan31-bit/Smart-DSH-Market": {
-      "kind": "market",
-      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "WSK-build/DSHBox": {
       "kind": "market",
