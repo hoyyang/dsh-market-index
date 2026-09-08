@@ -1,20 +1,13 @@
 {
-  "generated_at": "2026-09-08T10:13:06.987Z",
-  "count": 2,
+  "generated_at": "2026-09-08T11:34:07.160Z",
+  "count": 1,
   "items": [
     {
       "full_name": "Blackman99/codsh",
       "previous": "coding",
       "current": "tool",
-      "desc_now": "You deserve a better cli",
+      "desc_now": "Yet another agent cli create for a better UX on the Deepseek Harness",
       "desc_prev": "One sentence to shipped — a terminal coding agent built around /ship, on the DeepSeek Harness"
-    },
-    {
-      "full_name": "Asuna486-desuwa/dsh-safety-net",
-      "previous": "tool",
-      "current": "coding",
-      "desc_now": "给自主运行的 Coding Agent 加的自我保护护栏：拦截对受保护路径的写入、破坏性操作前自动备份、CLI 自恢复命令",
-      "desc_prev": "Self-protection guardrails for the DeepSeek Harness: protected-path interception, backup-before-destroy, CLI self-recovery commands, and strict sandbox defaulting"
     }
   ]
 }
