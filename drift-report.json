@@ -1,13 +1,20 @@
 {
-  "generated_at": "2026-09-08T11:34:07.160Z",
-  "count": 1,
+  "generated_at": "2026-09-08T13:31:02.042Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "Blackman99/codsh",
-      "previous": "coding",
+      "full_name": "Nagi-ovo/voyager",
+      "previous": "web-ui",
       "current": "tool",
-      "desc_now": "Yet another agent cli create for a better UX on the Deepseek Harness",
-      "desc_prev": "One sentence to shipped — a terminal coding agent built around /ship, on the DeepSeek Harness"
+      "desc_now": "Enhancement suite for Gemini, AI Studio, Claude & ChatGPT — plus a prompt manager for any websites, DeepSeek Harness included. / 面向 Gemini、AI Studio、Claude 与 ChatGPT 的增强套件；其中的提示词管理器可用于任意网站，如 DeepSeek Harness。",
+      "desc_prev": "Enhancement suite for Gemini, AI Studio, Claude & ChatGPT — plus a prompt manager for any web UI, DeepSeek Harness included. / 面向 Gemini、AI Studio、Claude 与 ChatGPT 的增强套件；其中的提示词管理器可用于任意 Web UI，含 DeepSeek Harness。"
+    },
+    {
+      "full_name": "biliye/dsh-voice-call",
+      "previous": "other",
+      "current": "document",
+      "desc_now": "这是一个deepseek专属的语音通话插件",
+      "desc_prev": "这是一个deepseek专属的语音通话插件"
     }
   ]
 }
