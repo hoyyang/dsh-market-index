@@ -1,13 +1,20 @@
 {
-  "generated_at": "2026-09-08T17:29:02.879Z",
-  "count": 1,
+  "generated_at": "2026-09-08T20:14:50.530Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "Minglink/dsh-infinite-gen-3",
+      "full_name": "dangpangch/dsh-acp",
       "previous": "other",
-      "current": "tool",
-      "desc_now": "DeepSeek v4 Pro 网络安全红队工具（无限三代） — jailbreak prompts and test suite for DeepSeek    求 Star 收藏 ⭐",
-      "desc_prev": "DeepSeek 专用破甲插件「无限三代」dsh-infinite-gen-3 — armor-breaking plugin for DeepSeek，破甲版：稳定化破甲，求 Star 收藏 ⭐"
+      "current": "web-ui",
+      "desc_now": "dsh plugin to run DeepSeek Harness (dsh) agents in Zed’s Agent Panel.",
+      "desc_prev": null
+    },
+    {
+      "full_name": "teethyachi/dsh-usage-mini",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "Floating usage window for DeepSeek Harness Web: Claude/Codex reset countdowns + DeepSeek API spend.",
+      "desc_prev": "USEAGE WINDOW | DeepSeek Harness usage plugin. Currently supports Claude/Codex subscriptions and DeepSeek API only."
     }
   ]
 }
