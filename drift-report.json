@@ -1,7 +1,14 @@
 {
-  "generated_at": "2026-09-09T08:52:46.084Z",
-  "count": 5,
+  "generated_at": "2026-09-09T12:01:44.271Z",
+  "count": 6,
   "items": [
+    {
+      "full_name": "Andy8647/dsh-auto-approval",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "Automode for DeepSeek Harness: a fourth permission preset — full access with an LLM classifier as the only gate before every tool call.",
+      "desc_prev": null
+    },
     {
       "full_name": "MichaelShii/dsh-plugin-teamflow",
       "previous": "other",
