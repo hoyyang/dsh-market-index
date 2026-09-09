@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-09-09T19:29:28.727Z",
+  "count": 2,
+  "items": [
+    {
+      "full_name": "GooDAnDReaDY/dsh-subscriptions",
+      "previous": "other",
+      "current": "conversation",
+      "desc_now": "OAuth subscription LLM providers for DeepSeek Harness: ChatGPT Codex, Claude, Grok, Antigravity, Kimi, GLM, Cursor, Kiro, Copilot, Qwen, ERNIE, Spark, JetBrains, Perplexity, Replit, Cody",
+      "desc_prev": "OAuth subscription LLM providers for DeepSeek Harness (Codex, Claude, Grok, Antigravity)"
+    },
+    {
+      "full_name": "sojo-negai/dsh-mcp-plus",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "图形化管理 DSH 的 MCP 服务器 —— 配置、状态、工具注册一站式完成。",
+      "desc_prev": null
+    }
+  ]
+}
