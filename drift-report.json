@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-09-09T08:52:46.084Z",
+  "count": 5,
+  "items": [
+    {
+      "full_name": "MichaelShii/dsh-plugin-teamflow",
+      "previous": "other",
+      "current": "agent",
+      "desc_now": "dsh plugin teamflow",
+      "desc_prev": "dsh plugin teamflow"
+    },
+    {
+      "full_name": "Asuna486-desuwa/dsh-safety-net",
+      "previous": "tool",
+      "current": "coding",
+      "desc_now": "给自主运行的 Coding Agent 加的自我保护护栏：拦截对受保护路径的写入、破坏性操作前自动备份、CLI 自恢复命令",
+      "desc_prev": "Self-protection guardrails for the DeepSeek Harness: protected-path interception, backup-before-destroy, CLI self-recovery commands, and strict sandbox defaulting"
+    },
+    {
+      "full_name": "jhckevin/dsh-auto-review",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "面向 DeepSeek Harness 的自动审批审查插件，借鉴 Codex 风格设计，结合原生沙盒与独立审查模型，提供风险审批、拒绝熔断及 WebUI/TUI 状态提示。",
+      "desc_prev": "Codex-style Auto Review inspired plugin for DeepSeek Harness, with native bridge and Linux sandbox integration"
+    },
+    {
+      "full_name": "songofhawk/dsh-alpha",
+      "previous": "other",
+      "current": "agent",
+      "desc_now": "Multi-machine, multi-agent orchestration and control platform for DSH: route tasks across devices, workspaces, and Agent runtimes with streaming, approvals, and recovery.",
+      "desc_prev": null
+    },
+    {
+      "full_name": "wuxiangru915/dsh-plugins",
+      "previous": "agent",
+      "current": "other",
+      "desc_now": "DeepSeek Harness plugins by wuxiangru915",
+      "desc_prev": "DeepSeek Harness plugins by wuxiangru915: session manager, review loop, session navigator"
+    }
+  ]
+}
