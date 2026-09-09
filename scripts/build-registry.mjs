@@ -41,6 +41,7 @@ import { readFile, writeFile, mkdir, rm } from "node:fs/promises";
 import { gzipSync } from "node:zlib";
 import { join, dirname } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { readmeSignals, README_PRACTICAL_PARSER_REVISION, README_PRACTICAL_VERSION } from "./readme-signals.mjs";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const MODE = process.env.SOURCES_MODE ?? "dsh";
@@ -1123,88 +1124,10 @@ async function enrichZhDescriptions(repos) {
   log(`多语言简介富化完成：${hit} 个（lang=${Object.keys(LANG_README_CANDIDATES).join("/")}）`);
 }
 
-// ------------------------------------------------------------------ v1.19
-
-/** README 结构信号（v1.19）：商店五维评分「实用/便捷」两维的静态数据源，
- *  全部由正则得出，零 LLM。字段契约：
- *  - readme_len: README 字符数（截断前长度代理）
- *  - readme_install_section: 有无安装/使用章节标题（en/zh）
- *  - readme_code_blocks: 代码块数量（``` 成对计）
- *  - readme_heading: 有无一级标题（README 结构完整性）
- *  - readme_cmds: 安装命令 ≤3 条（章节定位→代码块+$前缀→清洗→白名单）
- *  - readme_needs_config: 需要 API key/环境变量（否定语境先摘除）
- */
-const INSTALL_SECTION_RE = /^(install|installation|setup|getting started|quick start|deploy|安装|快速开始|开始使用|使用说明)/i;
-const INSTALL_CMD_RE =
-  /^(git clone|git submodule|dsh plugin|dsh\s+.*\sadd|pnpm (add|i)\b|npm (install|i)\b|npx skills add|npx @[^\s]+ add|curl .*install|pip install|uv (tool )?install|brew install|cargo install|yarn (add|global add))/;
-const CONFIG_KEY_RE =
-  /(?:^|[^A-Za-z])(GITHUB_TOKEN|GH_TOKEN|OPENAI_API_KEY|ANTHROPIC_API_KEY|DEEPSEEK_API_KEY|LLM_API_KEY|API_KEY|CLAUDE_API_KEY|AZURE_OPENAI|AWS_ACCESS_KEY|STRIPE_API_KEY|WEBHOOK_SECRET|SESSION_KEY)(?:[^A-Za-z]|$)/i;
-const NEGATION_RE =
-  /(?:不需要|无需|不用|免[^。；\n]{0,10}(?:配置|token|key)|no (?:api ?key|token|config|setup|configuration)|without (?:any )?(?:api ?key|token|config)|no configuration required|zero-?config|works (?:out of the box|without))/i;
-
-/** 从 README 文本提取结构信号（纯函数，可单测）。 */
-export function readmeSignals(text) {
-  const t = String(text ?? "");
-  const len = t.length;
-  // 安装章节定位：同级或更高级标题结束
-  let section = "";
-  const lines = t.split(/\r?\n/);
-  let start = -1;
-  let level = 0;
-  let hasInstallSection = false;
-  for (let i = 0; i < lines.length; i++) {
-    const m = lines[i].match(/^(#{1,4})\s+(.+)$/);
-    if (!m) continue;
-    const lv = m[1].length;
-    const title = m[2].toLowerCase();
-    if (start < 0) {
-      if (INSTALL_SECTION_RE.test(m[2])) { start = i; level = lv; hasInstallSection = true; }
-    } else if (lv <= level) {
-      section = lines.slice(start + 1, i).join("\n");
-      start = -2; // 已截取，不再更新
-    }
-  }
-  if (start >= 0) section = lines.slice(start + 1).join("\n");
-  const codeBlocks = (t.match(/\x60\x60\x60/g) ?? []).length;
-  const hasHeading = /^#\s+./m.test(t);
-
-  // 安装命令提取：章节内代码块 + $/# 前缀行 → 清洗 → 白名单 → 去重 ≤3
-  const cmds = [];
-  const push = (line) => {
-    let c = line.trim();
-    c = c.replace(/^[$#>]\s*/, "");
-    c = c.replace(/\s*#.*$/, "").trim();
-    if (/^(cd |mkdir |echo |touch |cat >|ls |rm )/.test(c) && !c.includes("&&")) return;
-    if (c && INSTALL_CMD_RE.test(c) && !cmds.includes(c) && cmds.length < 3) cmds.push(c);
-  };
-  // 章节提取；章节无果则兜底全文（与商店运行时 install-parse 同语义）
-  const scanForCmds = (src) => {
-    for (const m of src.matchAll(/\x60\x60\x60(?:bash|sh|shell|console|zsh)?\s*\n([\s\S]*?)\x60\x60\x60/g)) {
-      for (const line of m[1].split(/\r?\n/)) if (cmds.length < 3) push(line);
-    }
-    for (const line of src.split(/\r?\n/)) {
-      if (cmds.length >= 3) break;
-      if (/^\s*[$#>]\s*/.test(line)) push(line);
-    }
-  };
-  scanForCmds(section);
-  if (cmds.length === 0) scanForCmds(t);
-
-  const needsConfig = CONFIG_KEY_RE.test(t.replace(NEGATION_RE, " "));
-  return {
-    readme_len: len > 0 ? len : null,
-    readme_install_section: hasInstallSection,
-    readme_code_blocks: codeBlocks,
-    readme_heading: hasHeading,
-    readme_cmds: cmds,
-    readme_needs_config: needsConfig,
-  };
-}
-
-/** README 结构信号富化：对缺 readme_len 的仓库 raw 抓 README.md（零额度，
- *  16 并发、8s 超时；全量约 3-6 分钟）。404/网络失败 → 不写字段（下轮重试）。 */
+/** README 结构信号富化：新 practical 信号缺失或版本过旧时 raw 抓 README.md。
+ *  旧 ease 字段仍可从索引继承，但 practical 绝不回退旧 len/fence 公式。 */
 async function enrichReadmeSignals(repos) {
-  const todo = repos.filter((r) => r.readme_len === undefined || r.readme_len === null);
+  const todo = repos.filter((r) => r.readme_len === undefined || r.readme_len === null || r.readme_practical?.version !== README_PRACTICAL_VERSION || r.readme_practical?.parser_revision !== README_PRACTICAL_PARSER_REVISION);
   if (todo.length === 0) return;
   let cursor = 0;
   let hit = 0;
@@ -1226,7 +1149,7 @@ async function enrichReadmeSignals(repos) {
     }
   };
   await Promise.all(Array.from({ length: 16 }, () => worker()));
-  log(`README 结构信号富化完成：${hit}/${todo.length}（readme_len/install_section/code_blocks/cmds/needs_config）`);
+  log(`README 结构信号富化完成：${hit}/${todo.length}（ease + practical v${README_PRACTICAL_VERSION}/parser-r${README_PRACTICAL_PARSER_REVISION}）`);
 }
 
 async function loadExisting() {
@@ -1360,6 +1283,7 @@ async function main() {
           repo.readme_heading = prev.readme_heading
           repo.readme_cmds = prev.readme_cmds
           repo.readme_needs_config = prev.readme_needs_config
+          if (prev.readme_practical?.version === README_PRACTICAL_VERSION && prev.readme_practical?.parser_revision === README_PRACTICAL_PARSER_REVISION) repo.readme_practical = prev.readme_practical
           sigInherited++
         }
       }
