@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-09-09T23:59:09.817Z",
+  "count": 1,
+  "items": [
+    {
+      "full_name": "vitas/dsh-model-pricing",
+      "previous": "vision",
+      "current": "resource",
+      "desc_now": "Model pricing & capability board for DeepSeek Harness: per-1M-token prices for 7,100+ models across 213 providers (models.dev + harness catalog overlay), cheapest-route comparison, capability tags, and a community promotion feed.",
+      "desc_prev": "Model pricing & capability board for DeepSeek Harness — compare per-1M-token prices, find the cheapest route, see coding/agentic/vision tags for every LLM you can connect."
+    }
+  ]
+}
