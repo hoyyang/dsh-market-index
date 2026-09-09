@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-08T22:58:36.993Z",
-  "count": 1377,
+  "generated_at": "2026-09-09T06:34:31.419Z",
+  "count": 1383,
   "entries": {
     "0326/dsh-plugin-market": {
       "kind": "market",
@@ -103,6 +103,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic MCP server for the Atlas Cloud API platform; rides the dsh-plugin topic."
     },
+    "Ayuilos/Miffan": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Android AI client (RikkaHub fork) with its own product site; rides the dsh-plugin topic."
+    },
     "B1lli/dsh-plugin-bench": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a plugin quality-scorecard CLI, not installable."
@@ -199,6 +203,10 @@
       "kind": "excluded",
       "reason": "VS Code web-browser extension unrelated to DSH; dsh-plugin topic added for reach."
     },
+    "DshHunt/community": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — the community/issues repository for the DSH Hunt plugin-review site."
+    },
     "EDMOK/claude-vision-mcp": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic MCP vision server for Claude Code with no DSH integration, riding the topic; excluded from the catalog."
@@ -254,6 +262,10 @@
     "Fish121380/auto-mouse": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic Windows UI-context picker MCP tool for any MCP client."
+    },
+    "Flan246/dsh-plugin-litmus": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone acceptance-testing CLI (dsh-litmus) for DSH plugin developers."
     },
     "FrankHu-HK/mnemosyne": {
       "kind": "excluded",
@@ -727,6 +739,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a TUI plugin-admission spec/document repository."
     },
+    "TIREEDMAN/dsh-mulanci": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a third-party modified-Harness source distribution (multi-agent orchestration preview) with no dsh plugin add path."
+    },
     "TIZ36/evo-memory": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic CLP-based agent memory."
@@ -1079,6 +1095,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a Codex skill for Chinese novel writing with no DSH integration path; riding the dsh topics; excluded from the catalog."
     },
+    "chensenmiao/DeepSeek-Harness-Principles-and-Practice": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a structured tutorial e-book reorganizing the official DeepSeek Harness docs."
+    },
     "chenshutian9610/deepseek-harness-plugin-list": {
       "kind": "excluded",
       "reason": "A personal plugin list/index, not an installable DSH plugin."
@@ -1354,10 +1374,6 @@
     "git-hub-cloud/workled": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic skill."
-    },
-    "goatliamia/dsh-runtime": {
-      "kind": "excluded",
-      "reason": "Not a DSH plugin — an experimental runtime/capability research repository, not an installable plugin."
     },
     "greenthree/ProbHub-skill": {
       "kind": "excluded",
@@ -1738,6 +1754,10 @@
     "mapan0424/deepseek-harness-plugins": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — an unofficial community plugins collection and monorepo rather than an installable DSH plugin."
+    },
+    "marcosmmjr2023/dsh-h-v1": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a repackaged free-model distribution of DeepSeek Harness (FreeDSH) with its own installer."
     },
     "mcsam163/shared-memory-layer": {
       "kind": "excluded",
@@ -2555,6 +2575,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a plugin registry/index that auto-syncs upstream metadata; the self-authored plugins install from subdirectories."
     },
+    "ystyle/dsh-harmonyos": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a HarmonyOS platform port/distribution of the official dsh CLI (npm -g dsh-harmonyos, dsh-ohos launcher)."
+    },
     "yuc16/PatentRadar": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic patent-analysis skill for any agent."
@@ -3074,6 +3098,10 @@
     "KokuYu-sysu/dsh-market-desktop": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "LBurny/deepseek-harness-desktop": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — a Windows desktop shell/launcher bundling dsh; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "LQing2018/dsh-desktop-client": {
       "kind": "market",
@@ -5130,10 +5158,6 @@
     "Karbo123/DSH-EvoResearch": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone app/site; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "LBurny/deepseek-harness-desktop": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a Windows desktop shell/launcher bundling dsh; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "LVSUGARS/dsh-web-manager": {
       "kind": "market",
