@@ -1,7 +1,14 @@
 {
-  "generated_at": "2026-09-10T10:41:00.875Z",
-  "count": 4,
+  "generated_at": "2026-09-10T12:02:58.352Z",
+  "count": 6,
   "items": [
+    {
+      "full_name": "jingyunstudio/jingyun-dsh",
+      "previous": "other",
+      "current": "coding",
+      "desc_now": "基于 Jingyun Studio + DeepSeek Harness (DSH) 打造的一站式 AI 商业化桌面客户端，一个将 AI 智能体 / 技能 / 工作流转化为可交易商品的完整商业化平台客户端。  井云为 DSH 注入了完整的商业闭环：登录注册 → 会员体系 → 订阅支付 → 云端资产 → 多端同步，让 AI 开发者 30 分钟内将自己的智能体封装为独立的商业产品。",
+      "desc_prev": "基于 Jingyun Studio + DeepSeek Harness (DSH) 打造的一站式 AI 商业化桌面客户端"
+    },
     {
       "full_name": "dclichang2022/dsh-green-meter",
       "previous": "tool",
@@ -22,6 +29,13 @@
       "current": "web-ui",
       "desc_now": "100% русская локализация и Smart UX для DeepSeek Harness (DSH v0.1.5-rc.1+): 5688 ключей (ядро + 40+ плагинов), Центр оформления (Wallpaper Engine), витрина Workshop, экспорт в Markdown, инлайн-перевод, живая типографика, исправление раскладки (Alt+L).",
       "desc_prev": "100% русская локализация и Smart UX для DeepSeek Harness (DSH v0.1.5-alpha.2+): 5530 ключей (ядро + 40+ плагинов), просмотрщики файлов, экспорт в Markdown, инлайн-перевод, живая типографика, исправление раскладки (Alt+L)."
+    },
+    {
+      "full_name": "shiningsprk-arch/dsh-context-viewer",
+      "previous": "other",
+      "current": "coding",
+      "desc_now": "DeepSeek Harness (DSH) 上下文查看器 — 浏览思考链、shell 命令、工具调用与原始事件日志（Electron + React）",
+      "desc_prev": null
     },
     {
       "full_name": "cnskycn/deepseek-harness-desktop",
