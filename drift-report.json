@@ -1,13 +1,27 @@
 {
-  "generated_at": "2026-09-10T13:31:39.693Z",
-  "count": 1,
+  "generated_at": "2026-09-10T17:11:03.333Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "buhuikongpan/dsh-project-context",
-      "previous": "conversation",
-      "current": "web-ui",
-      "desc_now": "给 DSH 工作区一个用途维度：项目工作区注入项目约定，临时会话（$DSH_HOME/workspace/default，首次运行自动创建）注入『非项目』状态块。侧边栏底部一颗「临时会话」按钮 + 会话头用途徽标。dsh-plugin",
-      "desc_prev": "Turns each DSH workspace folder into a project: auto-injects a compact project-workspace convention into every new session, with a per-session Project toggle in the composer. dsh-plugin"
+      "full_name": "EthanYoQ/AI-Novel-Writer",
+      "previous": "other",
+      "current": "vision",
+      "desc_now": "AI 小说创作软件：把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可控流程；提供 Windows/macOS 桌面版、Ollama 与 DSH 插件预览。AI Novel Writing Software: Organizes inspirations, characters, worldbuilding, outlines, chapter drafting, review, and revision into a controllable workflow. Features desktop apps for Windows/macOS, Ollama integration, and a DeepSeek Harness (DSH) plugin preview.",
+      "desc_prev": "AI 小说创作软件：把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可控流程；提供 Windows/macOS 桌面版、Ollama 与 DSH 插件预览。"
+    },
+    {
+      "full_name": "Elave-66/dsh-blue-sea-launcher",
+      "previous": "web-ui",
+      "current": "model",
+      "desc_now": "蓝海之约启动器 · DSH bundle 插件：桌面一键打开 DeepSeek Harness Web（自适应新版 dsh 的 token 登录）",
+      "desc_prev": "Deepseek 二次元游戏/Galgame 风格启动图标。鲸鱼娘形象来源bilibili@上善无形 @ZipZipPipe，适合重度二次元使用，配合鲸鱼娘皮肤等二次元插件使用更佳！"
+    },
+    {
+      "full_name": "labmimors/dsh-mcp-lens",
+      "previous": "resource",
+      "current": "tool",
+      "desc_now": "Search 1,000 MCP tools through two interfaces in DeepSeek Harness. Load exact schemas on demand and keep structured results usable across tool calls.",
+      "desc_prev": "DeepSeek Harness MCP tool search for large catalogs: 1,000 MCP tools behind 2 MCP-facing schemas, exact-schema calls, allow/deny controls, and a local calculator."
     }
   ]
 }
