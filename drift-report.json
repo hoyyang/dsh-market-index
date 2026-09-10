@@ -1,27 +1,20 @@
 {
-  "generated_at": "2026-09-10T17:11:03.333Z",
-  "count": 3,
+  "generated_at": "2026-09-10T20:07:01.330Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "EthanYoQ/AI-Novel-Writer",
+      "full_name": "rootkiller6788/dsh-launcher",
       "previous": "other",
-      "current": "vision",
-      "desc_now": "AI 小说创作软件：把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可控流程；提供 Windows/macOS 桌面版、Ollama 与 DSH 插件预览。AI Novel Writing Software: Organizes inspirations, characters, worldbuilding, outlines, chapter drafting, review, and revision into a controllable workflow. Features desktop apps for Windows/macOS, Ollama integration, and a DeepSeek Harness (DSH) plugin preview.",
-      "desc_prev": "AI 小说创作软件：把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可控流程；提供 Windows/macOS 桌面版、Ollama 与 DSH 插件预览。"
+      "current": "agent",
+      "desc_now": "释放 DeepSeek Harness 插件化内核能力，将 Runtime、Provider、Plugin、Skill、MCP 等能力统一编排，让 Harness 真正成为可扩展、可组合、可管理的本地 AI 运行平台。",
+      "desc_prev": "DSHL — DeepSeek Harness 的本地运行与生态管理平台，用于统一管理运行时、实例、模型供应商、插件、MCP、技能与发行环境。"
     },
     {
-      "full_name": "Elave-66/dsh-blue-sea-launcher",
+      "full_name": "GooDAnDReaDY/dsh-russian-lang",
       "previous": "web-ui",
-      "current": "model",
-      "desc_now": "蓝海之约启动器 · DSH bundle 插件：桌面一键打开 DeepSeek Harness Web（自适应新版 dsh 的 token 登录）",
-      "desc_prev": "Deepseek 二次元游戏/Galgame 风格启动图标。鲸鱼娘形象来源bilibili@上善无形 @ZipZipPipe，适合重度二次元使用，配合鲸鱼娘皮肤等二次元插件使用更佳！"
-    },
-    {
-      "full_name": "labmimors/dsh-mcp-lens",
-      "previous": "resource",
-      "current": "tool",
-      "desc_now": "Search 1,000 MCP tools through two interfaces in DeepSeek Harness. Load exact schemas on demand and keep structured results usable across tool calls.",
-      "desc_prev": "DeepSeek Harness MCP tool search for large catalogs: 1,000 MCP tools behind 2 MCP-facing schemas, exact-schema calls, allow/deny controls, and a local calculator."
+      "current": "other",
+      "desc_now": "100% русская локализация и Smart UX для DeepSeek Harness (DSH v0.1.5-rc.1+): 5688 ключей (ядро + 40+ плагинов), единый дизайн настроек dsh-clinebot, экспорт в Markdown, инлайн-перевод, живая типографика, исправление раскладки (Alt+L).",
+      "desc_prev": "100% русская локализация и Smart UX для DeepSeek Harness (DSH v0.1.5-rc.1+): 5688 ключей (ядро + 40+ плагинов), Центр оформления (Wallpaper Engine), витрина Workshop, экспорт в Markdown, инлайн-перевод, живая типографика, исправление раскладки (Alt+L)."
     }
   ]
 }
