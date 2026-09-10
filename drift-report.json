@@ -1,48 +1,13 @@
 {
-  "generated_at": "2026-09-10T12:02:58.352Z",
-  "count": 6,
+  "generated_at": "2026-09-10T13:31:39.693Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "jingyunstudio/jingyun-dsh",
-      "previous": "other",
-      "current": "coding",
-      "desc_now": "基于 Jingyun Studio + DeepSeek Harness (DSH) 打造的一站式 AI 商业化桌面客户端，一个将 AI 智能体 / 技能 / 工作流转化为可交易商品的完整商业化平台客户端。  井云为 DSH 注入了完整的商业闭环：登录注册 → 会员体系 → 订阅支付 → 云端资产 → 多端同步，让 AI 开发者 30 分钟内将自己的智能体封装为独立的商业产品。",
-      "desc_prev": "基于 Jingyun Studio + DeepSeek Harness (DSH) 打造的一站式 AI 商业化桌面客户端"
-    },
-    {
-      "full_name": "dclichang2022/dsh-green-meter",
-      "previous": "tool",
-      "current": "notify",
-      "desc_now": "Desktop app for DeepSeek Harness with a live energy/carbon console: measure local GPU inference, estimate cloud APIs via published coefficients, alert on waste",
-      "desc_prev": "Energy & carbon metering for DeepSeek Harness: per-turn/per-request energy, cache carbon savings, electricity cost."
-    },
-    {
-      "full_name": "jo32/DeepDeck",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "Build and reuse WebMCP tools in a macOS desktop workspace for DeepSeek Harness.",
-      "desc_prev": "DeepDeck — an extensible desktop workspace for DeepSeek Harness."
-    },
-    {
-      "full_name": "GooDAnDReaDY/dsh-russian-lang",
-      "previous": "other",
+      "full_name": "buhuikongpan/dsh-project-context",
+      "previous": "conversation",
       "current": "web-ui",
-      "desc_now": "100% русская локализация и Smart UX для DeepSeek Harness (DSH v0.1.5-rc.1+): 5688 ключей (ядро + 40+ плагинов), Центр оформления (Wallpaper Engine), витрина Workshop, экспорт в Markdown, инлайн-перевод, живая типографика, исправление раскладки (Alt+L).",
-      "desc_prev": "100% русская локализация и Smart UX для DeepSeek Harness (DSH v0.1.5-alpha.2+): 5530 ключей (ядро + 40+ плагинов), просмотрщики файлов, экспорт в Markdown, инлайн-перевод, живая типографика, исправление раскладки (Alt+L)."
-    },
-    {
-      "full_name": "shiningsprk-arch/dsh-context-viewer",
-      "previous": "other",
-      "current": "coding",
-      "desc_now": "DeepSeek Harness (DSH) 上下文查看器 — 浏览思考链、shell 命令、工具调用与原始事件日志（Electron + React）",
-      "desc_prev": null
-    },
-    {
-      "full_name": "cnskycn/deepseek-harness-desktop",
-      "previous": "web-ui",
-      "current": "coding",
-      "desc_now": "Desktop app wrapper for DeepSeek Harness (dsh) Web UI - one-click Windows installer",
-      "desc_prev": "Desktop app wrapper for DeepSeek Harness (dsh) Web UI - one-click Windows installer"
+      "desc_now": "给 DSH 工作区一个用途维度：项目工作区注入项目约定，临时会话（$DSH_HOME/workspace/default，首次运行自动创建）注入『非项目』状态块。侧边栏底部一颗「临时会话」按钮 + 会话头用途徽标。dsh-plugin",
+      "desc_prev": "Turns each DSH workspace folder into a project: auto-injects a compact project-workspace convention into every new session, with a per-session Project toggle in the composer. dsh-plugin"
     }
   ]
 }
