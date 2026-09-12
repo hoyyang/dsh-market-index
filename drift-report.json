@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-09-12T06:22:09.281Z",
+  "count": 1,
+  "items": [
+    {
+      "full_name": "MoonlitDropOfBlood/DSH-Desktop",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "为DeepSeek Harness 打造的桌面端，没有打包DeepSeek Harness，核心可以独立更新",
+      "desc_prev": "为DeepSeek Harness 打造的桌面端，没有打包DeepSeek Harness，核心可以独立更新"
+    }
+  ]
+}
