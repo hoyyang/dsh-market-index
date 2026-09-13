@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-13T00:15:10.154Z",
-  "count": 1429,
+  "generated_at": "2026-09-13T10:25:55.386Z",
+  "count": 1435,
   "entries": {
     "0326/dsh-plugin-market": {
       "kind": "market",
@@ -134,6 +134,10 @@
     "BugraAkdemir/gosearch": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a Go web-search library; rides the dsh-plugin topic."
+    },
+    "CCYellowStar2/astrbot_plugin_dsh": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an AstrBot-side IM bridge plugin; the DSH half of the bridge is CCYellowStar2/dsh-astrbot-ingress."
     },
     "CH3SH-LC/dsh-plugins-CH3SH": {
       "kind": "excluded",
@@ -1411,6 +1415,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic agent-native document markup format/spec with an MCP server and no DSH content; excluded from the catalog."
     },
+    "geoqiao/paseo-deepseek-harness": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a Paseo editor provider plugin that embeds DSH via ACP (repo superseded; development moved to paseo-stuff)."
+    },
     "getpapi/papi": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic MCP project-cycle product for any coding tool."
@@ -2627,6 +2635,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a personal pnpm-workspace monorepo of @dfy-plugins plugins; each plugin publishes and installs separately from npm, not this repo."
     },
+    "xichow0663-gif/yt-research-skill": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic multi-host Python agent-skill repository (DSH/Codex/Claude Code/Hermes/WorkBuddy), superseded by multiplat-research."
+    },
     "xing-shuyin/pi-web-ui": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone web UI for the Pi coding agent (@earendil-works/pi-coding-agent); rides the dsh-plugin topic."
@@ -2666,6 +2678,10 @@
     "yingzaicc/dsh-editor-selection-vscode": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — a VS Code extension"
+    },
+    "yinnho/aginxbrowser": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Rust headless-browser product for AI agents (own binary, MCP server, hosted service); rides the dsh-plugin topic."
     },
     "yj060464-commits/dsh-chat-tools": {
       "kind": "excluded",
@@ -3003,6 +3019,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/Electron GUI wrapper; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "DoctorxPriestess/dsh-status-indicator": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a Windows system-tray companion (PowerShell) for a local dsh web instance, not an installable DSH plugin. Stays in the catalog."
+    },
     "DolphinMiner/deepseek-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -3298,6 +3318,10 @@
     "Luaphes/dsh-plugins-market": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Lumonote/lumo-harness": {
+      "kind": "market",
+      "reason": "A DeepSeek Harness desktop/server distribution with a built-in plugin/skill market — the market cannot include another market; stays in the catalog, excluded from the leaderboard and the downstream market."
     },
     "LvienOeria/dsh-desktop-launcher": {
       "kind": "market",
@@ -4291,7 +4315,7 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "jiale-li-orion/meshfin": {
+    "jiale-li-orion/dsh-meshfin": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a community-maintained DeepSeek Harness distribution / multi-device workbench, not an installable DSH plugin. Stays in the catalog."
     },
@@ -4719,7 +4743,7 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "reactive-resume/app": {
+    "reactive-resume/reactive-resume": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: stars accrued as the general ReactiveResume resume builder (repo since 2020); the packages/dsh-plugin bundle is a recent add-on. Stays in the catalog."
     },
