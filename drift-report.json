@@ -1,7 +1,14 @@
 {
-  "generated_at": "2026-09-13T10:25:53.881Z",
-  "count": 3,
+  "generated_at": "2026-09-13T11:40:29.193Z",
+  "count": 4,
   "items": [
+    {
+      "full_name": "wowyuarm/dsh-agent-team",
+      "previous": "agent",
+      "current": "memory",
+      "desc_now": "Give DeepSeek Harness a persistent agent team: durable Member identities with private memory, notes and skills across sessions. You set the direction — agents coordinate through Channels and Tasks, and manage their own context.",
+      "desc_prev": "Give DeepSeek Harness a persistent agent team for long-running collaboration"
+    },
     {
       "full_name": "duhu2000/dsh-mcp-connector",
       "previous": "tool",
