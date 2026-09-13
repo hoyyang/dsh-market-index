@@ -1,34 +1,27 @@
 {
-  "generated_at": "2026-09-13T11:40:29.193Z",
-  "count": 4,
+  "generated_at": "2026-09-13T14:57:49.710Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "wowyuarm/dsh-agent-team",
-      "previous": "agent",
-      "current": "memory",
-      "desc_now": "Give DeepSeek Harness a persistent agent team: durable Member identities with private memory, notes and skills across sessions. You set the direction — agents coordinate through Channels and Tasks, and manage their own context.",
-      "desc_prev": "Give DeepSeek Harness a persistent agent team for long-running collaboration"
+      "full_name": "xxccdl/deepseek-harness-desktop",
+      "previous": "vision",
+      "current": "other",
+      "desc_now": "DeepSeek Harness Desktop, Faster, More features, Plugin Market, Computer Controll....",
+      "desc_prev": "DeepSeek Harness 桌面版 — Electron 壳层封装 dsh web，集成记忆查看、电脑控制、桌面设置、定时任务、快捷对话、预算血条等桌面插件。DeepSeek Harness Desktop — Electron shell wrapping dsh web with desktop-only plugins: memory viewer, computer use, desktop settings, scheduler, quick chat, and usage bar."
     },
     {
-      "full_name": "duhu2000/dsh-mcp-connector",
+      "full_name": "zhengjy01/dsh-task-dispatcher",
+      "previous": "other",
+      "current": "notify",
+      "desc_now": "Task dispatcher for DeepSeek Harness: use TickTick (滴答清单) as the daily task dispatcher — a cordis timer pulls today's due tasks, writes them to the task file, and notifies (WeChat via ClawBot / flomo / macOS); optional auto-execute with result receipts",
+      "desc_prev": "Task dispatcher for DeepSeek Harness: use TickTick (滴答清单) 5️⃣AI as daily task dispatcher (timer + auto-execute + flomo/macOS notify)"
+    },
+    {
+      "full_name": "converk/dsh-tweaks",
       "previous": "tool",
-      "current": "resource",
-      "desc_now": "DeepSeek Harness MCP Connector: connect servers, search tools across active connections, and troubleshoot discovery. Includes a continuously updated catalog; supports OAuth 2.0 PKCE, API keys, Streamable HTTP/stdio, and mcpServers JSON import.",
-      "desc_prev": "DeepSeek Harness MCP Connector and MCP Server marketplace with over one hundred MCP connectors. Discover, authorize, and manage connections; supports OAuth 2.0 PKCE, API keys, stdio/HTTP, mcpServers JSON import, and tool and prompt discovery. Maintained by Qichacha/QCC."
-    },
-    {
-      "full_name": "Saknutella/dsh-thinking-quips",
-      "previous": "conversation",
-      "current": "web-ui",
-      "desc_now": "Playful bilingual quips and dynamic loading icons for the DeepSeek Harness (DSH) running-turn indicator.",
-      "desc_prev": "Playful bilingual quips for the DeepSeek Harness (DSH) running-turn indicator."
-    },
-    {
-      "full_name": "icanfinish11/dsh_superpowers",
-      "previous": "resource",
-      "current": "tool",
-      "desc_now": "Bundles the 14 obra/superpowers skills for the DeepSeek Harness (dsh) from a recorded upstream tag (v6.3.0), re-syncable with drift reporting.",
-      "desc_prev": "Superpowers for the DeepSeek Harness: a dsh plugin that registers the Superpowers skills as a skill catalog and injects the using-superpowers bootstrap into the system prompt."
+      "current": "other",
+      "desc_now": "让 DSH（DeepSeek Harness）更顺手的一套小改动",
+      "desc_prev": "让 DSH（DeepSeek Harness）更顺手的一套小改动：prompt-history / model-capabilities / turn-file-revert 三个独立插件"
     }
   ]
 }
