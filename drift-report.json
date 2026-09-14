@@ -1,34 +1,13 @@
 {
-  "generated_at": "2026-09-14T10:56:18.990Z",
-  "count": 4,
+  "generated_at": "2026-09-14T13:49:35.128Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "miuzel/dsh-graph",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "把工作组织成目标看板的 DeepSeek Harness (dsh) 插件：目标 / 判据 / 上下文卡片 / 执行 attempt 的二维泳道看板，数据以文件+事件流落在 .dsh-graph · Goal-kanban plugin for DeepSeek Harness",
-      "desc_prev": null
-    },
-    {
-      "full_name": "yunxiyang/dsh-loop-continue",
-      "previous": "agent",
-      "current": "tool",
-      "desc_now": "Continue a DeepSeek Harness agent turn whose model narrated its next action but called no tool.",
-      "desc_prev": null
-    },
-    {
-      "full_name": "aoripus/dsh-optimize",
-      "previous": "web-ui",
-      "current": "conversation",
-      "desc_now": "Long-session resource control for DeepSeek Harness: measures the context every request carries, warns at configurable thresholds, can run the harness compaction engine over budget, and contains offscreen chat rows behind a toggle.",
-      "desc_prev": "Long-session resource control for DeepSeek Harness: windowed history rendering in the web UI, DOM slimming, session weight monitoring and compaction guidance."
-    },
-    {
-      "full_name": "MARIOMLY/dsh-schedule-panel",
-      "previous": "web-ui",
-      "current": "notify",
-      "desc_now": "日程面板——一个可以提醒你的小插件",
-      "desc_prev": "DSH ????:????? + schedule ??,???????;???????????(?? Typert Remote ?? + ??? ctx.remote)"
+      "full_name": "webkubor/dsh-llm-hub",
+      "previous": "model",
+      "current": "resource",
+      "desc_now": "给 DSH 模型页补上官方适配器缺的那半：网关可达性探测、模型目录拉取、DeepSeek 余额常驻。零运行时依赖，不改动 DSH 安装。",
+      "desc_prev": "DSH 官方直连的 LLM 配置补强：模型发现（Models 页「获取可用模型」对 deepseek-official 生效）+ provider 卡片上的 DeepSeek 余额与可用性。零依赖，不改动 DSH 安装。"
     }
   ]
 }
