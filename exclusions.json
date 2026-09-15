@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-14T22:43:12.583Z",
-  "count": 1447,
+  "generated_at": "2026-09-15T01:19:18.647Z",
+  "count": 1477,
   "entries": {
     "0326/dsh-plugin-market": {
       "kind": "market",
@@ -158,6 +158,74 @@
     "ChenSheg/knowledge-from-literature-and-bilibili": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic literature search toolbox."
+    },
+    "ChenneyZhuang/agent-skills-cn": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a directory/index of agent-agnostic skill repos; DSH is listed only as one of several compatible agents."
+    },
+    "ChenneyZhuang/ask-batch": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (question batching) installed via npx skills add / ~/.claude/skills, no DSH integration path."
+    },
+    "ChenneyZhuang/backlog-triage": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (backlog triage) installed via npx skills add / ~/.claude/skills, no DSH integration path."
+    },
+    "ChenneyZhuang/changelog-capture": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (changelog capture) installed via npx skills add / ~/.claude/skills, no DSH integration path."
+    },
+    "ChenneyZhuang/competitor-recon": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (competitor research) installed into ~/.claude/skills, no DSH integration path."
+    },
+    "ChenneyZhuang/context-budget": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (context budgeting) installed via npx skills add, no DSH integration path."
+    },
+    "ChenneyZhuang/delivery-checklist": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (delivery checklist) installed into ~/.claude/skills, no DSH integration path."
+    },
+    "ChenneyZhuang/email-deliverability-audit": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (email deliverability audit) for Claude Code/Codex/any agent, no DSH integration path."
+    },
+    "ChenneyZhuang/estimate-before-build": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (task estimation) installed via npx skills add, no DSH integration path."
+    },
+    "ChenneyZhuang/expense-capture": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (expense capture) installed via npx skills add, no DSH integration path."
+    },
+    "ChenneyZhuang/onboarding-pack": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (project onboarding doc) installed via npx skills add, no DSH integration path."
+    },
+    "ChenneyZhuang/project-handoff": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (project handoff) installed via npx skills add, no DSH integration path."
+    },
+    "ChenneyZhuang/report-link-verification": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (link verification), archived and merged into another skill repo, no DSH integration path."
+    },
+    "ChenneyZhuang/resume-localize-cn2en": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (resume localization) installed into ~/.claude/skills, no DSH integration path."
+    },
+    "ChenneyZhuang/template-instantiator": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (template instantiation) installed via npx skills add, no DSH integration path."
+    },
+    "ChenneyZhuang/web-cliplibrary": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (web clip library) installed via npx skills add, no DSH integration path."
+    },
+    "ChenneyZhuang/weekly-review": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (weekly review) installed via npx skills add, no DSH integration path."
     },
     "Chinesezjc/dsh-tool-owned-render": {
       "kind": "excluded",
@@ -687,6 +755,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a VPS server deployment setup and systemd configuration for DeepSeek Harness."
     },
+    "RavenWangChina/yuanzhu": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an enterprise AI work-platform distributed via pip and the Claude Code plugin marketplace; it only reads dsh-configured providers."
+    },
     "Renjie-hub-byte/DSH-AutoKnit": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone Python divide-and-conquer execution framework with no DSH integration."
@@ -694,6 +766,10 @@
     "RiChenyv/bamboo-cicada-3d": {
       "kind": "excluded",
       "reason": "A browser game / 3D interactive simulation toy, not a DSH plugin."
+    },
+    "Riderich/self-evolving-router-dsh": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone research toolchain whose own installer registers a dedicated DSH profile, not an installable plugin."
     },
     "SEC-API-io/sec-edgar-mcp": {
       "kind": "excluded",
@@ -971,6 +1047,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — the generic OpenPencil design tool; its DSH port is ZSeven-W/dsh-openpencil, which stays in the catalog."
     },
+    "ZSeven-W/rish-app": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone local-first mobile agent app (iOS/Android) where DSH is one of four harness connections."
+    },
     "ZeroHackz/OpenFlowFrames": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a Windows video frame interpolation GUI (Flowframes fork) unrelated to DSH; merely added the topic."
@@ -1171,6 +1251,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a Codex skill for Chinese novel writing with no DSH integration path; riding the dsh topics; excluded from the catalog."
     },
+    "chenqg618/compliance-skills": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — offline compliance-check skill packs aimed at Claude Code/SkillHub/Cursor, no DSH integration path."
+    },
     "chensenmiao/DeepSeek-Harness-Principles-and-Practice": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a structured tutorial e-book reorganizing the official DeepSeek Harness docs."
@@ -1190,6 +1274,10 @@
     "chenyinrusi/dsh-kanban-mcp": {
       "kind": "excluded",
       "reason": "Generic filesystem kanban MCP server that works with any MCP client, not DSH-specific."
+    },
+    "ciceroyang/dsh-topic-audit": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Node CLI that audits the GitHub dsh-plugin topic."
     },
     "civaapple-alt/mini-dsh": {
       "kind": "excluded",
@@ -2627,6 +2715,18 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — an MCP bridge installed into other harnesses that spawns DSH instances as subagents."
     },
+    "xby-skill/xby-audio-tag": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty repository (no README, no SKILL.md, no files)."
+    },
+    "xby-skill/xby-audio-tools": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty repository (no README, no SKILL.md, no files)."
+    },
+    "xby-skill/xby-denoise": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty repository (no README, no SKILL.md, no files)."
+    },
     "xby-skill/xby-detect-aigc": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — an empty repository (description only, no code)."
@@ -2646,6 +2746,22 @@
     "xby-skill/xby-fake": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — an empty repository (description only, no code)."
+    },
+    "xby-skill/xby-mp3": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty repository (no README, no SKILL.md, no files)."
+    },
+    "xby-skill/xby-punctuation": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty repository (no README, no SKILL.md, no files)."
+    },
+    "xby-skill/xby-tts-cn": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty repository (no README, no SKILL.md, no files)."
+    },
+    "xby-skill/xby-wav": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty repository (no README, no SKILL.md, no files)."
     },
     "xi-zhao/OpenQuantum": {
       "kind": "excluded",
@@ -3467,6 +3583,10 @@
       "kind": "market",
       "reason": "A petdex.dev companion-pet market client — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "NeoXider/neoxider-agent-deck": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a standalone Electron desktop companion/widget app, not an installable DSH plugin. Stays in the catalog."
+    },
     "Nexus-Aethra/DSHBox": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -4115,10 +4235,6 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store (dsh.works) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "duanjiangDJ/dsh-gui": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
     "duhu2000/dsh-mcp-connector": {
       "kind": "market",
       "reason": "Includes a built-in extension/integration marketplace — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -4595,10 +4711,6 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
     },
-    "modelbus/deepseek-harness-pro": {
-      "kind": "market",
-      "reason": "Includes a built-in plugin marketplace — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
     "mos-7/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell (Electron); stays in the catalog and leaderboard, excluded from the downstream market."
@@ -5059,6 +5171,10 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: stars accrued as the standalone Wegent AI work system (Electron desktop workbench + self-hostable web platform) with DSH as an embedded runtime, not an installable DSH plugin. Stays in the catalog."
     },
+    "weibaohui/dsh-fde-tools": {
+      "kind": "market",
+      "reason": "A DSH plugin suite installer whose panel installs and updates other plugins — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
     "weibaohui/experts-management": {
       "kind": "market",
       "reason": "An expert market that browses/installs external expert presets — the market cannot include another market; stays in the catalog, off the star board and out of the downstream market."
@@ -5154,6 +5270,10 @@
     "xiincs/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a Tauri desktop shell/wrapper."
+    },
+    "xinghaix/deepseek-harness-desktop": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
     },
     "xiuxxx0/deepseek-harness-desktop": {
       "kind": "market",
