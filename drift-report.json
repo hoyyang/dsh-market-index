@@ -1,13 +1,34 @@
 {
-  "generated_at": "2026-09-15T01:19:17.456Z",
-  "count": 1,
+  "generated_at": "2026-09-15T06:38:05.454Z",
+  "count": 4,
   "items": [
     {
-      "full_name": "RavenWangChina/yuanzhu",
+      "full_name": "v587d/capital-generation",
       "previous": "tool",
-      "current": "memory",
-      "desc_now": "Meta-Forge Workshop: turn recurring work into governed AI workflow assets. MCP server + Claude Code plugin + dsh plugin — staged writes, evals-gated forging, inference engine. 元铸工坊 SOSOFAST：把最佳实践铸成可治理的 AI 工作流资产",
-      "desc_prev": "元铸工坊 SOSOFAST——企业 AI 人效平台：把最佳实践铸成可治理的工作流资产（AI 提议，人拍板）"
+      "current": "agent",
+      "desc_now": "面向中国股市散户的金融投资智能体。Next-Gen AI-Driven Capital Generation.",
+      "desc_prev": "面向中国股市散户的金融投资智能体。Next-Gen AI-Driven Capital Generation."
+    },
+    {
+      "full_name": "zeng6125-rgb/dsh-llm-retry-settings",
+      "previous": "model",
+      "current": "web-ui",
+      "desc_now": "DSH 插件：LLM 自动重试设置卡片——重试次数/退避/抖动与 25 个错误码可勾选（也能自己输入），可按 provider/model 单独设策略、回答被输出 token 上限截断时自动续写且提示词可改，内置重试观测面板，改完实时生效。",
+      "desc_prev": "DSH 插件：LLM 自动重试设置卡片——重试次数/退避/抖动与 25 个错误码可勾选（也能自己输入），回答被输出 token 上限截断时自动续写且提示词可改，改完实时生效。"
+    },
+    {
+      "full_name": "STARDUSTLC666/dsh-suite",
+      "previous": "resource",
+      "current": "notify",
+      "desc_now": "DeepSeek Harness 插件全家桶：18 个组件覆盖邮件、日历、媒体创作、开发运维、消息通知与极简 PTC；通过 npm 一条命令安装，提供组合配置与整套兼容性验证脚本。",
+      "desc_prev": "STARDUSTLC 插件全家桶（聚合安装包，不提供独立工具）：一条命令装入 18 个 DSH 插件。18 个插件已在 DeepSeek Harness v0.1.3-alpha.2 同载验证。The STARDUSTLC plugin suite: 18 DSH plugins, one command."
+    },
+    {
+      "full_name": "BonovaVanro/dsh-mega-settings",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "dsh设置面板增强、mega 系列插件的统一设置收纳宿主、提供多项dsh优化设置",
+      "desc_prev": "mega 系列插件的统一设置收纳宿主。"
     }
   ]
 }
