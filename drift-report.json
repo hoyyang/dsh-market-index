@@ -1,13 +1,20 @@
 {
-  "generated_at": "2026-09-16T18:26:16.568Z",
-  "count": 1,
+  "generated_at": "2026-09-16T21:39:24.803Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "rootkiller6788/dsh-flow",
-      "previous": "conversation",
-      "current": "agent",
-      "desc_now": "A pluginized microkernel architecture for building, orchestrating, and extending multi-agent systems in DeepSeek Harness.",
-      "desc_prev": "dsh-flow —— DeepSeek Harness 的统一智能体画布：把需求会话、多智能体团队、成员任务与发言、依赖 DAG 编织进同一张可交互时间轴，让 Agent 从“后台运行”变成“可视化协作”。"
+      "full_name": "guhanfei-ai/dsh-grafana",
+      "previous": "other",
+      "current": "notify",
+      "desc_now": "Agent-native Grafana observability for DeepSeek Harness — dashboards, metrics, trends, alerts and multi-source investigation.",
+      "desc_prev": "让DSH帮你丰富对物理世界的可观测"
+    },
+    {
+      "full_name": "guhanfei-ai/dsh-mindmap",
+      "previous": "other",
+      "current": "memory",
+      "desc_now": "Markdown-native AI mind maps and visual thinking for DeepSeek Harness.",
+      "desc_prev": "让DSH帮你快速制作思维脑图"
     }
   ]
 }
