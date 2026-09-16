@@ -1,41 +1,20 @@
 {
-  "generated_at": "2026-09-16T12:33:53.796Z",
-  "count": 5,
+  "generated_at": "2026-09-16T14:21:43.170Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "axelfreeman/marketing-mindset",
-      "previous": "coding",
-      "current": "notify",
-      "desc_now": "The marketing OS for AI agents — a free MIT skill that teaches how a marketer decides: 3-month horizon, fast tests, minimum test volumes, scale what comes easy.",
-      "desc_prev": "The marketing OS for AI agents — think like a marketer first, get tactics as the output."
+      "full_name": "aosi526/dsh-workbuddy-xdpool",
+      "previous": "resource",
+      "current": "other",
+      "desc_now": "将 WorkBuddy 桌面 App 里登录过的所有账号自动并入一个 DeepSeek Harness 模型池：无需任何手动配置，你在 WorkBuddy 桌面登录的每个账号都会成为一个池成员；某个账号被限流（429）时，请求会自动切换到下一个可用账号，实现多账号自动容错轮换。",
+      "desc_prev": "Merge every locally signed-in WorkBuddy account into DeepSeek Harness as one auto-failing-over model pool (multi-account rotation, live credits and model catalog)."
     },
     {
-      "full_name": "X-C1811/dsh-web-search-plugin",
-      "previous": "web-ui",
-      "current": "tool",
-      "desc_now": "Unified web search for the DeepSeek Harness seam (ctx.web): DeepSeek (official), Tavily, Brave, Serper, SerpApi, Exa, SearXNG, Scavio, and Firecrawl backends",
-      "desc_prev": "Tavily web-search provider for DeepSeek Harness (ctx.web). Keyless or API-key modes with a configurable UI card; provider framework designed to be extended to more search APIs."
-    },
-    {
-      "full_name": "WuJiaoJue/dsh-later",
-      "previous": "conversation",
-      "current": "notify",
-      "desc_now": "给 DSH 加上定时发送：输入一句话，到点自动以你的身份送出，关掉网页也准时触发。定时发送 / 定时提醒 / 延迟发送。｜ Scheduled send for DSH: type now, delivered as you at the time you pick — even with the page closed.",
-      "desc_prev": "DSH 会话内定时发送插件"
-    },
-    {
-      "full_name": "WuJiaoJue/dsh-herdr-site",
-      "previous": "tool",
-      "current": "coding",
-      "desc_now": "让 Herdr 认识 DSH 面板：把 agent 的 working/idle/blocked 状态报给 Herdr，支持面板跳转与 --wait。状态上报 / 终端集成。｜ Teaches Herdr about DSH panes: reports agent working/idle/blocked state, enabling panel jump and --wait support.",
-      "desc_prev": "Reports dsh/cc-tui agent state (working/idle/blocked) to Herdr over the custom-integration protocol."
-    },
-    {
-      "full_name": "drscrewdriver/dsh-canvas-tsx-sidebar",
-      "previous": "web-ui",
-      "current": "coding",
-      "desc_now": "DSH 侧边栏插件：把 Qoder Canvas `*.canvas.tsx` 静态解析为结构化报告页，在 dsh-better-sidebar 右侧栏渲染（文件查看器接管 + 页签）。纯静态管线，不执行源码。附 writing-qoder-canvas skill。｜ Render Qoder Canvas `.canvas.tsx` reports in the DSH right sidebar. Static parse only — no code execution.",
-      "desc_prev": "DSH 侧边栏 Canvas 报告：把工作区的 Qoder Canvas (*.canvas.tsx) 静态解析为结构化页面"
+      "full_name": "2507483326/eTeam",
+      "previous": "other",
+      "current": "agent",
+      "desc_now": "一个增强deepseek harness 的 多成员协作插件",
+      "desc_prev": null
     }
   ]
 }
