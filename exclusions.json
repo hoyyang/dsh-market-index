@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T23:39:44.371Z",
-  "count": 1477,
+  "generated_at": "2026-09-16T04:07:43.511Z",
+  "count": 1482,
   "entries": {
     "0326/dsh-plugin-market": {
       "kind": "market",
@@ -1891,6 +1891,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic vision-routing tool for ~20 agents (Claude Code, Codex, DSH among them) installed via npx/Agent Plugins; rides the dsh-plugin topic; excluded from the catalog."
     },
+    "lin-strive/deepseek-harness-enterprise": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an enterprise deployment template for DeepSeek Harness (WPF desktop shell + Spring Boot control plane + LiteLLM gateway/Docker config); no dsh plugin install path."
+    },
     "linhay/harmony-next.skills": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — HarmonyOS NEXT guidance skills, unrelated to DSH."
@@ -2474,6 +2478,10 @@
     "tta-lab/organon": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — generic tree-sitter CLI tools for AI agents (tta-lab workspace tooling); no DSH install path."
+    },
+    "turnwire/turnwire": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a self-hosted remote-session product (host plus browser/CLI/phone clients and relay) that delegates tasks to DSH; no dsh plugin install path."
     },
     "twanonymous/agent-dispatch-cli": {
       "kind": "excluded",
@@ -3059,6 +3067,10 @@
       "kind": "market",
       "reason": "A DSH plugin store / manager with install-update-remove flows and catalog sync — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "Alfred-Lau/OPC-Fellows": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — an Electron workbench application on the DSH/Cordis runtime; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
     "AlienHub/dsh-menubar": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -3155,6 +3167,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "CosmoSail/DSH_Launch_Console": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
     "DecresLuna/dsh-DSH-Service": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a desktop shell/launcher/client (Mac menu-bar service manager), not an installable DSH plugin. Stays in the catalog."
@@ -3206,6 +3222,10 @@
     "EasyTZ/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a Windows desktop build of DSH; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Eray114514/dsh-find-plugins": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store (aggregates community plugin catalogs with install pointers) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "EricXu20266/dsh-discovery": {
       "kind": "market",
@@ -3298,10 +3318,6 @@
     "Hanmingh/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — an Electron desktop wrapper for the DSH Web GUI; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "HanzhiOvO/deepseek-harness-shell": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "HaoyueQin/deepseek-harness-desktop": {
       "kind": "market",
@@ -3574,6 +3590,10 @@
     "NOirBRight/dsh-mobile": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a native Android client shipping alongside its pairing plugins; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Nagi-ovo/dsh-find-plugins": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store (finds and installs plugins from community catalogs) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "NanmiCoder/dsh-plugin-market": {
       "kind": "market",
@@ -4171,6 +4191,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop installer/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "destr-z/dsh-web-portable": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — a portable Windows desktop packaging of the DSH Web UI; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
     "dfzjb/whalemaid-desktop-pet": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — an Electron desktop-pet app acting as a DSH agent entry; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -4586,10 +4610,6 @@
     "leonardoxr/dsh-plugin-manager": {
       "kind": "market",
       "reason": "A plugin manager with install/remove flows — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "liangyou09/lyshell": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — an AI-native terminal & SSH client with built-in DeepSeek Harness; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "liangyou09/lyshell-archive": {
       "kind": "leaderboard",
@@ -5243,7 +5263,7 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "x102201/deepseek-harness-helper": {
+    "x102201/dsh-helper": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop client (multi-window, multi-instance); stays in the catalog and leaderboard, excluded from the downstream market."
     },
@@ -5334,6 +5354,10 @@
     "yiqizhuapangxiema/harness-plugin-store-optimized": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store (graphical plugin-store plugin forked from dsh-plugin-hub) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "yixiuzhemu/MCP-Manager": {
+      "kind": "market",
+      "reason": "Includes a built-in extension/integration marketplace (MCP servers from mcp-cn.com) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "yjh051108/dsh-router-standard": {
       "kind": "leaderboard",
@@ -5734,10 +5758,6 @@
     "huguangyu666/dsh-store": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "ismoss/dsh-harness-zh-l10n": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a file-level Chinese localization patch applied directly to the installed harness packages; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "kuangre123/deepseek-harness-mac": {
       "kind": "market",
