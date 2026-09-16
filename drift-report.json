@@ -1,7 +1,14 @@
 {
-  "generated_at": "2026-09-16T11:08:58.121Z",
-  "count": 4,
+  "generated_at": "2026-09-16T12:33:53.796Z",
+  "count": 5,
   "items": [
+    {
+      "full_name": "axelfreeman/marketing-mindset",
+      "previous": "coding",
+      "current": "notify",
+      "desc_now": "The marketing OS for AI agents — a free MIT skill that teaches how a marketer decides: 3-month horizon, fast tests, minimum test volumes, scale what comes easy.",
+      "desc_prev": "The marketing OS for AI agents — think like a marketer first, get tactics as the output."
+    },
     {
       "full_name": "X-C1811/dsh-web-search-plugin",
       "previous": "web-ui",
