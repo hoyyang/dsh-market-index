@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-17T10:56:00.075Z",
-  "count": 1492,
+  "generated_at": "2026-09-17T12:14:42.037Z",
+  "count": 1491,
   "entries": {
     "0326/dsh-plugin-market": {
       "kind": "market",
@@ -694,10 +694,6 @@
     "PelyDeng/dsh-plugin-manager": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a Docker/CLI deployment-and-delivery framework for DSH-based apps (plugin packaging, unified auth, multi-plugin compose)."
-    },
-    "PerryLink/dsh-cert-mcp": {
-      "kind": "excluded",
-      "reason": "Not a DSH plugin — a standalone read-only MCP server run via npx, with no DSH install path."
     },
     "PerryLink/dsh-plugin-certification": {
       "kind": "excluded",
@@ -2322,10 +2318,6 @@
     "sly7783/lively-wallpaper-guide": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a setup guide and wallpaper pack collection for Lively Wallpaper; rides the dsh-plugin topic."
-    },
-    "slywalker2006/dsh-passwords": {
-      "kind": "excluded",
-      "reason": "Not an installable DSH plugin — deployment packaging (Docker/K8s/ops tooling)"
     },
     "soberbiak/amazon-sucareer": {
       "kind": "excluded",
@@ -5626,6 +5618,10 @@
     "NoWint/Oh-My-DSH": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone app/site; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "PerryLink/dsh-cert-mcp": {
+      "kind": "market",
+      "reason": "A read-only MCP server over the DSH plugin certification registry — not an installable DSH plugin; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "PerryLink/dsh-plugin-kit": {
       "kind": "market",
