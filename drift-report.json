@@ -1,34 +1,13 @@
 {
-  "generated_at": "2026-09-17T12:14:40.528Z",
-  "count": 4,
+  "generated_at": "2026-09-17T15:16:53.505Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "KongFangXun/sofagent",
-      "previous": "coding",
-      "current": "tool",
-      "desc_now": "FDE Harness — on entry, write your business judgment into files (business flows, ontology, AI nodes); after departure, audit every change against them. 24 git-diff rules, tamper-evident chain, snapshots (104 tools, 11 plugins).",
-      "desc_prev": "Audit-first governance layer for AI coding agents — 24 git-diff rules, HMAC tamper-evident chain, snapshot rollback (95 tools, 14 plugins)"
-    },
-    {
-      "full_name": "Ultronen/dsh-archived-chats",
-      "previous": "tool",
-      "current": "memory",
-      "desc_now": "Local-first Session Archive for DeepSeek Harness: bulk archive, full-text search and native preview, tags and notes, ZIP backups, snapshot-protected Recycle Bin, storage and retention, lineage, and preserved legacy recovery data.",
-      "desc_prev": "Local-first session lifecycle for DeepSeek Harness: safely bulk-archive workspaces, search and preview archived chats, restore history as copies, manage backups, recycle protection, retention, and lineage."
-    },
-    {
-      "full_name": "v587d/capital-generation",
-      "previous": "agent",
-      "current": "tool",
-      "desc_now": "面向中国股市散户的金融投资智能体。Next-Gen AI-Driven Capital Generation.",
-      "desc_prev": "面向中国股市散户的金融投资智能体。Next-Gen AI-Driven Capital Generation."
-    },
-    {
-      "full_name": "He2way/dsh-task-console",
-      "previous": "agent",
-      "current": "conversation",
-      "desc_now": "DSH client plugin: flip the page over to a glass task console — live jobs, subagents, session and workspace cards, an infinite canvas that unrolls a card into its own controls, embedded web apps, and a conversation box that edits the canvas.",
-      "desc_prev": "DSH client plugin: a floating glass task console on the back of the page — live background jobs, subagents, session overview and workspace for the current session, with mouse-draggable cards."
+      "full_name": "weekitmo/oh-my-dsh-plugins",
+      "previous": "other",
+      "current": "resource",
+      "desc_now": "A curated collection of awesome plugins for DeepSeek Harness (DSH) — task notifications, LLM trace inspection, keybindings with a built-in terminal, and local agent delegation.",
+      "desc_prev": null
     }
   ]
 }
