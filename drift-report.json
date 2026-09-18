@@ -1,20 +1,13 @@
 {
-  "generated_at": "2026-09-18T05:44:31.531Z",
-  "count": 2,
+  "generated_at": "2026-09-18T11:18:23.930Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "avdergh/poe2-exile-architect",
-      "previous": "tool",
-      "current": "memory",
-      "desc_now": "Research, create, and understand Path of Exile 2 builds with AI agents and Path of Building.",
-      "desc_prev": "Research, create, and understand Path of Exile 2 builds with AI agents and Path of Building."
-    },
-    {
-      "full_name": "liuhange789/data-asset-inspector",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "Data Asset Inspector Plugin Suite - full-chain data asset registration toolkit for DeepSeek Harness (DSH)",
-      "desc_prev": "???????"
+      "full_name": "ZSeven-W/dsh-android",
+      "previous": "conversation",
+      "current": "web-ui",
+      "desc_now": "DeepSeek Harness plugin for Android — build, run, and interact with a live emulator or USB device stream inside a conversation, driven entirely through adb.",
+      "desc_prev": "DeepSeek Harness plugin for Android — build, run, and interact with a live emulator or USB device stream inside a conversation, driven entirely through adb."
     }
   ]
 }
