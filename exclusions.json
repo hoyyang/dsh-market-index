@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-17T22:25:51.499Z",
-  "count": 1491,
+  "generated_at": "2026-09-18T05:44:33.313Z",
+  "count": 1510,
   "entries": {
     "0326/dsh-plugin-market": {
       "kind": "market",
@@ -114,6 +114,30 @@
     "B1lli/dsh-plugin-bench": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a plugin quality-scorecard CLI, not installable."
+    },
+    "BOWLUNA/dsh-comfyui-panel": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a planned-plugin announcement with no plugin code yet (README-only repository)."
+    },
+    "BOWLUNA/dsh-dreamina": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a planned-plugin announcement with no plugin code yet (README-only repository)."
+    },
+    "BOWLUNA/dsh-mobile-first": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a planned-plugin announcement with no plugin code yet (README-only repository)."
+    },
+    "BOWLUNA/dsh-novel": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a planned-plugin announcement with no plugin code yet (README-only repository)."
+    },
+    "BOWLUNA/dsh-prompt-hub": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a planned-plugin announcement with no plugin code yet (README-only repository)."
+    },
+    "BOWLUNA/dsh-rp": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a planned-plugin announcement with no plugin code yet (README-only repository)."
     },
     "BaihaWhite/dsh-plugins-list": {
       "kind": "excluded",
@@ -387,6 +411,18 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic architecture-aware coding-agent framework aimed at Claude Code/Codex/OpenCode; rides the dsh-plugin topic."
     },
+    "Gishi1/calaloud": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a thin-client Android (Tauri v2) ebook/fanfic reader for Calibre + FanFicFare + Kokoro TTS."
+    },
+    "Gishi1/fanficfare-service": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone HTTP API wrapping FanFicFare (story URL → EPUB / WorkBundle JSON)."
+    },
+    "Gishi1/katacoda-scenarios": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a 2018 Katacoda interactive-scenarios collection riding the dsh-plugin topic."
+    },
     "Glazyonyt/dsh-lowtide": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone Windows task-scheduling desktop app that queues dsh runs off-peak; no DSH plugin install path."
@@ -506,6 +542,10 @@
     "L-mimimi/WinPin": {
       "kind": "excluded",
       "reason": "Generic Windows window-pinning tool that merely added the dsh-plugin topic; not a DSH plugin."
+    },
+    "LLLike27/One-Time-Link": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a one-time-link sharing mechanism design document."
     },
     "Lanxi26/dsh-bash-windows": {
       "kind": "excluded",
@@ -1014,6 +1054,10 @@
     "YaoApp/yao": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a self-hosted multi-agent workspace product; DSH is one of many integrations."
+    },
+    "YeKui7/dsh-seams": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — field-notes documentation on DeepSeek Harness extension points and silent-failure traps."
     },
     "Yourtsao/Offical-paper-Wrighting--Chinese--skill": {
       "kind": "excluded",
@@ -1727,6 +1771,10 @@
       "kind": "excluded",
       "reason": "Generic code-intelligence MCP server with Claude Code/Codex/Cursor plugins; no DSH install path."
     },
+    "jayantTang/DSH_Mobile": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a native iOS client for remote DSH sessions over a WSS relay (companion mobile app)."
+    },
     "jcaiagent7143-ui/linkdigest-mcp": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a hosted social-media-link digest MCP web service configured for Claude Code / Cursor."
@@ -1887,6 +1935,10 @@
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — a VS Code extension"
     },
+    "liaoyuqing/dsh_workspace_switch": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty repository with only a LICENSE file."
+    },
     "libukai/awesome-deepseek-harness": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a curated plugin list/directory."
@@ -2014,6 +2066,10 @@
     "moxingovo/dsh-web-panel": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — a VS Code extension"
+    },
+    "mozi-desk/mozi-forge": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone self-evolving-agent foundation built on the DeepSeek Harness runtime (clone → build → run); no plugin install path."
     },
     "mtdx2001/think-zh": {
       "kind": "excluded",
@@ -2374,6 +2430,10 @@
     "ssheleg/telegram-dev": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic Telegram development skill pack for Claude Code/Cursor and many other agents; rides the dsh-plugin topic."
+    },
+    "sudoun/memo_harness": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Python posterior-memory CLI + SQLite library on PyPI; no DSH install path."
     },
     "sunchaokun/PPT-Design-Skill": {
       "kind": "excluded",
@@ -3631,7 +3691,7 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "Noob-stupid/dsh-plugin-hub": {
+    "Noob-stupid/dsh-plugin-gating-hub": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
     },
@@ -3774,6 +3834,10 @@
     "Sivan757/dsh-agent-plugins-market": {
       "kind": "market",
       "reason": "An agent-plugins market (install/browse suites from git sources) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "SkyblueeeLabs/dsh-iconic-launcher": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
     },
     "SnowCrescenter-tech/dsh-desktop": {
       "kind": "market",
@@ -5131,6 +5195,10 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: stars come from the generic cross-agent person-profile toolkit (formerly Colleague Skill); DSH skill-discovery support is one of many host integrations. Stays in the catalog."
     },
+    "tkhs101/DSH-DesktopX": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
+    },
     "tttnny/DSH-Launcher": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -5311,6 +5379,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "xswt442-cmd/dsh-xswt-tauriapp": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
+    },
     "xtxo/dsh-ui": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -5446,6 +5518,10 @@
     "zhang66633/.dsh-plugin-installer": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "zhanghao3693/dsh-dpharness": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
     },
     "zhangzheng25/dsh-minimal-desktop": {
       "kind": "market",
