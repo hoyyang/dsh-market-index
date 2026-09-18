@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-09-18T23:35:05.191Z",
+  "count": 1,
+  "items": [
+    {
+      "full_name": "having5548/deepseek-harness-desktop",
+      "previous": "other",
+      "current": "coding",
+      "desc_now": "DeepSeek Harness 桌面客户端（Rust + Tauri 2，跨 Windows / macOS / Linux）：dsh 自动安装升级、插件市场、崩溃自愈",
+      "desc_prev": "一个基于WinUI的deepseek harness客户端"
+    }
+  ]
+}
