@@ -1,14 +1,7 @@
 {
-  "generated_at": "2026-09-19T10:31:49.090Z",
-  "count": 4,
+  "generated_at": "2026-09-19T11:48:07.799Z",
+  "count": 2,
   "items": [
-    {
-      "full_name": "ZSeven-W/dsh-android",
-      "previous": "conversation",
-      "current": "web-ui",
-      "desc_now": "DeepSeek Harness plugin for Android — build, run, and interact with a live emulator or USB device stream inside a conversation, driven entirely through adb.",
-      "desc_prev": "DeepSeek Harness plugin for Android — build, run, and interact with a live emulator or USB device stream inside a conversation, driven entirely through adb."
-    },
     {
       "full_name": "wowyuarm/dsh-agent-team",
       "previous": "agent",
@@ -22,13 +15,6 @@
       "current": "web-ui",
       "desc_now": "该仓库将不再作为重心，请移步：https://hotsteel2901.github.io/dsh-frutiger-aero/                      Please go to: https://hotsteel2901.github.io/dsh-frutiger-aero/.",
       "desc_prev": "Your DeepSeek Harness web UI, rebuilt for the phone in your hand. Built for developers who code in Termux on Android: single-column layout, sidebar drawer, one-line composer, fullscreen scrollable settings & trajectory details, tap-to-open session stats. Desktop untouched."
-    },
-    {
-      "full_name": "sduwall/dsh-wall-mcp-manager",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "DSH 插件：集中管理 MCP 服务配置，并展示各 MCP 的工具清单、参数与返回契约",
-      "desc_prev": null
     }
   ]
 }
