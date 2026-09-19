@@ -1,20 +1,13 @@
 {
-  "generated_at": "2026-09-19T11:48:07.799Z",
-  "count": 2,
+  "generated_at": "2026-09-19T13:04:39.652Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "wowyuarm/dsh-agent-team",
-      "previous": "agent",
-      "current": "memory",
-      "desc_now": "dsh-agent-team gives DeepSeek Harness agents that don't reset: durable Members with their own memory, notes, and skills across sessions, rollovers, and restarts. You set the direction; agents coordinate through Channels and Tasks.",
-      "desc_prev": "dsh-agent-team gives DeepSeek Harness a persistent agent team: durable Member identities across sessions. You set the direction; agents coordinate through Channels and Tasks and manage their own context."
-    },
-    {
-      "full_name": "Hotsteel2901/dsh-client-ui-mobile-adapt",
-      "previous": "coding",
-      "current": "web-ui",
-      "desc_now": "该仓库将不再作为重心，请移步：https://hotsteel2901.github.io/dsh-frutiger-aero/                      Please go to: https://hotsteel2901.github.io/dsh-frutiger-aero/.",
-      "desc_prev": "Your DeepSeek Harness web UI, rebuilt for the phone in your hand. Built for developers who code in Termux on Android: single-column layout, sidebar drawer, one-line composer, fullscreen scrollable settings & trajectory details, tap-to-open session stats. Desktop untouched."
+      "full_name": "sduwall/dsh-wall-mcp-manager",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "DSH 插件：集中管理 MCP 服务配置，并展示各 MCP 的工具清单、参数与返回契约",
+      "desc_prev": null
     }
   ]
 }
