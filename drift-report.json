@@ -1,41 +1,20 @@
 {
-  "generated_at": "2026-09-20T10:26:14.340Z",
-  "count": 5,
+  "generated_at": "2026-09-20T12:09:57.465Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "ZSeven-W/dsh-android",
-      "previous": "conversation",
-      "current": "web-ui",
-      "desc_now": "DeepSeek Harness plugin for Android — build, run, and interact with a live emulator or USB device stream inside a conversation, driven entirely through adb.",
-      "desc_prev": "DeepSeek Harness plugin for Android — build, run, and interact with a live emulator or USB device stream inside a conversation, driven entirely through adb."
-    },
-    {
-      "full_name": "OMSociety/kimi-ppt-skill",
-      "previous": "other",
-      "current": "coding",
-      "desc_now": "基于 open-kimi-ppt 技能开发：创建 / 编辑 / 复刻 / 导出 PPT",
-      "desc_prev": "DeepSeek Harness 插件 —— 内含 kimi-ppt 技能：创建 / 编辑 / 复刻 / 导出 PPT，DSH 内纯本地导出"
-    },
-    {
-      "full_name": "yangdcm/dsh-expert-team",
-      "previous": "agent",
-      "current": "conversation",
-      "desc_now": "Role-based multi-agent expert team for DeepSeek Harness: one sentence in, a staged and gated team delivery out. 12 role subagents, 9 gated phases, shared-workspace artifacts, zero runtime dependencies.",
-      "desc_prev": null
-    },
-    {
-      "full_name": "amwangfan/dsh-privacy-guard",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "DSH 隐私保护插件：本地凭据脱敏网关的控制面板 —— 状态与审计看板、泄密探测沙箱、豁免白名单、加密密钥管理、凭据保护模型入口与部署控制。Control panel for a local credential-redaction gateway in DeepSeek Harness.",
-      "desc_prev": "DSH Web 隐私脱敏守护插件：状态监控看板、出网泄密探测沙箱与网关路由管理（配合 Privacy Gateway）"
-    },
-    {
-      "full_name": "weifa860504-droid/dsh-greet-signoff",
+      "full_name": "Hotsteel2901/dsh-client-ui-mobile-adapt",
       "previous": "web-ui",
-      "current": "notify",
-      "desc_now": "固定开场语/收尾语 + 会话预算导航条（DeepSeek Harness Web 插件）：输入框上方六格读数（占用/花费/时长/预算档/速率/到线约还有）、预算线口径与红底横幅、上下文构成明细、本机花费台账、交接摘要落盘 HANDOFF.md、场景与文案池。改完下一轮回复即生效。",
-      "desc_prev": "开场语与收尾语：每次回复固定开场/收尾，并在上下文接近上限时提示换新会话（DeepSeek Harness Web 插件）"
+      "current": "coding",
+      "desc_now": "[Slow down]Allow Mobie Developer to use DeepSeek Harness.",
+      "desc_prev": "该仓库将不再作为重心，请移步：https://hotsteel2901.github.io/dsh-frutiger-aero/                      Please go to: https://hotsteel2901.github.io/dsh-frutiger-aero/."
+    },
+    {
+      "full_name": "zqh260619/dsh-dupguard",
+      "previous": "other",
+      "current": "conversation",
+      "desc_now": "DSH（DeepSeek Harness）实时重复输出守卫：模型复读时立即停止生成（默认同一字符串连续重复 ≥10 次；阈值、单元长度、检测窗口、白名单等全部参数可在设置页动态调整）。已生成内容正常提交，不丢消息、不污染会话日志。Real-time repetition guard plugin for DSH, with a graphical settings page and npm one-command install.",
+      "desc_prev": "Real-time repetition guard for DeepSeek Harness (DSH): stops model generation the moment the same string repeats ≥10 times in the streamed output. 防复读守卫：实时检测 DSH 大模型输出中的重复内容并立即停止生成。"
     }
   ]
 }
