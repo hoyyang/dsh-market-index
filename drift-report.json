@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-09-20T23:29:28.489Z",
+  "count": 1,
+  "items": [
+    {
+      "full_name": "rbviz/dsh-plugin-jules",
+      "previous": "other",
+      "current": "coding",
+      "desc_now": "Google Jules as a DeepSeek Harness capability — delegate coding tasks to the remote agent, watch them in the background, approve plans, and land the diff.",
+      "desc_prev": null
+    }
+  ]
+}
