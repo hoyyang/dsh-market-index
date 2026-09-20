@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-20T16:26:57.347Z",
+  "generated_at": "2026-09-20T19:04:36.743Z",
   "count": 1,
   "items": [
     {
-      "full_name": "frederico-kluser/dsh-worktree-jump",
-      "previous": "web-ui",
-      "current": "conversation",
-      "desc_now": "DeepSeek Harness plugin: a New-Conversation trigger that creates a git worktree — or starts inside an existing one — and moves the conversation into it (session fork with the worktree as cwd).",
-      "desc_prev": "DeepSeek Harness plugin: a web-UI button that creates a git worktree and moves the conversation into it (session fork with the worktree as cwd)"
+      "full_name": "vecnode/vn-harness",
+      "previous": "other",
+      "current": "coding",
+      "desc_now": "vn-harness 🤖 Plugin pack for DeepSeek Harness. Launchers run on Windows, macOS and Linux - the Windows half is PowerShell, the macOS/Linux half is plain POSIX shell.",
+      "desc_prev": "vn-harness 🤖"
     }
   ]
 }
