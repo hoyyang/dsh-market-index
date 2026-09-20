@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-19T18:51:22.613Z",
-  "count": 1516,
+  "generated_at": "2026-09-20T06:55:39.342Z",
+  "count": 1523,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -279,7 +279,7 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic cross-tool MCP memory server for Claude Code/Kimi Code/Cline/Cursor/Proma with no DSH integration; rides the dsh-plugin topic; excluded from the catalog."
     },
-    "Coprexist/AIsChat": {
+    "Coprexist/Copree": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone AI group-chat framework."
     },
@@ -555,6 +555,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a one-time-link sharing mechanism design document."
     },
+    "LMPrado-DZ23/awesome-agent-plugins": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a cross-harness awesome-list catalog of MCP servers, skills and plugins."
+    },
     "Lanxi26/dsh-bash-windows": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — documentation/tutorial"
@@ -750,6 +754,10 @@
     "PerryLink/dsh-plugin-portal": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a static portal/index page for the author's plugins; nothing installable."
+    },
+    "PerryLink/dsh-plugin-upgrade-016": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an unpublished corridor name; its corridor card and scanner now ship inside dsh-plugin-upgrade 2.0.0."
     },
     "PerryLink/perrylink": {
       "kind": "excluded",
@@ -1066,6 +1074,10 @@
     "YeKui7/dsh-seams": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — field-notes documentation on DeepSeek Harness extension points and silent-failure traps."
+    },
+    "YichuAI/deepseek-harness-vscode": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a native VS Code client for DeepSeek Harness (editor extension)."
     },
     "Yourtsao/Offical-paper-Wrighting--Chinese--skill": {
       "kind": "excluded",
@@ -2098,6 +2110,10 @@
     "multica-ai/dsh-multica-runtime": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — deployment packaging (Docker/K8s/ops tooling)"
+    },
+    "myc0576/SmartMoney-Cub": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an agent-agnostic read-only trading journal and finance-benchmark harness (Python CLI, no DSH integration); rides the dsh-plugin topic."
     },
     "name-loading/dsh-vscode": {
       "kind": "excluded",
@@ -3255,6 +3271,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a native iOS client; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "Clearailhc/clearai-dsh": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: stars accrued as promotion of the standalone ClearAI ontology platform delivered as a DSH plugin (one-day +103★ burst; 165★ with only 9 forks / 3 watchers), not from the DSH plugin audience. Stays in the catalog."
+    },
     "Cnkore007/dsh-Desktop-Client": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -3951,6 +3971,10 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "VDERR/echocat-skill-panel-3.0": {
+      "kind": "market",
+      "reason": "A skill panel with one-click skill-install flows (GitHub / ZIP / SKILL.md URLs) — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
     "Viveksssss/DeepSeek-harness-marketplace": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -4267,6 +4291,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop DevOps command-center app/shell; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "dataelement/dsh-desktop": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
+    },
     "ddll8023/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -4531,10 +4559,6 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "huangruiteng/loopx": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: stars accrued as a generic long-horizon agent control plane for Codex, Claude Code, Cursor and other harnesses; the DSH plugin is a recent addition. Stays in the catalog."
-    },
     "huantian1223/dsh_desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -4606,6 +4630,10 @@
     "jiangnanquan/dsh-ux": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "jianjianzhu/dsh-harness-ui": {
+      "kind": "market",
+      "reason": "Includes a built-in plugin marketplace (browses the dsh-plugin topic) — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
     },
     "jiefing/HDSL": {
       "kind": "market",
@@ -4762,6 +4790,10 @@
     "longyu065/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "loopx-project/loopx": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: stars accrued as a generic long-horizon agent control plane for Codex, Claude Code, Cursor and other harnesses; the DSH plugin is a recent addition. Stays in the catalog."
     },
     "losebird/dsh-plugin-market": {
       "kind": "market",
@@ -5511,7 +5543,7 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "yyh-001/dsh-launcher": {
+    "yyh-001/DSH-X": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
@@ -5950,10 +5982,6 @@
     "openma-ai/backchat": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone app/site; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "openrect/dsh-community-installer": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — an unofficial Windows installer for @deepseek-ai/dsh itself; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "papachong/deepseek-harness-tui": {
       "kind": "market",
