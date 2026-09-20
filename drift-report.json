@@ -1,20 +1,13 @@
 {
-  "generated_at": "2026-09-20T12:09:57.465Z",
-  "count": 2,
+  "generated_at": "2026-09-20T16:26:57.347Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "Hotsteel2901/dsh-client-ui-mobile-adapt",
+      "full_name": "frederico-kluser/dsh-worktree-jump",
       "previous": "web-ui",
-      "current": "coding",
-      "desc_now": "[Slow down]Allow Mobie Developer to use DeepSeek Harness.",
-      "desc_prev": "该仓库将不再作为重心，请移步：https://hotsteel2901.github.io/dsh-frutiger-aero/                      Please go to: https://hotsteel2901.github.io/dsh-frutiger-aero/."
-    },
-    {
-      "full_name": "zqh260619/dsh-dupguard",
-      "previous": "other",
       "current": "conversation",
-      "desc_now": "DSH（DeepSeek Harness）实时重复输出守卫：模型复读时立即停止生成（默认同一字符串连续重复 ≥10 次；阈值、单元长度、检测窗口、白名单等全部参数可在设置页动态调整）。已生成内容正常提交，不丢消息、不污染会话日志。Real-time repetition guard plugin for DSH, with a graphical settings page and npm one-command install.",
-      "desc_prev": "Real-time repetition guard for DeepSeek Harness (DSH): stops model generation the moment the same string repeats ≥10 times in the streamed output. 防复读守卫：实时检测 DSH 大模型输出中的重复内容并立即停止生成。"
+      "desc_now": "DeepSeek Harness plugin: a New-Conversation trigger that creates a git worktree — or starts inside an existing one — and moves the conversation into it (session fork with the worktree as cwd).",
+      "desc_prev": "DeepSeek Harness plugin: a web-UI button that creates a git worktree and moves the conversation into it (session fork with the worktree as cwd)"
     }
   ]
 }
