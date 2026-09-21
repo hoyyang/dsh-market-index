@@ -1286,6 +1286,11 @@ async function main() {
         if (repo.readme_len !== undefined) continue
         const prev = oldMap.get(repo.full_name)
         if (prev && typeof prev.readme_len === "number") {
+          // v1.6.4：本 run 被 Search 重新抓取且 updated_at 变化的仓库，README 内容可能
+          // 已变，不得继承旧信号——否则刚 push 的仓库永远背着旧评分信号（dsh-mall
+          // 实证：push 后 6 小时六次运行全部继承旧值，重抓队列永远看不到它）。
+          // updated_at 未变的仓库仍继承（零额度，预算友好）。
+          if (freshNames.has(repo.full_name) && prev.updated_at !== repo.updated_at) continue
           repo.readme_len = prev.readme_len
           repo.readme_install_section = prev.readme_install_section
           repo.readme_code_blocks = prev.readme_code_blocks
