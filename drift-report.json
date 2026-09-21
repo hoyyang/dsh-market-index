@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-09-21T08:20:21.890Z",
+  "count": 1,
+  "items": [
+    {
+      "full_name": "DWJZ/dsh-allow",
+      "previous": "memory",
+      "current": "coding",
+      "desc_now": "按路径与能力（read/write/create/delete/execute）授予 DSH shell 调用的文件权限，并在进程真正运行其下的 macOS Seatbelt profile 里强制；会话里的「审批」标签页显示每次判定是规则、自动复核还是人拍的板。 / Filesystem permissions for DSH shell calls, granted per path and capability instead of per command name, enforced in the process sandbox, with an Approvals tab showing which layer decided each call.",
+      "desc_prev": "DeepSeek Harness 权限记忆插件：把某类命令加进允许列表，之后同类命令不再询问。 / Remember sandbox-escalation approvals so the same command prefix stops asking."
+    }
+  ]
+}
