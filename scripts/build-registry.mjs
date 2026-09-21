@@ -1611,8 +1611,11 @@ async function enrichLatestTags(repos) {
         }
         // v1.12：单轮 1000 条上限（GITHUB_TOKEN 约 1000 req/h），到量即停，
         // 给同一小时内其他 API 用量留余地。
-        if (attempted >= 1000) {
-          stoppedReason = "quota cap 1000";
+        // v1.6.4：1000 上限=每轮烧光整小时预算，把排在后面的 README 评分信号
+        // 富化和后续 run 全部饿死（滚动小时窗口永远背着上一轮的满额烧伤）。
+        // tags 只是版本号装饰，降到 200/轮，预算让给评分关键路径。
+        if (attempted >= 200) {
+          stoppedReason = "quota cap 200";
           return;
         }
       } catch {
