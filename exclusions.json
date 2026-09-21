@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-20T23:29:29.879Z",
-  "count": 1523,
+  "generated_at": "2026-09-21T01:30:40.496Z",
+  "count": 1534,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -114,6 +114,10 @@
     "Ayuilos/Miffan": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone Android AI client (RikkaHub fork) with its own product site; rides the dsh-plugin topic."
+    },
+    "Azurer0121/deepseek-harness-azurer": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a fork/copy of the DeepSeek Harness itself (harness distribution, not an installable plugin)."
     },
     "B1lli/dsh-plugin-bench": {
       "kind": "excluded",
@@ -602,6 +606,10 @@
     "LynLiCoder/scan-corrector": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone Python PDF orientation-correction tool riding the topic; excluded from the catalog."
+    },
+    "M-Abozaid/limonene-mcp": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an Amazon-seller read-only MCP connector for ChatGPT/Claude assistants (no DSH install path)."
     },
     "M1ssbe4r/PocketCode": {
       "kind": "excluded",
@@ -1423,6 +1431,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — Codex/agent skills for the Cregh website builder; rides the dsh-plugin topic."
     },
+    "curtainsmall/dsh-reckoner": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty placeholder repository (only .gitignore/.gitattributes)."
+    },
     "curtiseng/spatiotemporal": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone Rust spatiotemporal-composability library with its own agent harness that merely mirrors DSH's plugin form; excluded from the catalog."
@@ -1662,6 +1674,10 @@
     "haodongzhang022-hue/OpenLiulan": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone browser-automation framework (Browser-Use/Stagehand/DevTools/Playwright MCP integration); DSH is one of several integrations."
+    },
+    "harmless0819-dev/dsh-self-built-plugins": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an index/directory of the author’s self-built plugins (awesome-list)."
     },
     "harness-home/harness-ai-plugins": {
       "kind": "excluded",
@@ -2091,6 +2107,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic multi-agent tool with no DSH install path; excluded from the downstream market."
     },
+    "moxingovo/dsh-sidebar": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a VS Code extension (installs via `code --install-extension`)."
+    },
     "moxingovo/dsh-web-panel": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — a VS Code extension"
@@ -2354,6 +2374,10 @@
     "shaoqiuyuavailable/text-llm-vision": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic local-vision MCP/reverse-proxy engine for Claude Code, Cline, OpenCode, Codex and Cursor with no DSH content in the README or any DSH integration path; riding the dsh topic, excluded from the catalog."
+    },
+    "shenA2024/whale-persona-presets": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a persona-preset content pack imported through the whale-persona engine’s own channel (plain JSON files, no plugin of its own)."
     },
     "shiningsprk-arch/dsh-context-viewer": {
       "kind": "excluded",
@@ -3015,6 +3039,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a Codex unattended-coding toolchain."
     },
+    "zhangyy0423/veripipe": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic anti-false-positive verification pipeline for AI agents (pip/MCP install, no DSH install path)."
+    },
     "zhaoolee/notes": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a notes app that mentions dsh plugin support."
@@ -3542,6 +3570,10 @@
     "LVSUGARS/dsh-web-launcher": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a Windows desktop manager; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "LX2000WASD/dsh-plugin-manager-companion": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "LX2000WASD/dsh-web-plugin-manager": {
       "kind": "market",
@@ -4475,6 +4507,10 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
     },
+    "gluztm/DSHGuard": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
+    },
     "guoxiucai/dsh-code": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone TUI coding-agent client built on the dsh runtime; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -5047,6 +5083,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "ranxianglei/billion-context": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: stars accrued as a universal context-compression proxy for all AI coding agents (Claude Code, Codex, Cursor, opencode, etc.), not from the DSH plugin audience. Stays in the catalog."
+    },
     "reactive-resume/reactive-resume": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: stars accrued as the general ReactiveResume resume builder (repo since 2020); the packages/dsh-plugin bundle is a recent add-on. Stays in the catalog."
@@ -5402,6 +5442,10 @@
     "xDylanLong/dsh-snapmarketing": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "xbzbing/dsh-hub-desktop": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
     },
     "xhvdhczd/dsh-plugin-marketplace": {
       "kind": "market",

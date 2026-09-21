@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-20T23:29:28.489Z",
+  "generated_at": "2026-09-21T01:30:39.008Z",
   "count": 1,
   "items": [
     {
-      "full_name": "rbviz/dsh-plugin-jules",
+      "full_name": "bobjia/dsh-context-milvus",
       "previous": "other",
-      "current": "coding",
-      "desc_now": "Google Jules as a DeepSeek Harness capability — delegate coding tasks to the remote agent, watch them in the background, approve plans, and land the diff.",
-      "desc_prev": null
+      "current": "tool",
+      "desc_now": "claude-context-milvus like plugin for Deepseek Harness (DSH)  and codex",
+      "desc_prev": "claude-context-milvus like plugin for Deepseek Harness (DSH) "
     }
   ]
 }
