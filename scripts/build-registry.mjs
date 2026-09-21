@@ -1105,7 +1105,7 @@ async function enrichZhDescriptions(repos) {
         for (const name of candidates) {
           try {
             const res = await fetch(`https://raw.githubusercontent.com/${r.full_name}/${branch}/${name}`, {
-              headers: { "User-Agent": "dsh-plugin-marketplace-registry" },
+              headers: { "User-Agent": "dsh-plugin-marketplace-registry", ...(process.env.GH_TOKEN ? { Authorization: `Bearer ${process.env.GH_TOKEN}` } : {}) },
               signal: AbortSignal.timeout(8000)
             });
             if (!res.ok) continue;
@@ -1137,7 +1137,7 @@ async function enrichReadmeSignals(repos) {
       const branch = r.default_branch ?? "main";
       try {
         const res = await fetch(`https://raw.githubusercontent.com/${r.full_name}/${branch}/README.md`, {
-          headers: { "User-Agent": "dsh-plugin-marketplace-registry" },
+          headers: { "User-Agent": "dsh-plugin-marketplace-registry", ...(process.env.GH_TOKEN ? { Authorization: `Bearer ${process.env.GH_TOKEN}` } : {}) },
           signal: AbortSignal.timeout(8000)
         });
         if (!res.ok) continue;
