@@ -1134,7 +1134,6 @@ async function enrichReadmeSignals(repos) {
   if (todo.length === 0) return;
   let cursor = 0;
   let hit = 0;
-  let diag = 0;
   const worker = async () => {
     while (cursor < todo.length) {
       const r = todo[cursor++];
@@ -1146,10 +1145,7 @@ async function enrichReadmeSignals(repos) {
           headers: { "User-Agent": "dsh-plugin-marketplace-registry", Accept: "application/vnd.github.raw", ...(process.env.GH_TOKEN ? { Authorization: `Bearer ${process.env.GH_TOKEN}` } : {}) },
           signal: AbortSignal.timeout(8000)
         });
-        if (!res.ok) {
-          if (diag < 5) { diag++; log("README 富化失败 " + r.full_name + ": HTTP " + res.status + (res.headers.get("retry-after") ? " retry-after=" + res.headers.get("retry-after") : "")); }
-          continue;
-        }
+        if (!res.ok) continue;
         const text = (await res.text()).slice(0, 200000);
         if (text.trim() === "") continue;
         Object.assign(r, readmeSignals(text));
