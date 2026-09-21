@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-21T01:30:39.008Z",
+  "generated_at": "2026-09-21T06:27:33.496Z",
   "count": 1,
   "items": [
     {
-      "full_name": "bobjia/dsh-context-milvus",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "claude-context-milvus like plugin for Deepseek Harness (DSH)  and codex",
-      "desc_prev": "claude-context-milvus like plugin for Deepseek Harness (DSH) "
+      "full_name": "EPCN-fla/dsh-vscode-bridge",
+      "previous": "coding",
+      "current": "resource",
+      "desc_now": "Cordis plugin bridging the dsh-vscode extension to native DSH services (workspace grouping, session titles, archive, agent presets, permission presets, slash commands, skill catalog, session export) over a token-authenticated local JSON-RPC socket.",
+      "desc_prev": "Cordis plugin bridging the dsh-vscode extension to native DSH services (workspace grouping, session titles, archive, agent presets, permission presets) over a token-authenticated local JSON-RPC socket."
     }
   ]
 }
