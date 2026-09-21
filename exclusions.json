@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-21T13:51:51.151Z",
-  "count": 1534,
+  "generated_at": "2026-09-21T19:14:07.821Z",
+  "count": 1533,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -4003,7 +4003,7 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "VDERR/echocat-skill-panel-3.0": {
+    "VDERR/echocat-skill-panel": {
       "kind": "market",
       "reason": "A skill panel with one-click skill-install flows (GitHub / ZIP / SKILL.md URLs) — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
     },
@@ -4038,10 +4038,6 @@
     "XSakura666/dsh-plugin-ChronoAgent": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop app; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "XXLxhPLMM/dsh-start": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "YELEBAI/dsh-plugin-marketplace": {
       "kind": "market",
