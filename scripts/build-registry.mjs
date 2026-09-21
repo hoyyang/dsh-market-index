@@ -1104,8 +1104,8 @@ async function enrichZhDescriptions(repos) {
         if (r[`description_${lang}`]) continue;
         for (const name of candidates) {
           try {
-            const res = await fetch(`https://raw.githubusercontent.com/${r.full_name}/${branch}/${name}`, {
-              headers: { "User-Agent": "dsh-plugin-marketplace-registry", ...(process.env.GH_TOKEN ? { Authorization: `Bearer ${process.env.GH_TOKEN}` } : {}) },
+            const res = await fetch(`https://api.github.com/repos/${r.full_name}/contents/${encodeURIComponent(name)}?ref=${branch}`, {
+              headers: { "User-Agent": "dsh-plugin-marketplace-registry", Accept: "application/vnd.github.raw", ...(process.env.GH_TOKEN ? { Authorization: `Bearer ${process.env.GH_TOKEN}` } : {}) },
               signal: AbortSignal.timeout(8000)
             });
             if (!res.ok) continue;
@@ -1136,8 +1136,10 @@ async function enrichReadmeSignals(repos) {
       const r = todo[cursor++];
       const branch = r.default_branch ?? "main";
       try {
-        const res = await fetch(`https://raw.githubusercontent.com/${r.full_name}/${branch}/README.md`, {
-          headers: { "User-Agent": "dsh-plugin-marketplace-registry", ...(process.env.GH_TOKEN ? { Authorization: `Bearer ${process.env.GH_TOKEN}` } : {}) },
+        // v1.6.4：raw.githubusercontent 边缘缓存对热 URL 会长期吐陈旧对象（实测 push 后
+        // 2h+ 四次运行全部旧字节），改走 api.github.com contents（带认证、直连源、无缓存）。
+        const res = await fetch(`https://api.github.com/repos/${r.full_name}/contents/README.md?ref=${branch}`, {
+          headers: { "User-Agent": "dsh-plugin-marketplace-registry", Accept: "application/vnd.github.raw", ...(process.env.GH_TOKEN ? { Authorization: `Bearer ${process.env.GH_TOKEN}` } : {}) },
           signal: AbortSignal.timeout(8000)
         });
         if (!res.ok) continue;
