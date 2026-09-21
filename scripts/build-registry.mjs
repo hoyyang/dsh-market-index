@@ -1128,6 +1128,9 @@ async function enrichZhDescriptions(repos) {
  *  旧 ease 字段仍可从索引继承，但 practical 绝不回退旧 len/fence 公式。 */
 async function enrichReadmeSignals(repos) {
   const todo = repos.filter((r) => r.readme_len === undefined || r.readme_len === null || r.readme_practical?.version !== README_PRACTICAL_VERSION || r.readme_practical?.parser_revision !== README_PRACTICAL_PARSER_REVISION);
+  // v1.6.4：按最近推送排序——预算被限流截断时，刚 push 的新内容优先拿到额度，
+  // 而不是按 stars 让头部仓库永远插队、新更新永远轮空。
+  todo.sort((a, b) => Date.parse(b.updated_at ?? 0) - Date.parse(a.updated_at ?? 0));
   if (todo.length === 0) return;
   let cursor = 0;
   let hit = 0;
