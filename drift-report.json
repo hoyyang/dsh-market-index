@@ -1,34 +1,13 @@
 {
-  "generated_at": "2026-09-22T12:43:49.611Z",
-  "count": 4,
+  "generated_at": "2026-09-22T17:18:04.594Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "Han-1413141/dsh-cost-meter",
-      "previous": "notify",
-      "current": "coding",
-      "desc_now": "Cost tracking for DeepSeek Harness: session and model costs, token usage, budgets, provider balances, and coding-plan quotas. Bilingual English/Chinese UI.",
-      "desc_prev": "DeepSeek Harness session cost meter plugin: session/daily cost, budget, history, OpenCode Go quota, official & custom-provider balance, Codex-like token heatmap, peak/off-peak pricing with pre-switch popup & system-notification alerts, official price sync, 90+ model pricing catalog, Coding Plan quota queries (7 vendors), bilingual zh/en UI"
-    },
-    {
-      "full_name": "WestFox-AwA/dsh-prompt-optimizer",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "DSH Web 插件 · 提示词优化器 0.6（主线）：你照常说话，它在你发送前把\"这一轮到底要什么\"理清楚，再把这份理解交给工作 AI —— 原话不改写，每轮独立产目标（不遗传），条条带逐字依据。含控制界面（档位/权限/模型/上下文/只读工具）、拦截浮层（思维层+产出层）与真实 token 用量。",
-      "desc_prev": "DSH Web 插件 · 提示词优化器（SPEC v0.5 依据驱动架构）：把用户的一句话补成『带依据的执行指令』——依据只搬不造（原话／会话上下文／项目文件，每条事实带出处），只补五类缺口（指代定位／验收判据／约束边界／隐含决定／入口锚点），档位＝依据预算，默认面向 PTC 执行体。不写形式模板与验证套话。"
-    },
-    {
-      "full_name": "nightosong/gord-dsh-worktree",
+      "full_name": "Edge-Echo/dsh-driftwatch",
       "previous": "other",
-      "current": "web-ui",
-      "desc_now": "Git worktrees for DeepSeek Harness: five agent tools (list, create, inspect, remove, prune) plus a working-location picker in the New Session row and a settings panel. Refuses to remove a worktree with uncommitted or untracked changes, and never removes the main one.",
-      "desc_prev": null
-    },
-    {
-      "full_name": "bbaz123/dsh-confirmation-resolution",
-      "previous": "model",
       "current": "tool",
-      "desc_now": "DeepSeek Harness plugin: a code-level guard that resolves post-task confirmation items by weighing output quality against real user impact.",
-      "desc_prev": "Post-task confirmation decision guard for DeepSeek Harness — balance output quality with real user impact."
+      "desc_now": "Behavior-drift reports for DeepSeek Harness agents: compare two session logs and see exactly how behavior changed — tool sequence, file operations, reasoning volume, timing, retries — zero dependencies, CI-ready.",
+      "desc_prev": "Behavior-drift reports for DeepSeek Harness: compare two session logs and see exactly how behavior changed. Zero dependencies, CI-ready."
     }
   ]
 }
