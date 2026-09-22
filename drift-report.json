@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-22T17:18:04.594Z",
+  "generated_at": "2026-09-22T23:17:00.941Z",
   "count": 1,
   "items": [
     {
-      "full_name": "Edge-Echo/dsh-driftwatch",
-      "previous": "other",
+      "full_name": "zwbao/dsh-plugin-longpi",
+      "previous": "agent",
       "current": "tool",
-      "desc_now": "Behavior-drift reports for DeepSeek Harness agents: compare two session logs and see exactly how behavior changed — tool sequence, file operations, reasoning volume, timing, retries — zero dependencies, CI-ready.",
-      "desc_prev": "Behavior-drift reports for DeepSeek Harness: compare two session logs and see exactly how behavior changed. Zero dependencies, CI-ready."
+      "desc_now": "Personal longevity harness for DeepSeek Harness: dispatch longevity-skills from one person's Mirobody record, with a health board.",
+      "desc_prev": "LongPi 1.0.0 for DeepSeek Harness: longevity concierge, personal genome, VCF ingest, multi-omics report, s2f-agent routing."
     }
   ]
 }
