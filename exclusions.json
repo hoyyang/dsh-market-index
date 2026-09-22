@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-21T22:48:58.026Z",
-  "count": 1533,
+  "generated_at": "2026-09-22T01:35:04.646Z",
+  "count": 1545,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -3099,6 +3099,22 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic MCP memory server for coding agents."
     },
+    "222wcnm/dsh-manager": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a browser extension + native messaging host that starts/stops the dsh web service."
+    },
+    "Dev-Wiki/dev-harness-runtime": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone multi-platform harness runtime (dev-harness) shipping a Codex plugin; the DSH adapter is not available yet."
+    },
+    "magian1127/GodotMCP": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a Godot 4 editor addon + MCP daemon with multi-client adapters; the DSH adapter ships as a separate repository."
+    },
+    "kira905/dsh-diagnostic-tools": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — standalone read-only diagnostic scripts run directly with Node against existing DSH installations."
+    },
     "01men/ybkk-AIOS": {
       "kind": "market",
       "reason": "An enterprise AI-resource platform bundling skill/plugin markets — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -5702,6 +5718,38 @@
     "zxheyi/dsh-work": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a plugin-native AI desktop product built on DeepSeek Harness; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "lingfengQAQ/webnovel-writer": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: stars accrued as a Claude Code marketplace plugin (v6); the DSH workbench (v8 branch) is a fresh preview. Stays in the catalog."
+    },
+    "IDKWhatID2Use/whales-launcher": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop launcher/instance manager, not an installable DSH plugin. Stays in the catalog."
+    },
+    "itchenshi/DeepSeekHarnessGUI": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell, not an installable DSH plugin. Stays in the catalog."
+    },
+    "Underwater008/deepshell": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a native macOS desktop shell, not an installable DSH plugin. Stays in the catalog."
+    },
+    "chenweigao/perch": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a native macOS desktop app for remote coding agents, not an installable DSH plugin. Stays in the catalog."
+    },
+    "realguan/dsh-dock": {
+      "kind": "market",
+      "reason": "A desktop control center with a built-in plugin market — the market cannot include another market; stays in the catalog, excluded from the downstream market."
+    },
+    "gzsxy/dsh-plugin-skills-manager": {
+      "kind": "market",
+      "reason": "A skill market/store plugin — the market cannot include another market; stays in the catalog, excluded from the downstream market."
+    },
+    "AgentsDanceAI/AIStore": {
+      "kind": "market",
+      "reason": "A cloud platform bundling product workspaces that carry their own plugin marketplaces — the market cannot include another market; stays in the catalog, excluded from the downstream market."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
