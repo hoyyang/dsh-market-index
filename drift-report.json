@@ -1,20 +1,34 @@
 {
-  "generated_at": "2026-09-23T07:37:51.824Z",
-  "count": 2,
+  "generated_at": "2026-09-23T11:13:21.042Z",
+  "count": 4,
   "items": [
     {
-      "full_name": "Sivan757/dsh-agent-plugins-market",
-      "previous": "tool",
-      "current": "coding",
-      "desc_now": "One-stop skills, subagent, MCP and LSP manager for DeepSeek Harness (DSH) — compatible with Claude Code, Codex, Cursor, Kimi and other agent plugin layouts.",
-      "desc_prev": "DeepSeek Harness (DSH) plugin marketplace: install & inject Claude Code / Codex / Cursor agent plugins — skills, MCP servers, hooks & slash commands — from git marketplace repos, with a Web GUI market page."
+      "full_name": "tkhs101/DSH-DesktopX",
+      "previous": "web-ui",
+      "current": "other",
+      "desc_now": "基于官方DeepSeek Harness套壳,对插件最为友好,给你一个干净、快速、不打扰的独立桌面窗口。",
+      "desc_prev": "基于官方WebUI套壳,对插件最为友好,给你一个干净、快速、不打扰的独立桌面窗口。"
     },
     {
-      "full_name": "konglong87/dsh-skills-input",
-      "previous": "conversation",
+      "full_name": "YIRC99/dsh-jev-context",
+      "previous": "other",
+      "current": "model",
+      "desc_now": "面向 DeepSeek Harness 的 JEV 上下文管理插件：按相关度裁剪与召回历史片段，可视化追踪每轮决策和 token 变化。",
+      "desc_prev": null
+    },
+    {
+      "full_name": "Farewish/dsh-viewtune",
+      "previous": "tool",
+      "current": "other",
+      "desc_now": "DeepSeek Harness 的视效+小功能改进插件",
+      "desc_prev": "DeepSeek Harness 的阅读页签插件：一轮对话进行时能看到思考、工具与进度，结束后自动折叠过程、只留最终回答。"
+    },
+    {
+      "full_name": "Azurer0121/dsh-ssh-plugin",
+      "previous": "other",
       "current": "tool",
-      "desc_now": "DSH Skill selector and skill browser for browsing user-invocable skills and inserting slash commands into the composer.",
-      "desc_prev": "Choose user-invocable DSH skills from the composer and insert their slash command into the draft."
+      "desc_now": "DeepSeek Harness plugin: ssh_exec tool + persisted SSH connections bound to workspaces | DSH 插件：远程命令执行与持久化 SSH 连接",
+      "desc_prev": null
     }
   ]
 }
