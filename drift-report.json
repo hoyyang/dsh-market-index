@@ -1,13 +1,20 @@
 {
-  "generated_at": "2026-09-22T23:17:00.941Z",
-  "count": 1,
+  "generated_at": "2026-09-23T01:46:04.346Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "zwbao/dsh-plugin-longpi",
-      "previous": "agent",
-      "current": "tool",
-      "desc_now": "Personal longevity harness for DeepSeek Harness: dispatch longevity-skills from one person's Mirobody record, with a health board.",
-      "desc_prev": "LongPi 1.0.0 for DeepSeek Harness: longevity concierge, personal genome, VCF ingest, multi-omics report, s2f-agent routing."
+      "full_name": "godv61/dsh-task-engine",
+      "previous": "tool",
+      "current": "resource",
+      "desc_now": "Engineering workflow plugin for DeepSeek Harness: task stages, verification records, commit checks, and skill and rule management.",
+      "desc_prev": "Engineering workflow plugin for DeepSeek Harness: task stages, verification records, commit checks, and skill and rule management."
+    },
+    {
+      "full_name": "qcsjjjjj/dsh-hero-rightbar",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "Restores the right sidebar expand trigger on pages with no conversation - a DSH web plugin that puts the way in back on blank sessions.",
+      "desc_prev": "Project of dsh"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-22T23:17:02.750Z",
-  "count": 1545,
+  "generated_at": "2026-09-23T01:46:05.982Z",
+  "count": 1551,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -3115,6 +3115,18 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — standalone read-only diagnostic scripts run directly with Node against existing DSH installations."
     },
+    "JularDepick/AGENTS.md-Best-Practices": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a best-practices collection of AGENTS.md prompt templates packaged as a generic agent skill."
+    },
+    "yixiuzhemu/Remote-Task": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty placeholder repository."
+    },
+    "kira905/dsh-firstaid": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone incident-diagnosis CLI (clone-and-run Node script that works even without the harness)."
+    },
     "01men/ybkk-AIOS": {
       "kind": "market",
       "reason": "An enterprise AI-resource platform bundling skill/plugin markets — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -4018,10 +4030,6 @@
     "V-dev-388/DSH-plugin-market": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "VDERR/echocat-skill-panel": {
-      "kind": "market",
-      "reason": "A skill panel with one-click skill-install flows (GitHub / ZIP / SKILL.md URLs) — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
     },
     "Viveksssss/DeepSeek-harness-marketplace": {
       "kind": "market",
@@ -5727,10 +5735,6 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a desktop launcher/instance manager, not an installable DSH plugin. Stays in the catalog."
     },
-    "itchenshi/DeepSeekHarnessGUI": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a desktop shell, not an installable DSH plugin. Stays in the catalog."
-    },
     "Underwater008/deepshell": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a native macOS desktop shell, not an installable DSH plugin. Stays in the catalog."
@@ -5750,6 +5754,26 @@
     "AgentsDanceAI/AIStore": {
       "kind": "market",
       "reason": "A cloud platform bundling product workspaces that carry their own plugin marketplaces — the market cannot include another market; stays in the catalog, excluded from the downstream market."
+    },
+    "itchenshi/dsh-ready-gui": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell, not an installable DSH plugin. Stays in the catalog."
+    },
+    "VDERR/dsh-echocat-skill-panel": {
+      "kind": "market",
+      "reason": "A skill panel with one-click skill-install flows (GitHub / ZIP / SKILL.md URLs) — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "btsd321/dsh-remote-explorer": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote-development launcher app (installs dsh on a remote host and renders the UI locally), not an installable DSH plugin. Stays in the catalog."
+    },
+    "Zh0uHX/dsh-skills": {
+      "kind": "market",
+      "reason": "Searches, installs and manages Skills.sh skills from inside DSH settings — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "Devin-AXIS/jev-dsh-decision": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: stars accrued as a cross-ecosystem topic-farm (20 topics spanning codex / opencode / apollo / ipollowork / dsh harnesses) — 111★ in three days on a repo with no commits after its creation day, not from the DSH plugin audience. Stays in the catalog."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
