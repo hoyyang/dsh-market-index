@@ -1,20 +1,13 @@
 {
-  "generated_at": "2026-09-25T12:41:12.746Z",
-  "count": 2,
+  "generated_at": "2026-09-25T16:59:33.976Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "agentrq/agentrq",
-      "previous": "tool",
-      "current": "memory",
-      "desc_now": "AgentRQ: Human-in-loop realtime conversational task manager for AI Agents. Self-hosted! Control your own agents from wherever you want Mobile, Web, Desktop. Designed to work well with your own Claude subscriptions and any harness with ACP support.",
-      "desc_prev": "AgentRQ: Human-in-loop realtime conversational task manager for AI Agents. Self-hosted! Control your own agents from wherever you want Mobile, Web, Desktop. Designed to work well with your own Claude subscriptions and any harness with ACP support."
-    },
-    {
-      "full_name": "lyhue1991/dsh-soup",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "dsh 体验增强四件套 = Jupyter风格SideBar + 中央文件预览Tab + 多行GoalBar + 实时Token流速徽标",
-      "desc_prev": null
+      "full_name": "baosfeng/my-dsh-plugins",
+      "previous": "notify",
+      "current": "tool",
+      "desc_now": "DSH（DeepSeek Harness）插件与技能集合仓库：插件独立版本、GitHub Release 发布（插件与技能清单见仓库 README）",
+      "desc_prev": "DSH（DeepSeek Harness）插件集合仓库：文件活动、思考增强、Mermaid 渲染、通知提醒、插件守护、Skill 管理、任务可靠性、插件开发模式等 8 个插件，独立版本、GitHub Release 发布"
     }
   ]
 }
