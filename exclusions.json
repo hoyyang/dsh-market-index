@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-25T00:47:43.209Z",
-  "count": 1566,
+  "generated_at": "2026-09-25T06:02:41.841Z",
+  "count": 1571,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -438,6 +438,10 @@
     "GM-HZ/agent-dag-workflow": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a host-neutral durable DAG workflow SDK (npm library) embeddable in any agent host; no dsh plugin install path."
+    },
+    "GNX001/dsh-system-monitor-desktop": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Windows desktop widget (the desktop edition of the dsh-system-monitor plugin); no DSH install path."
     },
     "GYINT/infoseek": {
       "kind": "excluded",
@@ -1683,6 +1687,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic skill."
     },
+    "goatliamia/dsh-observable-reversibility": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a Lean 4/Mathlib formalization of plugin-uninstall reversibility theory; the bundled SKILL.md is authoring guidance, with no DSH install path."
+    },
     "greenthree/ProbHub-skill": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — an ACM problem-setting workflow/skill pack for Codex/Claude Code-style agents; no DSH install path."
@@ -2131,6 +2139,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic workspace-file lifecycle tool for Claude Code/Codex/Aider/OpenClaw; no DSH install path."
     },
+    "mikulo/dsh-plugins": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a personal plugin list (manifest plus a batch one-click install script), not an installable plugin."
+    },
     "ming-14/PTY-Agent": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic PTY/terminal agent runtime; rides the dsh-plugin topic."
@@ -2295,6 +2307,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic Postgres-backed memory layer for agent swarms with no DSH integration path."
     },
+    "phoenixlucky/business-data-analyst-skill": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a host-agnostic business-analysis skill library (SKILL.md, reference docs and a Node.js intent router); no DSH install path."
+    },
     "phoenixlucky/zerotoken-skill": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic token-discipline skill for Reasonix/Codex/OpenCode/Hermes."
@@ -2346,6 +2362,10 @@
     "recoluan/recowork": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic AI-workflow product with no DSH content or install path in its README; rides the dsh-plugin topic."
+    },
+    "relaxyabc/git-sidebar": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty placeholder repo (only .gitignore/LICENSE/README stub); no plugin code."
     },
     "remybroun/infographic": {
       "kind": "excluded",
@@ -3271,10 +3291,6 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a macOS desktop launcher (AppleScript applet); stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "AgentsDanceAI/AIStore": {
-      "kind": "market",
-      "reason": "A cloud platform bundling product workspaces that carry their own plugin marketplaces — the market cannot include another market; stays in the catalog, excluded from the downstream market."
-    },
     "AlexYin-Tongji/dsh-plugin-console": {
       "kind": "market",
       "reason": "A DSH plugin store / manager with install-update-remove flows and catalog sync — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -3322,10 +3338,6 @@
     "BISTU-guheihei/DSH-SessionManager": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone GUI session-manager tool for local ~/.dsh files; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "BOWLUNA/dsh-multi-instance": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
     },
     "BeyondXinXin/deepseek-harness-box": {
       "kind": "market",
@@ -3386,10 +3398,6 @@
     "CosmoSail/DSH_Launch_Console": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "DecresLuna/dsh-DSH-Service": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a desktop shell/launcher/client (Mac menu-bar service manager), not an installable DSH plugin. Stays in the catalog."
     },
     "Devin-AXIS/jev-dsh-decision": {
       "kind": "leaderboard",
@@ -3635,6 +3643,10 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "KurohaneKaoruko/DSH-Novel-App": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a Tauri desktop shell repackaging the DSH WebUI as a novel-writing workstation, not an installable DSH plugin. Stays in the catalog."
+    },
     "LBurny/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a Windows desktop shell/launcher bundling dsh; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -3787,10 +3799,6 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "MoneShadow/DeepSeek-Harness-linux-": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
     "MonshinYu/dsh-bun-compat-patch": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a runtime compat layer/launcher that preloads and patches DSH to run under Bun; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -3902,6 +3910,10 @@
     "QQ-M/dsh-skill-market": {
       "kind": "market",
       "reason": "A DSH skill market / directory — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "QT7-C23/DSH-Marketplace": {
+      "kind": "market",
+      "reason": "A community marketplace and resource manager for DSH plugins, skills, MCP servers, slash commands and prompts — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
     },
     "Qidianyan/dshctl": {
       "kind": "market",
@@ -4471,6 +4483,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone Capacitor Android client app for running DSH; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "dream-num/univer-workspace": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: not an installable DSH plugin — the Univer office-workspace application built on DSH, shipping internal plugin bundles; stars accrued as the Univer product (dream-num org reach), not from the DSH plugin audience. Stays in the catalog."
+    },
     "dreamer0323/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop client/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -4798,6 +4814,10 @@
     "jingyunstudio/jingyun-dsh": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "jipika/dsh-plugin-console": {
+      "kind": "market",
+      "reason": "A plugin console/hub (local fork of Noob-stupid/dsh-plugin-hub) lifting plugin management and the plugin market into the settings nav — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
     },
     "jiuge2467/DSH-Desktop": {
       "kind": "market",
