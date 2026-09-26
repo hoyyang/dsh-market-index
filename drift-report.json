@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-25T20:25:14.385Z",
+  "generated_at": "2026-09-26T01:55:25.895Z",
   "count": 1,
   "items": [
     {
-      "full_name": "yangzhe1991/dsh-web-enhance",
-      "previous": "web-ui",
-      "current": "notify",
-      "desc_now": "DSH Web UI 增强插件:思维链默认展开、官方 API 会话价格统计、文件用系统程序打开、跑完提醒 | DSH (DeepSeek Harness) Web UI plugin: thinking-chain default-expand, session cost meter, open files in the desktop app & a completion alert",
-      "desc_prev": "DSH Web UI enhancement plugin: turn-by-turn navigation, thinking-chain default-expand & session cost meter for the official DeepSeek API"
+      "full_name": "taikaikaikai-pixel/dsh-tap",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "CodeBuddy (copilot.tencent.com) provider bundle for DeepSeek Harness: 18 models, web_search/web_fetch backends, image_generate, local streaming bridge with OAuth & multi-Key rotation, Web UI settings card. Unofficial.",
+      "desc_prev": "CodeBuddy & Trae provider bundle for DeepSeek Harness (dsh): subscription-quota LLM access via loopback tap bridges — 18+ models, OAuth/API-key, usage metering. Unofficial, BYOC."
     }
   ]
 }
