@@ -1,13 +1,20 @@
 {
-  "generated_at": "2026-09-27T07:03:09.988Z",
-  "count": 1,
+  "generated_at": "2026-09-27T11:37:51.317Z",
+  "count": 2,
   "items": [
     {
+      "full_name": "GY-Bai/dsh-anchored-subagent",
+      "previous": "agent",
+      "current": "resource",
+      "desc_now": "DSH plugin: start the main agent and subagents on DeepSeek's Minimal harness, then unlock the full tool catalog",
+      "desc_prev": "DS的伟哥补丁，subagent都能满血！"
+    },
+    {
       "full_name": "miqian-nomad/dsh-browser-playwright-codex",
-      "previous": "tool",
-      "current": "coding",
-      "desc_now": "Codex-merged dsh-browser-playwright fork for DeepSeek Harness - 0.3.0 source release: typed src/, 71 tests, self-contained verify/doctor/cost tooling, plus the measured analysis of the minimized-window focus-stealing bug. 面向 DSH 的浏览器插件整合版（0.3.0 源码发布）+ 最小化窗口被拽回桌面的实测诊断。",
-      "desc_prev": "Codex-merged dsh-browser-playwright (compiled-only fork for DeepSeek Harness) + full diagnosis and patches for the 'minimized browser window gets yanked back' bug. 面向 DeepSeek Harness 的浏览器插件整合版 + 最小化窗口被拽回桌面的诊断与补丁。"
+      "previous": "coding",
+      "current": "tool",
+      "desc_now": "DSH 的浏览器：登录一次，它就用你的账号替你办事（查后台/填表/抓列表/多标签）；要登录、验证码、弹框会停下来等你，绝不替你点「确定」；你最小化它就不吵你，AI 在哪动手你随时看得见",
+      "desc_prev": "Codex-merged dsh-browser-playwright fork for DeepSeek Harness - 0.3.0 source release: typed src/, 71 tests, self-contained verify/doctor/cost tooling, plus the measured analysis of the minimized-window focus-stealing bug. 面向 DSH 的浏览器插件整合版（0.3.0 源码发布）+ 最小化窗口被拽回桌面的实测诊断。"
     }
   ]
 }
