@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-26T22:35:57.669Z",
+  "generated_at": "2026-09-27T07:03:09.988Z",
   "count": 1,
   "items": [
     {
-      "full_name": "NamesMT/dsh-home-hosted",
-      "previous": "other",
-      "current": "web-ui",
-      "desc_now": "DeepSeek Harness (dsh) plugin: start your dsh web server automatically at boot, and manage home-hosted's panel and servers from inside dsh.",
-      "desc_prev": "home-hosted servers management with boot autostart from DeepSeek Harness (dsh)."
+      "full_name": "miqian-nomad/dsh-browser-playwright-codex",
+      "previous": "tool",
+      "current": "coding",
+      "desc_now": "Codex-merged dsh-browser-playwright fork for DeepSeek Harness - 0.3.0 source release: typed src/, 71 tests, self-contained verify/doctor/cost tooling, plus the measured analysis of the minimized-window focus-stealing bug. 面向 DSH 的浏览器插件整合版（0.3.0 源码发布）+ 最小化窗口被拽回桌面的实测诊断。",
+      "desc_prev": "Codex-merged dsh-browser-playwright (compiled-only fork for DeepSeek Harness) + full diagnosis and patches for the 'minimized browser window gets yanked back' bug. 面向 DeepSeek Harness 的浏览器插件整合版 + 最小化窗口被拽回桌面的诊断与补丁。"
     }
   ]
 }

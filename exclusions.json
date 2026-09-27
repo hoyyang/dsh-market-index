@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T01:16:35.150Z",
-  "count": 1575,
+  "generated_at": "2026-09-27T07:03:12.320Z",
+  "count": 1583,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -278,6 +278,10 @@
     "Chinesezjc/dsh-tool-owned-render": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a design note and interactive prototype for tool-result rendering."
+    },
+    "Chrissadecurved88/Codex-X": {
+      "kind": "excluded",
+      "reason": "not a DSH plugin — a Windows desktop GUI for managing OpenAI Codex (provider switching, prompt injection, TOML editing), installed from Releases; unrelated to DSH beyond the topic tag"
     },
     "ClawsJoy/exam-prep-extension": {
       "kind": "excluded",
@@ -3111,6 +3115,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — an Obsidian sync project, unrelated to DSH."
     },
+    "yvhcel888/slide-gauge-pygame": {
+      "kind": "excluded",
+      "reason": "not a DSH plugin — the original pygame mini-game; the plugin version lives in the separate dsh-slide-gauge repo"
+    },
     "ywleeo/browser-mcp": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic local Chrome MCP server for any MCP client; rides the dsh-plugin topic."
@@ -3307,6 +3315,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a macOS desktop launcher (AppleScript applet); stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "Aicksion/dsh-clean-desktop-shell-pro": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell (enhanced fork of dsh-clean-desktop-shell) wrapping the web profile in a native window. Stays in the catalog."
+    },
     "AlexYin-Tongji/dsh-plugin-console": {
       "kind": "market",
       "reason": "A DSH plugin store / manager with install-update-remove flows and catalog sync — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -3463,6 +3475,10 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "EXarchive/DshLauncher": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a standalone Windows desktop launcher/console distributed as a single .exe from Releases. Stays in the catalog."
+    },
     "EasyTZ/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a Windows desktop build of DSH; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -3591,6 +3607,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "Icather/dsh-clean-desktop-shell": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell wrapping the web profile in a native window. Stays in the catalog."
+    },
     "InkWord01/DeepSeekHarness----Desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -3702,6 +3722,10 @@
     "LeonxLJX/dsh-mcp-market": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "LexFlowApp/LexFlow": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: not an installable DSH plugin — a local-first macOS legal-work application using DSH as its execution engine; stars accrue as the LexFlow product, not from the DSH plugin audience. Stays in the catalog."
     },
     "Lheyang/orca-dsh-launcher": {
       "kind": "market",
@@ -4335,6 +4359,10 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: this list itself (an awesome-list / directory site), not a plugin; the board does not rank itself. Stays in the catalog."
     },
+    "bruc3van/safer-dsh-market": {
+      "kind": "market",
+      "reason": "the market cannot include another market"
+    },
     "btsd321/dsh-remote-explorer": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a remote-development launcher app (installs dsh on a remote host and renders the UI locally), not an installable DSH plugin. Stays in the catalog."
@@ -4610,6 +4638,10 @@
     "festoney8/deepseek-harness-GUI": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "ffyfox/dsh-desktop-linux": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: Linux repackaging (AppImage/deb/rpm/PKGBUILD) of the official DSH desktop Electron app — not an installable DSH plugin. Stays in the catalog."
     },
     "flee42/dsh-desktop": {
       "kind": "market",
@@ -5423,6 +5455,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a native macOS desktop shell; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "sundusk/dsh-pet": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a native macOS desktop-pet companion app (SwiftUI) with a small bridge plugin — the main artifact is a desktop app, not an installable DSH web plugin. Stays in the catalog."
+    },
     "sunkeycn/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a native macOS desktop wrapper for DSH; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -6222,10 +6258,6 @@
     "sol5766/dshm_client": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop client/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "sundusk/dsh-moodball": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a native macOS menubar app; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "theoneLee/deepseek-harness-sdk-go": {
       "kind": "market",
