@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T12:47:53.238Z",
-  "count": 6,
+  "generated_at": "2026-09-28T14:14:44.088Z",
+  "count": 7,
   "items": [
     {
       "full_name": "ppy-web/dsh-plugin-xiaomi-mimo-tts",
@@ -17,11 +17,11 @@
       "desc_prev": "Inline, batchable annotations for DeepSeek Harness Session messages"
     },
     {
-      "full_name": "AngelosZou/dsh-pdf-reader",
-      "previous": "document",
-      "current": "vision",
-      "desc_now": "DeepSeek Harness plugin for content-aware PDF reading by vision models",
-      "desc_prev": null
+      "full_name": "cherrchen/deepseek-harness-electron",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "DeepSeek Harness 非官方跨平台桌面封装，预装 Git 与 Theme Studio 插件；与上游同步。 / Non-official Cross-platform DeepSeek Harness desktop app with built-in Git and Theme Studio plugins; synchronized with upstream.",
+      "desc_prev": "DeepSeek Harness 非官方跨平台桌面封装，预装 Details Host 与 Git 插件；与上游同步。 / Non-official Cross-platform DeepSeek Harness desktop app with built-in Details Host and Git plugins; synchronized with upstream."
     },
     {
       "full_name": "hezhongtang/dsh-update-copilot",
@@ -31,11 +31,18 @@
       "desc_prev": "Update copilot for DeepSeek Harness: tracks the DSH core, bundled packages, and every installed plugin across npm and git, merged package-centric over all profiles, with one-click updates for eligible profiles. · DSH 更新助手：追踪 dsh 本体、bundle 包和所有已装插件（npm 与 git 双通道，跨 profile 按包合并），仅对符合条件的 profile 一键更新。"
     },
     {
-      "full_name": "GY-Bai/dsh-anchored-subagent",
-      "previous": "agent",
-      "current": "resource",
-      "desc_now": "DSH plugin: start the main agent and subagents on DeepSeek's Minimal harness, then unlock the full tool catalog",
-      "desc_prev": "DS的伟哥补丁，subagent都能满血！"
+      "full_name": "liuhange789/data-asset-inspector",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "Data Asset Inspector Plugin Suite - full-chain data asset registration toolkit for DeepSeek Harness (DSH)",
+      "desc_prev": "Data Asset Inspector Plugin Suite - full-chain data asset registration toolkit for DeepSeek Harness (DSH)"
+    },
+    {
+      "full_name": "bai111111/dsh-pet-luotianyi",
+      "previous": "conversation",
+      "current": "model",
+      "desc_now": "洛天依桌宠：住在 DSH 里的虚拟歌姬。可拖动可互动，台词支持预设/AI 两种模式，内置 token 用量与费用统计栏，支持换图 + AI 自动抠图与预览微调。",
+      "desc_prev": "洛天依桌宠：住在 DSH 里的虚拟歌姬桌宠，可拖动、可互动（抚摸/喂食/睡觉/聊天），预设动作 + 接大模型的 AI 聊天。"
     },
     {
       "full_name": "auggie246/dsh-llm-openai-codex",
