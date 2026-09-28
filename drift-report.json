@@ -1,13 +1,48 @@
 {
-  "generated_at": "2026-09-28T04:34:54.640Z",
-  "count": 1,
+  "generated_at": "2026-09-28T12:47:53.238Z",
+  "count": 6,
   "items": [
     {
-      "full_name": "173787247/dsh-wsl-struct",
-      "previous": "other",
+      "full_name": "ppy-web/dsh-plugin-xiaomi-mimo-tts",
+      "previous": "resource",
       "current": "tool",
-      "desc_now": "Sandboxed jq / yq / read-only sqlite3.",
-      "desc_prev": "DeepSeek Harness WSL plugin (dsh-wsl-struct)"
+      "desc_now": "给DSH接入免费的 Xiaomi MiMo TTS API，支持使用预置/自定义/浏览器内置声音朗读正文",
+      "desc_prev": "给DSH接入免费的 Xiaomi MiMo TTS API，支持使用预置/自定义/浏览器内置声音朗读正文"
+    },
+    {
+      "full_name": "ruisenbai/dsh-annotation",
+      "previous": "conversation",
+      "current": "memory",
+      "desc_now": "Annotate assistant replies in DSH Web, keep per-session records, and send or resend notes through the official composer.",
+      "desc_prev": "Inline, batchable annotations for DeepSeek Harness Session messages"
+    },
+    {
+      "full_name": "AngelosZou/dsh-pdf-reader",
+      "previous": "document",
+      "current": "vision",
+      "desc_now": "DeepSeek Harness plugin for content-aware PDF reading by vision models",
+      "desc_prev": null
+    },
+    {
+      "full_name": "hezhongtang/dsh-update-copilot",
+      "previous": "tool",
+      "current": "resource",
+      "desc_now": "Update copilot for DeepSeek Harness: full version radar over the DSH core, bundles & every plugin (npm+git, package-centric across profiles); gated plugin updates, dual-mode gated core updates, patch-name audit. · DSH 更新助手：全量雷达 + 带闸门的插件与本体更新 + 补丁名体检",
+      "desc_prev": "Update copilot for DeepSeek Harness: tracks the DSH core, bundled packages, and every installed plugin across npm and git, merged package-centric over all profiles, with one-click updates for eligible profiles. · DSH 更新助手：追踪 dsh 本体、bundle 包和所有已装插件（npm 与 git 双通道，跨 profile 按包合并），仅对符合条件的 profile 一键更新。"
+    },
+    {
+      "full_name": "GY-Bai/dsh-anchored-subagent",
+      "previous": "agent",
+      "current": "resource",
+      "desc_now": "DSH plugin: start the main agent and subagents on DeepSeek's Minimal harness, then unlock the full tool catalog",
+      "desc_prev": "DS的伟哥补丁，subagent都能满血！"
+    },
+    {
+      "full_name": "auggie246/dsh-llm-openai-codex",
+      "previous": "tool",
+      "current": "conversation",
+      "desc_now": "Use a ChatGPT Plus, Pro, Business, or Enterprise subscription with Codex access as a DeepSeek Harness model provider.",
+      "desc_prev": "OpenAI Codex (ChatGPT Plus/Pro subscription) LLM provider for the DeepSeek Harness — OAuth tokens from the Codex CLI, no API key required"
     }
   ]
 }

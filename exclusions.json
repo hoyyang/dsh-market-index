@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-28T04:34:56.179Z",
-  "count": 1583,
+  "generated_at": "2026-09-28T12:47:54.909Z",
+  "count": 1587,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -1447,6 +1447,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — an Android LSPosed module for WebView-shell browsers, unrelated to DSH."
     },
+    "cnyc6n/uia-agent": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — the standalone Windows UI Automation C++ executable; the DSH plugin wrapper ships separately as cnyc6n/dsh-uia-agent."
+    },
     "cocofhu/dsh-testsuite": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — a Docker test-environment manager for plugin testing"
@@ -1486,6 +1490,10 @@
     "creght-dev/skills": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — Codex/agent skills for the Cregh website builder; rides the dsh-plugin topic."
+    },
+    "crossoverthere/dsh-whale-desktop": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Electron Windows desktop-pet widget derived from the whale widget plugin."
     },
     "curtainsmall/dsh-reckoner": {
       "kind": "excluded",
@@ -1530,6 +1538,10 @@
     "devLythen/dsh-docker": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — deployment packaging (Docker/K8s/ops tooling)"
+    },
+    "dianziboluo/dsh-cost-meter-bai-credits": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a preset/recipe repo for the dsh-cost-meter plugin’s built-in custom-provider balance card."
     },
     "diguike/book-deepseek-harness": {
       "kind": "excluded",
@@ -2790,6 +2802,10 @@
     "vostride/agent-qa": {
       "kind": "excluded",
       "reason": "Generic QA/testing agent for Claude Code/Codex/etc.; no DSH install path."
+    },
+    "voyager-crew/voyager": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a multi-site AI-chat browser extension (Gemini/AI Studio/Claude/ChatGPT/DeepSeek); tagged the dsh-plugin topic though its README documents no dsh plugin install path."
     },
     "vshulcz/deja-vu": {
       "kind": "excluded",
@@ -4070,6 +4086,10 @@
     "StarPivotNet/dsh-plugins-public": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Stolyarovmn/dsh-ui-registry-aggregator": {
+      "kind": "market",
+      "reason": "A plugin registry aggregator — the market cannot include another market."
     },
     "SuiBbinggan/dsh-cn-plugin-center": {
       "kind": "market",
@@ -5486,10 +5506,6 @@
     "titanwings/distilly": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: stars come from the generic cross-agent person-profile toolkit (formerly Colleague Skill); DSH skill-discovery support is one of many host integrations. Stays in the catalog."
-    },
-    "tkhs101/DSH-DesktopX": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
     },
     "tuofangzhe/dsh-plugins": {
       "kind": "market",
