@@ -1,13 +1,34 @@
 {
-  "generated_at": "2026-09-29T13:51:47.667Z",
-  "count": 1,
+  "generated_at": "2026-09-29T17:02:25.456Z",
+  "count": 4,
   "items": [
     {
-      "full_name": "nightosong/gord-dsh-worktree",
+      "full_name": "evoelsewhere/evoflux",
+      "previous": "coding",
+      "current": "vision",
+      "desc_now": "Evoflux is an open-source, local-first workspace where AI agents build software, conduct deep research, automate browser tasks, and collaborate in parallel. Connect any model, keep control of your workspace and data, and take complex work from idea to completion—all in one place.",
+      "desc_prev": "Evoflux is an open-source, local-first workspace where AI agents build software, conduct deep research, automate browser tasks, and collaborate in parallel. Connect any model, keep control of your workspace and data, and take complex work from idea to completion—all in one place."
+    },
+    {
+      "full_name": "kangtsang/dsh-worktree-space",
+      "previous": "tool",
+      "current": "resource",
+      "desc_now": "Worktree Space：将一个包含一个或多个 Git 仓库的工作区任务放进独立的任务空间目录——参与的每个仓库使用同一个任务分支各开一个 worktree；空间自动注册为 DSH 工作区，会话直接在其中开工，多个任务并行推进、互不干扰。收尾时可合并回各仓库当前分支、移除 worktree，并把 Git 未跟踪的文件归档到指定目录；结束任务时可选把未处理的提交和合并冲突交给 agent 处理。",
+      "desc_prev": "dsh-worktree-space is a DSH plugin that creates isolated multi-repo workspaces for AI agents using Git worktrees. Each task gets its own workspace containing separate worktrees for every repository, enabling parallel agents to work without file conflicts, context pollution, or tangled commits."
+    },
+    {
+      "full_name": "jaychang1989/dsh-webchat",
       "previous": "web-ui",
-      "current": "tool",
-      "desc_now": "Git worktrees for DeepSeek Harness — isolate parallel work in its own directory and branch. Ships Fast mode (快速模式).",
-      "desc_prev": "Git worktrees for DeepSeek Harness: create worktrees from the agent or Settings, start a session in one, review the uncommitted diff in the sidebar, manage archived sessions, and rename by double-click. Refuses to remove a worktree with uncommitted or untracked changes, and never removes the main one."
+      "current": "coding",
+      "desc_now": "Opens the official chat.deepseek.com web app inside DeepSeek Harness: one sidebar entry renders the real page in the center column through the desktop shell's native browser guest, and keeps you signed in across restarts. No chat UI, no agent tools, no runtime dependencies.",
+      "desc_prev": "Opens the official chat.deepseek.com web app inside DeepSeek Harness: one sidebar entry renders the real page in the center column, through the same native browser guest the built-in side-card browser uses. No chat UI, no agent tools, no runtime dependencies."
+    },
+    {
+      "full_name": "LeifDai/MACKORN-hydraulic-cone-crusher",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "MACKORN hydraulic cone crusher selection, plant design and process simulation for AI - 19 tools, MCP server, 10 languages, zero dependencies. Aggregate and metal-mine crushing circuits.",
+      "desc_prev": "MACKORN world famous cone crusher br Descriptionand ,will be as Metso ,Sandvik ,FL smith ,thyssenkrupp,terex and so on. good and simply ,and reliable "
     }
   ]
 }
