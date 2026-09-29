@@ -1,34 +1,13 @@
 {
-  "generated_at": "2026-09-29T12:22:43.720Z",
-  "count": 4,
+  "generated_at": "2026-09-29T13:51:47.667Z",
+  "count": 1,
   "items": [
-    {
-      "full_name": "AngelosZou/dsh-pdf-reader",
-      "previous": "document",
-      "current": "vision",
-      "desc_now": "DeepSeek Harness plugin for content-aware PDF reading by vision models",
-      "desc_prev": null
-    },
     {
       "full_name": "nightosong/gord-dsh-worktree",
       "previous": "web-ui",
       "current": "tool",
       "desc_now": "Git worktrees for DeepSeek Harness — isolate parallel work in its own directory and branch. Ships Fast mode (快速模式).",
       "desc_prev": "Git worktrees for DeepSeek Harness: create worktrees from the agent or Settings, start a session in one, review the uncommitted diff in the sidebar, manage archived sessions, and rename by double-click. Refuses to remove a worktree with uncommitted or untracked changes, and never removes the main one."
-    },
-    {
-      "full_name": "GY-Bai/dsh-anchored-subagent",
-      "previous": "agent",
-      "current": "resource",
-      "desc_now": "DSH plugin: start the main agent and subagents on DeepSeek's Minimal harness, then unlock the full tool catalog",
-      "desc_prev": "DS的伟哥补丁，subagent都能满血！"
-    },
-    {
-      "full_name": "geokkjer/dsh-peak",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "Peak/off-peak pricing indicator for DeepSeek Harness — live composer pill with countdown, plus a status tool for cost-aware agents.",
-      "desc_prev": null
     }
   ]
 }
