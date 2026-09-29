@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-28T23:58:25.977Z",
-  "count": 1587,
+  "generated_at": "2026-09-29T05:03:27.882Z",
+  "count": 1601,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -170,6 +170,10 @@
     "Bandersnatch0x/design-playbook": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a Claude Code design plugin."
+    },
+    "Barricadetrecharm99/ruvnet-ruflo": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic multi-agent swarm framework and CLI (Ruflo); rides the dsh-plugin topic."
     },
     "BenjaminSHI4008/deepseek-pet-Seeki": {
       "kind": "excluded",
@@ -475,6 +479,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic shared data backend for agents."
     },
+    "Grivn/mnemon-memory-agent": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a research codebase (paper, benchmarks) for a long-term memory agent; its product form ships separately as dsh-mnemon."
+    },
     "GuangminJu/mellos-mapping": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic MCP dependency-map tool for Claude Code/Codex CLI with no DSH integration, riding the topic; excluded from the catalog."
@@ -670,6 +678,10 @@
     "ManoloRemiddi/deepseek-harness-plugins": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a download and installation-guide hub for the author’s separately-released plugins."
+    },
+    "Maopk/dsh-termux-kit": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a Termux/Android companion kit (APK console, widgets, Accessibility bridge) for running DSH on a phone; no DSH install path."
     },
     "Mappedinfo/PlainDeck": {
       "kind": "excluded",
@@ -1651,6 +1663,10 @@
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — deployment packaging (Docker/K8s/ops tooling)"
     },
+    "fan56/dsh-jev-core": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a shared npm kernel library consumed by other Jev plugins (npm install @aiwayds/dsh-jev-core), not installable as a plugin."
+    },
     "feicaiclub/deepseek-harness-whitepaper": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — documentation/tutorial"
@@ -2170,6 +2186,18 @@
     "ming-14/PTY-Agent": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic PTY/terminal agent runtime; rides the dsh-plugin topic."
+    },
+    "ming-14/download-by-mirror-skill": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (mirror-source cheat sheet) installed via the skills CLI; no DSH install path."
+    },
+    "ming-14/vuln-search-skill": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (multi-source CVE search) installed via the skills CLI; no DSH install path."
+    },
+    "ming-14/weather-skill": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill (multi-source weather lookup) installed via the skills CLI; no DSH install path."
     },
     "mnemon-dev/mnemon": {
       "kind": "excluded",
@@ -3063,6 +3091,10 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "xut1021/dsh-plugin-host": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a Windows companion panel for managing DSH plugins and versions, with a built-in plugin-market browser; no DSH install path."
+    },
     "xyTom/coding-tools-mcp": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic 'any AI agent' MCP server."
@@ -3155,6 +3187,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic agent framework (\"Wait a Minute\") with no DSH install path; rides the dsh-plugin topic."
     },
+    "zendev-lab/spark": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone local-first coding-agent runtime (daemon, hub and web workbench); rides the dsh-plugin topic."
+    },
     "zengfr/AutoCoding": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a Codex unattended-coding toolchain."
@@ -3182,6 +3218,10 @@
     "zhoushoujianwork/easyeda-agent": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic EasyEDA automation skill/MCP for AI agents with no DSH integration path; excluded from the catalog."
+    },
+    "zhuchuovo/dsh-clinepass": {
+      "kind": "excluded",
+      "reason": "Empty repo — no README, no code; nothing installable."
     },
     "zjsthmjialin/commercial-ui-ux-codex-skill": {
       "kind": "excluded",
@@ -3399,6 +3439,10 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "CaT-Hode/DSH-app": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell — an Electron window over the web profile delivered as a DSH plugin; desktop clients stay off the board and out of the market. Stays in the catalog."
+    },
     "Capacious-diamondweddinganniversary929/DeepSeekHarnessDesktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -3522,6 +3566,10 @@
     "FALda-da/ds-desktop-launcher": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Finderchangchang/brewreel": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: stars accrued as promotion of the standalone BrewReel promo-video product (own website, sponsor slots; the DSH plugin is one of several integrations), not from the DSH plugin audience. Stays in the catalog."
     },
     "FlashingChen/dsh-desktop-hub": {
       "kind": "market",
@@ -3654,6 +3702,10 @@
     "Jesse-njx/dsh-plugin-manager-registry": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Jessie-1939/whalepal": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a standalone Windows desktop companion app shipping a DSH bridge subpackage; stars accrue as the desktop pet, not from the DSH plugin audience. Stays in the catalog."
     },
     "JochenYang/dsh-app": {
       "kind": "leaderboard",
@@ -3858,6 +3910,10 @@
     "Modole/dsh-plugin-market-laoboshi": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Moningxuan-bot/blue-fish-station": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell bundle (WebView2 EXE launcher plus host plugins), not an installable DSH plugin. Stays in the catalog."
     },
     "MonshinYu/dsh-bun-compat-patch": {
       "kind": "market",
@@ -4071,10 +4127,6 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "SnowCrescenter-tech/dsh-launcher": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
     "SparkWeiyang/DeepseekHarness-AndroidClient": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone Android client app; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -4214,6 +4266,10 @@
     "YgtqRun/Harnex": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "YottaMeta/deepseek-harness": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client (Tauri packaging of dsh web), not an installable DSH plugin. Stays in the catalog."
     },
     "Yuel25/dsh-desktop": {
       "kind": "market",
