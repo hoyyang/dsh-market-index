@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T00:46:12.935Z",
-  "count": 1601,
+  "generated_at": "2026-09-30T06:30:11.610Z",
+  "count": 1610,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -3263,6 +3263,34 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic MCP memory server for coding agents."
     },
+    "jclzz/dsh-harbor": {
+      "kind": "excluded",
+      "reason": "A DSH plugin marketplace/store website (community plugin directory), not an installable plugin."
+    },
+    "Ln1m/Ln1m": {
+      "kind": "excluded",
+      "reason": "A plugin index/directory page for the author's own plugin family repos, not an installable plugin."
+    },
+    "MMiao79/dsh-pilot-releases": {
+      "kind": "excluded",
+      "reason": "A closed-source Windows management/ops panel for DSH distributed as binary release zips, not an installable plugin."
+    },
+    "DaYanCCC/DSH-Shortcut": {
+      "kind": "excluded",
+      "reason": "A Windows desktop-shortcut PowerShell helper for launching DSH, not a plugin."
+    },
+    "shell-error/deepseek-harness-remote-access": {
+      "kind": "excluded",
+      "reason": "A Codex skill installed into $CODEX_HOME/skills for implementing DSH remote-access features, not a DSH plugin."
+    },
+    "bojansandhaus/tool-repair-skill-for-hermes-and-opencode": {
+      "kind": "excluded",
+      "reason": "A tool-call repair skill for the Hermes and OpenCode agents, not a DSH plugin."
+    },
+    "sredevopsorg/dsh-plugins": {
+      "kind": "excluded",
+      "reason": "A bare collection of org-internal agent skill folders (SKILL.md) with no plugin packaging or install path."
+    },
     "01men/ybkk-AIOS": {
       "kind": "market",
       "reason": "An enterprise AI-resource platform bundling skill/plugin markets — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -3342,10 +3370,6 @@
     "AI-Scarlett/DSH-Store": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "AQian0/dsh-desktop": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "ARFCON/dsh-hotplug-hub": {
       "kind": "market",
@@ -5339,10 +5363,6 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher (dsh++) for managing DSH; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "qinyre/dsh-Desktop": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — an Electron desktop client/wrapper."
-    },
     "qwert702/dsh-community": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store (community plugin store syncing the dsh-plugin topic plus free dsh instance hosting) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -5979,7 +5999,19 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a plugin-native AI desktop product built on DeepSeek Harness; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "Ln1m/dsh-host-suite": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a Windows host-shell family (WebView2 desktop shell, tray guard, boot splash), not installable plugins. Stays in the catalog."
+    },
+    "Ln1m/dsh-host-splash": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a WebView2 boot-splash layer for the Windows desktop shell, not an installable plugin. Stays in the catalog."
+    },
     "0Ra1n416/DSH-GUI": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "AQian0/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
@@ -6310,6 +6342,10 @@
     "pointer-a/dsh-server-login": {
       "kind": "market",
       "reason": "A multi-tenant public-server hosting platform layered over DSH rather than an in-harness plugin capability; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "qinyre/dsh-Desktop": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — an Electron desktop client/wrapper."
     },
     "rice-awa/dsh-lan-gateway": {
       "kind": "market",
