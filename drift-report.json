@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-29T21:27:53.427Z",
+  "generated_at": "2026-09-30T00:46:11.378Z",
   "count": 1,
   "items": [
     {
-      "full_name": "oliblue-evan/dsh-cli-inventory",
-      "previous": "tool",
-      "current": "resource",
-      "desc_now": "DSH 环境与能力：在「设置」里列出这个 Agent 能操作什么 —— 工具、技能、MCP，以及你自己安装的命令行工具与运行时；只读、容错，系统目录不列出",
-      "desc_prev": "DSH 环境与 CLI：在「设置」里列出这台机器装了哪些命令行工具、版本与路径；只读，仅对内置白名单执行以取版本"
+      "full_name": "WSK-build/DSHBox",
+      "previous": "agent",
+      "current": "coding",
+      "desc_now": "DSHBox —  Run DeepSeek Harness locally on Android phones and tablets. It integrates and coordinates DSH, PRoot, WebView, Debian and Node.js, together with a terminal, a file manager and other tools, into a personal AI workbench. No root access, and no separate Termux installation.",
+      "desc_prev": "DSHBox — Run DeepSeek Harness locally on Android phones and tablets. One APK with Debian, Node.js, DSH, and WebView — no root or Termux required. 一款在安卓手机和平板上本机运行完整 DSH的app —DSHBox。"
     }
   ]
 }
