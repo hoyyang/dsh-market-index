@@ -1,13 +1,27 @@
 {
-  "generated_at": "2026-09-30T12:17:04.333Z",
-  "count": 5,
+  "generated_at": "2026-09-30T13:50:56.779Z",
+  "count": 6,
   "items": [
     {
-      "full_name": "AngelosZou/dsh-pdf-reader",
-      "previous": "document",
-      "current": "vision",
-      "desc_now": "DeepSeek Harness plugin for content-aware PDF reading by vision models",
-      "desc_prev": null
+      "full_name": "better-er/dsh-pause",
+      "previous": "coding",
+      "current": "tool",
+      "desc_now": "「DSH·暂停」：agent 完成一轮工具交互、正要发出下一次模型请求之前暂停，保持输入框可用，人类按回车放行并可携带补充文字；不打断任何在途 API 调用。",
+      "desc_prev": "DSH Web 暂停插件：agent 完成一轮工具交互、正要发出下一次模型请求之前在 agent/pre-step 处拉门暂停，保持 composer 输入框可用，人类在主输入框按回车放行，空草稿为无感继续、带字作为插话一并放行；此暂停不打断任何在途 API 调用，模型上下文完整、无感知。纯插件自包含，不改 DSH 源码。"
+    },
+    {
+      "full_name": "better-er/dsh-tool-autoexpand",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "「DSH·工具结果自动展开」：在 DSH Web 界面自动展开工具调用卡片，支持侧边栏开关。标准可安装的 dsh 客户端插件。",
+      "desc_prev": "dsh·工具结果自动展开插件"
+    },
+    {
+      "full_name": "better-er/dsh-live-token-stats",
+      "previous": "coding",
+      "current": "tool",
+      "desc_now": "「DSH·实时 token 统计」：基于 DeepSeek 官方 BPE 分词表，在输入框下方实时渲染 token 状态带，显示流式 TPS、输出 token 与首字延迟。",
+      "desc_prev": "DSH Web 插件：基于 DeepSeek 官方 BPE 分词表，在 composer 下方实时渲染 token 状态带，显示流式 TPS、输出 token 与首字延迟，并对比上次 step 的估算与实际偏差；纯插件自包含，不改 DSH 源码"
     },
     {
       "full_name": "Exagone313/dsh-podman",
@@ -17,18 +31,11 @@
       "desc_prev": "Podman-backed execution for DeepSeek Harness (dsh)"
     },
     {
-      "full_name": "GY-Bai/dsh-anchored-subagent",
-      "previous": "agent",
-      "current": "resource",
-      "desc_now": "DSH plugin: start the main agent and subagents on DeepSeek's Minimal harness, then unlock the full tool catalog",
-      "desc_prev": "DS的伟哥补丁，subagent都能满血！"
-    },
-    {
-      "full_name": "geokkjer/dsh-peak",
-      "previous": "other",
+      "full_name": "better-er/dsh-remote-file-system",
+      "previous": "coding",
       "current": "tool",
-      "desc_now": "Peak/off-peak pricing indicator for DeepSeek Harness — live composer pill with countdown, plus a status tool for cost-aware agents.",
-      "desc_prev": null
+      "desc_now": "「DSH·远程文件系统」：给模型提供 read_remote、write_remote、edit_remote 三个工具，经 ssh 读写远程主机文件；write_remote 只允许新建。",
+      "desc_prev": "dsh·远程文件系统插件。给模型提供 read_remote、write_remote、edit_remote 三个工具，经 ssh 读写远程主机文件，不用再在 PowerShell 里套 bash 命令；write_remote 只允许新建。纯插件自包含，不改 DSH 源码。"
     },
     {
       "full_name": "f1426912008/dsh-stock-ticker",
