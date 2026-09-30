@@ -1,48 +1,27 @@
 {
-  "generated_at": "2026-09-30T13:50:56.779Z",
-  "count": 6,
+  "generated_at": "2026-09-30T18:25:08.114Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "better-er/dsh-pause",
-      "previous": "coding",
-      "current": "tool",
-      "desc_now": "「DSH·暂停」：agent 完成一轮工具交互、正要发出下一次模型请求之前暂停，保持输入框可用，人类按回车放行并可携带补充文字；不打断任何在途 API 调用。",
-      "desc_prev": "DSH Web 暂停插件：agent 完成一轮工具交互、正要发出下一次模型请求之前在 agent/pre-step 处拉门暂停，保持 composer 输入框可用，人类在主输入框按回车放行，空草稿为无感继续、带字作为插话一并放行；此暂停不打断任何在途 API 调用，模型上下文完整、无感知。纯插件自包含，不改 DSH 源码。"
-    },
-    {
-      "full_name": "better-er/dsh-tool-autoexpand",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "「DSH·工具结果自动展开」：在 DSH Web 界面自动展开工具调用卡片，支持侧边栏开关。标准可安装的 dsh 客户端插件。",
-      "desc_prev": "dsh·工具结果自动展开插件"
-    },
-    {
-      "full_name": "better-er/dsh-live-token-stats",
-      "previous": "coding",
-      "current": "tool",
-      "desc_now": "「DSH·实时 token 统计」：基于 DeepSeek 官方 BPE 分词表，在输入框下方实时渲染 token 状态带，显示流式 TPS、输出 token 与首字延迟。",
-      "desc_prev": "DSH Web 插件：基于 DeepSeek 官方 BPE 分词表，在 composer 下方实时渲染 token 状态带，显示流式 TPS、输出 token 与首字延迟，并对比上次 step 的估算与实际偏差；纯插件自包含，不改 DSH 源码"
-    },
-    {
-      "full_name": "Exagone313/dsh-podman",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "Podman-backed execution for DeepSeek Harness (dsh)",
-      "desc_prev": "Podman-backed execution for DeepSeek Harness (dsh)"
-    },
-    {
-      "full_name": "better-er/dsh-remote-file-system",
-      "previous": "coding",
-      "current": "tool",
-      "desc_now": "「DSH·远程文件系统」：给模型提供 read_remote、write_remote、edit_remote 三个工具，经 ssh 读写远程主机文件；write_remote 只允许新建。",
-      "desc_prev": "dsh·远程文件系统插件。给模型提供 read_remote、write_remote、edit_remote 三个工具，经 ssh 读写远程主机文件，不用再在 PowerShell 里套 bash 命令；write_remote 只允许新建。纯插件自包含，不改 DSH 源码。"
-    },
-    {
-      "full_name": "f1426912008/dsh-stock-ticker",
+      "full_name": "Hu9956/dsh-codex-provider",
       "previous": "web-ui",
       "current": "tool",
-      "desc_now": "DeepSeek Harness（DSH）Web GUI 的实时股票盯盘插件：A 股自选股迷你窗口，含分时曲线、悬停详情卡与自选股设置页。零运行时依赖，无需构建。",
-      "desc_prev": "Realtime stock watch mini-window for the DeepSeek Harness web GUI: an A-share watchlist panel with intraday curves, hover detail cards, and its own settings page. Zero runtime dependencies, no build step."
+      "desc_now": "已停止维护。推荐改用 yetone/magpie：装好即用，把 ChatGPT / Claude / Copilot 订阅共享给 DSH 等所有工具",
+      "desc_prev": "OpenAI Codex provider for DeepSeek Harness with device-code OAuth, Codex CLI import, token refresh, and a web settings panel."
+    },
+    {
+      "full_name": "lhh010/dsh-ui-progress",
+      "previous": "notify",
+      "current": "web-ui",
+      "desc_now": "DSH Web UI 会话进度插件：输入框停靠区常驻进度条（todos 真实进度 / token 速率与 ETA / 中断橘红态 / 后台任务与子代理青色态 / Token 用量徽标与缓存命中面板），窄窗口两行自适应，零核心改动",
+      "desc_prev": "DSH Web UI 会话进度插件：输入框停靠区常驻会话进度条（todos 真实进度 / 实时 token 生成速率 / 中断橘红态 / 待办提醒），零核心改动"
+    },
+    {
+      "full_name": "omdsh-dev/dsh-ui-progress",
+      "previous": "notify",
+      "current": "web-ui",
+      "desc_now": "DSH Web UI 会话进度插件：输入框停靠区常驻进度条（todos 真实进度 / token 速率与 ETA / 中断橘红态 / 后台任务与子代理青色态 / Token 用量徽标与缓存命中面板），窄窗口两行自适应，零核心改动",
+      "desc_prev": "DSH Web UI 会话进度插件：输入框停靠区常驻会话进度条（todos 真实进度 / 实时 token 生成速率 / 中断橘红态 / 待办提醒），零核心改动"
     }
   ]
 }
