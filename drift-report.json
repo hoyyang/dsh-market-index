@@ -1,27 +1,20 @@
 {
-  "generated_at": "2026-09-30T18:25:08.114Z",
-  "count": 3,
+  "generated_at": "2026-10-01T07:50:24.554Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "Hu9956/dsh-codex-provider",
+      "full_name": "liguobao/dsh-desktop",
       "previous": "web-ui",
       "current": "tool",
-      "desc_now": "已停止维护。推荐改用 yetone/magpie：装好即用，把 ChatGPT / Claude / Copilot 订阅共享给 DSH 等所有工具",
-      "desc_prev": "OpenAI Codex provider for DeepSeek Harness with device-code OAuth, Codex CLI import, token refresh, and a web settings panel."
+      "desc_now": "Archived / 已归档，停止维护。推荐官方 DeepSeek Harness；远程访问推荐 ds-harness-remote。 Use official DeepSeek Harness; ds-harness-remote for remote access.",
+      "desc_prev": "An independent, open-source desktop wrapper for DeepSeek Harness. It starts the bundled @deepseek-ai/dsh Web UI locally and loads it in a hardened Electron window on Linux, macOS, and Windows."
     },
     {
-      "full_name": "lhh010/dsh-ui-progress",
-      "previous": "notify",
-      "current": "web-ui",
-      "desc_now": "DSH Web UI 会话进度插件：输入框停靠区常驻进度条（todos 真实进度 / token 速率与 ETA / 中断橘红态 / 后台任务与子代理青色态 / Token 用量徽标与缓存命中面板），窄窗口两行自适应，零核心改动",
-      "desc_prev": "DSH Web UI 会话进度插件：输入框停靠区常驻会话进度条（todos 真实进度 / 实时 token 生成速率 / 中断橘红态 / 待办提醒），零核心改动"
-    },
-    {
-      "full_name": "omdsh-dev/dsh-ui-progress",
-      "previous": "notify",
-      "current": "web-ui",
-      "desc_now": "DSH Web UI 会话进度插件：输入框停靠区常驻进度条（todos 真实进度 / token 速率与 ETA / 中断橘红态 / 后台任务与子代理青色态 / Token 用量徽标与缓存命中面板），窄窗口两行自适应，零核心改动",
-      "desc_prev": "DSH Web UI 会话进度插件：输入框停靠区常驻会话进度条（todos 真实进度 / 实时 token 生成速率 / 中断橘红态 / 待办提醒），零核心改动"
+      "full_name": "gluztm/DSHGuard",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "DSH 守护壳：DeepSeek Harness 的一键启动与救援工具——改动前自动存档、出事整组回滚、本地管理插件、诊断日志导出；Web 引擎与官方桌面版双轨管理",
+      "desc_prev": "DSH ???:DeepSeek Harness ????????????????????????(Web ?? / ?????)"
     }
   ]
 }
