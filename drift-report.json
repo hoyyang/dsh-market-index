@@ -1,55 +1,13 @@
 {
-  "generated_at": "2026-10-01T15:23:10.238Z",
-  "count": 7,
+  "generated_at": "2026-10-01T20:32:17.371Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "ding112/MoneyPal",
-      "previous": "tool",
-      "current": "other",
-      "desc_now": "让你的 AI 助手真正会记账。",
-      "desc_prev": "面向 DSH 的个人记账插件，基于结构化的beancount账本工具"
-    },
-    {
-      "full_name": "WTStarMark/dsh-myskin",
-      "previous": "coding",
-      "current": "web-ui",
-      "desc_now": "DSH 通用皮肤框架：可视化自定义 + 实时预览 + 「皮肤管理」，可以随心设计你的专属皮肤，并通过分发皮肤包和你的小伙伴们分享",
-      "desc_prev": "DSH 皮肤插件：可视化自定义 + 实时预览 + 「皮肤管理」设置页。 非侵入式：不改 DSH 源码 / 配置、不改 DSH 进程；皮肤是完全可逆的覆盖层。  适配：DSH 0.1.7-rc.2 与 0.2.0-rc.1"
-    },
-    {
-      "full_name": "121212165/dsh-plugin-price-aware",
-      "previous": "coding",
-      "current": "model",
-      "desc_now": "dsh plugin: makes the agent know what it costs - live relay credits, per-model price, pre-task estimates and a budget gate (price_status, quote_task)",
-      "desc_prev": "Make your coding agent know what it costs: live credits, per-model price, task pre-estimates, budget gate"
-    },
-    {
-      "full_name": "JoblessJoe/dsh-vitals",
-      "previous": "web-ui",
+      "full_name": "aitcmhk-web/DSH-bot",
+      "previous": "notify",
       "current": "memory",
-      "desc_now": "Live CPU, memory, temperature and GPU load tab for the DeepSeek Harness (dsh) web GUI. btop-style, zero dependencies.",
-      "desc_prev": "Live btop-style hardware monitor (CPU/mem/temp/GPU) tab for the DeepSeek Harness (dsh) web GUI"
-    },
-    {
-      "full_name": "121212165/dsh-plugin-ide-hub",
-      "previous": "memory",
-      "current": "coding",
-      "desc_now": "dsh plugin: one hub over your coding IDEs (Trae/Qoder/ZCode/CatPaw/Codex/Claude Code/OpenCode/dsh) - session inventory, quota runway, shared prompt rules, Obsidian export (/ide-hub /hub-sessions /hub-usage)",
-      "desc_prev": "dsh plugin: unified manager across coding IDEs (Trae/Qoder/ZCode/CatPaw/Codex/Claude Code/OpenCode/dsh) — session inventory, quota migration planning, shared prompt-rules registry, Obsidian knowledge export."
-    },
-    {
-      "full_name": "121212165/dsh-plugin-obsidian-push",
-      "previous": "memory",
-      "current": "tool",
-      "desc_now": "dsh plugin: pushes archived session transcripts into an Obsidian vault as Markdown with YAML frontmatter, deduped by content hash (/obsidian-push)",
-      "desc_prev": "dsh plugin: push archived session transcripts into an Obsidian vault as Markdown notes with YAML frontmatter; dedupes by content hash."
-    },
-    {
-      "full_name": "Gty2408/dsh-plugin-publish",
-      "previous": "resource",
-      "current": "other",
-      "desc_now": "Publish or update a DSH plugin on GitHub in one command: validates the manifest and bundle identifiers, creates or reuses the repo, uploads the tree as one commit, honours .gitignore, and sets the required topic without dropping yours.",
-      "desc_prev": "Publish a DSH plugin to GitHub in one command: validates the manifest and bundle identifiers, creates the repo, uploads the tree, sets the required topic, and writes the plugin-market catalog entry."
+      "desc_now": "通过 TG/微信实现离家办公：发布任务、语音聊天、切换模型、升级重启、自动记忆...Telegram / WeChat bridge plugin for DeepSeek Harness (DSH): bind your bot to a DSH workspace in one command, with handoff continuity between sessions.",
+      "desc_prev": "Telegram / WeChat bridge plugin for DeepSeek Harness (DSH): bind your bot to a DSH workspace in one command, with handoff continuity between sessions."
     }
   ]
 }
