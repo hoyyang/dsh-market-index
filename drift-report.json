@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-01T20:32:17.371Z",
+  "generated_at": "2026-10-02T00:12:04.627Z",
   "count": 1,
   "items": [
     {
-      "full_name": "aitcmhk-web/DSH-bot",
-      "previous": "notify",
-      "current": "memory",
-      "desc_now": "通过 TG/微信实现离家办公：发布任务、语音聊天、切换模型、升级重启、自动记忆...Telegram / WeChat bridge plugin for DeepSeek Harness (DSH): bind your bot to a DSH workspace in one command, with handoff continuity between sessions.",
-      "desc_prev": "Telegram / WeChat bridge plugin for DeepSeek Harness (DSH): bind your bot to a DSH workspace in one command, with handoff continuity between sessions."
+      "full_name": "askdkc/dsh-cli",
+      "previous": "web-ui",
+      "current": "tool",
+      "desc_now": "DSH向けCLI Plugin / DSH CLIplugin — supports easy ai provider setup for codex, claude, opencode, openrouter, hermes agent, orcarouter and infron",
+      "desc_prev": "DSH向けCLI Plugin / DSH CLIplugin — whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS"
     }
   ]
 }
