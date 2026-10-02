@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-02T11:13:49.834Z",
+  "generated_at": "2026-10-02T13:05:15.343Z",
   "count": 1,
   "items": [
     {
-      "full_name": "lnyuqian/dsh-quick-prompts",
-      "previous": "resource",
-      "current": "tool",
-      "desc_now": "DSH 插件（Web 版 / 桌面版通用）：输入框上方常驻快捷条 + 闪电笔弹层，点选预设提示词追加到原有内容之后（不清空），可按条开启自动发送、可设序号排序，支持 MD 导入导出；数据存全局 ~/.dsh/quick-prompts.json 永不丢失",
-      "desc_prev": "DSH Web 插件：输入框快捷输入（闪电笔），权限切换旁一键选预设提示词直接发送，提示词可增删改并持久化到项目根目录"
+      "full_name": "Nagiko0739/dsh-turn-eraser",
+      "previous": "conversation",
+      "current": "model",
+      "desc_now": "一款用于DeepSeek Harness Desktop的上下文管理插件，可删除单轮/多轮对话，可追溯，npm包同名",
+      "desc_prev": "DSH plugin: delete conversation turns (tombstone-based, traceable)"
     }
   ]
 }
