@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-03T07:50:49.766Z",
+  "generated_at": "2026-10-03T10:44:48.780Z",
   "count": 2,
   "items": [
     {
-      "full_name": "liancha22/dsh-puzzle-mode",
-      "previous": "conversation",
+      "full_name": "ChisaAlter/WhaleIsle",
+      "previous": "coding",
       "current": "web-ui",
-      "desc_now": "DSH 插件｜拼图模式：把项目拆成主文档 + 若干模块文档，AI 主动提问把不确定项变成已定项，用五维算项目健康性。一个会话可同时绑多个项目，面板有绑定切换条；项目分小 / 中 / 大三档，条目上限随档位放宽或收紧；主文档第五节 `## 工作流` 是标准化流水线（一条 = 一个 ### 名字块 + 有序步骤），命中触发词自动注入。文档格式 v7；与 dsh-infinite-gen-5 同装时按契约共存（段序可协商、六条分工条款、verify:cross 双向核对）。",
-      "desc_prev": "DSH 插件｜拼图模式：一个会话只绑一个拼图项目（主文档 + 若干模块文档），AI 主动提问把不确定项变成已定项，用五维算项目健康性；主文档第五节 `## 工作流` 是标准化流水线（一条 = 一个 ### 名字块 + 有序步骤）。文档格式 v6。"
+      "desc_now": "鲸屿 Whale Isle · DeepSeek Harness 社区增强桌面版：官方核心功能齐备，扩展主题壁纸、鲸鱼娘桌宠、用量统计与手机远程连接。Community-enhanced DeepSeek Harness desktop client.",
+      "desc_prev": "DSH桌面端，支持主题和背景图等多种个性化配置。Electron desktop shell for DeepSeek Harness web UI"
     },
     {
-      "full_name": "Sculptor815/scrna-seq-workbench",
-      "previous": "agent",
+      "full_name": "STARDUSTLC666/dsh-cite",
+      "previous": "other",
       "current": "tool",
-      "desc_now": "One plugin, six agent skills for guided single-cell RNA-seq analysis in Codex, Claude Code, and DeepSeek Harness. And one bechmark for evaluating agent performance on scRNA-seq data analysis .",
-      "desc_prev": "Five agent skills for guided single-cell RNA-seq analysis in Codex, Claude Code, and DeepSeek Harness."
+      "desc_now": "DeepSeek Harness 文献工作台：DOI/BibTeX 批量导入、去重、Crossref 补全与引文/原始来源备份，支持中文与 English。",
+      "desc_prev": "查询 DOI 和文献元数据，生成参考文献与 BibTeX。"
     }
   ]
 }
