@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-03T10:44:48.780Z",
+  "generated_at": "2026-10-03T13:13:23.975Z",
   "count": 2,
   "items": [
     {
-      "full_name": "ChisaAlter/WhaleIsle",
-      "previous": "coding",
-      "current": "web-ui",
-      "desc_now": "鲸屿 Whale Isle · DeepSeek Harness 社区增强桌面版：官方核心功能齐备，扩展主题壁纸、鲸鱼娘桌宠、用量统计与手机远程连接。Community-enhanced DeepSeek Harness desktop client.",
-      "desc_prev": "DSH桌面端，支持主题和背景图等多种个性化配置。Electron desktop shell for DeepSeek Harness web UI"
+      "full_name": "flizzywine/dsh-tavern",
+      "previous": "web-ui",
+      "current": "tool",
+      "desc_now": "基于DSH的Agent酒馆。兼容SillyTavern生态，人物卡直接导入就能玩。更快、更稳、更鲜活。所有模型都能用。手机也能玩。",
+      "desc_prev": "类酒馆文字游戏Agent。兼容SillyTavern生态，人物卡直接导入就能玩。更快、更稳、更鲜活。所有模型都能用。手机也能玩。"
     },
     {
-      "full_name": "STARDUSTLC666/dsh-cite",
+      "full_name": "qlheric/dsh-cvm",
       "previous": "other",
-      "current": "tool",
-      "desc_now": "DeepSeek Harness 文献工作台：DOI/BibTeX 批量导入、去重、Crossref 补全与引文/原始来源备份，支持中文与 English。",
-      "desc_prev": "查询 DOI 和文献元数据，生成参考文献与 BibTeX。"
+      "current": "model",
+      "desc_now": "Keep DSH agents from stalling, fake-finishing, or overspending: 4 cognitive guards (task contract / loop detection / evidence-before-done / single injection point) + 1 cost guard (budget nudge). No core changes - official seams only.",
+      "desc_prev": "给 DeepSeek Harness 加一层认知运行时：四个正交 Cordis 插件（任务契约 / 收敛判定 / 验证债务 / 分档干预），对抗 LLM 认知锚点坍缩。Cognitive Runtime for DSH."
     }
   ]
 }
