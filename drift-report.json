@@ -1,27 +1,13 @@
 {
-  "generated_at": "2026-10-04T12:37:51.770Z",
-  "count": 3,
+  "generated_at": "2026-10-04T16:01:54.748Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "flizzywine/dsh-tavern",
+      "full_name": "rezon-aki/dsh-streamfold",
       "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "基于DSH的Agent酒馆。类酒馆文字游戏Agent。兼容SillyTavern生态，人物卡直接导入就能玩。更快、更稳、更鲜活。所有模型都能用。手机也能玩。",
-      "desc_prev": "基于DSH的Agent酒馆。兼容SillyTavern生态，人物卡直接导入就能玩。更快、更稳、更鲜活。所有模型都能用。手机也能玩。"
-    },
-    {
-      "full_name": "cmfok/dsh-feishucard",
-      "previous": "web-ui",
       "current": "conversation",
-      "desc_now": "DSH <-> Feishu (Lark) bridge, self-developed (not a fork): streaming reply card / many bots in ONE instance (each with own workspace + AGENTS.md) / mention-only group replies / approval cards / /switch workspace & session picker / identity injection / rate-limit + circuit-breaker fallback. 自研 DSH 飞书桥：流式回复卡｜单实例多 bot｜群里 @ 才回复｜审批卡｜工作区切换｜身份注入",
-      "desc_prev": "DeepSeek Harness <-> Feishu (Lark) bridge with streaming reply card / 自研 DSH 飞书桥：长连接 + 流式回复卡片（工具面板/状态符号/限流熔断兜底）"
-    },
-    {
-      "full_name": "apherchin/dsh-windows-session-notification",
-      "previous": "other",
-      "current": "notify",
-      "desc_now": "跨会话「需要接手」提醒（仅 Windows）：会话完成／等待审批／向你提问、而你没在看它时，弹出可点击跳回的 Windows 通知 + 分档提示音 + 任务栏角标。 | Cross-session attention notifier for Windows — actionable toasts, tiered sounds and a taskbar badge; only for sessions you are not watching.",
-      "desc_prev": "DSH plugin: cross-session \"needs attention\" notifications on Windows — actionable toasts, tiered sounds and a taskbar badge, only for sessions you are not watching."
+      "desc_now": "流式折叠：一个更好的 DSH 会话窗口——运行中自动展开最新思考小窗，其余过程行折成短摘要；跑完自动折起、穿插正文保留；收起/展开按 3 行一组错峰；跑完自动回到提问处。零依赖、零构建。",
+      "desc_prev": "流式折叠：一个更好的 DSH 会话窗口——最新思考小窗自动展开、旧窗与工具调用跑完自动折起；思考小窗底边与正文写头带火星特效。零依赖、零构建。"
     }
   ]
 }
