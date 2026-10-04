@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-04T11:07:00.090Z",
-  "count": 2,
+  "generated_at": "2026-10-04T12:37:51.770Z",
+  "count": 3,
   "items": [
     {
       "full_name": "flizzywine/dsh-tavern",
@@ -10,11 +10,18 @@
       "desc_prev": "基于DSH的Agent酒馆。兼容SillyTavern生态，人物卡直接导入就能玩。更快、更稳、更鲜活。所有模型都能用。手机也能玩。"
     },
     {
-      "full_name": "HubaKing/dsh-community-plugins",
-      "previous": "agent",
-      "current": "tool",
-      "desc_now": "DeepSeek Harness (dsh) plugin pack: one skill + two audit tools. dsh_plugin_audit offline-checks installed plugins against this machine's dsh build; dsh_plugin_inspect judges a tarball before install. Adapted to DSH Desktop. | DSH 社区插件支持包：一个 skill + 两个审计工具（离线审计已装插件、安装前审计 tarball）。全面适配桌面版。",
-      "desc_prev": "DeepSeek Harness (dsh) plugin: registers a global skill that teaches agents how to discover, evaluate and install community plugins from the GitHub dsh-plugin topic, dshmarket and npm. | DSH 社区插件生态指南 skill：让 agent 学会发现、评估、安装社区插件。"
+      "full_name": "cmfok/dsh-feishucard",
+      "previous": "web-ui",
+      "current": "conversation",
+      "desc_now": "DSH <-> Feishu (Lark) bridge, self-developed (not a fork): streaming reply card / many bots in ONE instance (each with own workspace + AGENTS.md) / mention-only group replies / approval cards / /switch workspace & session picker / identity injection / rate-limit + circuit-breaker fallback. 自研 DSH 飞书桥：流式回复卡｜单实例多 bot｜群里 @ 才回复｜审批卡｜工作区切换｜身份注入",
+      "desc_prev": "DeepSeek Harness <-> Feishu (Lark) bridge with streaming reply card / 自研 DSH 飞书桥：长连接 + 流式回复卡片（工具面板/状态符号/限流熔断兜底）"
+    },
+    {
+      "full_name": "apherchin/dsh-windows-session-notification",
+      "previous": "other",
+      "current": "notify",
+      "desc_now": "跨会话「需要接手」提醒（仅 Windows）：会话完成／等待审批／向你提问、而你没在看它时，弹出可点击跳回的 Windows 通知 + 分档提示音 + 任务栏角标。 | Cross-session attention notifier for Windows — actionable toasts, tiered sounds and a taskbar badge; only for sessions you are not watching.",
+      "desc_prev": "DSH plugin: cross-session \"needs attention\" notifications on Windows — actionable toasts, tiered sounds and a taskbar badge, only for sessions you are not watching."
     }
   ]
 }
