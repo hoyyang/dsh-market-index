@@ -1,69 +1,20 @@
 {
-  "generated_at": "2026-10-04T19:27:05.802Z",
-  "count": 9,
+  "generated_at": "2026-10-04T22:31:24.207Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "LJH-snow/dsh-tool-gitlab",
-      "previous": "tool",
-      "current": "resource",
-      "desc_now": null,
-      "desc_prev": null
-    },
-    {
-      "full_name": "LJH-snow/dsh-tool-github",
-      "previous": "tool",
-      "current": "resource",
-      "desc_now": null,
-      "desc_prev": null
-    },
-    {
       "full_name": "cckbc/dsh-session-recycle-bin",
-      "previous": "conversation",
-      "current": "other",
-      "desc_now": "DSH plugin for DeepSeek Harness: delete a session into a recycle bin (15 days by default, adjustable to 7/15/30), restorable or permanently deletable, with bulk delete and a 10-second undo.",
-      "desc_prev": "DSH plugin for DeepSeek Harness: delete a session into a recycle bin (kept for 15 days by default), restorable or permanently deletable. DSH 插件：删除会话进回收站（默认保留 15 天），可还原或彻底删除。"
+      "previous": "other",
+      "current": "conversation",
+      "desc_now": "DSH plugin for DeepSeek Harness: delete a session into a recycle bin (15 days by default, adjustable to 7/15/30), restorable or permanently deletable, with bulk delete. DSH 插件：把删掉的会话收进回收站（默认保留 15 天，可改 7/15/30），随时还原或彻底删除，支持批量删除。",
+      "desc_prev": "DSH plugin for DeepSeek Harness: delete a session into a recycle bin (15 days by default, adjustable to 7/15/30), restorable or permanently deletable, with bulk delete and a 10-second undo."
     },
     {
-      "full_name": "LJH-snow/dsh-tool-sql",
-      "previous": "tool",
-      "current": "resource",
-      "desc_now": null,
-      "desc_prev": null
-    },
-    {
-      "full_name": "LJH-snow/dsh-tool-sentry",
-      "previous": "tool",
-      "current": "resource",
-      "desc_now": null,
-      "desc_prev": null
-    },
-    {
-      "full_name": "LJH-snow/dsh-tool-jira",
-      "previous": "tool",
-      "current": "resource",
-      "desc_now": null,
-      "desc_prev": null
-    },
-    {
-      "full_name": "LJH-snow/dsh-tool-linear",
-      "previous": "tool",
-      "current": "resource",
-      "desc_now": null,
-      "desc_prev": null
-    },
-    {
-      "full_name": "LJH-snow/dsh-tool-kubernetes",
-      "previous": "tool",
-      "current": "resource",
-      "desc_now": "Kubernetes tools for DeepSeek Harness: cluster, namespace, workload, pod, log, rollout, and manifest operations",
-      "desc_prev": "Kubernetes tools for DeepSeek Harness: cluster, namespace, workload, pod, log, rollout, and manifest operations"
-    },
-    {
-      "full_name": "LJH-snow/dsh-tool-slack",
-      "previous": "tool",
-      "current": "resource",
-      "desc_now": "Slack tools for DeepSeek Harness",
-      "desc_prev": "Slack tools for DeepSeek Harness"
+      "full_name": "frederico-kluser/dsh-orquestrator",
+      "previous": "agent",
+      "current": "model",
+      "desc_now": "DeepSeek Harness plugin: on task send, pick the model your subagents run on. Enforced in code on every child DSH starts, workflow agents included: the model, a reasoning-effort ceiling and an output-token cap.",
+      "desc_prev": "DeepSeek Harness plugin: on task send, pick a different model for subagents and an independent reviewer that validates each subagent's work before it reaches the main agent"
     }
   ]
 }
