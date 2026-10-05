@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-04T22:31:24.207Z",
+  "generated_at": "2026-10-05T11:57:58.771Z",
   "count": 2,
   "items": [
     {
-      "full_name": "cckbc/dsh-session-recycle-bin",
-      "previous": "other",
+      "full_name": "BOWLUNA/dsh-custom-mode",
+      "previous": "coding",
       "current": "conversation",
-      "desc_now": "DSH plugin for DeepSeek Harness: delete a session into a recycle bin (15 days by default, adjustable to 7/15/30), restorable or permanently deletable, with bulk delete. DSH 插件：把删掉的会话收进回收站（默认保留 15 天，可改 7/15/30），随时还原或彻底删除，支持批量删除。",
-      "desc_prev": "DSH plugin for DeepSeek Harness: delete a session into a recycle bin (15 days by default, adjustable to 7/15/30), restorable or permanently deletable, with bulk delete and a 10-second undo."
+      "desc_now": "Edit a DeepSeek Harness (dsh) mode's system prompt, base mode, and plugin switches.",
+      "desc_prev": "Custom mode for DeepSeek Harness (dsh): edit a mode's system prompt, base mode and plugin switches in a settings page that looks like the official one; keep several assistants side by side. 中文：dsh 自定义模式插件 —— 在设置页编辑系统提示词、基础模式与插件开关，可并存多个助手（多模式 / 多角色扮演 RP）。"
     },
     {
-      "full_name": "frederico-kluser/dsh-orquestrator",
+      "full_name": "HubaKing/dsh-community-plugins",
       "previous": "agent",
-      "current": "model",
-      "desc_now": "DeepSeek Harness plugin: on task send, pick the model your subagents run on. Enforced in code on every child DSH starts, workflow agents included: the model, a reasoning-effort ceiling and an output-token cap.",
-      "desc_prev": "DeepSeek Harness plugin: on task send, pick a different model for subagents and an independent reviewer that validates each subagent's work before it reaches the main agent"
+      "current": "tool",
+      "desc_now": "DeepSeek Harness (dsh) plugin pack: one skill + two audit tools. dsh_plugin_audit offline-checks installed plugins against this machine's dsh build; dsh_plugin_inspect judges a tarball before install. Adapted to DSH Desktop. | DSH 社区插件支持包：一个 skill + 两个审计工具（离线审计已装插件、安装前审计 tarball）。全面适配桌面版。",
+      "desc_prev": "DeepSeek Harness (dsh) plugin: registers a global skill that teaches agents how to discover, evaluate and install community plugins from the GitHub dsh-plugin topic, dshmarket and npm. | DSH 社区插件生态指南 skill：让 agent 学会发现、评估、安装社区插件。"
     }
   ]
 }
