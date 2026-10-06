@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-06T03:17:21.563Z",
+  "generated_at": "2026-10-06T10:47:01.025Z",
   "count": 1,
   "items": [
     {
-      "full_name": "121212165/dsh-plugin-token-telemetry",
-      "previous": "model",
-      "current": "web-ui",
-      "desc_now": "dsh plugin: token throughput telemetry from real harness projections - per-turn cards plus a dual thinking/output TPS curve as a conversation tab",
-      "desc_prev": "DeepSeek Harness (dsh) plugin: token throughput telemetry — per-turn cards + aggregate TPS view from real harness data"
+      "full_name": "BotHarness/BotHarness",
+      "previous": "other",
+      "current": "memory",
+      "desc_now": "DeepSeekBot: the open-source GrokBot alternative, built on DeepSeek Harness (DSH). PersonaBots with their own identity, persona and Git-backed memory you can share via GitHub; group chat, task delegation, and IM identities on Lark/Feishu, Slack, Discord and WeChat. Works with other DSH plugins. Bot marketplace: market.botharness.ai. MIT.",
+      "desc_prev": null
     }
   ]
 }
