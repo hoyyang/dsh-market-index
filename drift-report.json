@@ -1,34 +1,20 @@
 {
-  "generated_at": "2026-10-07T11:50:22.884Z",
-  "count": 4,
+  "generated_at": "2026-10-07T15:24:03.133Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "rebornace/dsh-tracescope",
-      "previous": "coding",
+      "full_name": "Duskriver/dsh-opencode-go",
+      "previous": "tool",
       "current": "web-ui",
-      "desc_now": "基于 Git 差异生成功能影响清单，以 Figma / 蓝湖设计稿为真源静态对比 UI 差异，可选 AI 协助分析；能力经 MCP 复用于任意客户端。Git-diff impact checklists + static UI-diff against Figma / Lanhu specs, with optional AI-assisted review; the same capabilities are reusable via MCP in any client.",
-      "desc_prev": "基于 Git 代码差异智能缩减手工测试范围，支持 Web / 移动端操作录制与崩溃日志采集，依托 DSH AI 自动生成可复现缺陷流程，实现变更驱动的手工测试闭环提效插件。A DSH native test assistant plugin. It intelligently narrows manual test scope via Git diff, records web & mobile operation tracks and crash logs, and generates reproducible bug steps through AI analysis to close manual testing workflow efficiently."
+      "desc_now": "用于deepseek-harness的opencode-go套餐增强插件。多账号管理、额度UI面板、自动更新模型。An opencode-go subscription enhancement plugin for deepseek-harness — featuring multi-account management, a quota UI panel, and automatic model updates.",
+      "desc_prev": "让你的DSH完美适配opencodeg-go套餐"
     },
     {
-      "full_name": "ddtcorex/dsh-maestro-remote",
-      "previous": "notify",
-      "current": "tool",
-      "desc_now": "Remote access for DeepSeek Harness: cloudflared tunnel, LAN and public proxies with a PIN gate, QR pairing and Maestro PWA branding",
-      "desc_prev": "Remote access for DeepSeek Harness via cloudflared tunnel + proxy, with PIN auth and Telegram notifications."
-    },
-    {
-      "full_name": "ddtcorex/dsh-maestro-core",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "Maestro core for DeepSeek Harness: shared settings store and Settings card, approval gate, cross-machine sync and the DSH web supervisor daemon",
-      "desc_prev": "Supervisor daemon for DSH Web resilience — auto-detect crashes, rollback to LKG, report"
-    },
-    {
-      "full_name": "qlheric/dsh-cvm",
-      "previous": "model",
-      "current": "vision",
-      "desc_now": "Runtime supervision for DeepSeek Harness agents: 4 cognitive guards (task contract / loop detection / evidence-before-done / single injection) + 1 cost guard. No core changes. Measured: cuts stalls -48% at only +2% cost.",
-      "desc_prev": "Keep DSH agents from stalling, fake-finishing, or overspending: 4 cognitive guards (task contract / loop detection / evidence-before-done / single injection point) + 1 cost guard (budget nudge). No core changes - official seams only."
+      "full_name": "shuxidemosheng/dsh-tool-todo-plus",
+      "previous": "web-ui",
+      "current": "memory",
+      "desc_now": "DeepSeek Harness 任务清单插件：官方 todo_write 的增强 fork —— 优先级标签、完整清单渲染、可拖动的会话内浮动任务面板（位置记忆 / 双击复位 / 当前动作显示）",
+      "desc_prev": "Enhanced todo_write plugin for DeepSeek Harness: floating task panel with capsule mode, priority tags, full checklist rendering. Fork of @deepseek-ai/dsh-tool-todo."
     }
   ]
 }
