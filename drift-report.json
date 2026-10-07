@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-06T17:11:56.336Z",
+  "generated_at": "2026-10-07T07:39:44.076Z",
   "count": 3,
   "items": [
     {
-      "full_name": "Cristallin2006/ghidra-skill-for-dsh",
+      "full_name": "PolinniZhong/dsh-knit",
       "previous": "web-ui",
-      "current": "tool",
-      "desc_now": "Custom-built for dsh (DeepSeek Harness): persistent Ghidra headless daemon + reverse-engineering agent skills (triage/unpack/decompile/pwn/pcap/APK) with circuit breakers against agent failure loops. 为 dsh 深度定制：会熔断、能从复盘进化的逆向 skill 家族。",
-      "desc_prev": "Ghidra headless daemon (persistent RPC, no JVM cold-start per call) + reverse-engineering skill family for dsh / Claude Code agents: triage → unpack → decompile → pwn → pcap → APK. Built-in circuit breakers against agent failure loops (byte-staring, re-reading the same region), distilled from real CTF postmortems. 面向 Agent 失败模式设计的逆向 skill 家族。"
-    },
-    {
-      "full_name": "xiaxi626/dsh-skills-nexus",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "Universal DSH skill adapter. Install once, then register any git repo containing a SKILL.md as a DSH skill — one command in the CLI or a few clicks in the DSH web panel. Skill repos stay pure: no Cordis plugin code or package.json needed.",
-      "desc_prev": "Universal DSH skill adapter. Install once, then register any GitHub repo containing a SKILL.md as a DSH skill — one command per repo. No Cordis plugin code or package.json needed in the skill repo."
+      "current": "coding",
+      "desc_now": "面向 AI Coding Agent 的任务感知工作区上下文检索与生命周期追踪：按当前任务找到、组织并持续追踪最相关的文档、代码与媒体。纯本地、零模型调用、零网络。  Task-aware workspace context retrieval and lifecycle tracking for AI coding agents. Find, organize, and track the workspace context most relevant to the task at hand — locally, deterministically, zero model calls, zero network.",
+      "desc_prev": "面向 DeepSeek Harness 的任务上下文检索：根据当前对话，从项目工作区找到最相关的上下文，组织为主要 / 辅助 / 相关内容，并通过 Knit 面板与 knit_docs 提供给人和 Agent。纯本地、确定性、零模型调用、零网络。  Task-aware workspace context retrieval for DeepSeek Harness. Knit finds the project context most relevant to the current task, organizes it into primary / supporting / related context, and exposes the same context to humans a"
     },
     {
       "full_name": "xienda/dsh-jev-verify",
+      "previous": "web-ui",
+      "current": "tool",
+      "desc_now": "TypeSafe Jev (System One) for DeepSeek Harness: 7 tools (decide, choose, batch), a two-tier auto-guard with metered verdicts, a settings card, a money-first usage pill, a local ledger that survives restarts, a derived remaining balance, per-turn auto-triage, and a live 27-question benchmark (96.3%).",
+      "desc_prev": "TypeSafe Jev (System One) decision model for DeepSeek Harness: 6 tools, a two-tier position-aware auto-guard, a settings card, a local usage & quota panel with a compact composer pill, and a live 27-question benchmark (96.3%). Honest by design: measured locally, never a fabricated balance."
+    },
+    {
+      "full_name": "mazov2love/dsh-remote-control",
       "previous": "tool",
       "current": "web-ui",
-      "desc_now": "TypeSafe Jev (System One) decision model for DeepSeek Harness: 6 tools, a two-tier position-aware auto-guard, a settings card, a local usage & quota panel with a compact composer pill, and a live 27-question benchmark (96.3%). Honest by design: measured locally, never a fabricated balance.",
-      "desc_prev": "TypeSafe Jev (System One) decision model for DeepSeek Harness: 5 tools (jev_decision / jev_choose / jev_overview / jev_guard_status / jev_verify), a full Settings card, in-chat tool views, a two-tier position-aware auto-guard, an honest usage ledger, and a live 27-question benchmark (96.3%)."
+      "desc_now": "为 Agent 提供直接操控本机完整 DSH 实例的能力：目标 DSH 无需安装任何插件或额外组件，零侵入，开箱即用、无需手动配置，并提供接近用户的操作语义、增量读取、引用保存以及远端会话与工作区搜索等功能。",
+      "desc_prev": "给dsh像user一样以后端逻辑操控另一个本机dsh实例的能力"
     }
   ]
 }
