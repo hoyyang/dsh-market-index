@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-08T00:53:25.138Z",
-  "count": 1695,
+  "generated_at": "2026-10-08T07:11:47.558Z",
+  "count": 1698,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -3519,6 +3519,22 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — an asset/sprite pack with no installable plugin."
     },
+    "thibautrey/multivibe": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a self-hosted multi-account AI gateway/proxy (MultiVibe Host) desktop app."
+    },
+    "thisisname123/wechat4-auto": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone zero-dependency PowerShell WeChat-automation script."
+    },
+    "ShuangWang-cn/workbuddy-shared-model": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a Windows desktop app that bridges WorkBuddy credits to other AI tools."
+    },
+    "stefanohe/deepseek-harness-datasecure": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a security-remastered fork/distribution of the DeepSeek Harness desktop app."
+    },
     "01men/ybkk-AIOS": {
       "kind": "market",
       "reason": "An enterprise AI-resource platform bundling skill/plugin markets — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -3686,10 +3702,6 @@
     "Blackman99/codsh": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone Claude Code-style TUI client/agent app composed on the dsh runtime; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "BotHarness/BotHarness": {
-      "kind": "market",
-      "reason": "A DSH plugin with a built-in bot marketplace — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "Britneycode/dsh-update-center": {
       "kind": "market",
@@ -5015,10 +5027,6 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — an Electron desktop wrapper/shell for DeepSeek Harness; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "festoney8/deepseek-harness-GUI": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
     "ffyfox/dsh-desktop-linux": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: Linux repackaging (AppImage/deb/rpm/PKGBUILD) of the official DSH desktop Electron app — not an installable DSH plugin. Stays in the catalog."
@@ -5259,10 +5267,6 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "jipika/dsh-plugin-console": {
-      "kind": "market",
-      "reason": "A plugin console/hub (local fork of Noob-stupid/dsh-plugin-hub) lifting plugin management and the plugin market into the settings nav — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
-    },
     "jiuge2467/DSH-Desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop client/workbench (built-in MCP hub, terminal, mascot); stays in the catalog and leaderboard, excluded from the downstream market."
@@ -5426,10 +5430,6 @@
     "lovstudio/dsh-plugin-marketplace": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "lunaship/dsh-links": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — an Android companion client; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "luoboovo/deepseek-harness-client": {
       "kind": "market",
@@ -6350,6 +6350,18 @@
     "montersy123/dsh-skill-market": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "BotHarness/DeepSeekBot": {
+      "kind": "market",
+      "reason": "A DSH plugin with a built-in bot marketplace — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "lunaship/dsh-cetus": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — a mobile companion client; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "gosomea/dsh-godot-ai": {
+      "kind": "market",
+      "reason": "A DSH plugin with a built-in Skill market — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
