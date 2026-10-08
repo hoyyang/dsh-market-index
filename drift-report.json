@@ -1,20 +1,13 @@
 {
-  "generated_at": "2026-10-08T07:11:46.203Z",
-  "count": 2,
+  "generated_at": "2026-10-08T12:00:29.619Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "Clearailhc/clearai-dsh",
-      "previous": "agent",
-      "current": "tool",
-      "desc_now": "ClearAI：以本体为纲的原生 DSH 插件 —— 经证据核验的研究长成可浏览的领域本体。 · ClearAI: an ontology-first DSH agent preset — evidence-checked research that grows into a domain ontology.",
-      "desc_prev": "ClearAI is a native DSH plugin that brings the Epistemic Loop to DeepSeek Harness."
-    },
-    {
-      "full_name": "Ultronen/dsh-archived-chats",
-      "previous": "tool",
-      "current": "memory",
-      "desc_now": "Archive Management for DeepSeek Harness: manage archived and unarchived chats with search, preview, tags and notes, workspace archiving, ZIP backups, selected actions, a Recycle Bin, storage and retention, origins and branches, and automatic residual chat checks.",
-      "desc_prev": "Archive Management for DeepSeek Harness: browse, search, preview and restore chats, with Unarchived management, workspace archiving, ZIP backups, a Recycle Bin and on-demand residual chat checks."
+      "full_name": "ChisaAlter/WhaleIsle",
+      "previous": "web-ui",
+      "current": "coding",
+      "desc_now": "鲸屿 Whale Isle · DeepSeek Harness 开源社区桌面版：AI 对话、终端与 Git、鲸桥 API/订阅接入、主题壁纸、鲸鱼娘桌宠、用量统计与手机远程连接。Community-enhanced DeepSeek Harness desktop client.",
+      "desc_prev": "鲸屿 Whale Isle · DeepSeek Harness 社区增强桌面版：官方核心功能齐备，扩展主题壁纸、鲸鱼娘桌宠、用量统计与手机远程连接。Community-enhanced DeepSeek Harness desktop client."
     }
   ]
 }
