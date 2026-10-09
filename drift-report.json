@@ -1,55 +1,20 @@
 {
-  "generated_at": "2026-10-09T15:11:45.424Z",
-  "count": 7,
+  "generated_at": "2026-10-09T20:20:33.010Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "lemonxiny55/dsh-composition-doctor",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "Explain DSH plugin failures: duplicate inserts, missing patches, peer mismatches and their source paths. Read-only CLI; offline by default.",
-      "desc_prev": "Read-only DSH and Cordis composition diagnostics, snapshots, diffs, and upgrade preflight."
+      "full_name": "Ayuilos/Miffan",
+      "previous": "web-ui",
+      "current": "vision",
+      "desc_now": "RikkaHub fork，Android AI 客户端。支持 ChatGPT 订阅登录使用、跨应用划词悬浮翻译、助手工作区文件隔离、远程云电脑控制、文档与 HTML 预览、可定制动态角色。",
+      "desc_prev": "RikkaHub fork，Android AI 客户端。支持 ChatGPT 订阅登录使用、跨应用划词悬浮翻译、助手工作区文件隔离、远程工作区、文档与 HTML 预览、可定制动态角色。"
     },
     {
-      "full_name": "m-rui001/dsh-mate-companion",
-      "previous": "other",
-      "current": "memory",
-      "desc_now": "Persisto Mate companion as a DeepSeek Harness (dsh) bundle",
-      "desc_prev": "Persisto Mate companion as a DeepSeek Harness (dsh) bundle"
-    },
-    {
-      "full_name": "yuxiaole-bili/dsh-mobile-proxy-agent",
+      "full_name": "john-walks-slow/dsh-set-model",
       "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "让 DeepSeek Harness 在手机上可用：反向代理 + 热补丁通道 + DSH 插件。零 DSH 改动、免重装 APK，改文件刷新即生效。界面中英双语。",
-      "desc_prev": "让 DeepSeek Harness 在老手机（Chrome 114 WebView）上可用：反向代理 + 热补丁通道 + DSH 插件。零 DSH 改动、免重装 APK，改文件刷新即生效。"
-    },
-    {
-      "full_name": "frederico-kluser/dsh-orquestrator",
-      "previous": "model",
-      "current": "tool",
-      "desc_now": "DeepSeek Harness plugin: pick the model your subagents run on — with a reasoning-effort ceiling and an output-token cap — enforced in code on every child DSH starts, whichever tool starts it.",
-      "desc_prev": "DeepSeek Harness plugin: on task send, pick the model your subagents run on. Enforced in code on every child DSH starts, workflow agents included: the model, a reasoning-effort ceiling and an output-token cap."
-    },
-    {
-      "full_name": "Kerberos255/dsh-status-cards",
-      "previous": "tool",
-      "current": "memory",
-      "desc_now": "Unified DeepSeek Harness status dashboard: session health, channels, jobs, memory, OpenCode Go usage and DeepSeek balance.",
-      "desc_prev": "统一查看运行状态，并在原有边缘卡片查看 OpenCode Go 额度和 DeepSeek 余额。"
-    },
-    {
-      "full_name": "keatsyh/dsh-plugin-addir",
-      "previous": "resource",
-      "current": "other",
-      "desc_now": "Multi-directory workspaces for DeepSeek Harness.",
-      "desc_prev": "Multi-directory workspaces for DeepSeek Harness — attach extra directories and manage them in the GUI. · 给工作区关联额外目录（Codex --add-dir / Antigravity 式），在界面里图形化管理。"
-    },
-    {
-      "full_name": "Asthmatic123/dsh-newtype-multititle",
-      "previous": "other",
-      "current": "web-ui",
-      "desc_now": "DSH 自由工作台插件 —— tab 化多会话 · 自由分栏 · 每窗格宿主原版对话框 (DeepSeek Harness plugin)",
-      "desc_prev": null
+      "current": "conversation",
+      "desc_now": "Model policy for DeepSeek Harness (DSH): free mode set_model/list_models, preset mode switch_preset/list_presets, configurable stage-to-model policy prompt, plan-mode staging, and a bundled Web settings page.",
+      "desc_prev": "Per-agent model switching for DeepSeek Harness: set_model / list_models agent tools with provider whitelist and token-budget guardrails, plus plan-mode model staging and cache-safe active-model context."
     }
   ]
 }
