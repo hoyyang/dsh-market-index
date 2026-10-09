@@ -1,20 +1,55 @@
 {
-  "generated_at": "2026-10-09T12:10:39.462Z",
-  "count": 2,
+  "generated_at": "2026-10-09T15:11:45.424Z",
+  "count": 7,
   "items": [
     {
-      "full_name": "Y1X1n/dsh-prompt-optimizer",
-      "previous": "coding",
-      "current": "model",
-      "desc_now": "DeepSeek Harness 插件 · 发送栏一键「优化」提示词草稿：五维诊断 + 改写稿 SSE 流式上屏，可替换 / 复制 / 撤回，模型路由默认跟随当前会话。",
-      "desc_prev": "针对Deepseek Harness开发的提示词优化插件，感谢Jerry(@ruijiaang-lab)开发Mac端"
+      "full_name": "lemonxiny55/dsh-composition-doctor",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "Explain DSH plugin failures: duplicate inserts, missing patches, peer mismatches and their source paths. Read-only CLI; offline by default.",
+      "desc_prev": "Read-only DSH and Cordis composition diagnostics, snapshots, diffs, and upgrade preflight."
     },
     {
-      "full_name": "chengshenyangtai/dsh-workbuddy-trae-qoder-connect",
+      "full_name": "m-rui001/dsh-mate-companion",
+      "previous": "other",
+      "current": "memory",
+      "desc_now": "Persisto Mate companion as a DeepSeek Harness (dsh) bundle",
+      "desc_prev": "Persisto Mate companion as a DeepSeek Harness (dsh) bundle"
+    },
+    {
+      "full_name": "yuxiaole-bili/dsh-mobile-proxy-agent",
       "previous": "tool",
-      "current": "vision",
-      "desc_now": "把 WorkBuddy（多账号/企业版）、Trae CN / TRAE SOLO CN、Qoder CN 三家订阅聚合进同一个 DSH 模型选择器：会话内换模型不丢历史、积分倍率、逐模型思考档位、每日自动签到、读图与 Agent 工具调用。One DSH plugin aggregating WorkBuddy / Trae / Qoder subscriptions into one model picker: mid-session switching, credit multipliers, reasoning effort, daily check-in, vision, tools.",
-      "desc_prev": "One DSH plugin for WorkBuddy / Qoder / Trae: auto check-in, multi-channel aggregation, in-session model switching, reasoning effort."
+      "current": "web-ui",
+      "desc_now": "让 DeepSeek Harness 在手机上可用：反向代理 + 热补丁通道 + DSH 插件。零 DSH 改动、免重装 APK，改文件刷新即生效。界面中英双语。",
+      "desc_prev": "让 DeepSeek Harness 在老手机（Chrome 114 WebView）上可用：反向代理 + 热补丁通道 + DSH 插件。零 DSH 改动、免重装 APK，改文件刷新即生效。"
+    },
+    {
+      "full_name": "frederico-kluser/dsh-orquestrator",
+      "previous": "model",
+      "current": "tool",
+      "desc_now": "DeepSeek Harness plugin: pick the model your subagents run on — with a reasoning-effort ceiling and an output-token cap — enforced in code on every child DSH starts, whichever tool starts it.",
+      "desc_prev": "DeepSeek Harness plugin: on task send, pick the model your subagents run on. Enforced in code on every child DSH starts, workflow agents included: the model, a reasoning-effort ceiling and an output-token cap."
+    },
+    {
+      "full_name": "Kerberos255/dsh-status-cards",
+      "previous": "tool",
+      "current": "memory",
+      "desc_now": "Unified DeepSeek Harness status dashboard: session health, channels, jobs, memory, OpenCode Go usage and DeepSeek balance.",
+      "desc_prev": "统一查看运行状态，并在原有边缘卡片查看 OpenCode Go 额度和 DeepSeek 余额。"
+    },
+    {
+      "full_name": "keatsyh/dsh-plugin-addir",
+      "previous": "resource",
+      "current": "other",
+      "desc_now": "Multi-directory workspaces for DeepSeek Harness.",
+      "desc_prev": "Multi-directory workspaces for DeepSeek Harness — attach extra directories and manage them in the GUI. · 给工作区关联额外目录（Codex --add-dir / Antigravity 式），在界面里图形化管理。"
+    },
+    {
+      "full_name": "Asthmatic123/dsh-newtype-multititle",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "DSH 自由工作台插件 —— tab 化多会话 · 自由分栏 · 每窗格宿主原版对话框 (DeepSeek Harness plugin)",
+      "desc_prev": null
     }
   ]
 }
