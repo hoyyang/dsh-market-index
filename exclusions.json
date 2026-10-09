@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-09T01:09:59.104Z",
-  "count": 1699,
+  "generated_at": "2026-10-09T07:54:43.005Z",
+  "count": 1705,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -774,6 +774,10 @@
     "dreamor/MemVault": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic MCP-native memory server for any MCP client."
+    },
+    "dreamtao2199/dsh-plugin-handbook": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a plugin-engineering handbook / documentation for plugin authors."
     },
     "drewnekota/cetus": {
       "kind": "excluded",
@@ -3491,6 +3495,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic vision sidecar for CLIs."
     },
+    "zi7tian/dsh_desktop_for_linux": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — Linux x86_64 desktop packaging (deb/rpm/Arch) of DeepSeek Harness itself."
+    },
     "ZihaoVistonWang/Stata-AI-Skill": {
       "kind": "excluded",
       "reason": "Generic skill plus localhost native service that lets any AI agent run Stata; no DSH-specific install path."
@@ -3767,6 +3775,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "dingchenhui0618-arch/dsh-market-sidebar": {
+      "kind": "market",
+      "reason": "A plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
     "DSH-EAC/EAC-Desktop": {
       "kind": "market",
       "reason": "a desktop client with a built-in plugin market; the market cannot include another market"
@@ -3862,6 +3874,10 @@
     "FALda-da/ds-desktop-launcher": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Femad-6/dsh-lumen-market": {
+      "kind": "market",
+      "reason": "A plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
     },
     "Finderchangchang/brewreel": {
       "kind": "leaderboard",
@@ -4023,6 +4039,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "jyb114/pocket-bridge": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a standalone Windows phone-interface/gateway companion app shipping an optional DSH settings plugin — the main artifact is a desktop app, not an installable DSH plugin. Stays in the catalog."
+    },
     "KDronin/dsh-tray": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a desktop tray launcher for DeepSeek Harness, not an installable DSH plugin. Stays in the catalog."
@@ -4054,6 +4074,10 @@
     "LBurny/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a Windows desktop shell/launcher bundling dsh; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "leolee9086/dsh-bazaar": {
+      "kind": "market",
+      "reason": "A plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
     },
     "lhpaul/dsh-harness": {
       "kind": "leaderboard",
@@ -4586,6 +4610,10 @@
     "XSakura666/dsh-plugin-ChronoAgent": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop app; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "xuhao1/VibeWand": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a standalone macOS controller app for AI tools — not an installable DSH plugin (its DSH plugin mode is set up internally by the app). Stays in the catalog."
     },
     "YELEBAI/dsh-plugin-marketplace": {
       "kind": "market",
@@ -6658,10 +6686,6 @@
     "memorax-ai/dsh-webui-studio": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone plugin-development studio/application; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "ming-14/dsh-forwarder": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a standalone TCP forwarder executable; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "mrk-king/dsh-plugin-market": {
       "kind": "market",
