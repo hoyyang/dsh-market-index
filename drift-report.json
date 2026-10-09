@@ -1,27 +1,20 @@
 {
-  "generated_at": "2026-10-09T07:54:41.602Z",
-  "count": 3,
+  "generated_at": "2026-10-09T12:10:39.462Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "xling001/dsh-reading-companion",
-      "previous": "other",
-      "current": "memory",
-      "desc_now": "DSH 的本地 TXT 书架 + 不剧透 AI 陪读：按你的进度滚动阅读，AI 只看得见你读过的部分，并把摘抄与感想整理成一份你自己可编辑的结构化背景笔记。",
-      "desc_prev": null
-    },
-    {
-      "full_name": "pearjelly/deep-blend",
+      "full_name": "Y1X1n/dsh-prompt-optimizer",
       "previous": "coding",
-      "current": "vision",
-      "desc_now": "Create and refine Blender product scenes in DSH: editable recipes, model imports, real previews, saved revisions and PNG/MP4 delivery.",
-      "desc_prev": "Blender 3D animation workbench for DeepSeek Harness (dsh): SceneSpec is the source of truth and .blend is a compiled artifact — 16 tools for scene specs, previews, visual review and delivery renders."
+      "current": "model",
+      "desc_now": "DeepSeek Harness 插件 · 发送栏一键「优化」提示词草稿：五维诊断 + 改写稿 SSE 流式上屏，可替换 / 复制 / 撤回，模型路由默认跟随当前会话。",
+      "desc_prev": "针对Deepseek Harness开发的提示词优化插件，感谢Jerry(@ruijiaang-lab)开发Mac端"
     },
     {
-      "full_name": "baom1ng/dsh-desktop-archive-manager",
-      "previous": "other",
-      "current": "web-ui",
-      "desc_now": "Manage the archived Sessions of DeepSeek Harness: browse, restore and delete them permanently from an Archives panel, with no harness core patch required. Works in the desktop app and any web-capable profile.",
-      "desc_prev": "Manage and permanently delete archived Sessions in DeepSeek Harness Desktop - no harness core patch required. Desktop-only DSH bundle."
+      "full_name": "chengshenyangtai/dsh-workbuddy-trae-qoder-connect",
+      "previous": "tool",
+      "current": "vision",
+      "desc_now": "把 WorkBuddy（多账号/企业版）、Trae CN / TRAE SOLO CN、Qoder CN 三家订阅聚合进同一个 DSH 模型选择器：会话内换模型不丢历史、积分倍率、逐模型思考档位、每日自动签到、读图与 Agent 工具调用。One DSH plugin aggregating WorkBuddy / Trae / Qoder subscriptions into one model picker: mid-session switching, credit multipliers, reasoning effort, daily check-in, vision, tools.",
+      "desc_prev": "One DSH plugin for WorkBuddy / Qoder / Trae: auto check-in, multi-channel aggregation, in-session model switching, reasoning effort."
     }
   ]
 }
