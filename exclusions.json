@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-10T00:17:50.692Z",
-  "count": 1705,
+  "generated_at": "2026-10-10T06:18:05.853Z",
+  "count": 1713,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -1135,6 +1135,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — generic browser control for agents."
     },
+    "hanliang97/MatrixMedia": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone multi-platform video-publishing tool (Electron + CLI + MCP); no dsh plugin install path, the 944 stars accrued as a generic video-matrix tool that tagged the topic for discovery."
+    },
     "haodongzhang022-hue/OpenLiulan": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone browser-automation framework (Browser-Use/Stagehand/DevTools/Playwright MCP integration); DSH is one of several integrations."
@@ -1214,6 +1218,10 @@
     "huawolf/news-agent": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a personal news aggregator."
+    },
+    "hugefiver/ocmm": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an OpenCode/Codex multi-model auto-router plugin; every integration seam targets OpenCode/Codex, no DSH install path."
     },
     "hululuzzzgululu/dsh-evals-promptfoo": {
       "kind": "excluded",
@@ -2087,6 +2095,10 @@
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — documentation/tutorial"
     },
+    "OpencodeSilver/OpencodeSilver": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone AI coding environment (desktop app + VS Code extension) on the OpenCode engine; no DSH install path."
+    },
     "openguardrails/openguardrails": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — an AI safety/security protocol."
@@ -2178,6 +2190,10 @@
     "phuongddx/jarvis": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone agent infrastructure layer (jarvis-mcp on PyPI) with no DSH integration in the README; rides the dsh-plugin topic."
+    },
+    "Physicolor/dsh-design-resources": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a design-spec resource site (tokens, icons, component gallery) for DSH plugin authors; documentation, not an installable plugin."
     },
     "PicGo/PicGo-Core": {
       "kind": "excluded",
@@ -2386,6 +2402,10 @@
     "seed-forge/harness-ai-kit": {
       "kind": "excluded",
       "reason": "Generic skills package manager for Codex/Claude Code/Cursor/Kiro; DSH incidental."
+    },
+    "seekbuddy/dsh-ui": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an npm React component library styled on the DSH design tokens; no DSH plugin/bundle form."
     },
     "Selinefieldcrop975/awesome-deepseek-agent": {
       "kind": "excluded",
@@ -3659,6 +3679,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a macOS desktop launcher (AppleScript applet); stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "ai-tool-labs/dsh-plugin-square": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
     "Aicksion/dsh-clean-desktop-shell-pro": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a desktop shell (enhanced fork of dsh-clean-desktop-shell) wrapping the web profile in a native window. Stays in the catalog."
@@ -3774,6 +3798,10 @@
     "CosmoSail/DSH_Launch_Console": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "dakeqiqi123/dsh-skill-market": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "dingchenhui0618-arch/dsh-market-sidebar": {
       "kind": "market",
@@ -6034,6 +6062,10 @@
     "whitelonng/dshcode": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "William2333ZZ/mywork-deepseekharness": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
     },
     "wink-run/dsh-plugin-store": {
       "kind": "market",
