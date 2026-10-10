@@ -1,20 +1,13 @@
 {
-  "generated_at": "2026-10-10T12:59:42.692Z",
-  "count": 2,
+  "generated_at": "2026-10-10T17:47:57.391Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "wt0812/dsh-vocab-study",
-      "previous": "web-ui",
+      "full_name": "megablue/dsh-feature-map",
+      "previous": "agent",
       "current": "memory",
-      "desc_now": "DeepSeek Harness (DSH) 的离线背单词插件：输入框旁一颗胶囊 + 右侧栏一个标签页，按记忆半衰期排期，零依赖、零联网、数据只存本地。",
-      "desc_prev": "Offline vocabulary panel for DeepSeek Harness: a capsule beside the composer and a sidebar tab."
-    },
-    {
-      "full_name": "sunnycreate/dsh-plugin-stand-reminder",
-      "previous": "other",
-      "current": "notify",
-      "desc_now": "一个面向久坐电脑前人群的 DeepSeek Harness 插件：按你设定的间隔提醒你站起来走动一下。 提醒文字内置了一整套（可直接用），也支持完全自定义。",
-      "desc_prev": null
+      "desc_now": "Docs before code: one page per feature so your agent stops grepping and starts knowing.",
+      "desc_prev": "Docs before code: one page per feature so your agent stops grepping and starts knowing."
     }
   ]
 }
