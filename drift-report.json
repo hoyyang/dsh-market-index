@@ -1,13 +1,27 @@
 {
-  "generated_at": "2026-10-10T21:25:43.608Z",
-  "count": 1,
+  "generated_at": "2026-10-11T06:17:50.419Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "Shuffle-1992/zcode-dispatch",
-      "previous": "resource",
+      "full_name": "WhitePlusMS/dsh-git-graph",
+      "previous": "tool",
       "current": "web-ui",
-      "desc_now": "把任务派发给本机 ZCode CLI 无头进程的 DeepSeek Harness 插件：面板可监视/终止/续跑/换通道；单写者文件锁 + 用量台账 + 降级链。支持付费套餐与免费额度（Start Plan 活动赠送）两种额度，后者托管官方 agent 走 app-server。",
-      "desc_prev": "DSH 插件：ZCode 派发台 —— 在 DeepSeek Harness 面板里派发/监视 ZCode 无头进程（agent 工具 + 悬浮面板：单写者互斥 / 用量聚合 / 套餐通道 / 降级链）"
+      "desc_now": "Read-only Git Graph sidebar for DeepSeek Harness Web: commit history, file diffs, two-commit comparison and full historical source. DSH 原生侧栏 Git 可视化插件。",
+      "desc_prev": "Git Graph view for the DeepSeek Harness web interface. Inspect commit topology, branches, tags, remotes, HEAD, and working-tree status in a dedicated view beside Chat and Trajectory."
+    },
+    {
+      "full_name": "dsh-plugin-lab/dsh-ds-balance",
+      "previous": "web-ui",
+      "current": "notify",
+      "desc_now": "DSH plugin: shows your DeepSeek account balance at the bottom of the left sidebar (native UI), with a settings card for connection, display currency, alert threshold, and refresh interval. (Native integration under Settings - Plugins - Plugin Config)",
+      "desc_prev": "DSH 插件：在左侧栏底部显示 DeepSeek 账户余额（原生 UI），设置页提供连接、展示币种、预警阈值与刷新节奏的配置卡片。（原生嵌入“设置-插件-插件配置”）"
+    },
+    {
+      "full_name": "ImHaoYuan/dsh-mobile-mirror",
+      "previous": "coding",
+      "current": "tool",
+      "desc_now": "DSH 插件：搭建远程控制局域网服务器，手机浏览器直连，也可下载App",
+      "desc_prev": "DSH 插件：一键搭建局域网服务器，手机浏览器直连，也可下载调试版 App"
     }
   ]
 }
