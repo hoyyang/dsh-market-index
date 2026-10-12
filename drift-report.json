@@ -1,13 +1,62 @@
 {
-  "generated_at": "2026-10-11T22:22:40.388Z",
-  "count": 1,
+  "generated_at": "2026-10-12T08:53:57.934Z",
+  "count": 8,
   "items": [
     {
-      "full_name": "Vensus137/Coreness-DSH",
+      "full_name": "yyh-001/dsh-meme",
+      "previous": "notify",
+      "current": "tool",
+      "desc_now": "DeepSeek Harness 表情包插件：输入框一键发图、文字 token 斗图、情绪主动发图、AI 自动学图，图库市场一键安装。 · Meme/sticker plugin for DeepSeek Harness: one-click picker in the composer, text-token memes, mood-driven sending, AI learns your images, marketplace packs.",
+      "desc_prev": "DeepSeek Harness 的表情包插件——找得到、发得出、学得会，纯文本斗图、情绪主动发图、像 QQ/微信 一样发图、AI 自动学图、自定义表情包 、多种风格随意切换。"
+    },
+    {
+      "full_name": "Vncntvx/dsh-zotero",
+      "previous": "tool",
+      "current": "memory",
+      "desc_now": "Zotero plugin for DeepSeek Harness: search papers, read full-text PDFs and notes, extract relevant passages, and inspect sources in the conversation tab.",
+      "desc_prev": "Zotero toolkit for DeepSeek harness; Turn your Zotero library into an evidence store for agents."
+    },
+    {
+      "full_name": "v587d/capital-generation",
+      "previous": "tool",
+      "current": "agent",
+      "desc_now": "面向中国股市散户的金融投资智能体。Next-Gen AI-Driven Capital Generation.",
+      "desc_prev": "面向中国股市散户的金融投资智能体。Next-Gen AI-Driven Capital Generation."
+    },
+    {
+      "full_name": "2026heshao/dsh-skill-mcp-board",
+      "previous": "web-ui",
+      "current": "tool",
+      "desc_now": "All-in-one board for DeepSeek Harness: MCP manager + Skills + tool-usage tailor + direct markets (WorkBuddy connectors, SkillHub 190k+ skills) with one-click install · DSH 一体化看板：MCP/技能/工具账本/三大市场直连安装",
+      "desc_prev": "DeepSeek Harness (DSH) plugin · unified Skill + MCP board for the Web UI — global panel page, JSON import, profile-backed Host Remote management · DSH 技能与 MCP 管理面板"
+    },
+    {
+      "full_name": "furkancak1r/dsh-composer-plus",
+      "previous": "conversation",
+      "current": "web-ui",
+      "desc_now": "DeepSeek Harness composer helpers: input history, Shift+Tab /plan toggle, one-click Continue, drag-and-drop queue reordering",
+      "desc_prev": "DeepSeek Harness composer helpers: input history, one-click Continue, drag-and-drop queue reordering"
+    },
+    {
+      "full_name": "FuSheng-cs/dsh-trae-relay",
       "previous": "other",
       "current": "tool",
-      "desc_now": "The Coreness kit for DeepSeek Harness — a plugin bundle for a profile.",
-      "desc_prev": null
+      "desc_now": "TRAE CN relay for DeepSeek Harness: embedded console, daily check-in, multiple accounts, rotation, model discovery, reasoning strengths and visibility controls. Automation off by default; authorized use only.",
+      "desc_prev": "DeepSeek Harness plugin for managed TRAE CN relay, native account controls and V4.1 Flash reasoning levels"
+    },
+    {
+      "full_name": "Lucifer-xD/zadloop-ultimate-toolkit",
+      "previous": "web-ui",
+      "current": "vision",
+      "desc_now": "One-install ZadLoop toolkit: Context Surgery, Undo, mode switching, full session transfer, and 70 modern themes.",
+      "desc_prev": "One-install ZadLoop toolkit: Context Surgery, Undo, mode switching, full session transfer, and 70 modern themes."
+    },
+    {
+      "full_name": "BlkSword/dsh-flowus",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "DeepSeek Harness（DSH）的 FlowUs 集成插件：通过 OAuth 2.1 浏览器授权接入 FlowUs 官方 MCP 服务器，将其工具注册为 Agent 原生工具，并提供 /flowus 命令与设置面板页面。FlowUs integration plugin for DeepSeek Harness: OAuth 2.1 browser authorization against the official MCP server, tools registered as native agent tools, a /flowus command and a settings page.",
+      "desc_prev": "FlowUs for DeepSeek Harness (DSH)：浏览器一键 OAuth 授权官方 MCP 服务器，工具注册为 Agent 原生工具，附 /flowus 命令与「设置 → FlowUs」页面。Browser OAuth, native MCP tools, a /flowus command and a settings page."
     }
   ]
 }
