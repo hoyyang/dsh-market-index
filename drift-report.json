@@ -1,34 +1,13 @@
 {
-  "generated_at": "2026-10-12T18:50:39.347Z",
-  "count": 4,
+  "generated_at": "2026-10-13T08:17:42.221Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "BillCx330/dsh-plugin-notify-sounds",
-      "previous": "notify",
-      "current": "other",
-      "desc_now": "DeepSeek Harness原生风格提示音插件",
-      "desc_prev": "DeepSeek Harness的提醒插件"
-    },
-    {
-      "full_name": "xiaolu511/dsh-hot-restart",
-      "previous": "other",
+      "full_name": "zxc663/shisan-xinuo-dsh-plugin",
+      "previous": "coding",
       "current": "tool",
-      "desc_now": "DSH 热重启插件：窗口内一个固定按钮，一键关闭并自动重开 DeepSeek Harness，全程零控制台窗口；内置自检系统，出问题点一下就能生成可直接定位的诊断报告 · Hot-restart plugin for DSH, with a built-in self-check that writes a one-file diagnostic report",
-      "desc_prev": "DSH 热重启插件：窗口内一个固定按钮，一键关闭并自动重开 DeepSeek Harness，全程零控制台窗口 · Hot-restart plugin for DSH: one fixed in-window button that relaunches the app automatically, no console window"
-    },
-    {
-      "full_name": "caob23/dsh-origin-bridge",
-      "previous": "document",
-      "current": "tool",
-      "desc_now": "在对话里驱动本机 Origin/OriginPro：导入 .dat/.csv/.txt 与工作站 .bin，绘图、拟合、改样式、导出图片并保存可编辑的 .opju。dsh 插件，27 个 MCP 工具。第三方工具，与 OriginLab 无关联。",
-      "desc_prev": "Drive local Origin/OriginPro from chat: import .dat/.csv/.xlsx and workstation .bin, plot, fit, export, save editable .opju. dsh (DeepSeek Harness) plugin, 25 MCP tools."
-    },
-    {
-      "full_name": "Moolight/dsh-shader-workbench",
-      "previous": "other",
-      "current": "coding",
-      "desc_now": "节点式 GLSL 工作台（DSH / DeepSeek Harness 插件）：拖节点出图 → Shadertoy 兼容实时预览 → 热重载 → 本地材质资源管理（图片 / 音频 / 歌词）。可跨编译导出 HLSL / MSL / SPIR-V，支持导入 Shadertoy 源码。零第三方运行时依赖，8 个自带示例，169 个用例。",
-      "desc_prev": "节点式 GLSL 工作台（DSH / DeepSeek Harness 插件）：拖节点出图 → Shadertoy 兼容实时预览 → 热重载 → 本地材质资源管理。零第三方运行时依赖，7 个自带示例，104 个用例。"
+      "desc_now": "DeepSeek Harness 运行时治理插件：把工程纪律从提示词层下沉到执行层——L3 拦截+审批链、真值收口（宿主真跑验证命令）、规则包 Config 化、工具预算；四臂对照已验证机制面｜White-box runtime governance plugin for DSH. Engineering validation done, not released.",
+      "desc_prev": "DSH 工作流插件（开发中）：把工程纪律转化为运行时控制——拦截、门控、证据与规则资源层，白盒可改｜Developer preview, not released."
     }
   ]
 }
