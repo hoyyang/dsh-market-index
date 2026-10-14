@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-14T00:34:54.360Z",
-  "count": 1743,
+  "generated_at": "2026-10-14T05:58:49.223Z",
+  "count": 1748,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -983,6 +983,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic Windows UI-context picker MCP tool for any MCP client."
     },
+    "Flan246/dsh-lit-search-mcp": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic academic-literature MCP server for any MCP host (claude mcp add / npx); no DSH install path in this repo."
+    },
     "Flan246/dsh-plugin-litmus": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone acceptance-testing CLI (dsh-litmus) for DSH plugin developers."
@@ -1143,6 +1147,10 @@
       "kind": "excluded",
       "reason": "Not a functional DSH plugin: an initial development scaffold whose apply() is empty; tools, prompts and UI are explicitly not implemented."
     },
+    "GuoMonth/dsh-linko": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone local-first collaboration-mesh spec with a Node/web MVP; no DSH plugin install path."
+    },
     "gusibi/molibot": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a memory-first personal AI agent (Pi-oriented); rides the dsh-plugin topic."
@@ -1154,6 +1162,10 @@
     "GYINT/infoseek": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic Python research/MCP workflow (SDK + MCP server + SKILL.md for any agent) riding the dsh-plugin topic; its README contains no DSH integration path."
+    },
+    "H2O-YAOZE/dsh-mobile-workbench": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a self-hosted mobile workbench platform (server, pairing gateway, Android APK) built on the DSH kernel."
     },
     "h4dex/opc-nexus": {
       "kind": "excluded",
@@ -1659,6 +1671,10 @@
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — documentation/tutorial"
     },
+    "Lao-Pi/LazyPersons-Standalone-DSH-Manager": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone out-of-process web manager for DSH profiles/plugins run when the harness is down; the in-repo plugin half is only a launcher."
+    },
     "laosji/clamicro": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — a standalone mobile approval companion app."
@@ -1754,6 +1770,10 @@
     "liuchang8877/dsh-plugin-openviking": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — a config/tutorial hookup guide for OpenViking via dsh-mcp-client"
+    },
+    "liupengyang-1008/dsh-plugin-development": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a plugin-authoring handbook/skill distributed into other clients’ skill directories (README states it cannot be installed into DSH)."
     },
     "Lixxx1/dsh-vscode": {
       "kind": "excluded",
@@ -1978,6 +1998,10 @@
     "MMiao79/dsh-pilot-releases": {
       "kind": "excluded",
       "reason": "A closed-source Windows management/ops panel for DSH distributed as binary release zips, not an installable plugin."
+    },
+    "mmparko/dsh-purge": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a full mirror of the model-jailbreak kit YuJunZhiXue/dsh-purge (rewrites harness permission policy and injects jailbreak prompts)."
     },
     "mnemon-dev/mnemon": {
       "kind": "excluded",
@@ -2666,6 +2690,10 @@
     "stefanohe/deepseek-harness-datasecure": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a security-remastered fork/distribution of the DeepSeek Harness desktop app."
+    },
+    "Stephen-pc/publish-size-check": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone zero-dependency Python CLI that checks image publishing specs."
     },
     "StudyforDS/Deepseek_dsh-plugin": {
       "kind": "excluded",
@@ -3687,7 +3715,7 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "2026heshao/dsh-skill-mcp-board": {
+    "2026heshao/dsh-armory": {
       "kind": "market",
       "reason": "A plugin with a built-in SkillHub skill mall (190k+ skills, one-click install) and WorkBuddy connector market — the market cannot include another market; stays in the catalog, excluded from the board and the downstream market."
     },
@@ -4347,6 +4375,10 @@
       "kind": "market",
       "reason": "a plugin-suite pack installer and distribution hub; the market cannot include another market"
     },
+    "eleckoi/ElecKoi": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a standalone Electron/Android AI-roleplay PC client with DSH embedded as its agent runtime — not an installable DSH plugin. Stays in the catalog."
+    },
     "enoughpower/dsh-desktop-mac": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher app (Swift shell + WKWebView wrapping dsh web); stays in the catalog and leaderboard, excluded from the downstream market."
@@ -4698,6 +4730,10 @@
     "Hyna-hla/dsh-remote": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone Android remote-control client app; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "hyperion2144/dsh-desktop-bun": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: an independent desktop shell for DeepSeek Harness (Electrobun + CEF + Bun) distributed as its own installer, not an installable DSH plugin. Stays in the catalog."
     },
     "hyperion2144/dsh-desktop-tauriapp": {
       "kind": "market",
@@ -6171,6 +6207,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a Tauri desktop shell/wrapper."
     },
+    "WLX2007/DSH-SkillsHub": {
+      "kind": "market",
+      "reason": "A skill-mall plugin searching network skill markets (skillhub.cn / skills.sh / GitHub) with one-click install — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
     "wormggmm/dsh-booster": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -6494,22 +6534,6 @@
     "zneoxlab/deepseek-harness-app": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "zoahdev/dsh-ecosystem": {
-      "kind": "market",
-      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "zoahdev/dsh-plugin-doctor-action": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a GitHub Action (pre-publish health check); stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "zoahdev/dsh-poison-guard-action": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a GitHub Action (supply-chain poison scan); stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "zoahdev/dsh-subscribe": {
-      "kind": "market",
-      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "zoomc/dshpilot": {
       "kind": "market",
@@ -6970,10 +6994,6 @@
     "zhaimingyou/aisync": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — deployment/infrastructure packaging; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "zoahdev/dsh-poison-guard": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a standalone supply-chain scanner/tool; stays in the catalog and leaderboard, excluded from the downstream market."
     }
   }
 }
