@@ -1,20 +1,13 @@
 {
-  "generated_at": "2026-10-14T14:21:19.189Z",
-  "count": 2,
+  "generated_at": "2026-10-14T20:37:26.326Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "Kerberos255/dsh-plugin-diagnostics",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "Privacy-restricted JSONL lifecycle, tool and failure diagnostics for DeepSeek Harness plugins.",
-      "desc_prev": "统一收集本地插件的加载、失败与任务状态，脱敏写入按日轮转的 JSONL 日志。"
-    },
-    {
-      "full_name": "JMX-4869/dsh-mood",
-      "previous": "conversation",
-      "current": "other",
-      "desc_now": "给 DeepSeek Harness 加一层心情。33 种心情（基础 / 复合 / 当代）各自持有数值，每 3~6 小时自己变 —— 它会累、会烦、会好奇。附带每日心情日记、时事、可选的主动开口。MIT 开源。",
-      "desc_prev": "给 DeepSeek Harness 加一层心情：22 种心情各自持有数值，每 3~6 小时自动判定，注入提示词影响回复语气和内心话。附带每日心情日记、可自配来源的时事、可选的主动开口。"
+      "full_name": "hkkz9522/dsh-session-manager",
+      "previous": "memory",
+      "current": "conversation",
+      "desc_now": "DeepSeek Harness session and workspace manager —— Workspaces: archive and visibility. Sessions: move, migrate presets, delete, favorite, review later, prioritize, tag, and annotate. Batch operations. | DSH 会话与工作区管理——工作区：归档与显示。会话：跨工作区移动、预设迁移、删除；收藏、待回看、优先级、标签、备注。批量操作。",
+      "desc_prev": "DeepSeek Harness session manager: delete, archive, move sessions across workspaces, migrate presets, favorites, review-later, search, filter, sort, prioritize, add tags & notes, and batch-manage sessions. | DSH 会话管理：删除、归档、跨工作区移动、预设迁移、收藏、待回看、搜索、筛选、排序、优先级、标签、备注及批量操作。"
     }
   ]
 }
