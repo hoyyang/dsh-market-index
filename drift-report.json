@@ -1,13 +1,20 @@
 {
-  "generated_at": "2026-10-14T20:37:26.326Z",
-  "count": 1,
+  "generated_at": "2026-10-15T10:58:41.921Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "hkkz9522/dsh-session-manager",
-      "previous": "memory",
-      "current": "conversation",
-      "desc_now": "DeepSeek Harness session and workspace manager —— Workspaces: archive and visibility. Sessions: move, migrate presets, delete, favorite, review later, prioritize, tag, and annotate. Batch operations. | DSH 会话与工作区管理——工作区：归档与显示。会话：跨工作区移动、预设迁移、删除；收藏、待回看、优先级、标签、备注。批量操作。",
-      "desc_prev": "DeepSeek Harness session manager: delete, archive, move sessions across workspaces, migrate presets, favorites, review-later, search, filter, sort, prioritize, add tags & notes, and batch-manage sessions. | DSH 会话管理：删除、归档、跨工作区移动、预设迁移、收藏、待回看、搜索、筛选、排序、优先级、标签、备注及批量操作。"
+      "full_name": "ljwzhaoxiaoniu/DLR",
+      "previous": "other",
+      "current": "coding",
+      "desc_now": "DLR (Decoupled Logic Representation) + Three-Level Semantic Modeling (TSM) — a data-source-level semantic-layer paradigm, its TypeScript service (LanceDB + Neo4j), the dsh integration, and two benchmark scenarios: BIRD mini-dev (500/500) and Cloud-OpsBench (JRA 752/754).",
+      "desc_prev": null
+    },
+    {
+      "full_name": "StarCried/starlite-dsh",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "A lightweight VRM companion for DeepSeek Harness on Windows. One plugin for the desktop app, native CLI/Web and WSL2, with animation mapping and interactive bubbles.",
+      "desc_prev": "A privacy-conscious Inochi2D desktop companion for DeepSeek Harness on Windows 11 + WSL2."
     }
   ]
 }
