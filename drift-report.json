@@ -1,7 +1,14 @@
 {
-  "generated_at": "2026-10-15T10:58:41.921Z",
-  "count": 2,
+  "generated_at": "2026-10-15T13:46:19.107Z",
+  "count": 3,
   "items": [
+    {
+      "full_name": "realMisakaMikoto/dsh-skin-studio",
+      "previous": "web-ui",
+      "current": "coding",
+      "desc_now": "DeepSeek Harness desktop skin studio for Windows: 17 themes, full editor, media, fonts and .dshskin v5 sharing.",
+      "desc_prev": "DeepSeek Harness 自定义皮肤工作室，支持全界面配色、组件图片/视频背景与皮肤包分享"
+    },
     {
       "full_name": "ljwzhaoxiaoniu/DLR",
       "previous": "other",
