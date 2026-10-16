@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-16T00:41:26.749Z",
-  "count": 1748,
+  "generated_at": "2026-10-16T05:40:13.222Z",
+  "count": 1795,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -3691,9 +3691,185 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic MCP memory server for coding agents."
     },
-    "01men/ybkk-AIOS": {
-      "kind": "market",
-      "reason": "An enterprise AI-resource platform bundling skill/plugin markets — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    "Butt91/flameox": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic multi-agent profiling tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "jWright6359/flameox": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic multi-agent profiling tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "lSzymanski73/flameox": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic multi-agent profiling tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "LucaHoward64253/flameox": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic multi-agent profiling tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "mnowak517/flameox": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic multi-agent profiling tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "Kanokwan89/jevcore": {
+      "kind": "excluded",
+      "reason": "Same-day repost of PerryLink/jevcore under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "kaya734/jevcore": {
+      "kind": "excluded",
+      "reason": "Same-day repost of PerryLink/jevcore under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "LeonieKarabacak542/jevcore": {
+      "kind": "excluded",
+      "reason": "Same-day repost of PerryLink/jevcore under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "omarfischer4315/jevcore": {
+      "kind": "excluded",
+      "reason": "Same-day repost of PerryLink/jevcore under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "isabellasahu/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Same-day repost of PerryLink/dsh-permission-rules under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "Marilynm09184/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Same-day repost of PerryLink/dsh-permission-rules under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "npopov865/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Same-day repost of PerryLink/dsh-permission-rules under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "imason85/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Same-day repost of yan-mc/dsh-normify under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "majahoffmann125/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Same-day repost of yan-mc/dsh-normify under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "Pierrew19600/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Same-day repost of yan-mc/dsh-normify under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "gfklqcuupe/engramory": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of tinqiao-oss/engramory (a host-agnostic memory protocol, already excluded) under a throwaway account; repost-network copy."
+    },
+    "Roussel27423/engramory": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of tinqiao-oss/engramory (a host-agnostic memory protocol, already excluded) under a throwaway account; repost-network copy."
+    },
+    "somporn07547/engramory": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of tinqiao-oss/engramory (a host-agnostic memory protocol, already excluded) under a throwaway account; repost-network copy."
+    },
+    "garyzakharov/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Same-day repost of FishBottle7/opencode2dsh under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "Roussel27423/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Same-day repost of FishBottle7/opencode2dsh under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "Ivanj61/seektty": {
+      "kind": "excluded",
+      "reason": "Same-day repost of Hilbert-beinghappy/seektty under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "PieterPrice49/seektty": {
+      "kind": "excluded",
+      "reason": "Same-day repost of Hilbert-beinghappy/seektty under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "Nao18242/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Same-day repost of ZSeven-W/dsh-crew under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "Solovyov232/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Same-day repost of ZSeven-W/dsh-crew under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "Vo9129/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Same-day repost of ZSeven-W/dsh-crew under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
+    },
+    "tolgaaoki076/argo": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of taxueseek/argo (a generic agent search tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "Mrsirlila/dsh-pocket-reportModify-and-add": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a repackaged Android APK build of the DSH mobile experience (modified from shaobeichen's version); a mobile client with no dsh install path."
+    },
+    "Chuzhj/whale-pet": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone desktop-pet app that manages DSH tasks over Feishu (self-declared in its own description)."
+    },
+    "abogitoff/fuxux-claude-plugin": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a Fuxux plugin for Claude (social-media drafting/scheduling); tagged into the topic, no dsh install path."
+    },
+    "delta-box/deltabox-lite": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone agent-sandbox runtime (npm/Rust); the linked DSH adapter repo delta-box/dsh-deltabox does not exist."
+    },
+    "Prompt-Motion/ReaReverse": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic reverse-engineering MCP product (rea-agents npm) for any MCP client; no dsh install path."
+    },
+    "statedock/statedock-plugins": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — skills and packaging for the StateDock task-state product connecting to its remote MCP service; DSH is only one distribution target."
+    },
+    "FeatherHunter/dsh-plugin-update": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an npm library that plugin authors embed to give their own plugins self-update capability; no standalone dsh install."
+    },
+    "MaxHou-infinity/dsh-mcp-session-recovery": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an out-of-tree patch applied by shell script into the globally installed @deepseek-ai/dsh package; no dsh plugin install path."
+    },
+    "Sun-beining/ai-safe-edit": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic safe-file-editing MCP server for any MCP client; no dsh install path."
+    },
+    "xuan25/my-dsh-plugin-listing": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a personal list document of the author's out-of-tree plugins (the plugins themselves are listed separately)."
+    },
+    "ZelotsNullzwei/dsh-ofm-updater": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone double-click (.bat) updater script for the Our Free Model plugin."
+    },
+    "xiaoxianxian/multi-proxy": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone multi-agent orchestration hub (protocol conversion, cost ledger, web panel); DSH is one of several managed agents."
+    },
+    "moyuqing-man/dsh-plugin-community": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a discussion-and-feedback hub repo containing no executable code (per its own SECURITY.md)."
+    },
+    "hj01857655/dsh-context-memory": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an archived stub; the plugin lives on inside the hj01857655/dsh-plugins monorepo (listed separately)."
+    },
+    "hj01857655/dsh-cost-track": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an archived stub; the plugin lives on inside the hj01857655/dsh-plugins monorepo (listed separately)."
+    },
+    "hj01857655/dsh-model-arena": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an archived stub; the plugin lives on inside the hj01857655/dsh-plugins monorepo (listed separately)."
+    },
+    "hj01857655/dsh-prompt-vcs": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an archived stub; the plugin lives on inside the hj01857655/dsh-plugins monorepo (listed separately)."
+    },
+    "hj01857655/dsh-step-trace": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an archived stub; the plugin lives on inside the hj01857655/dsh-plugins monorepo (listed separately)."
+    },
+    "hj01857655/dsh-tool-stats": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an archived stub; the plugin lives on inside the hj01857655/dsh-plugins monorepo (listed separately)."
     },
     "091022yyj/deepseek-harness-desktop": {
       "kind": "market",
@@ -3828,10 +4004,6 @@
       "reason": "Kept out of the star board: a desktop shell (enhanced fork of dsh-clean-desktop-shell) wrapping the web profile in a native window. Stays in the catalog."
     },
     "alanzhao0128/dsh-desktop": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "alexcarterio/deepseek-whale-pet": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
@@ -4031,10 +4203,6 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: stars come from the generic cross-agent connectivity plugin; DSH is one of several host integrations. Stays in the catalog."
     },
-    "Che-Year/dsh-pet-lulu": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a standalone Python desktop-pet toy run alongside DSH; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
     "Chen-YiY/dsh-app": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -4178,10 +4346,6 @@
     "czzzlq/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "dabaicai001/star-dsh-desktop": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a desktop DevOps command-center app/shell; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "dakeqiqi123/dsh-skill-market": {
       "kind": "market",
@@ -5166,10 +5330,6 @@
     "Lumonote/lumo-harness": {
       "kind": "market",
       "reason": "A DeepSeek Harness desktop/server distribution with a built-in plugin/skill market — the market cannot include another market; stays in the catalog, excluded from the leaderboard and the downstream market."
-    },
-    "lunaship/dsh-cetus": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a mobile companion client; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "luoboovo/deepseek-harness-client": {
       "kind": "market",
@@ -6563,6 +6723,38 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a plugin-native AI desktop product built on DeepSeek Harness; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "dabaicai001/starhub": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — a desktop DevOps command-center app/shell; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "brokep/grok-bots-for-deepseek-harness": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "fegnze/dsh-plugin-scout": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "GuaPiaaaaa/DSHplugin": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "wzn16/dsh-skill-market": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "yyh-001/dsh-supermarket": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "moyuqing-man/dsh-plugin-community-source": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "BoxMiao007/dsharbor": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a lightweight desktop shell for DSH Web (ships a bridge plugin), not an installable DSH plugin itself. Stays in the catalog."
+    },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -6702,10 +6894,6 @@
     "JiayuuWang/dsh-files-panel": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a source patch requiring a modified and rebuilt deepseek-harness checkout; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "Johnnylin2121/dsh-agent-presets": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a user-level agent-preset config directory cloned into ~/.dsh; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "JularDepick/dsh-plugin-dev-agent-template": {
       "kind": "market",
