@@ -1,34 +1,27 @@
 {
-  "generated_at": "2026-10-17T04:56:46.384Z",
-  "count": 4,
+  "generated_at": "2026-10-17T10:45:12.809Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "momo20012002/dsh-hmos-emulator",
-      "previous": "coding",
-      "current": "vision",
-      "desc_now": "DSH鸿蒙模拟器侧边栏标签页：管理/启动模拟器、构建部署 HarmonyOS 应用，查看设备日志、截图与代码检查结果；同时向 AI 提供 8 个鸿蒙调试工具。",
-      "desc_prev": "DSH better-sidebar 侧边栏标签页:一键启动鸿蒙模拟器、构建并部署 HarmonyOS 应用到模拟器。"
+      "full_name": "dingminhua/dsh-service-portal",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "Expose any local service on a random cloudflared domain with one password — QR code for LAN, QR + password for public, per-node routing managed in the DSH settings panel.",
+      "desc_prev": null
     },
     {
-      "full_name": "mili1360/dsh-proactive",
+      "full_name": "baom1ng/dsh-local-plugin-source",
       "previous": "conversation",
-      "current": "coding",
-      "desc_now": "DSH 长任务（下载/编译/安装）跑完了，agent 却因为那一轮已经结束而不再说话？让它自己回来报告。DeepSeek Harness plugin that wakes the agent when a long background task finishes after its turn has ended.",
-      "desc_prev": "DSH plugin: wakes the agent when a long background task (download, install, wait) finishes after the turn has ended, so it reports back on its own."
+      "current": "tool",
+      "desc_now": "An in-app plugin source for DeepSeek Harness: list the local plugin folder in Settings > Plugins > Local plugins and install, reinstall, enable, disable or remove those bundles through the profile Plugin Manager.",
+      "desc_prev": "Turn a local folder into an in-app plugin source for DeepSeek Harness Desktop: list, install, enable/disable and remove local plugin bundles from Settings ? Plugins ? Local plugins."
     },
     {
-      "full_name": "Void-LifeStream/dsh-phone",
-      "previous": "agent",
-      "current": "vision",
-      "desc_now": "DeepSeek Harness plugin: treat a real Android phone as a device the agent can inspect and tidy up over adb — free up storage, find what is eating the disk, clear caches, uninstall, screenshot. No root required. / 免 root 的手机设备管家：查存储、清缓存、卸载应用、截图。",
-      "desc_prev": "DeepSeek Harness plugin: treat a real Android phone as a device the agent can inspect and tidy up over adb. No root required."
-    },
-    {
-      "full_name": "zhangjie-2007/dsh-voice",
+      "full_name": "rocketstar666/dsh-approval-comment",
       "previous": "other",
-      "current": "conversation",
-      "desc_now": "DSH 插件：任务完成 / 需要你做选择 / 开始新对话时，用微软 Edge 神经语音播报（晓伊声线，本地缓存 mp3，零依赖，Windows）",
-      "desc_prev": "DSH 插件：任务完成 / 需要你做选择时，用微软 Edge 神经语音播报（晓伊声线，本地缓存 mp3，零依赖）"
+      "current": "web-ui",
+      "desc_now": "DSH 审批流程选择拒绝时，支持填写拒绝的理由（附言），类似 Claude Code CLI 的 Tab to amend",
+      "desc_prev": "fork and fix from MaYiFei1995/dsh-approval-comment"
     }
   ]
 }
