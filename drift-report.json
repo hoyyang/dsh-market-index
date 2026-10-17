@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-10-16T19:00:36.924Z",
+  "generated_at": "2026-10-17T04:56:46.384Z",
   "count": 4,
   "items": [
     {
-      "full_name": "OMSociety/dsh-ppt-maker",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "DSH 插件：内含 ppt-maker 技能与十一个 ppt_* 工具。创建 / 编辑 / 逆向 / 质检 / 导出 PPT，本地纯 TS 引擎直出 .pptx，全程离线。",
-      "desc_prev": "DSH 插件：内含 kimi-ppt 技能。创建 / 编辑 / 复刻 / 导出 PPT，DSH 内纯本地导出"
+      "full_name": "momo20012002/dsh-hmos-emulator",
+      "previous": "coding",
+      "current": "vision",
+      "desc_now": "DSH鸿蒙模拟器侧边栏标签页：管理/启动模拟器、构建部署 HarmonyOS 应用，查看设备日志、截图与代码检查结果；同时向 AI 提供 8 个鸿蒙调试工具。",
+      "desc_prev": "DSH better-sidebar 侧边栏标签页:一键启动鸿蒙模拟器、构建并部署 HarmonyOS 应用到模拟器。"
     },
     {
-      "full_name": "PerryLink/perrylink",
-      "previous": "resource",
-      "current": "other",
-      "desc_now": "Independent third-party plugin family for DeepSeek Harness - not affiliated with DeepSeek",
-      "desc_prev": "DeepSeek Harness plugin ecosystem: 86 open-source plugins in a 101-repo family, 100 PerryLink-owned - security, workflows, research, bridges, developer experience, and 53 compliance checkers - plus the DSH Desktop Market catalog, a certification registry and the dsh-plugin-doctor CI checker. Cordis + deepseek-ai contributor, 24 laya PRs merged."
-    },
-    {
-      "full_name": "5aaee9/pi-agent-extensions",
-      "previous": "agent",
+      "full_name": "mili1360/dsh-proactive",
+      "previous": "conversation",
       "current": "coding",
-      "desc_now": null,
-      "desc_prev": null
+      "desc_now": "DSH 长任务（下载/编译/安装）跑完了，agent 却因为那一轮已经结束而不再说话？让它自己回来报告。DeepSeek Harness plugin that wakes the agent when a long background task finishes after its turn has ended.",
+      "desc_prev": "DSH plugin: wakes the agent when a long background task (download, install, wait) finishes after the turn has ended, so it reports back on its own."
     },
     {
-      "full_name": "howtimeschange/dsh-crawshrimp-browser",
-      "previous": "web-ui",
-      "current": "tool",
-      "desc_now": "抓虾浏览器插件｜DeepSeek Harness（DSH）API 优先网页自动化、实时预览、人工接管、上传下载、业务核验与可复用工作流，独立运行无需抓虾后端。",
-      "desc_prev": "抓虾浏览器插件｜DeepSeek Harness（DSH）网页自动化、实时预览、多标签页、人工接管、便携电商脚本与内置 Skill。独立运行，无需抓虾后端。"
+      "full_name": "Void-LifeStream/dsh-phone",
+      "previous": "agent",
+      "current": "vision",
+      "desc_now": "DeepSeek Harness plugin: treat a real Android phone as a device the agent can inspect and tidy up over adb — free up storage, find what is eating the disk, clear caches, uninstall, screenshot. No root required. / 免 root 的手机设备管家：查存储、清缓存、卸载应用、截图。",
+      "desc_prev": "DeepSeek Harness plugin: treat a real Android phone as a device the agent can inspect and tidy up over adb. No root required."
+    },
+    {
+      "full_name": "zhangjie-2007/dsh-voice",
+      "previous": "other",
+      "current": "conversation",
+      "desc_now": "DSH 插件：任务完成 / 需要你做选择 / 开始新对话时，用微软 Edge 神经语音播报（晓伊声线，本地缓存 mp3，零依赖，Windows）",
+      "desc_prev": "DSH 插件：任务完成 / 需要你做选择时，用微软 Edge 神经语音播报（晓伊声线，本地缓存 mp3，零依赖）"
     }
   ]
 }
