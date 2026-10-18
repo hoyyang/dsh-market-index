@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-10-18T09:27:39.407Z",
-  "count": 2,
+  "generated_at": "2026-10-18T12:10:58.054Z",
+  "count": 8,
   "items": [
+    {
+      "full_name": "MichaelShii/dsh-plugin-teamflow",
+      "previous": "agent",
+      "current": "coding",
+      "desc_now": "团队研发流水线插件（DeepSeek Harness）：需求 → PRD → 设计 → 开发 → QA → 验收，断点续跑 + 防假交付 + 看板工作台。",
+      "desc_prev": "dsh plugin teamflow"
+    },
+    {
+      "full_name": "algerkong/dsh-image-preview",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "Image previews for DSH sessions: read_image, user/assistant/Markdown/present images, a full-size lightbox with zoom, rotate, pan, download, sidebar and native file actions.",
+      "desc_prev": "Image preview for DSH (DeepSeek Harness) web sessions: read_image results render as a thumbnail, click for full size in the built-in lightbox."
+    },
     {
       "full_name": "denceee/dsh-compat-adapter",
       "previous": "tool",
@@ -10,11 +24,39 @@
       "desc_prev": "DSH 前置/基座适配插件：把 Claude Code / Codex / WorkBuddy / OpenCode / GitHub Copilot 的 hooks 与 rules，通过显式声明适配到 DSH seam。5 家 vendor、85 个事件，每条适配逐项列出损失，fail-closed。"
     },
     {
-      "full_name": "lance808/dsh-think-zh",
+      "full_name": "ChenJun25/dsh-console-plugin",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "DSH console panel: scan a QR code and control your DSH desktop from your phone",
+      "desc_prev": null
+    },
+    {
+      "full_name": "dotdance/dsh-skill-scope",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "A Skill and MCP control panel for DSH",
+      "desc_prev": null
+    },
+    {
+      "full_name": "NingYuanLee/dsh-grok-byapi",
       "previous": "conversation",
-      "current": "model",
-      "desc_now": "DeepSeek Harness 插件：通过在系统提示词中注入一条指令，使AI用中文推理（思考）",
-      "desc_prev": "DeepSeek Harness plugin: make the agent reason (think) in Chinese by contributing a system-prompt section"
+      "current": "vision",
+      "desc_now": "Grok for DeepSeek Harness: model discovery, chat provider, image and video generation, TTS and durable local media tools over your own OpenAI-compatible gateway.",
+      "desc_prev": "Grok integration for DeepSeek Harness: model discovery, chat, images, video, TTS and persistent media tasks. Early development."
+    },
+    {
+      "full_name": "FishCityBee/dsh-mcp-bridge",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "Unofficial visual control panel and MCP bridge for DeepSeek Harness: model, workspace and permission controls, task monitoring, and reusable sessions.",
+      "desc_prev": "Drive DeepSeek Harness desktop agents from Claude Code over MCP (local pipe, no port) + in-app toolbar for model/provider/workspace and session cleanup"
+    },
+    {
+      "full_name": "M1r0er/dsh-workspace-gate",
+      "previous": "tool",
+      "current": "resource",
+      "desc_now": "工作区插件门控：插件照常加载，按工作区（目录）把它不该占的提示词前缀摘掉——工具 schema 与提示词段不再进模型上下文。Workspace-scoped plugin gate for DeepSeek Harness (dsh).",
+      "desc_prev": "Workspace-scoped plugin gate for DeepSeek Harness (dsh): hide a plugin's tool schemas and system-prompt sections per directory, so unrelated projects stop paying their prompt-prefix tokens."
     }
   ]
 }
