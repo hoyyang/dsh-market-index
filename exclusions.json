@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-18T13:24:39.097Z",
-  "count": 1795,
+  "generated_at": "2026-10-18T17:03:12.509Z",
+  "count": 1794,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -1678,10 +1678,6 @@
     "laosji/clamicro": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — a standalone mobile approval companion app."
-    },
-    "lcy0121/dsh-plugin-compat-check": {
-      "kind": "excluded",
-      "reason": "Not a DSH plugin — a standalone bash compatibility-checker CLI for DSH plugins."
     },
     "Leeaoyin/dr-agent-skills": {
       "kind": "excluded",
