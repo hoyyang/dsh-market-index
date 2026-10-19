@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-19T17:28:32.385Z",
+  "generated_at": "2026-10-19T22:02:29.647Z",
   "count": 2,
   "items": [
     {
-      "full_name": "JeffTsuiCUG/dsh-connect-minimaxcode",
+      "full_name": "lo2589/deepseek-harness-media",
       "previous": "other",
-      "current": "resource",
-      "desc_now": "Bring MiniMax Code desktop app models into DeepSeek Harness: zero-config, no API key, Anthropic Messages compatible, dynamic model catalog, and the credit balance plus expiring credits shown in the composer and plugin page. Unofficial plugin; relies on MiniMax non-public client APIs, for study and research use only.",
-      "desc_prev": "Bring MiniMax Code desktop app models into DeepSeek Harness (DSH). Unofficial, MIT."
+      "current": "vision",
+      "desc_now": "use glm/minimax/openai/claude api in your deepseek harness",
+      "desc_prev": "use glm/minimax/openai/claude api in your deepseek harness"
     },
     {
-      "full_name": "wuwei6666/dbc-skill",
-      "previous": "agent",
+      "full_name": "woshipixiu1234/dsh-invest-bundle",
+      "previous": "tool",
       "current": "document",
-      "desc_now": null,
-      "desc_prev": null
+      "desc_now": "DSH investment research bundle: 10 tools + 23 skills adapted from ai-berkshire. A six-phase workflow runs four parallel agents (Duan Yongping / Buffett / Munger / Li Lu) and ships a chart-rich PDF with cover, tables, captions and page numbers. MIT licensed.",
+      "desc_prev": "DSH investment research bundle: 6 tools (search/fetch/audit/verify/rigor/channels) + 22 skills adapted from ai-berkshire, MIT licensed."
     }
   ]
 }
