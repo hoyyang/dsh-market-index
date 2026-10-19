@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-19T00:20:26.538Z",
-  "count": 1794,
+  "generated_at": "2026-10-19T04:34:03.453Z",
+  "count": 2035,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -3867,6 +3867,942 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — an archived stub; the plugin lives on inside the hj01857655/dsh-plugins monorepo (listed separately)."
     },
+    "GiuliaRoberts61/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "tHedlund38/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "monika31250/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-noema"
+    },
+    "Aimer779/glyph-studio": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Canvas text-background editor; the author's DSH plugin is Aimer779/dsh-xiaoyaoyou."
+    },
+    "AliChoi8779/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "AmberNikolaidis/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "Amit3508/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "Arjun9965/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "Baig92247/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
+    },
+    "BartoszChristou83/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "Bastiaan531/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "Becker688/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "Berg52444/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "BlanCatOra/dsh-plugin-standards": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a markdown guide on DSH plugin development standards and release checklists."
+    },
+    "BrianDabrowski64376/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "Cardoso7722/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "Castillo82728/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "Charlotte48313/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "ChristinaPereira/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "ChristineJuncker73/argo": {
+      "kind": "excluded",
+      "reason": "Repost/clone of taxueseek/argo"
+    },
+    "Christopherf29863/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "DBinK/dbk-handoff": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a file-based context handoff protocol and SKILL.md pack without a DSH plugin manifest."
+    },
+    "DBinK/dbk-skills": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Agent Skills collection without a DSH plugin manifest."
+    },
+    "Deboer6105/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "DeniseFlores24448/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "Douglas4958/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "EdwardAktas75763/argo": {
+      "kind": "excluded",
+      "reason": "Repost/clone of taxueseek/argo"
+    },
+    "Elsa604/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "EricNam104/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
+    },
+    "EricPatel80/jevcore": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/jevcore"
+    },
+    "EwaStewart/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "FilippoSmirnov88486/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "FrancesKonig0639/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "GeorgeCooper72/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "GerhardSchneider51/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "GiovanniTakahashi/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
+    },
+    "GregorySahu/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "GretaTruong74/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-noema"
+    },
+    "Gul22721/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
+    },
+    "Heinzw2511/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "HelgaRoux/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "Helmutm51017/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "HenrySasaki78925/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "HugoWhite349/argo": {
+      "kind": "excluded",
+      "reason": "Repost/clone of taxueseek/argo"
+    },
+    "IbrahimKonig973/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "IngridCardoso130/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "IsabelaRomano/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-noema"
+    },
+    "JeffreyMenon8107/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "JohanYamada/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "JorgeHassan7280/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "Juliam211/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "KazukiDijkstra64/argo": {
+      "kind": "excluded",
+      "reason": "Repost/clone of taxueseek/argo"
+    },
+    "KevinWeiss805/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "KostasZhdanov9930/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "KrzysztofJohnson/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "Larry69417/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "LaylaTrinh/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
+    },
+    "LosEcher/dsplugins": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an index and batch install script pointing to the author's separate plugin repositories."
+    },
+    "MCJF28/mcjf-dsh-plugins": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a README-only index pointing to the author's four separate plugin repositories."
+    },
+    "MCviseron/dsh-task-guard": {
+      "kind": "excluded",
+      "reason": "Archived and emptied repository — functionality merged into MCviseron/dsh-mcviseron-plugin."
+    },
+    "Makarov7646/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "ManuelHussein8323/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "Margaux2074/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "MeiLopez/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-noema"
+    },
+    "Michel1130/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-noema"
+    },
+    "Miyazaki73671/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "Miyeoni61/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "MjxUpUp/Forge": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Go CLI and quality-gate engine for AI-generated code."
+    },
+    "MomoHedlund/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "NicholasFontana55/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
+    },
+    "Noy700/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "OnurBaig12149/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "PaoloSchwarz/jevcore": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/jevcore"
+    },
+    "Pedro79066/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "PerryLink/dsh-attention-index": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a scoring specification and static index site for DSH plugins."
+    },
+    "PeterSchroder50/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
+    },
+    "RafaelFerrara60340/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "RafaelKim063/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "Rorato49012/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "Russo843/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "RyujiAndersson27/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "S3K926/dsh-auto-handoff": {
+      "kind": "excluded",
+      "reason": "Archived and deprecated by the author on 2026-10-17."
+    },
+    "Sanders1650/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "SarahLombardo/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "Sebas6593/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "Sharma406/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "Siekiera298/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "Silva084/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "Simon4611/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-noema"
+    },
+    "SoraMoreira23/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "SoraTeixeira08/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "StijnWhite/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "Suzuki19622/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "SvetlanaGauthier7728/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "Teresa23870/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "Thierryi667/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-noema"
+    },
+    "Thu0273/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "TolgaSoto/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "TuyenMorozov2379/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
+    },
+    "UweLombardo0343/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "Uwez06/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "UyenMattsson/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "ValerieTiwari0516/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "WillemAraujo4328/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "Youssef59037/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "YukiCastro1854/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "YukiKoehler39/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "Zaidu828/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "aHart9445/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "aKoo90/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "aLewandowski60/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "aRezende52784/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "adogan24050/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "alessandrodeluca61/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "alessandrop90409/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "alessiac8142/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "alicekowalczyk/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "ananya9434/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "ankit94650/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-noema"
+    },
+    "ankitdegroot916/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
+    },
+    "annikakelly326/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "antonio05962/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "bell51864/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "brobert3335/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "brooks2882/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "brunas433/jevcore": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/jevcore"
+    },
+    "carmenr78/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "chauhan82741/argo": {
+      "kind": "excluded",
+      "reason": "Repost/clone of taxueseek/argo"
+    },
+    "chenlealvarez07/argo": {
+      "kind": "excluded",
+      "reason": "Repost/clone of taxueseek/argo"
+    },
+    "christinacastillo10883/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
+    },
+    "christinafernandez37/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "claudiabradley22872/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "cnkang/qdrant-memory-mcp": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Python MCP server for Qdrant Memory Runtime."
+    },
+    "collins4882/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
+    },
+    "cwhite0407/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "douglasozdemir/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "dupuis4540/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "ekaterinag56432/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "elenahoffmann26783/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "elizabeth5354/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "fabio7729/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "fbonnet674/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "feely0208/archive-ai-labeling-dup": {
+      "kind": "excluded",
+      "reason": "Deprecated duplicate repository — merged into feely0208/dsh-cn-ai-labeling."
+    },
+    "francois9372/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "gDurand5328/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "gaia70576/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "gokhan63700/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "gokhanf486/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "gupta62/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "hWatson833/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "hcho43/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "helgaphillips97700/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-noema"
+    },
+    "hunter77044/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "huseyinmoon532/jevcore": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/jevcore"
+    },
+    "hytime/dsh-discover-index": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a plugin-market index aggregator for the DSH Discover tab."
+    },
+    "imartinez53430/jevcore": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/jevcore"
+    },
+    "ivanreyes90170/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "jacqueshill020/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "jcooper3546/argo": {
+      "kind": "excluded",
+      "reason": "Repost/clone of taxueseek/argo"
+    },
+    "joant09/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-noema"
+    },
+    "kanakojimenez/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "keith269/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "kok2891/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "lMarino48/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "lacroix68050/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "lewandowski11609/jevcore": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/jevcore"
+    },
+    "lilygalli98227/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "linakuznetsov47/jevcore": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/jevcore"
+    },
+    "lorenzo092/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "lorenzomemon/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "lpatel887/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "lqmtykjqva/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "ly59162/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-noema"
+    },
+    "mMulder84/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "mSasaki21/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "masatot633/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "mateusztakahashi/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "miho079/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "nHoffmann770/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "nathalie431/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "nguyen03601/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "nicholas7242/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "noorszymanski408/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "oDixon527/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "oh770/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "omareriksson018/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "onur5410/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
+    },
+    "oranchenjie/cairn": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Python CLI and VS Code extension for cross-folder working memory."
+    },
+    "pablop35206/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/dsh-permission-rules"
+    },
+    "pandey08613/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "partme-ai/full-aigc-plugins": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a catalog metadata repository indexing AIGC plugins across hosts; contains no plugin runtime code."
+    },
+    "petraivanov400/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-noema"
+    },
+    "petrak759/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "phuongc0339/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
+    },
+    "ploy1377/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "polang233/dsh-plugin-index": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a community plugin index and static site for the DSH Discover tab."
+    },
+    "powell728/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "raziunal/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "rkowalczyk2782/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "roberto9840/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "romanbos848/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "rpegorov/drafta-mcp": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Swift MCP server for local Drafta note libraries."
+    },
+    "rpegorov/harness-review": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a session transcript review skill without a DSH plugin manifest."
+    },
+    "ryujia92454/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "sMorozov76253/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "salexander493/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "samirvasiliev0649/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
+    },
+    "scholz91/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "seanjeong42/jevcore": {
+      "kind": "excluded",
+      "reason": "Repost/clone of PerryLink/jevcore"
+    },
+    "serkanandre/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "shotaroaydin88416/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "shotaromiller53/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "shuhua58805/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "sompornzhdanov/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "sophie21941/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
+    "suzuki32727/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Repost/clone of raullenchai/rapid-mlx-dsh-provider"
+    },
+    "sylvieozturk12/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Repost/clone of ZSeven-W/dsh-crew"
+    },
+    "tara21822/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "tgarcia61216/argo": {
+      "kind": "excluded",
+      "reason": "Repost/clone of taxueseek/argo"
+    },
+    "transanchez20/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
+    },
+    "vandenberg53/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Repost/clone of yan-mc/dsh-normify"
+    },
+    "vhakansson6074/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "victoriasaito96/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "vjweclyybh/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "vladimirr661/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Repost/clone of KelaoHu/dsh-lowtide"
+    },
+    "volkov23135/seektty": {
+      "kind": "excluded",
+      "reason": "Repost/clone of Hilbert-beinghappy/seektty"
+    },
+    "weft-audit/dsh-market": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone plugin_index.json market index file."
+    },
+    "weft-audit/weft-evidence": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a benchmark regression report and evaluation ledger."
+    },
+    "wmgxlwrdxs/flameox": {
+      "kind": "excluded",
+      "reason": "Repost/clone of morluto/flameox"
+    },
+    "xuhao1/whalesong-studio-site": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a static GitHub Pages showcase website for xuhao1/whalesong-studio."
+    },
+    "zielinski2880/argo": {
+      "kind": "excluded",
+      "reason": "Repost/clone of taxueseek/argo"
+    },
+    "ziyue66773/dsh-sum-command": {
+      "kind": "excluded",
+      "reason": "Empty repository — contains only a LICENSE file."
+    },
+    "zjhbfywiew/argo": {
+      "kind": "excluded",
+      "reason": "Repost/clone of taxueseek/argo"
+    },
+    "zkrfedeidq/engramory": {
+      "kind": "excluded",
+      "reason": "Repost/clone of tinqiao-oss/engramory"
+    },
     "091022yyj/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop app; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -6235,10 +7171,6 @@
       "kind": "market",
       "reason": "A skill panel with one-click skill-install flows (GitHub / ZIP / SKILL.md URLs) — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
     },
-    "vecnode/vncode": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a desktop client/shell/launcher or local DSH deployment launcher, including any companion bundles. Stays in the catalog."
-    },
     "Very12345/dsh-skill-manager": {
       "kind": "market",
       "reason": "A skill store / multi-source skill installer; the market cannot include another market"
@@ -6547,10 +7479,6 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "yueyexiayu/dsh-shichang": {
-      "kind": "market",
-      "reason": "A read-only in-app plugin catalog/market panel for DSH Desktop — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
     "yujianjian1013/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — an Electron desktop shell/launcher around the DSH Web GUI; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -6667,10 +7595,6 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "ZiFan1117/dsh-atom-market": {
-      "kind": "market",
-      "reason": "A store-client plugin for the Software Atom Market capability store (agent browses/validates/submits atoms) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
     "zilliztech/memsearch": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: stars come from the cross-platform agent-memory product; the DSH plugin is one of several platform integrations. Stays in the catalog."
@@ -6750,6 +7674,54 @@
     "BoxMiao007/dsharbor": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a lightweight desktop shell for DSH Web (ships a bridge plugin), not an installable DSH plugin itself. Stays in the catalog."
+    },
+    "vecnode/vn-code": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop client/shell/launcher or local DSH deployment launcher, including any companion bundles. Stays in the catalog."
+    },
+    "tiwe0/GeoChat": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: stars accrued as the standalone GeoChat Desktop math visualization app since April 2025; the plugins/deepseek-harness bundle is a recent addition. Stays in the catalog."
+    },
+    "910092147/dsh-market-ui": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "Liaoyuanxinghuo/DSH-Plugin-Manager": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "PerryLink/dsh-community-bench": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "Winnie-0721/dsh-plugin-market": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "flysusdjd/dsh-rank-board": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "imyasonly/dsh-plugin-market": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "lyufeng000/dsh-market-console": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "YunzhouLi-hub/dsh-overall-mcp": {
+      "kind": "market",
+      "reason": "Aggregates and installs servers from external MCP markets — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "Cre5cendo/dsh-shell": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "fellow99/dsh-desktop-hos": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — an Electron desktop shell for HarmonyOS; stays in the catalog, kept off the star board and the downstream market."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
@@ -6866,10 +7838,6 @@
     "GitRuozhi/dsh-tray": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone Windows tray app; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "godcreator02/dsh-mechanics-lab": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — an independent research/experiment project about the DSH plugin system; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "he110Warudo/dsh-window": {
       "kind": "market",
@@ -7058,10 +8026,6 @@
     "shaoshi20/dshscan": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone CLI security scanner for the DSH plugin ecosystem; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "ShatterDusk/dsh-porter": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a standalone session-data CLI tool; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "shendeguize/AgentSideCar": {
       "kind": "market",
