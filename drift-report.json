@@ -1,34 +1,27 @@
 {
-  "generated_at": "2026-10-20T16:09:25.364Z",
-  "count": 4,
+  "generated_at": "2026-10-20T20:17:39.313Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "Maple-Yoli/dsh-notice-card",
-      "previous": "web-ui",
-      "current": "notify",
-      "desc_now": "Windows 桌面端专用的 DeepSeek Harness 通知卡：任务跑完、等你审批、等你回答时在屏幕角落弹出。跟随系统主题与 DPI，落在鼠标那块屏幕，文字用 GDI ClearType 绘制，不抢焦点。没有网页端那一半，不提供浏览器通知、页面浮层或标签页标题标记。Windows desktop only, no web build: a native notice card that never takes focus.",
-      "desc_prev": "Focus-free notification cards for DeepSeek Harness on Windows. Turn finished, approval pending, question pending. Follows the system theme, DPI and text size, lands on the monitor under the pointer, and draws text with GDI ClearType."
+      "full_name": "FeatherHunter/dsh-opencode-palette",
+      "previous": "coding",
+      "current": "web-ui",
+      "desc_now": "🎨 38 款主题，一键给 DSH 换装：37 款 OpenCode 经典配色 + 25 套 IP 预置（哈利波特 / 赛博朋克2077 / 原神 / 库洛米 / 哆啦A梦…），深浅两版都有 | 38 one-click themes for DSH",
+      "desc_prev": "🎨 为长时间编程而生：38 款 opencode 护眼配色，一键换上 DSH | 38 eye-friendly opencode themes for DeepSeek Harness, one click"
     },
     {
-      "full_name": "mengge237/dsh-legacy-compat",
-      "previous": "other",
-      "current": "conversation",
-      "desc_now": "DSH 旧版兼容垫片：给 0.1.2-rc.1 的预设补上 Session.events 别名，并在启动前把损坏的会话日志隔离掉 ｜ Compatibility shim for older DSH builds: adds the Session.events alias for 0.1.2-rc.1 presets and quarantines corrupt session logs before boot",
-      "desc_prev": "DSH 0.1.2-rc.1 interim compat shim: Session.events alias for legacy presets/plugins, corrupt session-log boot guard (quarantine), Node preflight"
+      "full_name": "dengpeihua/dsh-browser-use",
+      "previous": "tool",
+      "current": "vision",
+      "desc_now": "为 DeepSeek Harness 提供真实浏览器操作能力：网页浏览与信息提取、表单填写、多标签页协作和多步骤任务执行；支持增量 DOM、会话隔离、截图、操作结果检查与证据归档回读。",
+      "desc_prev": "Native DeepSeek Harness browser-agent plugin with session-isolated Chromium, CDP, and DOM tools"
     },
     {
-      "full_name": "Milaro001/dsh-provenance-lens",
-      "previous": "resource",
-      "current": "memory",
-      "desc_now": "上下文溯源透镜：在 DeepSeek Harness 长对话中追溯选中文本关联的历史消息与工具材料，点击依据回到原文，保存摘录、结论和假设，并导出 Markdown 档案。",
-      "desc_prev": "上下文溯源透镜：在 DeepSeek Harness 长对话中追溯选中文本关联的历史消息与工具材料，点击依据回到原文，保存摘录、结论和假设，并导出 Markdown 档案。V0.1 测试版。"
-    },
-    {
-      "full_name": "whui5041-cloud/DSH-manjuhub",
-      "previous": "notify",
-      "current": "resource",
-      "desc_now": "DSH 插件：AI 漫剧/短剧技能总控 —— 本机技能全览、GitHub 开源发现、一键安装更新与回滚",
-      "desc_prev": "漫剧技能中枢：本机漫剧技能全览、GitHub 开源技能定时探测、每日安装提醒（DSH 插件）"
+      "full_name": "InariNGT-Ofiicial/dsh-bili-humanism",
+      "previous": "memory",
+      "current": "other",
+      "desc_now": "用多彩的人类世界，训练 DSH 的人格：默认积累信笺反思于专用 human-world.md；允许通过 DSH 与外部插件接驳。历史、收藏、点赞与投币独立默认关闭；本项目不提供评论接口。",
+      "desc_prev": "DSH B站内容学习：分层取稿→证据化理解→可修正记忆→本地交付；期待 AI 从多样创作与生活中理解人，并在策略与授权允许时参与表达。"
     }
   ]
 }
