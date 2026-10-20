@@ -1,27 +1,13 @@
 {
-  "generated_at": "2026-10-20T20:17:39.313Z",
-  "count": 3,
+  "generated_at": "2026-10-20T23:22:23.871Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "FeatherHunter/dsh-opencode-palette",
-      "previous": "coding",
-      "current": "web-ui",
-      "desc_now": "🎨 38 款主题，一键给 DSH 换装：37 款 OpenCode 经典配色 + 25 套 IP 预置（哈利波特 / 赛博朋克2077 / 原神 / 库洛米 / 哆啦A梦…），深浅两版都有 | 38 one-click themes for DSH",
-      "desc_prev": "🎨 为长时间编程而生：38 款 opencode 护眼配色，一键换上 DSH | 38 eye-friendly opencode themes for DeepSeek Harness, one click"
-    },
-    {
-      "full_name": "dengpeihua/dsh-browser-use",
-      "previous": "tool",
-      "current": "vision",
-      "desc_now": "为 DeepSeek Harness 提供真实浏览器操作能力：网页浏览与信息提取、表单填写、多标签页协作和多步骤任务执行；支持增量 DOM、会话隔离、截图、操作结果检查与证据归档回读。",
-      "desc_prev": "Native DeepSeek Harness browser-agent plugin with session-isolated Chromium, CDP, and DOM tools"
-    },
-    {
-      "full_name": "InariNGT-Ofiicial/dsh-bili-humanism",
-      "previous": "memory",
-      "current": "other",
-      "desc_now": "用多彩的人类世界，训练 DSH 的人格：默认积累信笺反思于专用 human-world.md；允许通过 DSH 与外部插件接驳。历史、收藏、点赞与投币独立默认关闭；本项目不提供评论接口。",
-      "desc_prev": "DSH B站内容学习：分层取稿→证据化理解→可修正记忆→本地交付；期待 AI 从多样创作与生活中理解人，并在策略与授权允许时参与表达。"
+      "full_name": "01men/ybkkasi",
+      "previous": "model",
+      "current": "tool",
+      "desc_now": "One control plane for every AI asset — MCP servers, skills, agents, AI apps. Self-hosted ledger with lifecycle state machine, 85 permission points, department × agent × skill cost attribution, and audit trail. MIT, zero runtime deps (Node 22 + node:sqlite). 企业 AI 资产治理。",
+      "desc_prev": "企业 AI 资源管理平台 —— 把 MCP 服务 / Skill / Agent / AI 应用 统一成一套可管、可算、可审的资产。一套身份、一套权限、一套计量、一套审计。自托管 · MIT。"
     }
   ]
 }
