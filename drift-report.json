@@ -1,7 +1,35 @@
 {
-  "generated_at": "2026-10-20T11:19:01.408Z",
-  "count": 3,
+  "generated_at": "2026-10-20T14:38:30.099Z",
+  "count": 6,
   "items": [
+    {
+      "full_name": "Jesseovo/last30days-skill-cn",
+      "previous": "memory",
+      "current": "resource",
+      "desc_now": "给 AI Agent 的中文互联网研究 Skill：检索 8 大平台最近 30 天的讨论，追踪跨平台热点，生成附原始来源的报告，并提供每日全网热榜。支持 Claude Code、Codex、OpenClaw。",
+      "desc_prev": "last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。"
+    },
+    {
+      "full_name": "CrazyShout/dsh-ssh-remote",
+      "previous": "tool",
+      "current": "coding",
+      "desc_now": "SSH remote development for DeepSeek Harness: native files and terminals, remote editing, @ references, port forwarding, resumable transfers, and in-app updates. Powered by your OpenSSH config.",
+      "desc_prev": "SSH remote workspaces for DeepSeek Harness: browse/read/write remote files, run remote commands, with connection status dots."
+    },
+    {
+      "full_name": "Respawn-ID/dsh-rhine-splash",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "Rhine Lab theme for DeepSeek Harness — 莱茵生命主题：开屏动画、界面主题、品牌标志与附加功能",
+      "desc_prev": "Rhine Lab style boot splash bundle for DeepSeek Harness desktop — 莱茵生命风格的 DeepSeek Harness 开屏动画插件"
+    },
+    {
+      "full_name": "ddtcorex/dsh-maestro-review",
+      "previous": "agent",
+      "current": "notify",
+      "desc_now": "Maestro Review for the DeepSeek Harness web host: GitLab webhook intake, project mappings with local worktrees, the Settings section and Telegram digests, on the maestro-reviewer engine",
+      "desc_prev": "Pluggable merge-request review pipeline for DeepSeek Harness (webhook, orchestrator, findings) with a GitLab provider"
+    },
     {
       "full_name": "ddtcorex/maestro-reviewer",
       "previous": "agent",
@@ -10,18 +38,11 @@
       "desc_prev": "Pluggable merge-request review pipeline for DeepSeek Harness (webhook, orchestrator, findings) with a GitLab provider"
     },
     {
-      "full_name": "lance808/dsh-think-zh",
-      "previous": "conversation",
-      "current": "model",
-      "desc_now": "DeepSeek Harness 插件：通过在系统提示词中注入一条指令，使AI用中文推理（思考）",
-      "desc_prev": "DeepSeek Harness plugin: make the agent reason (think) in Chinese by contributing a system-prompt section"
-    },
-    {
-      "full_name": "whui5041-cloud/DSH-manjuhub",
-      "previous": "notify",
-      "current": "resource",
-      "desc_now": "DSH 插件：AI 漫剧/短剧技能总控 —— 本机技能全览、GitHub 开源发现、一键安装更新与回滚",
-      "desc_prev": "漫剧技能中枢：本机漫剧技能全览、GitHub 开源技能定时探测、每日安装提醒（DSH 插件）"
+      "full_name": "LoveDoLove/dsh-token-saver",
+      "previous": "web-ui",
+      "current": "tool",
+      "desc_now": "DeepSeek Harness (DSH) plugin for token efficiency: trims oversized tool output, folds grep results, and compacts context with optional prompt shaping.",
+      "desc_prev": "Configurable token optimization for DeepSeek Harness, with tool-output trimming, prompt shaping, context management, and a Web settings UI."
     }
   ]
 }
