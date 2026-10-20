@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-20T01:02:26.259Z",
-  "count": 2035,
+  "generated_at": "2026-10-20T06:10:07.909Z",
+  "count": 2126,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -4803,6 +4803,366 @@
       "kind": "excluded",
       "reason": "Repost/clone of tinqiao-oss/engramory"
     },
+    "adrianhu65/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of ZSeven-W/dsh-noema under a throwaway account; repost-network copy."
+    },
+    "alessiomartinez55/flameox": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic runtime-profiling tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "alexandros397/seektty": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of Hilbert-beinghappy/seektty under a throwaway account; repost-network copy."
+    },
+    "andreab389/engramory": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of tinqiao-oss/engramory (a generic agent memory protocol, already excluded) under a throwaway account; repost-network copy."
+    },
+    "Anne1153/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of ZSeven-W/dsh-noema under a throwaway account; repost-network copy."
+    },
+    "Antonio2900/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of FishBottle7/opencode2dsh under a throwaway account; repost-network copy."
+    },
+    "Anurakg7235/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of ZSeven-W/dsh-noema under a throwaway account; repost-network copy."
+    },
+    "ApichatHara/flameox": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic runtime-profiling tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "aroux079/opencode2dsh": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of FishBottle7/opencode2dsh under a throwaway account; repost-network copy."
+    },
+    "arthurv87447/flameox": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic runtime-profiling tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "asli06202/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of yan-mc/dsh-normify under a throwaway account; repost-network copy."
+    },
+    "beck8602/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of sorsama/deepseek-harness-mobile under a throwaway account; repost-network copy."
+    },
+    "berndkaya0853/flameox": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic runtime-profiling tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "brooks09/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of yan-mc/dsh-normify under a throwaway account; repost-network copy."
+    },
+    "CarlAlvarez9275/engramory": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of tinqiao-oss/engramory (a generic agent memory protocol, already excluded) under a throwaway account; repost-network copy."
+    },
+    "Carmen394/jevcore": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of PerryLink/jevcore under a throwaway account; repost-network copy."
+    },
+    "cherylmatsumoto/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of ZSeven-W/dsh-crew under a throwaway account; repost-network copy."
+    },
+    "christos82330/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of ZSeven-W/dsh-crew under a throwaway account; repost-network copy."
+    },
+    "Claudia2181/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of KelaoHu/dsh-lowtide under a throwaway account; repost-network copy."
+    },
+    "CynthiaSilvestri92/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of ZSeven-W/dsh-noema under a throwaway account; repost-network copy."
+    },
+    "DenizKaya23/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of raullenchai/rapid-mlx-dsh-provider under a throwaway account; repost-network copy."
+    },
+    "Elena6977/seektty": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of Hilbert-beinghappy/seektty under a throwaway account; repost-network copy."
+    },
+    "emorel6463/engramory": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of tinqiao-oss/engramory (a generic agent memory protocol, already excluded) under a throwaway account; repost-network copy."
+    },
+    "filippoc3708/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of ZSeven-W/dsh-noema under a throwaway account; repost-network copy."
+    },
+    "geraldk5421/engramory": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of tinqiao-oss/engramory (a generic agent memory protocol, already excluded) under a throwaway account; repost-network copy."
+    },
+    "Giulio2229/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of raullenchai/rapid-mlx-dsh-provider under a throwaway account; repost-network copy."
+    },
+    "gRose6137/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of KelaoHu/dsh-lowtide under a throwaway account; repost-network copy."
+    },
+    "haechan46/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of sorsama/deepseek-harness-mobile under a throwaway account; repost-network copy."
+    },
+    "HassanLundberg308/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of sorsama/deepseek-harness-mobile under a throwaway account; repost-network copy."
+    },
+    "Jacques631/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of sorsama/deepseek-harness-mobile under a throwaway account; repost-network copy."
+    },
+    "Jan29331/argo": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of taxueseek/argo (a generic agent search tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "jeanl397/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of KelaoHu/dsh-lowtide under a throwaway account; repost-network copy."
+    },
+    "Kanokwans0957/argo": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of taxueseek/argo (a generic agent search tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "kathleenkorkmaz074/engramory": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of tinqiao-oss/engramory (a generic agent memory protocol, already excluded) under a throwaway account; repost-network copy."
+    },
+    "kathrynraymond/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of KelaoHu/dsh-lowtide under a throwaway account; repost-network copy."
+    },
+    "Keith9122/argo": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of taxueseek/argo (a generic agent search tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "Kemalp1151/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of sorsama/deepseek-harness-mobile under a throwaway account; repost-network copy."
+    },
+    "Korkmaz1974/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of raullenchai/rapid-mlx-dsh-provider under a throwaway account; repost-network copy."
+    },
+    "larryn961/seektty": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of Hilbert-beinghappy/seektty under a throwaway account; repost-network copy."
+    },
+    "LieveWood565/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of yan-mc/dsh-normify under a throwaway account; repost-network copy."
+    },
+    "lsyed835/argo": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of taxueseek/argo (a generic agent search tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "lundberg563/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of ZSeven-W/dsh-noema under a throwaway account; repost-network copy."
+    },
+    "mason8658/seektty": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of Hilbert-beinghappy/seektty under a throwaway account; repost-network copy."
+    },
+    "mikael2727/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of ZSeven-W/dsh-crew under a throwaway account; repost-network copy."
+    },
+    "MisaHenry78987/argo": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of taxueseek/argo (a generic agent search tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "NaoShimizu40334/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of ZSeven-W/dsh-crew under a throwaway account; repost-network copy."
+    },
+    "nayeonm613/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of yan-mc/dsh-normify under a throwaway account; repost-network copy."
+    },
+    "Neslihan783/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of yan-mc/dsh-normify under a throwaway account; repost-network copy."
+    },
+    "PhuongNgo7048/flameox": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic runtime-profiling tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "RaziMoretti/dsh-crew": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of ZSeven-W/dsh-crew under a throwaway account; repost-network copy."
+    },
+    "Ricardoy29111/engramory": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of tinqiao-oss/engramory (a generic agent memory protocol, already excluded) under a throwaway account; repost-network copy."
+    },
+    "riccardi93994/flameox": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic runtime-profiling tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "Richter29/argo": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of taxueseek/argo (a generic agent search tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "rRangel696/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of KelaoHu/dsh-lowtide under a throwaway account; repost-network copy."
+    },
+    "ruthgarcia10/jevcore": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of PerryLink/jevcore under a throwaway account; repost-network copy."
+    },
+    "Saga19955/flameox": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic runtime-profiling tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "sanchez85030/dsh-noema": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of ZSeven-W/dsh-noema under a throwaway account; repost-network copy."
+    },
+    "sanders07366/flameox": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic runtime-profiling tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "Sarar57/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of yan-mc/dsh-normify under a throwaway account; repost-network copy."
+    },
+    "Schaefer2197/flameox": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic runtime-profiling tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "SomchaiRomero71906/rapid-mlx-dsh-provider": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of raullenchai/rapid-mlx-dsh-provider under a throwaway account; repost-network copy."
+    },
+    "Stefano6929/argo": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of taxueseek/argo (a generic agent search tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "StijnDuong9928/dsh-normify": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of yan-mc/dsh-normify under a throwaway account; repost-network copy."
+    },
+    "Susan6548/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of sorsama/deepseek-harness-mobile under a throwaway account; repost-network copy."
+    },
+    "tomoyajaworski4767/engramory": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of tinqiao-oss/engramory (a generic agent memory protocol, already excluded) under a throwaway account; repost-network copy."
+    },
+    "torres825/engramory": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of tinqiao-oss/engramory (a generic agent memory protocol, already excluded) under a throwaway account; repost-network copy."
+    },
+    "vanessa16546/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of KelaoHu/dsh-lowtide under a throwaway account; repost-network copy."
+    },
+    "wagner33843/dsh-lowtide": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of KelaoHu/dsh-lowtide under a throwaway account; repost-network copy."
+    },
+    "yadav715/engramory": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of tinqiao-oss/engramory (a generic agent memory protocol, already excluded) under a throwaway account; repost-network copy."
+    },
+    "Yamamoto431/jevcore": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of PerryLink/jevcore under a throwaway account; repost-network copy."
+    },
+    "YannisHalas/seektty": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of Hilbert-beinghappy/seektty under a throwaway account; repost-network copy."
+    },
+    "YoussefFlores90/argo": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of taxueseek/argo (a generic agent search tool, already excluded) under a throwaway account; repost-network copy."
+    },
+    "Zachary1850/deepseek-harness-mobile": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a same-day repost of sorsama/deepseek-harness-mobile under a throwaway account; repost-network copy."
+    },
+    "AnAQwQ/dsh-wb": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an agent-skill manual (SKILL.md + references) documenting how to install the third-party dsh-workbuddy-connect plugin."
+    },
+    "JinhangHE126/dsh-compact": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone local reverse proxy (Python) you point DSH at by changing its Base URL."
+    },
+    "MLMLZJ/dsh-plugins": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a pure index/README repo (8 KB, README.md + plugins.json only) linking to two separate plugin repos (dsh-install-profiler, dsh-reverse-skill)."
+    },
+    "MuQY1818/ds-bot-mobile-app": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a native mobile companion app (React Native + Expo iOS/Android source, no installable IPA/APK builds)."
+    },
+    "ShingStars/dsh-bili-free-scroll": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — repository archived by the author; superseded by ShingStars/dsh-bili-models and kept only as historical reference."
+    },
+    "TianzeLuo/dsh-plugins": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a curated index/directory repo linking to separate plugin repositories (README: 这个仓库是索引而不是 monorepo)."
+    },
+    "chenyth/shenhuoai-skills": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an Agent Skills (agentskills.io spec) collection for Codex/other agents, installed via Codex $skill-installer or skills CLI; no DSH packaging."
+    },
+    "drydeuterium/dsh-pet-ja": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Node patch script (`node apply.mjs`) that Japanese-localizes the separate dsh-pet plugin in place inside node_modules; it is not itself installable."
+    },
+    "itzsu123/Inline": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone single-file HTML AI reading tool that opens directly in a browser with its own DeepSeek API key; not installable into DeepSeek Harness."
+    },
+    "snow-The/dsh-goroutine": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic Go-style concurrency library (goroutines/channels/worker pool on node:worker_threads) for Node/Deno/Bun, with no DSH packaging."
+    },
+    "snow-The/dsh-setup": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a multi-machine DSH web profile deployment template (plugin intent list + patch layer + setup.ps1/setup.sh scripts)."
+    },
+    "snow-The/dsh-starter-kit": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a one-click installer/integration pack (install.ps1/install.sh) that installs a curated list of other plugins into DSH."
+    },
+    "snow-The/dsh-ui-shim": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — repository archived by the author (RETIRED DOM shim; author states nothing consumes its markers)."
+    },
+    "specterxueye/dsh-cv": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a resume-writing skills/preset toolkit installed via Windows junctions into ~/.dsh/skills and a preset shell, with no DSH plugin packaging."
+    },
+    "swording-k/dsh-vscode": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a VS Code extension (vsix) that launches the DSH web GUI beside the editor."
+    },
+    "thassan0313/dsh-permission-rules": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a re-upload of PerryLink/dsh-permission-rules."
+    },
+    "zendev-lab/cogfold": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone local-first coding-agent runtime (Spark: own daemon, Hub, web workbench, ACP) installed via curl bootstrap or npm install -g."
+    },
     "091022yyj/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop app; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -6907,10 +7267,6 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "smallhug/dsh-tauri": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a Tauri desktop client/workbench built on the official harness; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
     "smanx/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop client; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -7722,6 +8078,14 @@
     "fellow99/dsh-desktop-hos": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — an Electron desktop shell for HarmonyOS; stays in the catalog, kept off the star board and the downstream market."
+    },
+    "Minglink/dsh-community": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "dsh-plugin-lab/market": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
