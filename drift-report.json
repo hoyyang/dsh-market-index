@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-21T13:11:46.160Z",
+  "generated_at": "2026-10-21T18:29:22.819Z",
   "count": 2,
   "items": [
     {
-      "full_name": "wyx135230/DeepSeek-Office",
-      "previous": "web-ui",
-      "current": "document",
-      "desc_now": "Built with the dsh-bot plugin, this is an immersive 2.5D office game where you interact and collaborate with your agent employees.基于dsh-bot插件制作，沉浸式2.5D办公室游戏，与你的agent员工交互协作",
-      "desc_prev": null
+      "full_name": "Yurzi/dsh-web-fetch-enhanced",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "Archived: continued in Yurzi/dsh-tool-web-enhanced (dsh-web-fetch-enhanced 0.2.0+). Configurable non-public address allowlists for DeepSeek Harness web_fetch (0.1.x)",
+      "desc_prev": "Configurable non-public address allowlists for DeepSeek Harness web_fetch"
     },
     {
-      "full_name": "dongshan1999/dsh-toolkit",
-      "previous": "tool",
-      "current": "notify",
-      "desc_now": "dsh 插件: 1. 图片生成 2. token 用量 3. 模型测试 4. 通知",
-      "desc_prev": null
+      "full_name": "Leawind/dsh-rice-on-a-stick",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "A dsh plugin that lets agents control dsh via MCP or dsh's built-in tools.",
+      "desc_prev": "Operate DeepSeek Harness (dsh) over MCP: expose sessions, task execution, and workspace management to any MCP client."
     }
   ]
 }
