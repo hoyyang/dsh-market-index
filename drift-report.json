@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-20T23:22:23.871Z",
+  "generated_at": "2026-10-21T01:57:24.750Z",
   "count": 1,
   "items": [
     {
-      "full_name": "01men/ybkkasi",
-      "previous": "model",
-      "current": "tool",
-      "desc_now": "One control plane for every AI asset — MCP servers, skills, agents, AI apps. Self-hosted ledger with lifecycle state machine, 85 permission points, department × agent × skill cost attribution, and audit trail. MIT, zero runtime deps (Node 22 + node:sqlite). 企业 AI 资产治理。",
-      "desc_prev": "企业 AI 资源管理平台 —— 把 MCP 服务 / Skill / Agent / AI 应用 统一成一套可管、可算、可审的资产。一套身份、一套权限、一套计量、一套审计。自托管 · MIT。"
+      "full_name": "chengzhao-dev/dsh-quarto-book",
+      "previous": "web-ui",
+      "current": "coding",
+      "desc_now": "为 Quarto Book 写章节、校验结构并维护可复用主题；不改业务代码，只在 type: book 的仓库里出现。",
+      "desc_prev": "Quarto Book writing & theme skills for DeepSeek Harness - chapter authoring, structure checks, reusable book theme"
     }
   ]
 }
