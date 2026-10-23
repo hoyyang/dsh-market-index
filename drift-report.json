@@ -1,20 +1,13 @@
 {
-  "generated_at": "2026-10-23T07:15:50.329Z",
-  "count": 2,
+  "generated_at": "2026-10-23T10:16:25.662Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "Vikrant-Aleph/dshmarket-update-helper",
+      "full_name": "qyy2005/dsh-plugin-labels",
       "previous": "other",
-      "current": "resource",
-      "desc_now": "一个插件，专治插件市场更新自己时把自己卸载的尴尬。独立一键更新 dshmarket——市场负责逛街，助手负责换市场。你先别动，我来 ＞﹏＜",
-      "desc_prev": null
-    },
-    {
-      "full_name": "qian-dsh/dsh-outer-brain",
-      "previous": "tool",
-      "current": "other",
-      "desc_now": "A philosopher's way of thinking made executable for AI agents: dialectics and practice-testing to govern hallucination and long-session drift.",
-      "desc_prev": "Self-audit layer for agents: 12 brain_* tools turning boundary-drawing, contradiction-surfacing and evidence-based verification into a ledger, executable criteria and outside review."
+      "current": "web-ui",
+      "desc_now": "给 DSH（DeepSeek Harness）已装插件配中文名与一句话说明：官方「插件」页（含插件包卡片与详情）原地显示中文，启动时自动翻译新插件，无 UI 入口。Chinese names for installed DSH plugins. MIT licensed.",
+      "desc_prev": "给 DSH（DeepSeek Harness）已装插件配中文名与一句话说明：官方「插件」页原地显示中文，设置里管理标签。Chinese names and one-line explanations for installed DSH plugins. MIT licensed."
     }
   ]
 }
