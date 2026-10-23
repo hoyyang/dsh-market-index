@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-10-23T10:16:25.662Z",
-  "count": 1,
+  "generated_at": "2026-10-23T13:24:33.666Z",
+  "count": 3,
   "items": [
+    {
+      "full_name": "YUsaltyfish/dsh-onebot-qq",
+      "previous": "other",
+      "current": "coding",
+      "desc_now": "DeepSeek Harness 的原生 QQ 机器人插件：微内核 + 9 个子插件，Linux/Windows 通用。收消息、发图、生图、发表情，装完就能聊。此项目为个人因需求爱好，人力设计方案AI构建代码的插件，所以bug和不够合理的地方有许多，发出来仅为学习和分享",
+      "desc_prev": "DeepSeek Harness 的原生 QQ 机器人插件：微内核 + 9 个子插件，Linux/Windows 通用。收消息、发图、生图、发表情，装完就能聊。"
+    },
+    {
+      "full_name": "disantosmyha-cloud/tempguard",
+      "previous": "tool",
+      "current": "notify",
+      "desc_now": "Windows CPU/GPU temperature watchdog: four-state fuse, persistent alert outbox, email/QQ alerting, DSH plugin",
+      "desc_prev": "Windows CPU/GPU 温度看门狗：四态熔断、演习模式、CSV 日志"
+    },
     {
       "full_name": "qyy2005/dsh-plugin-labels",
       "previous": "other",
