@@ -1,41 +1,13 @@
 {
-  "generated_at": "2026-10-22T20:12:26.993Z",
-  "count": 5,
+  "generated_at": "2026-10-23T01:51:44.973Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "c-ling/dsh-plugin-pet",
-      "previous": "coding",
-      "current": "web-ui",
-      "desc_now": "DeepSeek Harness 0.2.1+（Web / 桌面端）桌面电子宠物插件：实时心情浮层、头像菜单进入的独立宠物页面、内置/自定义/Codex 精灵图与本地养成系统。",
-      "desc_prev": "DeepSeek Harness 桌面电子宠物插件：跟随 agent 状态变换心情的内置/自定义/Codex 精灵图伙伴。"
-    },
-    {
-      "full_name": "huangfuren/dsh-sync",
-      "previous": "coding",
-      "current": "tool",
-      "desc_now": "把一台机器上用过的 dsh 全量搬到另一台：会话历史 / 工作区记录 / skills 链接 / 插件声明，按新路径改写后逐项核对，附一致性校验",
-      "desc_prev": "把本机 dsh 配置同步到另一台机器：导出可移植 bundle（settings / 凭据(可选) / 插件源码 / profile 清单）并生成自安装 apply.ps1。接收方无需装 dsh-sync，跑一次脚本即可继续用 dsh。"
-    },
-    {
-      "full_name": "Carrick-K7/dsh-keep-going",
-      "previous": "conversation",
-      "current": "other",
-      "desc_now": "DISCONTINUED (2026-10-22). Final version: 0.3.0. Historical DSH restart-recovery plugin; no further development or maintenance.",
-      "desc_prev": "Restart DSH, then carry on: the answer in progress finishes, DSH closes in an orderly way, and every conversation the restart interrupted is woken."
-    },
-    {
-      "full_name": "EagleClark/dsh-genshin-account",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "DeepSeek Harness 插件：把你的原神账号读进来 —— 角色练度、命座、天赋、面板、武器、圣遗物 —— 然后在对话里直接问（agent 调用工具查），也能在 GUI 里看（侧边栏「原神账号」页面）。",
-      "desc_prev": "DeepSeek Harness ??:????????????????(GOOD ?? / Enka.Network / ??? ????),?? agent ??? GUI ????"
-    },
-    {
-      "full_name": "QingJing5906/dsh-push",
-      "previous": "agent",
-      "current": "web-ui",
-      "desc_now": "DevDock · DeepSeek Harness 的研发账号与服务管理套件。首批：GitHub 多账号、仓库管理、工作区推送与推送前 Agent 审查；后续接入 Cloudflare Workers/Pages 与 npm。",
-      "desc_prev": "DeepSeek Harness 的 GitHub 与 Git 管理插件：多账号登录切换、仓库浏览与管理、工作区版本树、一键推送、推送前 Agent 审查。"
+      "full_name": "dream-fish69/dsh-session-workspace-organizer",
+      "previous": "other",
+      "current": "resource",
+      "desc_now": "Move a DeepSeek Harness workspace folder to a new path — session logs' cwd is rewritten too — and give every new session its own output folder under sessions/.DSH 插件：迁移工作区文件夹并改写会话日志的 cwd；为每个新会话建立独立输出目录；支持空闲会话的移动与删除。",
+      "desc_prev": "Move a DeepSeek Harness workspace folder to a new path — session logs' cwd is rewritten too — and give every new session its own output folder under sessions/."
     }
   ]
 }
