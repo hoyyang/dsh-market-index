@@ -1,27 +1,41 @@
 {
-  "generated_at": "2026-10-23T13:24:33.666Z",
-  "count": 3,
+  "generated_at": "2026-10-23T18:08:10.776Z",
+  "count": 5,
   "items": [
     {
-      "full_name": "YUsaltyfish/dsh-onebot-qq",
-      "previous": "other",
-      "current": "coding",
-      "desc_now": "DeepSeek Harness 的原生 QQ 机器人插件：微内核 + 9 个子插件，Linux/Windows 通用。收消息、发图、生图、发表情，装完就能聊。此项目为个人因需求爱好，人力设计方案AI构建代码的插件，所以bug和不够合理的地方有许多，发出来仅为学习和分享",
-      "desc_prev": "DeepSeek Harness 的原生 QQ 机器人插件：微内核 + 9 个子插件，Linux/Windows 通用。收消息、发图、生图、发表情，装完就能聊。"
+      "full_name": "gulagala001/oh-my-agents-above-all",
+      "previous": "web-ui",
+      "current": "conversation",
+      "desc_now": "Codex, Grok Build, Cursor, Pi and ZCode presets with native conversations, code review, document conversion and workflow controls.",
+      "desc_prev": "DSH 深度代理预设：Codex、Grok Build、Cursor、Pi、ZCode，主题与可选 OMD 增强"
     },
     {
-      "full_name": "disantosmyha-cloud/tempguard",
-      "previous": "tool",
-      "current": "notify",
-      "desc_now": "Windows CPU/GPU temperature watchdog: four-state fuse, persistent alert outbox, email/QQ alerting, DSH plugin",
-      "desc_prev": "Windows CPU/GPU 温度看门狗：四态熔断、演习模式、CSV 日志"
+      "full_name": "Num86/dsh-functions",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "一级菜单旁添加可供插件接入的“功能”菜单栏，可以快捷添加插件功能，也可以自定义插件功能置入。v0.4.0 现已集成“重启dsh”功能 ",
+      "desc_prev": "一级菜单旁添加可供插件接入的“功能”菜单栏，可以快捷添加插件功能，也可以自定义插件功能置入。v0.4.0 现已集成“重启dsh”功能"
     },
     {
-      "full_name": "qyy2005/dsh-plugin-labels",
-      "previous": "other",
-      "current": "web-ui",
-      "desc_now": "给 DSH（DeepSeek Harness）已装插件配中文名与一句话说明：官方「插件」页（含插件包卡片与详情）原地显示中文，启动时自动翻译新插件，无 UI 入口。Chinese names for installed DSH plugins. MIT licensed.",
-      "desc_prev": "给 DSH（DeepSeek Harness）已装插件配中文名与一句话说明：官方「插件」页原地显示中文，设置里管理标签。Chinese names and one-line explanations for installed DSH plugins. MIT licensed."
+      "full_name": "439436269-ctrl/dsh-blend-preview",
+      "previous": "web-ui",
+      "current": "other",
+      "desc_now": "Legacy name; moved to dsh-preview-blender",
+      "desc_prev": "Preview Blender .blend files in the DeepSeek Harness right Sidebar: cached headless GLB export plus a dependency-free WebGL viewer with scene statistics."
+    },
+    {
+      "full_name": "439436269-ctrl/dsh-stl-preview",
+      "previous": "web-ui",
+      "current": "other",
+      "desc_now": "Legacy name; moved to dsh-preview-stl",
+      "desc_prev": "Preview STL meshes in the DeepSeek Harness right Sidebar: dependency-free WebGL viewport plus size, volume, surface area and watertightness."
+    },
+    {
+      "full_name": "439436269-ctrl/dsh-media-preview",
+      "previous": "web-ui",
+      "current": "other",
+      "desc_now": "Legacy name; moved to dsh-preview-media",
+      "desc_prev": "Video and audio preview for DeepSeek Harness: play mp4/mov/mkv/webm and mp3/flac/wav in the right-Sidebar document preview, streamed over an authenticated HTTP Range route."
     }
   ]
 }
