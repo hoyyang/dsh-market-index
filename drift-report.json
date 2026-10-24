@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-23T21:29:14.377Z",
+  "generated_at": "2026-10-24T04:19:32.438Z",
   "count": 1,
   "items": [
     {
-      "full_name": "Lphehe/dsh-composer-assist",
-      "previous": "web-ui",
-      "current": "coding",
-      "desc_now": "DSH 输入框助手：预测下一句、补全草稿、按需润色。建议按会话保留，Tab 只填入草稿、不自动发送。源码可见，修改须事先书面许可。",
-      "desc_prev": "Context-aware composer predictions for DeepSeek Harness · 上下文感知输入预测、草稿补全与润色；会话独立保留，过期响应不覆盖新输入，Tab 接受但不发送。"
+      "full_name": "mr-mihu/dsh-dbhub-live",
+      "previous": "memory",
+      "current": "conversation",
+      "desc_now": "DSH 数据库 MCP 插件：把 DBHub 接入 DeepSeek Harness，让 AI 在对话里直接查询 MySQL / PostgreSQL / MariaDB / SQLite / SQL Server。",
+      "desc_prev": "DSH 数据库 MCP 桥接插件：让 AI 直接查询 MySQL / PostgreSQL / MariaDB / SQLite / SQL Server。按工作区动态配置连接（可改名、可跨工作区复制），AI 自助配置管理，密码与连接串零知识（永不进入模型上下文），每次执行独立进程。"
     }
   ]
 }
