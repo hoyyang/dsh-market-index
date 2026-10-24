@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-24T10:11:06.482Z",
-  "count": 2,
+  "generated_at": "2026-10-24T13:29:50.953Z",
+  "count": 8,
   "items": [
     {
-      "full_name": "shiyan688/dsh-novel-craft",
-      "previous": "resource",
-      "current": "other",
-      "desc_now": "面向中文小说作者的开源 DSH 写作插件：点赞/点踩提炼可编辑的文风偏好，支持候选稿、章节管理与局部改稿。MIT；需 DeepSeek Harness 和自备模型。",
-      "desc_prev": "dsh-novel-craft —— 跑在 DeepSeek Harness 上的开源 AI 小说写作插件。目的：让 AI 写出你觉得对味的文字。方法：你只点赞、点踩，模型自己总结规律，写进一份几百字节的偏好档案；正文不进写稿上下文。775 条断言 / 7 个测试文件，MIT。"
+      "full_name": "Isyyyue/dsh-ai-memory",
+      "previous": "memory",
+      "current": "vision",
+      "desc_now": "DeepSeek Harness 插件：可审计的长期判断记忆、确定性取代、未完成问题、用户确认的人格演化与知识图谱。 Auditable judgment memory for DSH agents.",
+      "desc_prev": "给 DSH 里的 AI 一层自己的判断记忆。判断节点 + 确定性取代（supersede）+ 双时态账本 + 双链，规则与人格分开治理，图谱作可解释性界面。 - Persistent judgment memory & self-evolving personality for AI agents (bi-temporal ledger, deterministic supersession, knowledge graph)."
     },
     {
       "full_name": "1315577677/dsh-dot-plugin",
@@ -15,6 +15,48 @@
       "current": "conversation",
       "desc_now": "Turn DeepSeek Harness into a personal assistant: one chat that plans, delegates to background workers, reviews, and reports back.",
       "desc_prev": "DSH Dot: a persistent read-only-first proactive agent for DeepSeek Harness, with user-approved execution."
+    },
+    {
+      "full_name": "winlin926/dsh-roam",
+      "previous": "tool",
+      "current": "coding",
+      "desc_now": "远程连接 AI 编程会话：电脑上的 DeepSeek Harness 任务，手机扫码即用——继续对话、审批工具、新开任务。免 App、免远程桌面。",
+      "desc_prev": "把电脑上的 DeepSeek Harness 会话漫游到手机：浏览器扫码即用，AI-HUB App 共用同一地址和配对码。"
+    },
+    {
+      "full_name": "exoticknight/dsh-system1",
+      "previous": "tool",
+      "current": "agent",
+      "desc_now": "Connect TypeSafe/Jev, Cloudflare/Clef, Nace/Drex, self-hosted Laya, and custom decision providers through one interface. Agents and plugins can classify, filter, score, or locate objects in images with structured results. | 通过同一接口连接 TypeSafe/Jev、Cloudflare/Clef、Nace/Drex、本地 Laya 与自定义决策提供商；Agent 和插件可分类、筛选、评分或定位图片目标，并获得结构化结果。",
+      "desc_prev": "Asks System One models for yes/no, choice, score, and image-box judgments with probabilities, via an agent tool or a plugin service | 调用 System One 模型做是非、选择、评分和图片定位判断并返回概率，提供 agent 工具和插件服务"
+    },
+    {
+      "full_name": "Setsuna-Kitahara/dsh-session-lock",
+      "previous": "conversation",
+      "current": "web-ui",
+      "desc_now": "Add a per-session lock to the DSH Web sidebar; archiving a locked session through the client is refused | DSH 会话锁插件（由 DeepSeek Harness 维护）",
+      "desc_prev": "Lock DSH sessions so they cannot be archived | DSH 会话锁插件（由 DeepSeek Harness 维护）"
+    },
+    {
+      "full_name": "qwe3120695033/prompt-enhancer",
+      "previous": "model",
+      "current": "conversation",
+      "desc_now": "DSH composer plugin + Windows global hotkey + $p skill: four-tier prompt enhancement (base / standard / professional / system) that never changes intent or invents requirements — one shared rules source behind all three entries.",
+      "desc_prev": "One-click prompt enhancer for Windows hotkeys and portable agent skills ($p). Four tiers, Skill-token protection, DeepSeek/OpenAI-compatible APIs, and adaptable to Codex, WorkBuddy, Trae, IDEA ACP, and other agent hosts."
+    },
+    {
+      "full_name": "ZhaoZiyangShaanxi/dsh-server-monitor",
+      "previous": "tool",
+      "current": "memory",
+      "desc_now": "In-DSH server monitor: memory, load, disk and per-container usage, cache purge and container restarts, plus an embedded noVNC QQ client for manual QR login and sign-out.",
+      "desc_prev": null
+    },
+    {
+      "full_name": "SnailMann/dsh-quick-model-selector",
+      "previous": "other",
+      "current": "model",
+      "desc_now": "quick model selector for deepseek harness | 多快好省的模型选择器",
+      "desc_prev": "quick model selector for deepseek harness"
     }
   ]
 }
