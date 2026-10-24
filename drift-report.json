@@ -1,34 +1,13 @@
 {
-  "generated_at": "2026-10-24T17:13:38.066Z",
-  "count": 4,
+  "generated_at": "2026-10-24T19:37:58.070Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "EternalNight996/memory-eternal",
-      "previous": "vision",
-      "current": "memory",
-      "desc_now": "AI 聊完就忘？给 Agent 装个不会失忆的第二大脑 🧠 对话结束自动沉淀成知识卡，先审后入不污染记忆；知识星图看得见连接；一个本地 SQLite 库，DSH / Claude Code / Codex / Cursor 全共享，召回只取相关小块——省 token、少幻觉、跨会话不失忆。全自研，零第三方记忆框架。",
-      "desc_prev": "🧠 给 AI 装第二大脑 · DSH 插件：对话结束自动沉淀知识卡，跨会话召回，知识图谱可视化，审核/回收/备份一体（SQLite，零外部依赖）"
-    },
-    {
-      "full_name": "functy23/dsh-workbuddy-connect-functy",
-      "previous": "model",
-      "current": "coding",
-      "desc_now": "【已归档】上游风控持续加强、UA/请求头格式频繁变动，适配已难以为继。后续开发移步 https://github.com/functy23/dsh-workbuddy-panel",
-      "desc_prev": "corrinehu/dsh-workbuddy-connect 的 Functy 分支：仪表盘、多账号轮换与额度展示，把 WorkBuddy 模型接到 DeepSeek Harness。"
-    },
-    {
-      "full_name": "qrxf/dsh-workspace-graph",
-      "previous": "other",
-      "current": "memory",
-      "desc_now": "DeepSeek Harness 原生插件：可拖拽的工作区 / 会话图谱，气泡视图 + 筛选搜索 + 原生会话操作 | Draggable workspace & session graph plugin for DSH",
-      "desc_prev": null
-    },
-    {
-      "full_name": "QQPilotOrganization/qqpilot-dsh-plugin",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "把 QQPilot 的 QQ 消息接入 DeepSeek Harness（DSH）的桥接插件： 对 QQPilot 暴露一个 OpenAI Chat Completion 兼容端点，由 DSH 里配置的模型通过智能体工具决定 「回复什么 / 不回复 / 附带图片」；提供 工具 / 兼容 / 静默 三种运行模式，并在设置页内置 可视化聊天动态（实时看到收到的 QQ 消息、AI 的决定、回复内容、耗时与 token）。",
-      "desc_prev": null
+      "full_name": "REALOIYO/dsh-ember",
+      "previous": "conversation",
+      "current": "web-ui",
+      "desc_now": "推理等级变成滑块，完全权限变红 | Reasoning effort as a slider, full access in red — composer enhancement for DeepSeek Harness",
+      "desc_prev": "Composer polish for DSH: full-access permission turns red, reasoning effort becomes a draped slider with a heat ramp."
     }
   ]
 }
