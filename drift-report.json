@@ -1,21 +1,7 @@
 {
-  "generated_at": "2026-10-24T13:29:50.953Z",
-  "count": 8,
+  "generated_at": "2026-10-24T13:46:45.683Z",
+  "count": 7,
   "items": [
-    {
-      "full_name": "Isyyyue/dsh-ai-memory",
-      "previous": "memory",
-      "current": "vision",
-      "desc_now": "DeepSeek Harness 插件：可审计的长期判断记忆、确定性取代、未完成问题、用户确认的人格演化与知识图谱。 Auditable judgment memory for DSH agents.",
-      "desc_prev": "给 DSH 里的 AI 一层自己的判断记忆。判断节点 + 确定性取代（supersede）+ 双时态账本 + 双链，规则与人格分开治理，图谱作可解释性界面。 - Persistent judgment memory & self-evolving personality for AI agents (bi-temporal ledger, deterministic supersession, knowledge graph)."
-    },
-    {
-      "full_name": "1315577677/dsh-dot-plugin",
-      "previous": "agent",
-      "current": "conversation",
-      "desc_now": "Turn DeepSeek Harness into a personal assistant: one chat that plans, delegates to background workers, reviews, and reports back.",
-      "desc_prev": "DSH Dot: a persistent read-only-first proactive agent for DeepSeek Harness, with user-approved execution."
-    },
     {
       "full_name": "winlin926/dsh-roam",
       "previous": "tool",
@@ -57,6 +43,13 @@
       "current": "model",
       "desc_now": "quick model selector for deepseek harness | 多快好省的模型选择器",
       "desc_prev": "quick model selector for deepseek harness"
+    },
+    {
+      "full_name": "hj9178/dsh-throwtomatoes-plugin",
+      "previous": "other",
+      "current": "model",
+      "desc_now": "让你在模型发癫时不再手足无措——dsh-throwtomatoes-plugin By DeepSeek-V4.1-flash1017的53,973,006tokens",
+      "desc_prev": "Throw tomatoes at the model: the send key becomes a tomato key while a task runs. A DSH plugin."
     }
   ]
 }
