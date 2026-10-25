@@ -1,13 +1,27 @@
 {
-  "generated_at": "2026-10-25T05:14:27.364Z",
-  "count": 1,
+  "generated_at": "2026-10-25T10:18:23.752Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "ThzxxArt/dsh-search-tools",
-      "previous": "web-ui",
+      "full_name": "ShawnRen57/omni-learning-anything",
+      "previous": "document",
       "current": "tool",
-      "desc_now": "为 DeepSeek Harness 提供可插拔的网页搜索与正文抓取：支持 SearXNG 搜索、Readability 正文提取，全部在 Web 设置页完成配置。",
-      "desc_prev": "为 DeepSeek Harness 提供可插拔的网页搜索与正文抓取：支持 SearXNG 搜索、Readability 正文提取，全部在 Web 设置页完成配置。（Adapter-first web search and readable page fetching for DeepSeek Harness, configured entirely in the Web UI.）"
+      "desc_now": "Omni Learning Anything: portable Agent Skill for personalized learning plans and illustrated daily lessons in files and cloud documents. 通用学习助手。",
+      "desc_prev": "Omni Learning Anything: portable Agent Skill for personalized learning plans and daily PDF lessons. 通用学习助手。"
+    },
+    {
+      "full_name": "yxue301603/dsh-quick-prompts",
+      "previous": "web-ui",
+      "current": "conversation",
+      "desc_now": "常用话术一键填入草稿。Quick prompts for DeepSeek Harness: pinned shortcuts, project scopes and recent use.",
+      "desc_prev": "DeepSeek Harness 原生常用指令快捷面板 · Pinned prompts, project scopes, search and safe draft insertion."
+    },
+    {
+      "full_name": "yxue301603/dsh-everyday-plugins",
+      "previous": "tool",
+      "current": "memory",
+      "desc_now": "DSH 日常工具箱：找回草稿、收藏回答、定位长对话。Eight native DeepSeek Harness tools, install together or separately.",
+      "desc_prev": "DSH 日常工具箱 · Eight native everyday plugins"
     }
   ]
 }
