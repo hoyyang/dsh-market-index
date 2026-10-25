@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-24T22:06:25.607Z",
+  "generated_at": "2026-10-25T05:14:27.364Z",
   "count": 1,
   "items": [
     {
-      "full_name": "KLRSL/dsh-packer",
-      "previous": "memory",
+      "full_name": "ThzxxArt/dsh-search-tools",
+      "previous": "web-ui",
       "current": "tool",
-      "desc_now": "把 Skills、会话、已装插件和设置封成一个 zip，换电脑时一键开箱；敏感内容先脱敏或加密。Seals your Skills, sessions, plugins and settings into one zip and unseals them on a new machine.",
-      "desc_prev": "dsh-packer：把本地 DSH 资产（Skills / 会话 / Profile / 设置 / 记忆）按模块打包成 zip（v0.3.0，纯 JS 实现，不调用外部命令）——迁移、分享、恢复与隐私扫描。Pack your DSH assets into modules for migration and sharing."
+      "desc_now": "为 DeepSeek Harness 提供可插拔的网页搜索与正文抓取：支持 SearXNG 搜索、Readability 正文提取，全部在 Web 设置页完成配置。",
+      "desc_prev": "为 DeepSeek Harness 提供可插拔的网页搜索与正文抓取：支持 SearXNG 搜索、Readability 正文提取，全部在 Web 设置页完成配置。（Adapter-first web search and readable page fetching for DeepSeek Harness, configured entirely in the Web UI.）"
     }
   ]
 }
