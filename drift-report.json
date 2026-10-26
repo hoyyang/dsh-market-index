@@ -1,83 +1,27 @@
 {
-  "generated_at": "2026-10-26T15:35:22.298Z",
-  "count": 11,
+  "generated_at": "2026-10-26T20:43:29.400Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "jadezane6634-ops/dsh-purge-flash",
-      "previous": "tool",
-      "current": "model",
-      "desc_now": "DSH稳定高效的破甲插件： 常驻1,597token +零宿主补丁（可与dsh-purge共存）+ 三层技能路由+ 分级 prefill + 拒答自我强化阶梯+ finish_reason 四路分流 状态查询: /flash light",
-      "desc_prev": "DSH 破甲插件：token 级重试环 + 十片按需叶子（含邻近交付）+ 分级 prefill + 拒答阶梯 L0–L3 + finish_reason 四路分流 + 请求体级整形。零宿主补丁，188 项测试 / 56 条探针。"
-    },
-    {
-      "full_name": "xiaoxiao150/vram-switcher",
+      "full_name": "O-OII/dsh-agent-activity",
       "previous": "agent",
-      "current": "other",
-      "desc_now": "GPU coordination for local AI companions on AstrBot / DeepSeek Harness: persona LLM, IndexTTS voice and ComfyUI selfies take turns on one 12 GB card. No proxy.",
-      "desc_prev": "Local GPU coordination for AstrBot and DeepSeek Harness: LLM/TTS/ComfyUI orchestration."
-    },
-    {
-      "full_name": "huanlin-labs/dsh-isolation-gate",
-      "previous": "tool",
-      "current": "coding",
-      "desc_now": "门禁 · Access gate for DSH: per-directory deny/read/full, roster groups, per-session overrides, audit log. 默认禁，误触前就拦住。",
-      "desc_prev": "门禁 · Access gate for DSH: per-directory deny/read/full, roster groups, per-session overrides, audit log. 默认禁，误触前就拦住。"
-    },
-    {
-      "full_name": "Noob-stupid/dsh-connection-card-host",
-      "previous": "other",
-      "current": "resource",
-      "desc_now": "DSH session connection card host - stateful connections between sessions, with connection-level card plugins",
-      "desc_prev": "DSH session connection card host - stateful connections between sessions, with connection-level card plugins"
-    },
-    {
-      "full_name": "z1223473749/dsh-QiuYaTools",
-      "previous": "tool",
       "current": "web-ui",
-      "desc_now": "为 DeepSeek Harness 提供 Git 分支、改动对比与 PR 管理，会话和计划批注、长文本附件、独立窗口、批量归档、提示词建议与 Q 主题，并支持 Mac/Windows 电脑操控和实时预览。",
-      "desc_prev": "QiuYa 增强工具箱：为 DeepSeek Harness 添加长文本附件、会话独立窗口、批量归档和计划批注。"
+      "desc_now": "DSH 代理活动面板：实际模型、当前与上一轮任务，可选 DS 执行路由及中英文配置页。",
+      "desc_prev": "Compact DSH agent activity with actual models, current / previous turns, and an optional DS execution switch. English / Chinese."
     },
     {
-      "full_name": "hugefiver/dsmm",
+      "full_name": "O-OII/dsh-native-taskbar-badge",
+      "previous": "other",
+      "current": "notify",
+      "desc_now": "DSH Windows 原生任务栏数字角标：后台提醒、主会话去重、回窗清零，不改 ASAR；支持中英文。",
+      "desc_prev": "Windows-native taskbar number badges for DeepSeek Harness. No ASAR patch, toast, sound or focus stealing. English / Chinese."
+    },
+    {
+      "full_name": "zhangfan0529/dsh-archived-session-cleaner",
       "previous": "agent",
-      "current": "tool",
-      "desc_now": "Native Deepwork roles, routing, profiles, and permission controls for DeepSeek Harness.",
-      "desc_prev": "A port of ocmm to dsh."
-    },
-    {
-      "full_name": "elfmingh/dsh-prompt-manager",
-      "previous": "conversation",
-      "current": "web-ui",
-      "desc_now": "Layered prompt manager for DeepSeek Harness: global / workspace / session prompt profiles, builtin-section overrides, subagent scope, and a full Web UI.",
-      "desc_prev": "Layered prompt manager for DeepSeek Harness: reusable entries per workspace or session, built-in section overrides with line-level diff, and real assembly snapshots."
-    },
-    {
-      "full_name": "sunbigfly/dsh-multi-user-service",
-      "previous": "coding",
-      "current": "resource",
-      "desc_now": "在一套 DSH 中提供统一服务账号登录、成员目录边界、权限、会话、文件及用量管理。",
-      "desc_prev": "DSH 多用户服务：在公司或团队服务器上共用一套 DSH，集中管理成员账号、权限、会话、文件与用量。模型、工具、终端、代码和沙箱均沿用 DSH 原生能力。已验证 DSH 0.2.1-rc.2。"
-    },
-    {
-      "full_name": "yueyexiayu/dsh-shengcheng",
-      "previous": "other",
-      "current": "vision",
-      "desc_now": "DSH desktop plugin: generate images with logged-in Grok/GPT accounts, and videos with Grok",
-      "desc_prev": "DSH desktop plugin: generate images with logged-in Grok/GPT accounts, and videos with Grok"
-    },
-    {
-      "full_name": "amazing-fish/dsh-plugins",
-      "previous": "web-ui",
-      "current": "other",
-      "desc_now": "ARCHIVED 2026-10-26 — historical plugins + frozen patches snapshot. Live work: ~/.dsh/patches locally.",
-      "desc_prev": "Community plugins and UI extensions for DeepSeek Harness"
-    },
-    {
-      "full_name": "gongfpp/dsh-novel-fish",
-      "previous": "other",
       "current": "conversation",
-      "desc_now": "小说摸鱼：Read local EPUB, TXT and Markdown novels below selected native DSH chat regions while preserving real content. Local-only; no model requests. DSH 0.2.1-rc.2.",
-      "desc_prev": "Read local novels only when expanding selected real DSH reasoning steps. Local-only; no model requests."
+      "desc_now": "DeepSeek Harness plugin: permanently delete archived sessions and their subagent logs. | DeepSeek Harness 插件：永久删除已归档会话及其子智能体日志。",
+      "desc_prev": "A DeepSeek Harness plugin that permanently deletes archived sessions and their subagent logs."
     }
   ]
 }
