@@ -1,13 +1,34 @@
 {
-  "generated_at": "2026-10-26T01:39:35.847Z",
-  "count": 1,
+  "generated_at": "2026-10-26T07:39:36.340Z",
+  "count": 4,
   "items": [
     {
-      "full_name": "regrevia/dsh-inner-browser-use",
+      "full_name": "i11ustriouS/dsh-mnemosyne",
+      "previous": "other",
+      "current": "memory",
+      "desc_now": "Mnemosyne 是面向AI陪伴场景特化的DSH长期记忆插件，采用本地SQLite存储，分层保存用户偏好、共同情景回忆与角色人设，跨会话维持稳定连贯的AI陪伴人格，保护隐私，防止人设崩坏。",
+      "desc_prev": null
+    },
+    {
+      "full_name": "ScreamingMaggot/rcs-context",
+      "previous": "tool",
+      "current": "memory",
+      "desc_now": "面向 DeepSeek Harness 的上下文与记忆插件包（MIT）。折叠长会话里重复的工具输出（原文可随时展开），给模型配一名只读调查员先核实再动手；会话事实沉淀为带证据链的外部记忆（rcs:// 寻址、L0/L1/L2 分级加载、目录感知检索、检索轨迹）。",
+      "desc_prev": "把长对话的重复计费砍掉一半，并给模型配一名只读调查员：先核实，后动手。面向 DeepSeek Harness 的上下文压缩与外置推理插件（MIT）。"
+    },
+    {
+      "full_name": "FeWOO/DeepSeek-meme",
       "previous": "tool",
       "current": "web-ui",
-      "desc_now": "Drive the DeepSeek Harness sidebar browser itself: a visible pointer, real clicks and typing, upload and download, site logins kept across sessions.",
-      "desc_prev": "DeepSeek Harness 插件：让 agent 直接操作用户自己的浏览器，复用已登录会话。"
+      "desc_now": "Sticker library for DeepSeek Harness (DSH): composer button + panel, two bundled packs, and a model-readable send_sticker tool. Install: dsh plugin add github:FeWOO/DeepSeek-meme",
+      "desc_prev": "DSH 表情包插件：默认表情 + 社区梗图双包，输入区一键发送，模型也能理解并回发。"
+    },
+    {
+      "full_name": "bestlike093/dsh-cyrene-balance",
+      "previous": "model",
+      "current": "web-ui",
+      "desc_now": "昔涟桌面桌宠（DSH 版）：Live2D 立绘、透明置顶、气泡台词、DeepSeek 余额、系统状态面板，接管对话提问 / 风险审批 / 任务进程；也支持不加载立绘的卡片模式",
+      "desc_prev": "昔涟桌面桌宠（DeepSeek Harness 版）：透明置顶 Live2D 立绘，会眨眼、跟随鼠标、说话，看余额与系统状态；接管对话提问、风险审批与任务进度。作者：柒柒（bestlike093）。素材最原始来源为《崩坏：星穹铁道》官方美术（HoYoverse / 米哈游），仅供个人本机使用。"
     }
   ]
 }
