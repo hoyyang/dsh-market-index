@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-27T13:38:19.019Z",
-  "count": 2239,
+  "generated_at": "2026-10-27T16:22:23.028Z",
+  "count": 2266,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -5527,6 +5527,82 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic MCP memory server for coding agents."
     },
+    "GrgChain/deepseek-harness-cloud": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a self-hosted Go/Docker platform that runs DSH workspaces in the browser; no DSH plugin install path."
+    },
+    "HanKuCha/DSH-Fujiang-Unrestricted": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a Windows .NET one-click installer that writes a persona preset + 240 skills into DSH_HOME; no dsh plugin install path."
+    },
+    "JUTZUGC/our-free-model-deploy-guide": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a third-party deployment guide/scripts for the official dsh-our-free-model plugin; the plugin lives in Ebony-Vinyl/dsh-our-free-model."
+    },
+    "Koguduo/dsh-community-kit": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a kit of standalone automation scripts (ModelScope credit claiming, profile backup) and docs; no DSH plugin install path."
+    },
+    "Moonquake-9/dsh-feiyu-desktop": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone PowerShell/WPF desktop companion widget that mirrors the dsh-feiyu-mood plugin; no DSH install path in this repo."
+    },
+    "Speraymer/dsh-yu-kit": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an install-script kit that assembles the author's separate plugins into one profile; no bundle of its own."
+    },
+    "XJHwxjb/dsh-purge": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a read-only mirror of the model-jailbreak kit YuJunZhiXue/dsh-purge (rewrites harness permission policy and injects model-jailbreak prompts); the upstream repo is still live."
+    },
+    "ZekaiShi/dsh-harmony-mobile": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a native HarmonyOS ArkUI AI chat client app; no DSH plugin install path."
+    },
+    "efrem-labs/niro-releases": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — release binaries and docs for the Niro iPhone companion app; no DSH plugin install path."
+    },
+    "heshengtao/exameow": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Rust/Tauri exam-question generator app (binary releases, Docker, generic agent skills); no DSH plugin install path."
+    },
+    "kingcharleslzy-ai/dsh-purge": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a community-maintained build of the model-jailbreak kit YuJunZhiXue/dsh-purge (rewrites harness permission policy and injects model-jailbreak prompts)."
+    },
+    "liutingqiu/dsh-purge": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an independent build of the model-jailbreak kit dsh-purge restoring red-team skills (rewrites harness permission policy and injects model-jailbreak prompts)."
+    },
+    "phoenixlucky/dsh-plugin-doc": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a docs-only repo (a Chinese/English plugin authoring and publishing guide); nothing installable."
+    },
+    "sakanamaru/dsh-aqua": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — the repository is empty (no files on the default branch); nothing installable."
+    },
+    "sakikoTGW/dsh-plugins": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a personal index/catalog of separate plugin repos (catalog.json + docs); the plugins live in their own repositories."
+    },
+    "sandeep-alluru/deepseek-harness-rc": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone npm CLI (dshrc) that remote-controls dsh over ACP; no DSH plugin install path."
+    },
+    "wangkant/reelsmith": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a multi-host video-editing engine for coding agents (Claude Code / Codex / DSH / Cursor / MCP) installed via a Python setup script; no DSH bundle."
+    },
+    "xxy0722/dsh-purge-deep": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a deep branch of the model-jailbreak kit dsh-purge (rewrites harness permission policy and injects model-jailbreak prompts)."
+    },
+    "zabuxie/vc-voice-train-skill": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a bare SKILL.md folder copied manually into ~/.dsh/skills; no bundle manifest or dsh plugin install path."
+    },
     "091022yyj/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop app; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -5738,10 +5814,6 @@
     "auggie246/dsh-webapp": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "aust24lzy/dsh-plugin-hub": {
-      "kind": "market",
-      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "Awesome-AI-Pedia/Awesome-AI-Pedia": {
       "kind": "market",
@@ -7815,10 +7887,6 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "stlin256/harness-pocket": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a native HarmonyOS companion app (Passkey pairing, Push Kit); the DSH loopback plugin is one component of the monorepo. Stays in the catalog."
-    },
     "Stolyarovmn/dsh-ui-registry-aggregator": {
       "kind": "market",
       "reason": "A plugin registry aggregator — the market cannot include another market."
@@ -8542,6 +8610,46 @@
     "zxheyi/dsh-work": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a plugin-native AI desktop product built on DeepSeek Harness; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "stlin256/dsh-pocket": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a native HarmonyOS companion app (Passkey pairing, Push Kit); the DSH loopback plugin is one component of the monorepo. Stays in the catalog."
+    },
+    "222wcnm/whalekeeper": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a browser-extension console for the dsh web service; the DSH lifecycle plugin (plugin/dsh-lifecycle) is one component. Stays in the catalog."
+    },
+    "Jack7510/ggb-plugins-dsh": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: generated DSH distribution of the multi-host ggb-plugins suite (Codex + DSH); stars accrue to the source repo. Stays in the catalog."
+    },
+    "JayCRL/MobileVC": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: stars accrued as the earlier Claude/Codex mobile client (Flutter + Go relay, kept under legacy/); the current form is a DSH host-plugin PWA. Stays in the catalog."
+    },
+    "MoonlitDropOfBlood/dsh-remote-control": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a multi-part system — HarmonyOS remote app + relay + the DSH plugin; the phone app is the main deliverable. Stays in the catalog."
+    },
+    "songrui111/dsh-publisher-radar": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "sunChargedd/dsh-mcp-skill-manage": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "ys118/harnmem": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a cross-harness agent memory store (CLI + pi + Claude Code + DSH adapters); the DSH plugin is one of several host adapters. Stays in the catalog."
+    },
+    "zhtty67-rgb/gongkao-learning-os": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a standalone MCP-based study system; the DSH plugin shell (dsh-plugin/) is an optional adapter. Stays in the catalog."
+    },
+    "zx19491001/dsh-plugin-hub": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
