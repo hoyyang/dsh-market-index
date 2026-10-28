@@ -1,34 +1,27 @@
 {
-  "generated_at": "2026-10-28T19:22:33.279Z",
-  "count": 4,
+  "generated_at": "2026-10-28T23:46:59.047Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "getpapi/papi",
-      "previous": "coding",
-      "current": "tool",
-      "desc_now": "Vibe code as a team. Plan, build, review and release with your AI assistant.",
-      "desc_prev": "Your AI starts every session from zero. Your project stays on course. Structured plan, build and review cycles for any MCP-capable AI coding tool."
-    },
-    {
-      "full_name": "lohana20061023-29/dsh-media-downloader",
+      "full_name": "lizhiyao/oh-my-knowledge",
       "previous": "memory",
-      "current": "web-ui",
-      "desc_now": "DSH 媒体下载插件：粘一条链接弹出选择器，B 站多画质 / 抖音无水印 / 小红书图文原图三套原生解析，YouTube 等站点交给 yt-dlp。封面只保留 16:9 原图，作者头像与图文整组图片可单独勾选；复制链接时屏幕角落先提示，登录用独立 profile 不影响日常浏览器。",
-      "desc_prev": "DSH 媒体下载插件：粘一条链接自动弹选择器，B 站多画质 / 抖音无水印 / 小红书图文原图三套原生解析，YouTube 等站点交给 yt-dlp。封面可按原图、16:9、4:3 分开下，图文笔记整组图片可选，登录用独立 profile 不影响日常浏览器。"
+      "current": "vision",
+      "desc_now": "OMK helps people and agents build, maintain, and reuse valuable knowledge from real work and collaboration, with readable content, traceable sources, and revision history for future tasks.",
+      "desc_prev": "OMK — Evidence-backed evaluation and observability for prompts, RAG, skills, agents, and workflows. Native Codex, Claude Code, and DeepSeek Harness support."
     },
     {
-      "full_name": "junarch/voice_for_dsh",
-      "previous": "document",
+      "full_name": "TYEclipse/dsh-color",
+      "previous": "coding",
+      "current": "vision",
+      "desc_now": "Color toolbox for DeepSeek Harness (dsh): parse/convert any CSS color, WCAG contrast plus the nearest passing color, named-color lookup, palettes, blending, CIEDE2000 difference, Oklab ramps and color-vision-deficiency simulation - zero runtime deps, pure math",
+      "desc_prev": "Color toolbox for DeepSeek Harness (dsh): parse/convert any CSS color (hex, rgb, hsl, hwb, named), WCAG contrast ratios with AA/AAA verdicts, nearest passing color for a contrast target, named-color lookup, harmonious palettes (7 types), color adjustments and alpha/premultiplied blending — zero runtime dependencies, pure math"
+    },
+    {
+      "full_name": "qwh15622336051/dsh-prompt-optimizer",
+      "previous": "conversation",
       "current": "tool",
-      "desc_now": "DSH 朗读插件：每轮回答先改写成口语稿再朗读；系统语音／豆包／本地 Kokoro 三引擎，本地离线、内容不出本机。Read-aloud plugin for DeepSeek Harness: browser TTS, Doubao, or an optional local Kokoro model.",
-      "desc_prev": "DSH Web 语音朗读插件：每轮输出口语化转写后朗读（代码/表格自动跳过）；免费浏览器 TTS + 可选豆包云 TTS。Read-aloud plugin for DeepSeek Harness web."
-    },
-    {
-      "full_name": "2927683690myn-rgb/dsh-file-index",
-      "previous": "document",
-      "current": "memory",
-      "desc_now": "对话页顶部的「文件」标签：汇总所有对话里出现过的文件，MD / 其他分组；docx 与 md 直接网页阅读，带划线、笔记与阅读进度",
-      "desc_prev": "DSH 插件：侧边栏「文件」页，汇总所有会话出现过的文件，Word / 其他两个标签；docx 与 md 点开即读，带阅读进度、断点续读和「已读完」标记"
+      "desc_now": "Prompt optimizer for the DeepSeek Harness composer: rewrite a plain-language draft into a precise prompt, using any model you have already configured.",
+      "desc_prev": "Prompt optimizer and message retract/edit for the DeepSeek Harness composer"
     }
   ]
 }
