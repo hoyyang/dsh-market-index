@@ -1,27 +1,48 @@
 {
-  "generated_at": "2026-10-28T23:46:59.047Z",
-  "count": 3,
+  "generated_at": "2026-10-29T09:55:51.227Z",
+  "count": 6,
   "items": [
     {
-      "full_name": "lizhiyao/oh-my-knowledge",
+      "full_name": "Vncntvx/dsh-zotero",
       "previous": "memory",
-      "current": "vision",
-      "desc_now": "OMK helps people and agents build, maintain, and reuse valuable knowledge from real work and collaboration, with readable content, traceable sources, and revision history for future tasks.",
-      "desc_prev": "OMK — Evidence-backed evaluation and observability for prompts, RAG, skills, agents, and workflows. Native Codex, Claude Code, and DeepSeek Harness support."
+      "current": "web-ui",
+      "desc_now": "Zotero plugin for DeepSeek Harness: search and read papers in conversation, audit the literature trail, and browse the literature panel.",
+      "desc_prev": "Zotero plugin for DeepSeek Harness: search papers, read full-text PDFs and notes, extract relevant passages, and inspect sources in the conversation tab."
     },
     {
-      "full_name": "TYEclipse/dsh-color",
-      "previous": "coding",
-      "current": "vision",
-      "desc_now": "Color toolbox for DeepSeek Harness (dsh): parse/convert any CSS color, WCAG contrast plus the nearest passing color, named-color lookup, palettes, blending, CIEDE2000 difference, Oklab ramps and color-vision-deficiency simulation - zero runtime deps, pure math",
-      "desc_prev": "Color toolbox for DeepSeek Harness (dsh): parse/convert any CSS color (hex, rgb, hsl, hwb, named), WCAG contrast ratios with AA/AAA verdicts, nearest passing color for a contrast target, named-color lookup, harmonious palettes (7 types), color adjustments and alpha/premultiplied blending — zero runtime dependencies, pure math"
-    },
-    {
-      "full_name": "qwh15622336051/dsh-prompt-optimizer",
-      "previous": "conversation",
+      "full_name": "Octo-o-o-o/chatgpt-pro-research",
+      "previous": "web-ui",
       "current": "tool",
-      "desc_now": "Prompt optimizer for the DeepSeek Harness composer: rewrite a plain-language draft into a precise prompt, using any model you have already configured.",
-      "desc_prev": "Prompt optimizer and message retract/edit for the DeepSeek Harness composer"
+      "desc_now": "DSH 插件：可恢复的 ChatGPT Pro 多轮网页调研、逐条判据裁决与本地报告。Resumable research with local delivery.",
+      "desc_prev": "DeepSeek Harness 插件：用 ChatGPT Pro 网页会话做无人值守多轮调研，记录与产物落盘，侧边栏管理主题。"
+    },
+    {
+      "full_name": "Wanyi424/dsh-performance",
+      "previous": "web-ui",
+      "current": "coding",
+      "desc_now": "小而美？看清 DSH 的 CPU、内存与卡顿：按插件、终端、MCP 拆分占用，对照卡顿时刻，复制诊断报告。仅限 Windows x64。",
+      "desc_prev": "查看 DSH 的 CPU、内存和界面响应，分析进程占用与后台插件采样数据，并复制诊断报告。支持 Windows x64。"
+    },
+    {
+      "full_name": "xiao-hans/dsh-session-auto-archive",
+      "previous": "conversation",
+      "current": "web-ui",
+      "desc_now": "DeepSeek Harness（DSH）插件：按闲置天数自动归档会话，补齐 DSH 只有手动 Archive 的缺口；回到会话自动取消归档，配合「按最近活跃」排序让老会话回到顶部。支持演练模式、置顶保护、排除清单、跟随主题的折叠设置卡片、归档历史与逐条撤销，归档走原生状态，不删任何数据。",
+      "desc_prev": "DeepSeek Harness（DSH）插件：按闲置天数自动归档会话，补齐 DSH 只有手动 Archive 的缺口。支持演练模式、置顶保护、排除清单、审计日志与逐条撤销，归档走原生状态，不删任何数据。A DSH plugin that auto-archives idle sessions after a configurable number of days — dry-run mode, pinned-session protection, exclusion list, audit log and per-item undo, using DSH native archive state."
+    },
+    {
+      "full_name": "Wanyi424/dsh-quick-translate",
+      "previous": "resource",
+      "current": "conversation",
+      "desc_now": "不离开 DSH 就能中英互译：复用已配置的模型，免填 API Key；译文边生成边显示，提示词可自定义，历史自动存在本地，可随时回看重译。",
+      "desc_prev": "DeepSeek Harness 快捷翻译插件：模型选择、流式翻译、自定义提示词、本地历史与目录迁移。"
+    },
+    {
+      "full_name": "milkly909-code/dsh-plugin-starlight-protocol",
+      "previous": "coding",
+      "current": "web-ui",
+      "desc_now": "DeepSeek Harness 外观套件：深空动态天体背景、赛博朋克 2077 HUD 主题、开机认证序列，以及无边框窗口下的侧栏折叠按钮修复",
+      "desc_prev": "星轨协议 2077 (Starlight Protocol) — DeepSeek Harness 旗舰级综合外观系统：集成冷启动认证序列、赛博朋克 2077 HUD 终端主题、深空全景天体引擎与左上角战术侧边栏折叠总控"
     }
   ]
 }
