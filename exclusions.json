@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-29T22:03:09.653Z",
-  "count": 2312,
+  "generated_at": "2026-10-30T01:49:48.897Z",
+  "count": 2335,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -18,6 +18,10 @@
     "0xsline/awesome-deepseek-harness": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a curated plugin list/directory."
+    },
+    "123caiji/awesome-agent-security": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an auto-refreshed awesome-list/directory site."
     },
     "1317209322/calorie-deficit-tracker": {
       "kind": "excluded",
@@ -1027,6 +1031,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone Rust spatiotemporal-composability library with its own agent harness that merely mirrors DSH's plugin form; excluded from the catalog."
     },
+    "cute-gugu/dsh-purge": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — dsh-purge family jailbreak kit (self-described 破甲 plugin, 80 host patches, merged dsh-unrestricted); follows YuJunZhiXue/dsh-purge exclusion."
+    },
     "cwhite0407/dsh-permission-rules": {
       "kind": "excluded",
       "reason": "Repost/clone of PerryLink/dsh-permission-rules"
@@ -1458,6 +1466,10 @@
     "FilippoSmirnov88486/opencode2dsh": {
       "kind": "excluded",
       "reason": "Repost/clone of FishBottle7/opencode2dsh"
+    },
+    "Fioraen/My-code-warehouse": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a personal code dump."
     },
     "Fish121380/auto-mouse": {
       "kind": "excluded",
@@ -2775,6 +2787,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic multi-agent profiling tool, already excluded) under a throwaway account; repost-network copy."
     },
+    "ltmroberthk915/markpilot": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an AI-native Markdown editor for Windows shipped with VS Code/Trae extensions; no DSH install path."
+    },
     "LucaHoward64253/flameox": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a same-day repost of morluto/flameox (a generic multi-agent profiling tool, already excluded) under a throwaway account; repost-network copy."
@@ -3311,6 +3327,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a HanaAgent (OpenHanako) app that embeds DSH as a managed subagent executor; installed via Hana’s app mechanism, not dsh plugin."
     },
+    "oceanbase/powercontext": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — OceanBase's agent-memory product for Claude Code & Codex; no DSH install path; dsh-plugin topic re-added after the earlier topic switch (removed once on 2026-10-29)."
+    },
     "octoparse/agent-skills": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — Octoparse scraping skills."
@@ -3595,6 +3615,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — an agent OS / MCP server aimed at 13 runtimes (Claude Code, Codex, Gemini CLI, …); DSH is one of many."
     },
+    "qianlai-ai/dsh-qianlai": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — empty placeholder repository (announced finance-assistant plugin, source not yet published)."
+    },
     "qingmingyiyang/Incremind": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone cognitive-memory web app (Python backend + local web UI, Electron shell in preparation) that calls DeepSeek-compatible APIs; no dsh install path."
@@ -3703,6 +3727,34 @@
       "kind": "excluded",
       "reason": "Generic graph-based memory engine for any agent; not DSH-specific."
     },
+    "Rexray117/De-AI-Writing-Skill": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — SKILL.md-only package installed by manual clone into ~/.dsh/skills (multi-host Codex/WorkBuddy/Claude Code); no DSH bundle manifest; follows P3NN4L/Tribot precedent."
+    },
+    "Rexray117/Local-Docs-Workbench-Skill": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — SKILL.md-only package installed by manual clone into ~/.dsh/skills (multi-host Codex/WorkBuddy/Claude Code); no DSH bundle manifest; follows P3NN4L/Tribot precedent."
+    },
+    "Rexray117/MarketSpider-Agent-Skill": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — SKILL.md-only package installed by manual clone into ~/.dsh/skills (multi-host Codex/WorkBuddy/Claude Code); no DSH bundle manifest; follows P3NN4L/Tribot precedent."
+    },
+    "Rexray117/PDF-OCR-Toolkit-Skill": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — SKILL.md-only package installed by manual clone into ~/.dsh/skills (multi-host Codex/WorkBuddy/Claude Code); no DSH bundle manifest; follows P3NN4L/Tribot precedent."
+    },
+    "Rexray117/PRD-Craft-Skill": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — SKILL.md-only package installed by manual clone into ~/.dsh/skills (multi-host Codex/WorkBuddy/Claude Code); no DSH bundle manifest; follows P3NN4L/Tribot precedent."
+    },
+    "Rexray117/Reverse-Engineer-Skill": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — SKILL.md-only package installed by manual clone into ~/.dsh/skills (multi-host Codex/WorkBuddy/Claude Code); no DSH bundle manifest; follows P3NN4L/Tribot precedent."
+    },
+    "Rexray117/UIDesign-Skill": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — SKILL.md-only package installed by manual clone into ~/.dsh/skills (multi-host Codex/WorkBuddy/Claude Code); no DSH bundle manifest; follows P3NN4L/Tribot precedent."
+    },
     "RGarvel/dsh-channel-spec": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — an RFC/spec document repository for session-channel classification; the reference implementation lives in RGarvel/dsh-channel-view."
@@ -3787,6 +3839,10 @@
       "kind": "excluded",
       "reason": "Same-day repost of FishBottle7/opencode2dsh under a throwaway account (2026-10-14 repost wave); duplicate of the already-listed original, not an independent project."
     },
+    "ROY32172310/qa": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — ego-webqa, a generic PyPI/CLI delivery-QA tool for web pages; no DSH install path."
+    },
     "royenheart/dsh-migrate-bot": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a GitHub Action that migrates plugins across dsh releases."
@@ -3806,6 +3862,10 @@
     "runzhliu/deepseek-harness-docker": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — deployment packaging (Docker/K8s/ops tooling)"
+    },
+    "russeell/job-search": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a multi-host agent skill (Claude Code/Codex/DSH) installed by cloning into skills directories; no DSH bundle manifest or dsh plugin install path."
     },
     "Russo843/opencode2dsh": {
       "kind": "excluded",
@@ -4471,6 +4531,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone zero-dependency PowerShell WeChat-automation script."
     },
+    "ThomasTZh/dsh-setup": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a personal machine-configuration snapshot (profiles, presets, plugin pins); not a distributable plugin."
+    },
     "Thu0273/flameox": {
       "kind": "excluded",
       "reason": "Repost/clone of morluto/flameox"
@@ -4478,6 +4542,10 @@
     "tianmingwangluo/xiaoliuren-skill": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a divination skill for Cursor/Claude Code/OpenClaw etc."
+    },
+    "tianye1999/dsb": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an Android AI-agent app built on DSH (installed as an APK); no DSH install path."
     },
     "TianzeLuo/dsh-plugins": {
       "kind": "excluded",
@@ -5015,6 +5083,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — an interactive web visualization (ecosystem network map) of dsh-tagged GitHub repositories, a directory-style site."
     },
+    "wufeng0105/dsh-enhance": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a prompt-injection (破甲) preset suppressing host-model refusals; same author as the excluded dsh-purge-desktop; follows codesensi/dsh-free-mode precedent."
+    },
     "wula1223/dsh-plugin-dev": {
       "kind": "excluded",
       "reason": "Not a DSH plugin: a plugin/hook/skill development playbook and reusable development instructions."
@@ -5138,6 +5210,10 @@
     "xieani090612/dsh-session-hud": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone WinUI 3 floating-window companion app that watches DSH sessions from outside the harness."
+    },
+    "xiebaiyuan/DogCatTrace": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a statistics write-up (random-breed attribution experiment); no DSH install path."
     },
     "xing-shuyin/pi-web-ui": {
       "kind": "excluded",
@@ -5895,6 +5971,10 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "AshenJyy/browser-bridge": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: dual-host distribution — a DSH native plugin and an Antigravity App MCP adapter share one Edge bridge; DSH is one of two host surfaces. Stays in the catalog."
+    },
     "ashuai/dsh-ui-wrapper": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -6022,6 +6102,10 @@
     "btsd321/dsh-remote-explorer": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a remote-development launcher app (installs dsh on a remote host and renders the UI locally), not an installable DSH plugin. Stays in the catalog."
+    },
+    "bugtakue/dsh-ronge-adaptive-skill-archive": {
+      "kind": "market",
+      "reason": "A skill mall with a public skill index and skill-installer tools — the market cannot include another market; stays in the catalog, excluded from the downstream market."
     },
     "CaT-Hode/DSH-app": {
       "kind": "leaderboard",
@@ -7543,6 +7627,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a generated plugin-manifest registry; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "onblog/dsh-ready": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop launcher/installer window for DSH (install, run, upgrade), not an installable DSH plugin. Stays in the catalog."
+    },
     "Onenightcarnival/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -7787,6 +7875,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "rukazax/dsh-mobile": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: an Android/foldable remote-control client suite for DSH (PWA + WebView APK; the phone client is the main deliverable, plugin included). Stays in the catalog."
+    },
     "Ruler4396/dsh-launcher": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog, kept off the star board and the downstream market."
@@ -7858,6 +7950,10 @@
     "shendeguize/Remote_DSH_Center": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone local/remote instance manager (CLI + hub); stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "shutongX/dsh-pocket-switch": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote-access form — phone-side one-tap switching between DSH hosts over LAN/cloudflare tunnels (follows dsh-device-link precedent); optional Android shell app. Stays in the catalog."
     },
     "shwili/dsh-plugin-market-zh": {
       "kind": "market",
@@ -7990,10 +8086,6 @@
     "sulfide2085/dsh-skill-manager": {
       "kind": "market",
       "reason": "A skill manager with a built-in GitHub skill market — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "summer-521/deepseek-harness-desktop": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
     },
     "summer-521/deepseek-harness-swift": {
       "kind": "market",
@@ -8491,6 +8583,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "YML0823/dsh-local-market": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
     "YottaMeta/deepseek-harness": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a desktop shell/launcher/client (Tauri packaging of dsh web), not an installable DSH plugin. Stays in the catalog."
@@ -8830,10 +8926,6 @@
     "Muciya953/Muciya-DSH-macos-suite": {
       "kind": "market",
       "reason": "A plugin suite including a fork of the official plugin manager with its plugin-market panel — the market cannot include another market; stays in the catalog, excluded from the downstream market."
-    },
-    "bugtakue/ronge-adaptive-skill-archive": {
-      "kind": "market",
-      "reason": "A skill mall with a public skill index and skill-installer tools — the market cannot include another market; stays in the catalog, excluded from the downstream market."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",

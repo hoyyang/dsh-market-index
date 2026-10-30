@@ -1,48 +1,13 @@
 {
-  "generated_at": "2026-10-29T22:03:07.030Z",
-  "count": 6,
+  "generated_at": "2026-10-30T01:49:46.703Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "edison7009/EchoBird",
+      "full_name": "ppy-web/dsh-plugin-xiaomi-mimo-tts",
       "previous": "tool",
-      "current": "coding",
-      "desc_now": "All-in-one AI desktop app: one-click install for Claude Code, Codex CLI, DeepSeek and more, manage AI accounts and quotas, smart model routing with auto-failover, voice input, and run local LLMs. Bonus: a Token Pet that grows as you use AI.",
-      "desc_prev": "Manage ChatGPT, Codex CLI, and Claude Code accounts and track quota in one place. Use multi-model smart routing with priority and automatic failover. Install AI tools and deploy local LLMs in one click."
-    },
-    {
-      "full_name": "Alice39s/agent-stash",
-      "previous": "coding",
-      "current": "memory",
-      "desc_now": "Personal Agent Skills and DeepSeek Harness (DSH) plugins: message edit, Skill Scout, prompt recall, autosuggest and enhance, plus a DSH plugin index. /init for Pi, DSH, Cline, Grok Build, goose and Aider, with presets from Claude Code, Codex, OpenCode, Crush, Qwen Code, Kilo Code, Kimi Code and Copilot CLI.",
-      "desc_prev": "Personal Agent Skills & Plugin Packs with Pi / DSH (DeepSeek Harness) / Grok Build / goose / Aider / Kimi Code CLI / Codex / Claude Code / OpenCode / Crush / Qwen Code / Kilo Code / GitHub Copilot CLI"
-    },
-    {
-      "full_name": "Eileenes/dsh-reel",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "DSH 插件宣传素材的本地 Remotion 原型：生成横屏视频、封面和竖版宣传图。内置 Better Sidebar 示例；适配其他插件需修改模板，宿主接入待验证。",
-      "desc_prev": "dsh-reel-studio: turn a DSH plugin repo into a promo video and promo image (local Remotion studio + host tools)."
-    },
-    {
-      "full_name": "GeXiubinHelloWorld/dsh-qq-sounds",
-      "previous": "tool",
-      "current": "notify",
-      "desc_now": "QQ message sound when DSH finishes a task, QQ system tone when it needs your approval. Reads your local QQ sound files; works without QQ.",
-      "desc_prev": "QQ message sound when DSH finishes a task, QQ system tone when it needs your approval. Reads your local QQ sound files; works without QQ."
-    },
-    {
-      "full_name": "jeskoky-pixel/amadeus-qq",
-      "previous": "other",
-      "current": "conversation",
-      "desc_now": "QQ scenes and continuous chat for DeepSeek Harness through NapCat",
-      "desc_prev": "Amadeus QQ 插件：通过外部 NapCat 接入 QQ，提供连续交流、媒体与主动发言能力。"
-    },
-    {
-      "full_name": "jeskoky-pixel/amadeus-life",
-      "previous": "other",
-      "current": "agent",
-      "desc_now": "Workspace activities, intents and autonomous wake scheduling for DeepSeek Harness",
-      "desc_prev": "Amadeus Life 插件：跨场景注意力、活动管理、可调整的未来意图与统一预算协调。"
+      "current": "other",
+      "desc_now": "给DSH接入 Xiaomi MiMo TTS 和 豆包语音，自动朗读正文",
+      "desc_prev": "给DSH接入免费的 Xiaomi MiMo TTS API，支持使用预置/自定义/浏览器内置声音朗读正文"
     }
   ]
 }
