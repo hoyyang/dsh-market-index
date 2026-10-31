@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-31T05:23:48.176Z",
-  "count": 2362,
+  "generated_at": "2026-10-31T16:26:05.946Z",
+  "count": 2363,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -8870,6 +8870,10 @@
     "yixiuzhemu/Skills-Manager": {
       "kind": "market",
       "reason": "A skills manager with built-in skill-repository browsing/install — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "yjh051108/dsh-routing-suite": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: stars accrued as a mid-August star-farm burst (created 2026-08-14, ~6.7k stars in 9 days at ~740/day — far beyond any organic DSH-plugin growth), 208 of them clawed back by GitHub in one day on 09-26; repo unmaintained since 09-18, targets obsolete DSH >=0.1.0-rc.6 <0.2.0, and open issues report install failures on current 0.2.x with zero response — popularity not from the DSH plugin itself. Stays in the catalog."
     },
     "ylw-a/dsh-desktop": {
       "kind": "market",
