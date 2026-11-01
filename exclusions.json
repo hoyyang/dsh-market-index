@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-31T23:54:57.029Z",
-  "count": 2363,
+  "generated_at": "2026-11-01T05:14:55.437Z",
+  "count": 2395,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -2539,6 +2539,14 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin: standalone conversation-history migration scripts and portable skill instructions, with an optional model configuration snippet."
     },
+    "azure5100/huahua-helmd": {
+      "kind": "excluded",
+      "reason": "A red-team persona preset bundle (security knowledge base with executable payload references, no-hesitation operator persona); companion to the excluded huahua-purge jailbreak engine; kept out of the catalog on safety grounds; follows codesensi/dsh-free-mode precedent."
+    },
+    "azure5100/huahua-purge": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — dsh-purge family derivative (self-described jailbreak engine: strips host identity/persona prefix, hook deny-bypass, red-team drill bench); kept out of the catalog on safety grounds; follows YuJunZhiXue/dsh-purge exclusion."
+    },
     "bachkoo102/rapid-mlx-dsh-provider": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a same-day repost of raullenchai/rapid-mlx-dsh-provider (the already-listed original) under a throwaway account; repost-network copy."
@@ -3027,6 +3035,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a self-hostable zero-knowledge WebSocket relay server of the DSH Remote Control suite; infrastructure, not a plugin."
     },
+    "dshapp/dsh-proxy": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Rust relay server binary (self-hosted tunnel backend for mobile remote access); no plugin manifest or install path."
+    },
     "dshplugin-app/deepseek-harness-plugins": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -3330,6 +3342,10 @@
     "hatsuyuki0103/ptrade": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone offline A-share trading simulator (akshare data, CANSLIM scoring, single-file K-line charts); no dsh install path."
+    },
+    "hayou2002/dsh-vibecoding": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a SKILL.md-only multi-host skill (generic npx skills add / clone installer); no DSH bundle manifest; follows retro-music-toolkit precedent."
     },
     "hcho43/opencode2dsh": {
       "kind": "excluded",
@@ -3783,6 +3799,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — an authoring guide/handbook with reference links, not an installable plugin."
     },
+    "kizaki-R/Antigravity-Next-for-DSH": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty repository (no files); placeholder only; follows empty-placeholder precedent."
+    },
     "kobenfang/Eyes": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — an OpenClaw/ClawHub skill (clawhub install eyes) for global news monitoring with no DeepSeek Harness integration; rides the dsh-plugin topic; excluded from the catalog."
@@ -3986,6 +4006,10 @@
     "louisecxqiu-glitch/html-doc-center": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone HTML editor/workbench (Python app + Claude Code plugin) with no DSH integration, riding the topic; excluded from the catalog."
+    },
+    "louxi9/luoxi-plugin-dsh": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a Node bridge script for the Luoxi chat host driving dsh acp from outside; no DSH manifest or install path."
     },
     "lovaxi/Rubato_Device": {
       "kind": "excluded",
@@ -4335,6 +4359,10 @@
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — documentation/tutorial"
     },
+    "omdsh-dev/dsh-vscode": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a VS Code extension (published on the VS Code Marketplace); editor-extension form."
+    },
     "onur5410/deepseek-harness-mobile": {
       "kind": "excluded",
       "reason": "Repost/clone of sorsama/deepseek-harness-mobile"
@@ -4478,6 +4506,10 @@
     "pulseaiclub/phi": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone coding agent."
+    },
+    "qianbkk/aardio-windows-mcp": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone multi-client MCP bridge service (Claude/DSH/Cursor generic, rpc-server.exe); no DSH install path."
     },
     "qianlai-ai/dsh-qianlai": {
       "kind": "excluded",
@@ -5315,6 +5347,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — generic creative skills for any Agent-Skills-compatible runtime."
     },
+    "westanke/dsh-companion": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an Android native client app (fork of Hakunm/dsh-android-app) connecting via endpoint+token; no install path; follows dsh-Go precedent."
+    },
     "wgd753/awesome-dsh-plugin": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a curated plugin list/directory."
@@ -5507,6 +5543,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone quantum-agent workspace product built on the DSH runtime."
     },
+    "xiangshu2026/dsh-float": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an Android floating-window APK framing the DSH mobile page (adb reverse tunnel); no manifest, no dsh plugin install path; follows dsh-Go precedent."
+    },
     "xiaobai123name/dsh-web-search-guide": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a setup guide that installs a third-party plugin and hand-edits cordis.patch.yml; the repo itself ships no installable plugin."
@@ -5614,6 +5654,10 @@
     "yejiming/MuseAI": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a standalone AI roleplay/story app; its actual DSH plugin lives in yejiming/dsh-museai-tavern."
+    },
+    "yexi-by/dsh-unrestricted": {
+      "kind": "excluded",
+      "reason": "A prompt-injection (armor-breaking) plugin that suppresses the host model's refusals; kept out of the catalog on safety grounds; follows codesensi/dsh-free-mode precedent."
     },
     "yingchaoyi/dsh-plugins": {
       "kind": "excluded",
@@ -5823,6 +5867,10 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic MCP memory server for coding agents."
     },
+    "01men/kizuna": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a self-hosted agent relay/delivery network (hub+box+web console, Docker/Caddy); the DSH plugin is its console panel — dual-host distribution. Stays in the catalog."
+    },
     "0231071/dsh-mobile-remote": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: phone QR remote-control of the DSH desktop client (LAN/tunnel) — a remote-access client form. Stays in the catalog."
@@ -5834,6 +5882,10 @@
     "0xKcyzz/dsh-plugin-store": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "0xyxy/codex-collab": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: dual-host distribution — a standalone PowerShell Codex toolset that also runs outside DSH (skills-dir clone optional). Stays in the catalog."
     },
     "1162514620/plugin-center": {
       "kind": "market",
@@ -5967,6 +6019,10 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a desktop shell (enhanced fork of dsh-clean-desktop-shell) wrapping the web profile in a native window. Stays in the catalog."
     },
+    "AlaxonYegar/dsh-desktop-pet": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a standalone desktop pet app — the plugin half only spawns the Electron app and unrefs; it keeps running without DSH. Stays in the catalog."
+    },
     "AlexYin-Tongji/dsh-plugin-console": {
       "kind": "market",
       "reason": "A DSH plugin store / manager with install-update-remove flows and catalog sync — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -6034,6 +6090,10 @@
     "BISTU-guheihei/DSH-SessionManager": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone GUI session-manager tool for local ~/.dsh files; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Bai-2008/dsh-mcp-center": {
+      "kind": "market",
+      "reason": "An MCP server market / registry site (Git-backed Astro static site on GitHub Pages) — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
     },
     "BeatAPI/beatapi-agent-plugin": {
       "kind": "leaderboard",
@@ -6111,6 +6171,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog, kept off the star board and the downstream market."
     },
+    "Darianliu23/dsh-stardew-blind-whale-farmer": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: dual-host distribution — the SMAPI mod runs standalone with an API key (direct DeepSeek API); the DSH plugin is the other half. Stays in the catalog."
+    },
     "Devin-AXIS/jev-dsh-decision": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: stars accrued as a cross-ecosystem topic-farm (20 topics spanning codex / opencode / apollo / ipollowork / dsh harnesses) — 111★ in three days on a repo with no commits after its creation day, not from the DSH plugin audience. Stays in the catalog."
@@ -6134,6 +6198,10 @@
     "DolphinMiner/deepseek-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Doya16/dsh-shorekeeper": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a standalone desktop pet program — after install you still download and launch the full standalone app; the plugin only boots it. Stays in the catalog."
     },
     "DshMarketPlace/dsh-plugins-store": {
       "kind": "market",
@@ -6183,6 +6251,10 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: stars accrued as giveaway of free unlimited frontier-model access via OpenCode Zen's public key-free gateway — the draw is the free models, not the DSH plugin itself; stays in the catalog."
     },
+    "EcRal5t/everything-search-mcp": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: dual-host distribution — the repo root is a generic npx everything-mcp-server for Cursor/Claude/Codex; the DSH plugin lives in a subdirectory. Stays in the catalog."
+    },
     "Elio896/dsh-familiar-memory": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: stars accrued as machine-pattern bursts (9 WatchEvents in 3 minutes; 82 stars / 0 forks in 3 days) — popularity not from the DSH plugin itself. Stays in the catalog."
@@ -6206,6 +6278,10 @@
     "Evan1u/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Evil-Wideplain/kanbanniang": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a standalone Tauri 2 Live2D desktop pet app; the DSH plugin launches it and mounts mcp__kanbanniang__* tools. Stays in the catalog."
     },
     "FALda-da/ds-desktop-launcher": {
       "kind": "market",
@@ -6546,6 +6622,10 @@
     "Lumonote/lumo-harness": {
       "kind": "market",
       "reason": "A DeepSeek Harness desktop/server distribution with a built-in plugin/skill market — the market cannot include another market; stays in the catalog, excluded from the leaderboard and the downstream market."
+    },
+    "Lumos-789/delivery-video-plugin": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: dual-host distribution — ships as both a ZCode plugin and a DSH skill plugin. Stays in the catalog."
     },
     "LvienOeria/dsh-desktop-launcher": {
       "kind": "market",
@@ -7003,6 +7083,10 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store (a plugin-directory website) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "Wcof/PlugBox": {
+      "kind": "market",
+      "reason": "A universal plugin center & index source publishing a subscribable market/index.json with a browse-install-update UI — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
+    },
     "WhaleHarness/WhaleHarness": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -7110,6 +7194,10 @@
     "aerovato/operator-memory": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: stars accrued as promotion of a generic multi-harness context engine (Claude Code / Codex / OpenCode / Pi among its targets), not from the DSH plugin itself — the repo does ship a genuine dsh plugin (packages/deepseek, @aerovato/operator-deepseek). Stays in the catalog."
+    },
+    "afeack/dsh-mobile-harness": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/mobile client form — scan-a-QR browser access to the PC's DSH (Tailscale/SakuraFrp/Cloudflare/LAN) with an optional Android APK. Stays in the catalog."
     },
     "agentic-os-org/ANOLISA": {
       "kind": "leaderboard",
@@ -7599,6 +7687,10 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, excluded from the leaderboard and downstream market."
     },
+    "fysh1010/mcp-server-fanqie": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: dual-host distribution (generic fanqie-novel MCP server + standalone skill + DSH plugin subpackage); stars accrued as the generic MCP server, not the plugin. Stays in the catalog."
+    },
     "geminiai19811-jpg/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -7634,6 +7726,10 @@
     "gustavofullstack/harness-mac": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
+    },
+    "gx18391303625-afk/xander-zaozao-xiaban": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: dual-host distribution — the same repo ships Claude Code marketplace, Codex plugin and DSH Desktop plugin builds. Stays in the catalog."
     },
     "gzsxy/dsh-plugin-skills-manager": {
       "kind": "market",
@@ -7726,6 +7822,10 @@
     "hskelp9527-pixel/dsh-plugin-market": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "huaguoxingkong/dsh-prompt-rewriter": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: stars accrued as a machine burst (58 WatchEvents in one hour at 04:00 UTC, 50% overnight, 203 stars / 1 fork in 2 days) — popularity not from the plugin itself. Stays in the catalog."
     },
     "huantian1223/dsh_desktop": {
       "kind": "market",
@@ -7951,6 +8051,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop client; stays in the catalog, kept off the star board and the downstream market."
     },
+    "lengrufeng2008/dsh-token-audit": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: dual-host distribution — primarily an npx CLI (npx dsh-token-audit); the same package doubles as a DSH bundle. Stays in the catalog."
+    },
     "leolee9086/dsh-bazaar": {
       "kind": "market",
       "reason": "A plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
@@ -7971,6 +8075,10 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a Windows terminal & SSH client (TUI + embedded Web UI) that hosts and launches DSH agents, not an installable DSH plugin. Stays in the catalog."
     },
+    "liaoguogang-hub/dsh-remote-public": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/mobile client form — a native Android app remote-controlling the PC's DSH (LAN/ngrok tunnel) with a desktop bridge plugin. Stays in the catalog."
+    },
     "liguobao/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -7990,6 +8098,10 @@
     "linhut/dsh-manager": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop management tool/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "lishicheng2054/dsh-flavor-memory": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: dual-host distribution — DSH plugin plus an OpenAI-compatible gateway/Studio usable by non-DSH clients. Stays in the catalog."
     },
     "liustack/summono": {
       "kind": "market",
@@ -8118,6 +8230,10 @@
     "mrbbbaixue/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "msz-legend/dsh-mobile-bridge": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/mobile client form — phone browsers reach DSH Desktop via scan-pairing over Cloudflare/Tailscale/LAN tunnels. Stays in the catalog."
     },
     "mwbimh/dsh-atelier": {
       "kind": "market",
@@ -8363,6 +8479,10 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: an Android/foldable remote-control client suite for DSH (PWA + WebView APK; the phone client is the main deliverable, plugin included). Stays in the catalog."
     },
+    "rumpen233/dsh-lion-pet": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: dual-host distribution — the lion pet also ships as a standalone Chrome/Edge MV3 extension for any webpage. Stays in the catalog."
+    },
     "ryjgb13500-a11y/dsh-desktop-pet": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — an Electron desktop pet app; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -8430,6 +8550,10 @@
     "sliverp/dsh-hub-plugin": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "smallhug/tkless": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: dual-host distribution — a generic Rust web-extraction/MCP tool (cargo/Releases) whose repo root is also a DSH bundle. Stays in the catalog."
     },
     "smanx/dsh-desktop": {
       "kind": "market",
@@ -8694,6 +8818,10 @@
     "wjk-dot/dsh-desktop-pet": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop companion app; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "wlfzsd/dsh-lan-gateway": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote-access gateway form — a LAN reverse proxy letting phones/tablets/other machines use the DSH Web UI. Stays in the catalog."
     },
     "wormggmm/dsh-booster": {
       "kind": "market",
