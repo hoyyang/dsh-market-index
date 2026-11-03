@@ -1,20 +1,41 @@
 {
-  "generated_at": "2026-11-03T01:32:20.085Z",
-  "count": 2,
+  "generated_at": "2026-11-03T08:51:25.110Z",
+  "count": 5,
   "items": [
     {
-      "full_name": "akaydesu/dsh-language",
-      "previous": "other",
-      "current": "web-ui",
-      "desc_now": "Community Turkish language pack for DeepSeek Harness. Turkish and English documentation, illustrated setup guides, and 2,909 UI strings.",
-      "desc_prev": "Turkish (Türkçe) language pack for the DeepSeek Harness web GUI — 64 namespaces / 2,909 strings, seeded from DSH 0.2.1-rc.5. DSH plugin bundle; zero dependencies; Apache-2.0."
+      "full_name": "tasuma-qwq/baifanyu-ofm-bridge",
+      "previous": "document",
+      "current": "other",
+      "desc_now": "DSH Web / qq-bridge 的 OFM 接入：默认 DeepSeek 免费池，保留思考档位与手动选模，支持自有账号和轮换回执。",
+      "desc_prev": "白饭鱼的 Our Free Model 接入核心：渠道主备、额度冷却、任务档位、阶段计时与安全重试，附离线演示"
     },
     {
-      "full_name": "HaroldZ32/My-Power-Dsh",
-      "previous": "tool",
+      "full_name": "xiseliuli/dsh-as-mcp",
+      "previous": "other",
+      "current": "coding",
+      "desc_now": "Expose a running DeepSeek Harness as an MCP server, so Claude Code, Codex or any MCP client can drive its workspaces, sessions, files, shell and agent tools, and read token usage and cost receipts.",
+      "desc_prev": "dsh-as-mcp"
+    },
+    {
+      "full_name": "shendao325/dsh-freebridge",
+      "previous": "model",
+      "current": "tool",
+      "desc_now": "DSH 一体化插件：匿名免费模型桥接 + Token 用量统计 + 按需网络分流 + 桌面操作编排 + 操作边界守门 + 插件级故障隔离，装完即用",
+      "desc_prev": "DSH 插件：免账号、免 API Key 接入匿名免费 LLM 上游（Kilo Gateway / OVHcloud），装好即出现在模型选择器"
+    },
+    {
+      "full_name": "PerryLink/dsh-plugin-spec",
+      "previous": "memory",
+      "current": "tool",
+      "desc_now": "Low-level DSH plugin rule text and clause source. Execution checks live in dsh-standards; the prose guide is dsh-plugin-guide.",
+      "desc_prev": "DSH plugin standards and practice draft (non-official): ENTRY / FLOW / BOOST, checklists and research notes."
+    },
+    {
+      "full_name": "lecheng2018/dsh-qq-hub",
+      "previous": "vision",
       "current": "memory",
-      "desc_now": "A DeepSeek Harness plugin bundle: the specialist roster, team plane, workmates, memory, verification, and a native dsh-Go interface.",
-      "desc_prev": "Just another Deepseek Harness agent tool"
+      "desc_now": "把 QQ 接入 DeepSeek Harness：经 SnowLuma / OneBot v11 接私聊与群聊，支持按会话隔离的记忆、多平台链接解析与网页管理面板。",
+      "desc_prev": "DSH (DeepSeek Harness) 旗舰级 QQ Hub 终端与多模态智能伙伴插件"
     }
   ]
 }
