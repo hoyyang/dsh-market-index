@@ -1,55 +1,62 @@
 {
-  "generated_at": "2026-11-03T12:52:27.459Z",
-  "count": 7,
+  "generated_at": "2026-11-03T16:52:53.200Z",
+  "count": 8,
   "items": [
     {
-      "full_name": "SISCHOI/daruma",
-      "previous": "other",
+      "full_name": "regrevia/Envoy",
+      "previous": "conversation",
       "current": "tool",
-      "desc_now": "一个dsh的断路重连器，针对长任务的网络/大模型api接口波动，防止任务停滞；切换不同渠道和模型继续完成任务。支持web和cli。",
+      "desc_now": "把链接分享给你的 AI：提取网页、视频与本地媒体中的可追溯材料。 / Share links with your AI: extract traceable material from web pages, videos, and local media.",
+      "desc_prev": "把链接分享给你的 AI：提取网页、视频与本地媒体中的可追溯材料。 / Share links with your AI: extract traceable material from web pages, videos, and local media."
+    },
+    {
+      "full_name": "jikllji/DSH-JI-Plugins",
+      "previous": "web-ui",
+      "current": "other",
+      "desc_now": "Personal Jikllji-Plugins for Deepseek Harness",
+      "desc_prev": "Personal Jikllji-Plugins for Deepseek Harness"
+    },
+    {
+      "full_name": "xingxue-ux/dsh-comfyUI-control",
+      "previous": "vision",
+      "current": "tool",
+      "desc_now": "DeepSeek Harness 绘图模式 preset plugin: 19 comfyui_* tools for a local ComfyUI - Anima/Krea2 generation, LoRA search and download, Danbooru tags, PNG metadata, upstream repro check, xiaofanqie de-obfuscation",
+      "desc_prev": "DeepSeek Harness 绘图模式 preset plugin: 18 comfyui_* tools — Anima/Krea2 generation, LoRA search, Danbooru tags, PNG metadata, Ollama vision, 小番茄 de-obfuscation"
+    },
+    {
+      "full_name": "Tests4gptplay/dsh-kujira-persona",
+      "previous": "web-ui",
+      "current": "memory",
+      "desc_now": "Kujira 是集 AI 桌宠、模型联动、用量与计费监控、角色扮演（RP）和个性化记忆于一体的 DSH 插件。支持多家模型服务的账户信息查询、模型切换、Windows/Linux/macOS 三平台适配，以及共享世界观、用户习惯捕捉、独立人设、个性整理、AI 日记与睡眠整理。",
+      "desc_prev": "DSH AI 个性化与角色插件（有AI娘RP预设）：共同世界观记录用户习惯，独立人设针对不同模型特性调整交互方式，通过 AI 日记与睡眠整理积累用户和模型的磨合经验，并提供可选桌宠。"
+    },
+    {
+      "full_name": "leoan698-tom/dsh-sessivra",
+      "previous": "conversation",
+      "current": "model",
+      "desc_now": "DSH Sessivra：会话通信与任务协作，共享裁决、关联回复、验收后放行、上下文引用与会话树。npm: dsh-plugin-sessivra",
+      "desc_prev": "Session-to-session messaging with linked replies, native context references and conversation trees for DeepSeek Harness."
+    },
+    {
+      "full_name": "dadazhangn/dsh-prompt-snippets",
+      "previous": "web-ui",
+      "current": "conversation",
+      "desc_now": "Crash-safe prompt snippet library for DeepSeek Harness — {{placeholder}} fill forms, dropdown enums, version history, one-click insert.",
+      "desc_prev": "DSH Prompt Snippets plugin: save reusable prompts (with categories and {{placeholders}}), insert via /snippet command or a one-click dock panel."
+    },
+    {
+      "full_name": "taoziliyouchong/dsh-session-autarchive",
+      "previous": "other",
+      "current": "conversation",
+      "desc_now": "自动归档长期没动过的会话：默认 5 天，跳过已归档、置顶与「不自动归档」的名单；会话右键可标记单条，通用设置里改天数。",
       "desc_prev": null
     },
     {
-      "full_name": "huanlin-labs/dsh-isolation-gate",
-      "previous": "coding",
-      "current": "resource",
-      "desc_now": "DSH 权限隔离门禁：按目录与操作授权，拦截高危文件操作",
-      "desc_prev": "门禁 · Access gate for DSH: per-directory deny/read/full, roster groups, per-session overrides, audit log. 默认禁，误触前就拦住。"
-    },
-    {
-      "full_name": "huanlin-labs/dsh-skill-cockpit",
-      "previous": "tool",
-      "current": "model",
-      "desc_now": "DSH 技能驾驶舱：技能启停、预设挂载与用量统计",
-      "desc_prev": "Skill cockpit for DSH: one page listing every skill the machine exposes, why a skill is invisible, per-skill usage counts, and a one-file toggle."
-    },
-    {
-      "full_name": "LeoLourson/MacroStress-DSH",
+      "full_name": "taoziliyouchong/dsh-reload-buttons",
       "previous": "other",
-      "current": "agent",
-      "desc_now": "Plugin-based macro stress testing over MCP. A person names an event; an LLM agent writes the scenario from a corpus of sources, and the person approves it. Models in levels, from the economy to industries and companies, fill in the paths and reprice positions; each model and asset type is a plugin. Output: loss quantiles, ES95, scenario price.",
-      "desc_prev": "Portfolio stress tests under macro scenarios: a Bayesian VAR with stochastic volatility drives the paths, and loss percentiles with expected shortfall come back over MCP."
-    },
-    {
-      "full_name": "latte03/dsh-select-quote",
-      "previous": "conversation",
-      "current": "tool",
-      "desc_now": "为 DSH 增加划词批注、引用、划词翻译、侧边子代理提问，链接用默认浏览器打开。选中的原文连同评论随下一条消息交给模型，正文保留高亮与序号角标、可跳回原文；菜单可划词浮出或从右键打开，翻译可单独指定模型。",
-      "desc_prev": "在对话里划词加批注——把选中的原文连同你的评论一起交给模型，并让它在回答里明确指出说的是哪一段。"
-    },
-    {
-      "full_name": "NoCandles/dsh-stock-bar",
-      "previous": "notify",
-      "current": "tool",
-      "desc_now": "DeepSeek Harness 插件：窗口顶部常驻股票行情条——自选股、持仓（股数与成本）、盈亏、K线/分时图、盘口、成交记录、预警、AI 复盘。",
-      "desc_prev": "DeepSeek Harness plugin: always-on stock quotes strip at the top of the window - watchlist, holdings (shares & cost), P&L, candlestick/intraday charts, order book, trade ledger, alerts, AI review."
-    },
-    {
-      "full_name": "OldQin-Aurora001/portwrench",
-      "previous": "tool",
       "current": "web-ui",
-      "desc_now": "PortWrench panel for DSH: view local listening ports, see which app owns each one, and close the target process tree. Requires PortWrench (Windows) to be installed and running.",
-      "desc_prev": "Windows-local port viewer and killer for AI agents · Windows 本地端口查看与关闭工具"
+      "desc_now": "在 DSH 界面左上角放两个图标按钮：刷新界面（插件清单过期时就地重同步，不白屏）与重启应用（桌面端关壳重开，dsh web 端结束内核）。",
+      "desc_prev": null
     }
   ]
 }
