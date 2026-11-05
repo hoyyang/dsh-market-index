@@ -1,20 +1,27 @@
 {
-  "generated_at": "2026-11-04T23:10:37.726Z",
-  "count": 2,
+  "generated_at": "2026-11-05T03:38:48.612Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "HaoyanZhang123/dsh-plugin-control-your-development",
-      "previous": "coding",
-      "current": "tool",
-      "desc_now": "只读地呈现一个 DeepSeek Harness 工作区是怎么长出来的：文件关系星图、轮次带、每轮影响与整段对话重建，不写任何东西。｜A permanent read-only visual map of a DSH workspace: file relations, turn strip, per-turn impact, conversation reconstruction.",
-      "desc_prev": "把 AI 开发的进展变成人人看得懂、能拍板的产品仪表盘（DSH skill + 右侧栏面板）｜A product dashboard for AI-assisted development — readable and controllable (DSH skill + sidebar panel)"
+      "full_name": "Wahwayhale/dsh-connect-doubao",
+      "previous": "other",
+      "current": "model",
+      "desc_now": "复用本机豆包桌面客户端的已登录态接入 DeepSeek Harness：对话、生图、额度看板（5 小时 / 周 / 活动赠送，实时显示还剩多少）。仅 Windows x64。",
+      "desc_prev": null
     },
     {
-      "full_name": "Leawind/dsh-rice-on-a-stick",
-      "previous": "conversation",
-      "current": "other",
-      "desc_now": "Control dsh from any MCP client or from dsh itself. 白饭钓竿：让 MCP 客户端或 dsh 自身控制 dsh。",
-      "desc_prev": "Operate DeepSeek Harness (dsh) from any MCP client or from dsh sessions. 白饭钓竿：让 MCP 客户端与 dsh 会话直接控制 dsh。"
+      "full_name": "Sirius-rocco/dsh-agent-context-hub",
+      "previous": "agent",
+      "current": "conversation",
+      "desc_now": "One read-only index of every local AI-agent session (Codex, Claude Code, DSH, Trae, or any JSONL source) grouped by project, plus an append-only shared board so switching agents leaves no context gap.",
+      "desc_prev": null
+    },
+    {
+      "full_name": "cilis/dsh-whale-tts",
+      "previous": "web-ui",
+      "current": "resource",
+      "desc_now": "DeepSeek Harness 聚合语音朗读插件,让小鲸鱼拥有自己的声音",
+      "desc_prev": "让小鲸鱼拥有自己的声音"
     }
   ]
 }
