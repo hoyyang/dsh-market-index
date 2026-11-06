@@ -1,62 +1,27 @@
 {
-  "generated_at": "2026-11-06T16:59:56.845Z",
-  "count": 8,
+  "generated_at": "2026-11-06T21:12:28.892Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "jiuyuan-yi/dsh-update-guard",
-      "previous": "tool",
-      "current": "other",
-      "desc_now": "DSH 桌面端更新守卫：更新前查出会崩的插件，更新后自动恢复被清空的 runtime。Update guard for DeepSeek Harness — pre-flight plugin compatibility, self-healing runtime.",
-      "desc_prev": "DeepSeek Harness 更新守卫：更新前检查插件兼容性，启动失败可自愈（测试版）"
+      "full_name": "JJJACKsong/dsh-plugin-2048",
+      "previous": "web-ui",
+      "current": "notify",
+      "desc_now": "DeepSeek Harness 侧边栏 2048：4×4–9×9、连击与形变动画/动态模糊、每日挑战、战绩成就，会话完成或卡点时游戏内提醒。A 2048 game plugin for dsh.",
+      "desc_prev": "DeepSeek Harness 侧边栏 2048 小游戏 — a 2048 game plugin for dsh (sidebar panel, full-page board)."
     },
     {
-      "full_name": "Biu-Bong/dsh-menu-hidden",
+      "full_name": "doctorllll/dsh-living-plan",
       "previous": "other",
-      "current": "web-ui",
-      "desc_now": "懒人菜单（Lazy Menu）：收起模型选择框、设置·模型、子智能体里重复的 DeepSeek 账号 / 官方 API 分组，隐藏侧边栏五项与账号菜单三项（14 个开关）；给新模型自动补推理等级、上下文窗口与图片支持；应用菜单补上刷新与重启，写入前自动备份、可一键还原。",
-      "desc_prev": "DSH 插件：收起重复的 DeepSeek 账号 / 官方 API 入口、设置里的登录状态与账号菜单的意见反馈，并给应用菜单补上刷新与重启"
+      "current": "conversation",
+      "desc_now": "A living, versioned plan for every DeepSeek Harness session, re-injected at each step so it survives compaction · 给每个 DSH 会话一份活计划",
+      "desc_prev": "A versioned, user-editable living plan plugin for DeepSeek Harness"
     },
     {
-      "full_name": "StarRob1n/dsh-account-balance",
-      "previous": "model",
-      "current": "web-ui",
-      "desc_now": "Floating ball for DeepSeek Harness showing your signed-in account balance (OAuth), live pricing, today's price curve and a token-consumption estimate.",
-      "desc_prev": null
-    },
-    {
-      "full_name": "zhang-bin-98/dsh-journal-club",
+      "full_name": "doctorllll/dsh-tuner",
       "previous": "other",
-      "current": "document",
-      "desc_now": "DeepSeek Harness 文献汇报插件：解析生物医学论文，核对原图、自由拼图，生成带讲稿的学术汇报。",
-      "desc_prev": null
-    },
-    {
-      "full_name": "LTJ002/dsh-eval-harness",
-      "previous": "tool",
-      "current": "agent",
-      "desc_now": "Agent application development evaluation skill (skill bundle) for DeepSeek Harness. DSH host compatibility deliberately undeclared; repo is dsh.bundle-only, no dsh.client.",
-      "desc_prev": "Agent application evaluation toolkit for DeepSeek Harness: offline/online suites judged from audit side effects, baseline diff with zero tolerance for safety regressions, mutation-tested evaluators. Framework-agnostic: needs a callable chat endpoint and queryable tool-call records. Docs in Chinese."
-    },
-    {
-      "full_name": "LINGTIAN303/dsh-model-tabs",
-      "previous": "other",
-      "current": "resource",
-      "desc_now": "给 DeepSeek Harness 的模型选择器加两级 Tab（提供商 + 模型系列），大目录时减少滚动翻找；族规则可在设置页配置。 | Two-level tabs for the DSH model picker: provider + model family.",
-      "desc_prev": null
-    },
-    {
-      "full_name": "isdou/dsh-worktrace",
-      "previous": "tool",
-      "current": "other",
-      "desc_now": "Worktrace local-only career workspace for DeepSeek Harness. Compiled macOS arm64 core; distribution artifacts only.",
-      "desc_prev": "Native career evidence canvas, job matching and versioned resume export for DeepSeek Harness"
-    },
-    {
-      "full_name": "sorchk/dsh-linux-desktop-use",
-      "previous": "other",
-      "current": "vision",
-      "desc_now": null,
-      "desc_prev": null
+      "current": "model",
+      "desc_now": "Usage-driven tuning advice for DeepSeek Harness: per-module analysis of your own sessions, one-click per-model compaction thresholds · 按真实用量给 DSH 逐项调优建议",
+      "desc_prev": "Usage-driven tuning advisor plugin for DeepSeek Harness"
     }
   ]
 }
