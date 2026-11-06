@@ -1,76 +1,13 @@
 {
-  "generated_at": "2026-11-05T19:21:54.862Z",
-  "count": 10,
+  "generated_at": "2026-11-06T00:21:11.074Z",
+  "count": 1,
   "items": [
     {
-      "full_name": "Fishsb/dsh-voice-prompt-enhancer",
-      "previous": "conversation",
-      "current": "memory",
-      "desc_now": "DeepSeek-Harness (DSH) 插件：✨ 提示词一键增强（5 模式·模型链·记忆链）+ 💬 语音输入增强（热键·说完自动停·口水词清理·语音纠错）",
-      "desc_prev": "DeepSeek Harness (DSH) 插件：✨ 提示词一键增强 + 💬 语音输入增强"
-    },
-    {
-      "full_name": "tyvtjhj/system-resource-monitor",
-      "previous": "coding",
-      "current": "web-ui",
-      "desc_now": "一个只在本机运行的轻量硬件看板，也是 DSH 的原生插件。 Flask 在后台采集，前端是零构建的单文件 HTML；DSH 插件提供侧边栏完整面板、 输入框下方实时挂件和 `hardware_monitor_status` 工具。默认只服务本机， 不需要数据库，不向云端发送数据。",
-      "desc_prev": "该项目是一个电脑资源监测项目，目标是实现集合进入dsh，并且也可以正常使用桌面端功能，我只是做整合和适配，项目主体开发为协助者"
-    },
-    {
-      "full_name": "a1249070611/dsh-hoi4-modding",
-      "previous": "other",
-      "current": "coding",
-      "desc_now": "DeepSeek Harness skill bundle for HOI4 1.19.3 modding: focus trees, tech-tree UI, tank designer, 3D tank models, DDS icons, scripted GUI/topbar, CJK fonts, 14 bundled Python tools, a 23-workshop-mod survey and an agent-teams playbook. No game assets.",
-      "desc_prev": "DeepSeek Harness skill bundle for Hearts of Iron IV (HOI4) 1.19.3 modding — focus trees, events, decisions, MUI, GUI, DDS, verifier, installer"
-    },
-    {
-      "full_name": "YardonYan/dsh-plugin-netease-lyrics",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "DeepSeek Harness 摸鱼歌词插件：桌面网易云在放什么，DSH 状态行右边就同步浮现当前那句歌词——同字体同色，别人只当那句话有点长。支持中英韩日歌词 / 悬停看翻译 / 限流自动切换备用端点。",
-      "desc_prev": "网易云音乐歌词贴进 DeepSeek Harness 状态行右侧，伪装成状态行的一部分。Netease Cloud Music lyrics beside the DSH activity line, disguised as part of it."
-    },
-    {
-      "full_name": "2DogsLee/dsh-watcher",
-      "previous": "agent",
-      "current": "other",
-      "desc_now": "DeepSeek Harness (DSH) 插件 API 面自动比对引擎 + 本地挂载体检 + 升级预告：升级前一条命令看清插件依赖的 API/配置/挂载链路变了没有",
-      "desc_prev": "DeepSeek Harness (DSH) 插件 API 面自动比对引擎：升级前一条命令看清插件依赖的 API/配置字段变了没有 · Auto diff engine for DSH plugin-breaking changes, with CI watch & agent skill"
-    },
-    {
-      "full_name": "kx2398/dsh-session-mesh",
-      "previous": "agent",
-      "current": "resource",
-      "desc_now": "Cross-session mesh for DeepSeek Harness (dsh): list/message any session, create/rename/archive/cancel sessions, manage their long-term goals, and read recent transcripts.",
-      "desc_prev": "Cross-session mesh for DeepSeek Harness (dsh): list every session in every workspace, message any session as a real agent message, create/rename/archive/cancel sessions, and wait for session changes."
-    },
-    {
-      "full_name": "lamp23333/dsh-balance-simple",
-      "previous": "model",
-      "current": "web-ui",
-      "desc_now": "A simple, information-dense DeepSeek status display for the DSH sidebar: balance, usage, and peak/off-peak countdown.",
-      "desc_prev": null
-    },
-    {
-      "full_name": "Aily-DSH/dsh-approval-inbox",
+      "full_name": "lishize20040802-rgb/dsh-deep-ptc-mode",
       "previous": "tool",
       "current": "agent",
-      "desc_now": "把阻塞式审批变成后台收件箱：Agent 不用干等，排队后继续干活，你有空再批。",
-      "desc_prev": "Approval inbox for DeepSeek Harness: blocking approvals become a background queue so the agent keeps working, with project sections, row badges, importable rules and peak-hour holding"
-    },
-    {
-      "full_name": "handsomeboy65/dsh-task-hub",
-      "previous": "resource",
-      "current": "web-ui",
-      "desc_now": "TAPD + ZenTao task hub for DSH: list assigned work in the sidebar and dispatch an agent on a branch you name.",
-      "desc_prev": null
-    },
-    {
-      "full_name": "KYCOMING/dsh-product-design",
-      "previous": "web-ui",
-      "current": "coding",
-      "desc_now": "侧边栏里的「简化版 Figma」产品设计画布：多画板、可交互组件、AI 可编程文档与会话内预览。｜A simplified Figma-style product design canvas for DeepSeek Harness: multi-artboard canvas, interactive components, AI-programmable document, and in-chat previews.",
-      "desc_prev": "A simplified Figma-style product design canvas for DeepSeek Harness: multi-artboard canvas, interactive components, AI-programmable document, and in-chat previews."
+      "desc_now": "Lightweight adaptive Deep PTC: live host presets, plugin cooperation and interruptible jobs. / 轻量自适配深度 PTC：动态宿主预设、插件协作与官方兜底、后台可插话。",
+      "desc_prev": "Lightweight Deep PTC: tool/skill discovery, multi-plugin cooperation, official fallback and interruptible jobs. / 轻量深度 PTC：工具与技能按需发现、多插件协作、官方兜底、后台可插话。"
     }
   ]
 }
