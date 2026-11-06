@@ -1,48 +1,62 @@
 {
-  "generated_at": "2026-11-06T06:41:15.999Z",
-  "count": 6,
+  "generated_at": "2026-11-06T16:59:56.845Z",
+  "count": 8,
   "items": [
     {
-      "full_name": "whitequeen306/dsh-logistics",
+      "full_name": "jiuyuan-yi/dsh-update-guard",
       "previous": "tool",
       "current": "other",
-      "desc_now": "Whole-project code review for DeepSeek Harness: five specialist reviewers, one severity-ordered report, relation graph, and progress-aware runs.",
-      "desc_prev": "Project housekeeping for DeepSeek Harness: 12 /logi-* commands, seven specialist review subagents, health score, and a baseline gate."
+      "desc_now": "DSH 桌面端更新守卫：更新前查出会崩的插件，更新后自动恢复被清空的 runtime。Update guard for DeepSeek Harness — pre-flight plugin compatibility, self-healing runtime.",
+      "desc_prev": "DeepSeek Harness 更新守卫：更新前检查插件兼容性，启动失败可自愈（测试版）"
     },
     {
-      "full_name": "omdsh-dev/dsh-sidechain",
-      "previous": "web-ui",
-      "current": "model",
-      "desc_now": "DSH 侧会话插件：/btw 后台侧问，/side 独立追问；继承已完成上下文，使用 DSH 原生侧栏标签，主会话保持可用。",
-      "desc_prev": "DSH 侧会话插件：/side 持续性侧会话（Codex 风格）与 /btw 一次性侧问（Claude 风格）——在临时 fork 中运行、不写入主会话历史；Web UI 右侧链面板内嵌对话，主会话保持不变"
-    },
-    {
-      "full_name": "Fyerl/dsh-2d-model-picker",
-      "previous": "model",
-      "current": "other",
-      "desc_now": "2D Model Picker for DeepSeek Harness — select a model and reasoning effort in one drag.",
-      "desc_prev": "2D Model Picker for DeepSeek Harness — select a model and reasoning effort in one drag. 二维模型选择器：一次拖动选定模型与推理强度。"
-    },
-    {
-      "full_name": "xuanyuanchumo/dsh-anic",
-      "previous": "agent",
-      "current": "tool",
-      "desc_now": "ANIC — AI-Native Iteration Cycle as a standalone DSH plugin (general-purpose workflow visualizer)",
-      "desc_prev": "ANIC — AI-Native Iteration Cycle as a standalone DSH plugin (general-purpose workflow visualizer)"
-    },
-    {
-      "full_name": "songzhou666/gov-hub",
-      "previous": "tool",
-      "current": "coding",
-      "desc_now": "给 AI coding agent 的项目地图：DSH 插件 / Agent Skill，一条 lookup 直达权威文件，实测 10 次查询导航成本降低 96.7%~99.3%。纯本地、可逆、无遥测。",
-      "desc_prev": "项目地图 Project Map for agent workspaces: AI reaches authoritative files directly instead of brute-force folder scanning. 96.7%~99.3% nav-cost cut, up to 5.8x faster Q&A. DSH plugin + standalone skill."
-    },
-    {
-      "full_name": "buger-gif/dsh-remote-huaweicloud-devbridge",
-      "previous": "tool",
+      "full_name": "Biu-Bong/dsh-menu-hidden",
+      "previous": "other",
       "current": "web-ui",
-      "desc_now": "把本机 DeepSeek Harness（DSH）的 Web 界面安全地交给远端设备远控：侧边栏点一下「开启远控」， 扫个码，手机/另一台电脑就能打开你本机跑着的 DSH。  华为云 DevBridge 只是数据通道：它只负责从本机出站打通一条隧道，不参与身份判断。 公网侧真正的门禁由插件自带的鉴权网关承担——一次性令牌、HMAC 会话 Cookie、失败限流， 以及转发前把所有外部身份头剥干净。它是否留存经过的流量不在本项目控制范围内。",
-      "desc_prev": "DSH plugin: reach your local DeepSeek Harness from a phone through a Huawei Cloud DevBridge outbound tunnel. The relay is only a data pipe and sees plaintext — the protection is a loopback token-gated gateway (rotatable token, HMAC session cookie, rate limiting, no inbound port), not encryption."
+      "desc_now": "懒人菜单（Lazy Menu）：收起模型选择框、设置·模型、子智能体里重复的 DeepSeek 账号 / 官方 API 分组，隐藏侧边栏五项与账号菜单三项（14 个开关）；给新模型自动补推理等级、上下文窗口与图片支持；应用菜单补上刷新与重启，写入前自动备份、可一键还原。",
+      "desc_prev": "DSH 插件：收起重复的 DeepSeek 账号 / 官方 API 入口、设置里的登录状态与账号菜单的意见反馈，并给应用菜单补上刷新与重启"
+    },
+    {
+      "full_name": "StarRob1n/dsh-account-balance",
+      "previous": "model",
+      "current": "web-ui",
+      "desc_now": "Floating ball for DeepSeek Harness showing your signed-in account balance (OAuth), live pricing, today's price curve and a token-consumption estimate.",
+      "desc_prev": null
+    },
+    {
+      "full_name": "zhang-bin-98/dsh-journal-club",
+      "previous": "other",
+      "current": "document",
+      "desc_now": "DeepSeek Harness 文献汇报插件：解析生物医学论文，核对原图、自由拼图，生成带讲稿的学术汇报。",
+      "desc_prev": null
+    },
+    {
+      "full_name": "LTJ002/dsh-eval-harness",
+      "previous": "tool",
+      "current": "agent",
+      "desc_now": "Agent application development evaluation skill (skill bundle) for DeepSeek Harness. DSH host compatibility deliberately undeclared; repo is dsh.bundle-only, no dsh.client.",
+      "desc_prev": "Agent application evaluation toolkit for DeepSeek Harness: offline/online suites judged from audit side effects, baseline diff with zero tolerance for safety regressions, mutation-tested evaluators. Framework-agnostic: needs a callable chat endpoint and queryable tool-call records. Docs in Chinese."
+    },
+    {
+      "full_name": "LINGTIAN303/dsh-model-tabs",
+      "previous": "other",
+      "current": "resource",
+      "desc_now": "给 DeepSeek Harness 的模型选择器加两级 Tab（提供商 + 模型系列），大目录时减少滚动翻找；族规则可在设置页配置。 | Two-level tabs for the DSH model picker: provider + model family.",
+      "desc_prev": null
+    },
+    {
+      "full_name": "isdou/dsh-worktrace",
+      "previous": "tool",
+      "current": "other",
+      "desc_now": "Worktrace local-only career workspace for DeepSeek Harness. Compiled macOS arm64 core; distribution artifacts only.",
+      "desc_prev": "Native career evidence canvas, job matching and versioned resume export for DeepSeek Harness"
+    },
+    {
+      "full_name": "sorchk/dsh-linux-desktop-use",
+      "previous": "other",
+      "current": "vision",
+      "desc_now": null,
+      "desc_prev": null
     }
   ]
 }
