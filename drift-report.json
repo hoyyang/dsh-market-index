@@ -1,27 +1,48 @@
 {
-  "generated_at": "2026-11-06T21:12:28.892Z",
-  "count": 3,
+  "generated_at": "2026-11-07T07:13:06.907Z",
+  "count": 6,
   "items": [
     {
-      "full_name": "JJJACKsong/dsh-plugin-2048",
-      "previous": "web-ui",
+      "full_name": "ltmroberthk915/markpilot",
+      "previous": "coding",
+      "current": "memory",
+      "desc_now": "Free Markdown editor for Windows, VS Code & Trae, plus an IDE-style Markdown × AI workspace in DeepSeek Harness. Edit beside AI, send selected source to chat, resume notes per project, and write with live math, tables & diagrams.",
+      "desc_prev": "Free AI-native Markdown editor for Windows + VS Code/Trae — a Typora alternative with inline AI completion, live math editing (click a symbol to edit its source), large-file speed and print-quality CJK typography."
+    },
+    {
+      "full_name": "ThzxxArt/dsh-novel-write-engine",
+      "previous": "coding",
+      "current": "agent",
+      "desc_now": "网文工坊 · 创作室：DeepSeek Harness 的多智能体小说创作工作台。确定性内核、12 个角色、四道人工门、十大工作区与可回滚的 artifact。",
+      "desc_prev": "把小说创作的状态、门禁、规则与账本从提示词搬进代码的 DeepSeek Harness 插件。"
+    },
+    {
+      "full_name": "Kiant98/dsh-hoi4-modding",
+      "previous": "coding",
+      "current": "memory",
+      "desc_now": "HOI4（钢铁雄心4）模组开发工具包：1 个模组工程师 agent、15 个技能、20 个 MCP 工具，配 153 篇参考库与以原版 1.19.4.2 为参照的知识库。纯 Python 标准库零依赖，面向 1.19.x。",
+      "desc_prev": "DeepSeek Harness skill bundle for HOI4 1.19.3 modding: focus trees, tech-tree UI, tank designer, 3D tank models, DDS icons, scripted GUI/topbar, CJK fonts, 14 bundled Python tools, a 23-workshop-mod survey and an agent-teams playbook. No game assets."
+    },
+    {
+      "full_name": "Aily-DSH/dsh-peak-guard",
+      "previous": "other",
       "current": "notify",
-      "desc_now": "DeepSeek Harness 侧边栏 2048：4×4–9×9、连击与形变动画/动态模糊、每日挑战、战绩成就，会话完成或卡点时游戏内提醒。A 2048 game plugin for dsh.",
-      "desc_prev": "DeepSeek Harness 侧边栏 2048 小游戏 — a 2048 game plugin for dsh (sidebar panel, full-page board)."
+      "desc_now": "按 DeepSeek 峰谷计价时段自动暂停/恢复 DSH 会话：高峰前提醒、到点停止、低谷恢复，支持节假日与调休。",
+      "desc_prev": "Pause and resume DeepSeek Harness sessions around DeepSeek peak-priced hours (holiday & make-up-workday aware)"
     },
     {
-      "full_name": "doctorllll/dsh-living-plan",
-      "previous": "other",
-      "current": "conversation",
-      "desc_now": "A living, versioned plan for every DeepSeek Harness session, re-injected at each step so it survives compaction · 给每个 DSH 会话一份活计划",
-      "desc_prev": "A versioned, user-editable living plan plugin for DeepSeek Harness"
+      "full_name": "ZTYZZ/dsh-skill-studio",
+      "previous": "web-ui",
+      "current": "other",
+      "desc_now": "One skill manager for DSH and Antigravity: create, install, and browse skills from Codex, Claude, Cursor, Grok, Gemini, WorkBuddy and more.",
+      "desc_prev": "All your agent skills in one DSH place: Codex, Claude, Cursor, Grok, Gemini, WorkBuddy and more, with a Chinese-first manager UI."
     },
     {
-      "full_name": "doctorllll/dsh-tuner",
-      "previous": "other",
-      "current": "model",
-      "desc_now": "Usage-driven tuning advice for DeepSeek Harness: per-module analysis of your own sessions, one-click per-model compaction thresholds · 按真实用量给 DSH 逐项调优建议",
-      "desc_prev": "Usage-driven tuning advisor plugin for DeepSeek Harness"
+      "full_name": "suifei/dsh-market-lens",
+      "previous": "conversation",
+      "current": "tool",
+      "desc_now": "寰镜股票看板 MarketLens — A股/港股/美股 只读看盘盯盘股票看板（延迟公开行情，无交易）· 股票 看盘 盯盘 摸鱼 股市",
+      "desc_prev": "寰镜 MarketLens — read-only A-share / HK / US market board plugin for the DeepSeek Harness Web GUI"
     }
   ]
 }
