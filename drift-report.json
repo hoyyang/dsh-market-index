@@ -1,48 +1,20 @@
 {
-  "generated_at": "2026-11-07T07:13:06.907Z",
-  "count": 6,
+  "generated_at": "2026-11-07T15:41:33.343Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "ltmroberthk915/markpilot",
-      "previous": "coding",
-      "current": "memory",
-      "desc_now": "Free Markdown editor for Windows, VS Code & Trae, plus an IDE-style Markdown × AI workspace in DeepSeek Harness. Edit beside AI, send selected source to chat, resume notes per project, and write with live math, tables & diagrams.",
-      "desc_prev": "Free AI-native Markdown editor for Windows + VS Code/Trae — a Typora alternative with inline AI completion, live math editing (click a symbol to edit its source), large-file speed and print-quality CJK typography."
-    },
-    {
-      "full_name": "ThzxxArt/dsh-novel-write-engine",
-      "previous": "coding",
-      "current": "agent",
-      "desc_now": "网文工坊 · 创作室：DeepSeek Harness 的多智能体小说创作工作台。确定性内核、12 个角色、四道人工门、十大工作区与可回滚的 artifact。",
-      "desc_prev": "把小说创作的状态、门禁、规则与账本从提示词搬进代码的 DeepSeek Harness 插件。"
-    },
-    {
-      "full_name": "Kiant98/dsh-hoi4-modding",
-      "previous": "coding",
-      "current": "memory",
-      "desc_now": "HOI4（钢铁雄心4）模组开发工具包：1 个模组工程师 agent、15 个技能、20 个 MCP 工具，配 153 篇参考库与以原版 1.19.4.2 为参照的知识库。纯 Python 标准库零依赖，面向 1.19.x。",
-      "desc_prev": "DeepSeek Harness skill bundle for HOI4 1.19.3 modding: focus trees, tech-tree UI, tank designer, 3D tank models, DDS icons, scripted GUI/topbar, CJK fonts, 14 bundled Python tools, a 23-workshop-mod survey and an agent-teams playbook. No game assets."
-    },
-    {
-      "full_name": "Aily-DSH/dsh-peak-guard",
-      "previous": "other",
-      "current": "notify",
-      "desc_now": "按 DeepSeek 峰谷计价时段自动暂停/恢复 DSH 会话：高峰前提醒、到点停止、低谷恢复，支持节假日与调休。",
-      "desc_prev": "Pause and resume DeepSeek Harness sessions around DeepSeek peak-priced hours (holiday & make-up-workday aware)"
-    },
-    {
-      "full_name": "ZTYZZ/dsh-skill-studio",
-      "previous": "web-ui",
-      "current": "other",
-      "desc_now": "One skill manager for DSH and Antigravity: create, install, and browse skills from Codex, Claude, Cursor, Grok, Gemini, WorkBuddy and more.",
-      "desc_prev": "All your agent skills in one DSH place: Codex, Claude, Cursor, Grok, Gemini, WorkBuddy and more, with a Chinese-first manager UI."
-    },
-    {
-      "full_name": "suifei/dsh-market-lens",
+      "full_name": "Burns1028/moa-plus",
       "previous": "conversation",
-      "current": "tool",
-      "desc_now": "寰镜股票看板 MarketLens — A股/港股/美股 只读看盘盯盘股票看板（延迟公开行情，无交易）· 股票 看盘 盯盘 摸鱼 股市",
-      "desc_prev": "寰镜 MarketLens — read-only A-share / HK / US market board plugin for the DeepSeek Harness Web GUI"
+      "current": "agent",
+      "desc_now": "MoA+ — Advancing intelligence through multi-agent collaboration. Building a Mixture of Agents system; currently an unofficial DeepSeek Harness rc.3 preview.",
+      "desc_prev": "MoA+ — Make agents work better together. Persistent Coordinator, reusable Workers and shared context for DeepSeek Harness. Unofficial rc.3 preview."
+    },
+    {
+      "full_name": "winterhuan/dsh-skills-viewer",
+      "previous": "web-ui",
+      "current": "resource",
+      "desc_now": "Skill catalog, full instructions and reference viewer for DeepSeek Harness Web; host and client in one bundle",
+      "desc_prev": "Read-only Skills settings page plugin for DeepSeek Harness Web"
     }
   ]
 }
