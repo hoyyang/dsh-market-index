@@ -1,48 +1,41 @@
 {
-  "generated_at": "2026-11-08T12:23:25.423Z",
-  "count": 6,
+  "generated_at": "2026-11-08T16:31:41.959Z",
+  "count": 5,
   "items": [
     {
-      "full_name": "alchaincyf/nuwa-skill",
-      "previous": "other",
+      "full_name": "HaoyanZhang123/dsh-plugin-control-your-development",
+      "previous": "tool",
+      "current": "resource",
+      "desc_now": "Threadline（脉络）—— 通过交互式关系图与时间轴，直观呈现工作区文件之间的关联及其修改历史 | Threadline for DSH — Visualize workspace file relationships and modification history through interactive graphs and timelines.",
+      "desc_prev": "只读地呈现一个 DeepSeek Harness 工作区是怎么长出来的：文件关系星图、轮次带、每轮影响与整段对话重建，不写任何东西。｜A permanent read-only visual map of a DSH workspace: file relations, turn strip, per-turn impact, conversation reconstruction."
+    },
+    {
+      "full_name": "XHR666/dsh-mpkg-wallpaper",
+      "previous": "resource",
+      "current": "web-ui",
+      "desc_now": "DeepSeek Harness (DSH) 壁纸与界面外观插件：支持 Wallpaper Engine .mpkg、Steam 创意工坊、视频/网页/场景壁纸；整屏磨砂、透明表面与主题色；侧栏/标题栏可切换为悬浮岛（Floating Island）卡片。插件本体 MIT，内置渲染器 GPL-3.0-or-later。",
+      "desc_prev": "DSH 插件：把 Wallpaper Engine 的 .mpkg / 创意工坊目录作为网页背景（视频/网页/场景壁纸）。渲染器产品名 WEwebLoader。"
+    },
+    {
+      "full_name": "hoyyang/dsh-concise",
+      "previous": "conversation",
       "current": "tool",
-      "desc_now": "你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks.",
-      "desc_prev": "你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks."
+      "desc_now": "Concise output style for dsh: per-session toggle + digest card with clickable files. 简洁输出、每轮附摘要卡、路径可点。",
+      "desc_prev": "One-click Concise output style for DeepSeek Harness (dsh): per-session toggle + plain-language digest card on every reply. 结果先行、少废话，每轮回答开头附「摘要」卡，划选即复制。"
     },
     {
-      "full_name": "Pasumao/dsh-plugin-notify",
-      "previous": "notify",
-      "current": "agent",
-      "desc_now": "DeepSeek Harness (dsh) Windows notification plugin: native toast when the agent stops running (finished/aborted/error/waiting for choice/session closed). Zero dependencies, zero build.",
-      "desc_prev": "dsh 生态唯一带系统托盘的 Windows 通知插件：agent 停止运行（完成/出错/等你选择等）自动弹原生 Toast，正文标注「工作区 · 会话」。Windows native toast + system tray for DeepSeek Harness (dsh)."
+      "full_name": "PerryLink/dsh-translate",
+      "previous": "tool",
+      "current": "other",
+      "desc_now": "Full-page translation for DeepSeek Harness: translate the rendered web GUI with your own model route, preserving code, paths, commands, identifiers and product names. Display-only; the session log is never modified.",
+      "desc_prev": "Vendor parameter translation and deterministic JSON repair for DeepSeek Harness: /translate maps temperature/top_p/max_tokens/stop/system across 11 vendors, and the post-execute repair layer (plus fix_json) fixes broken JSON tool output without ever fabricating data"
     },
     {
-      "full_name": "xuzhecomeon/dsh-research-suite",
-      "previous": "coding",
-      "current": "memory",
-      "desc_now": "科研全流程 DSH 插件：识别到科研诉求自动接管，10 个领域技能 + 15 个工具，把 450 条科研技能逐条判定后融合成 103 张能力卡 + 444 条可审计账本；能真跑 R/Python（默认关闭）、生成并审计 docx、真检索 PubMed、逐字段核验 DOI、维护跨会话项目记忆。",
-      "desc_prev": "科研全流程 DSH 插件：识别到科研诉求自动接管，10 个领域技能 + 12 个工具，把 450 条科研技能逐条判定后融合成 103 张能力卡 + 444 条可审计账本，含真跑 R/Python、数据闸门、DOI 核验 5 个执行核验工具。"
-    },
-    {
-      "full_name": "CarryChang/dsh-ip-studio",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "DSH 插件：认知差内容工作室——方法论技能 + 确定性提纲生成、稿件红线审查、多平台排版（公众号 · 知乎 · 小红书 · X · 博客），零网络零凭据零依赖 · Perceptive-gap content studio plugin for DeepSeek Harness: writing-methodology skill plus deterministic outline, draft review, and multi-platform formatting; zero network, zero credentials, zero dependencies",
-      "desc_prev": "dsh-ip-studio｜IP 内容工作室（认知差写作）"
-    },
-    {
-      "full_name": "yoletPig/dsh-plugin-rapidspeech",
-      "previous": "other",
-      "current": "conversation",
-      "desc_now": "Local, offline speech-to-text for the DeepSeek Harness (dsh). Click the microphone in the composer, speak, and the recognized text is inserted into your draft — transcribed by a RapidSpeech.cpp rs-server running on your own machine. Audio never leaves your computer.",
-      "desc_prev": "DeepSeek Harness（dsh）语音输入的本地 RapidSpeech.cpp ASR Provider 插件。录音结束后，音频经 Host 侧 Provider 调用本机 RapidSpeech.cpp 的 rs-server（OpenAI 兼容 HTTP 接口）完成离线转写，并把文本插入编辑框草稿——音频不出本机。"
-    },
-    {
-      "full_name": "PerryLink/dsh-lawcite-adapter",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "给律师/法务：核对法条（法律条文）引用的名称、条号、原文与效力状态，覆盖起诉状/代理词等文书。 Legal citation check for statutes.",
-      "desc_prev": "DeepSeek Harness 插件 — 法条引用核对：按本机构口径，无公开标准可引。仅提示差异，不作出定性结论。"
+      "full_name": "fxy0715/dsh-composer-clock",
+      "previous": "web-ui",
+      "current": "notify",
+      "desc_now": "DeepSeek Harness 输入框只读时钟插件：实时显示本地时间与简短日期，悬停查看完整时间和时区，紧凑布局适配休息提醒。",
+      "desc_prev": "DeepSeek Harness 输入框时钟插件：实时显示本地时间、日期与时区，支持点击复制时间戳和中英文界面。"
     }
   ]
 }
