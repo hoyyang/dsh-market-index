@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-07T22:56:32.735Z",
-  "count": 2595,
+  "generated_at": "2026-11-08T02:12:54.546Z",
+  "count": 2616,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -6187,6 +6187,38 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a directory-site feed: gen.mjs + plugins.txt publishing the format-1 market index behind the external deepseekbase.com website; no plugin code."
     },
+    "CallMeGuLab/dsh-purge-safe": {
+      "kind": "excluded",
+      "reason": "Host-patching jailbreak ('破甲') kit — markets itself as a per-model jailbreak prompt pack ('Jailbreak for every model, swap prompts per model') and patches the DSH host like the rest of the dsh-purge family; follows the dsh-purge family exclusion precedent."
+    },
+    "youki258/dsh-ungate": {
+      "kind": "excluded",
+      "reason": "Host-patching jailbreak distribution — a minimal re-cut of the dsh-purge family (kingcharleslzy branch) whose 27 host patches strip approvals, sandbox fencing and write-intent interception; follows the dsh-purge family exclusion precedent."
+    },
+    "MorenLendan/dsh-moren-unlimited": {
+      "kind": "excluded",
+      "reason": "Jailbreak mode distribution — repackages dsh-purge's unrestricted persona plus an `approval: never` session policy as native agent presets; follows the dsh-purge family exclusion precedent."
+    },
+    "YuLab-SMU/Rho": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — Rho, a composable-workspace application container (npm local service + WebUI) with its own Rho-core / Rho-plugins repos; the README carries no DSH install path, the topic tag is the only DSH link."
+    },
+    "zxwk1998/deepseek-plugin-market": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a directory site: a Next.js statically-exported web catalog scoring 1,600 DSH plugins and skills; no plugin code or installable bundle."
+    },
+    "ILVACM/DSH-Catpaw2API": {
+      "kind": "excluded",
+      "reason": "README-only stub — a single-line README ('将美团catpaw接入DSH使用') with LICENSE; no code, manifest or install path."
+    },
+    "ILVACM/DSH-Opencode2API-hbk": {
+      "kind": "excluded",
+      "reason": "README-only stub — a single-line README with LICENSE; no code, manifest or install path."
+    },
+    "Zian-anson/dsh-unified-memory": {
+      "kind": "excluded",
+      "reason": "Empty repository — no README, no files, no manifest; the description claims a unified-memory plugin but nothing is published."
+    },
     "01men/kizuna": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a self-hosted agent relay/delivery network (hub+box+web console, Docker/Caddy); the DSH plugin is its console panel — dual-host distribution. Stays in the catalog."
@@ -6843,14 +6875,6 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a lightweight macOS desktop shell (Tauri) hosting the DSH WebUI; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "Kitup666/dsh-dshnext-launcher": {
-      "kind": "market",
-      "reason": "A desktop launcher with a built-in plugin market (npm dsh-plugin search + install) — the market cannot include another market; stays in the catalog, excluded from the star board and the downstream market."
-    },
-    "Kitup666/dsh-plugin-kmanager": {
-      "kind": "market",
-      "reason": "A plugin install manager (GitHub/ZIP/local) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
     "KnCRJVirX/dsh-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -7042,10 +7066,6 @@
     "Minglink/dsh-stream-market": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, excluded from the leaderboard and downstream market."
-    },
-    "Missher12/Missher-Archive-DSH-Desktop": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
     },
     "Mknecar/DeepseekHarness-": {
       "kind": "leaderboard",
@@ -9923,10 +9943,6 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a remote/mobile client form — a password-protected LAN gateway exposing the DSH Web UI. Stays in the catalog."
     },
-    "SilverKurali/dsh-phone-tunnel": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a remote/mobile client form — mounts the running DSH Web UI onto a mesh-network interface for phone access. Stays in the catalog."
-    },
     "StarChen-Cycler/dsh-ctl": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a remote/mobile client form — a loopback HTTP control plane driving sessions from remote ends over SSH. Stays in the catalog."
@@ -9950,6 +9966,74 @@
     "sw503544488/dsh-harness-launcher": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a desktop shell/launcher form — a Windows desktop icon that starts, reopens and closes DSH, with Restart/Close in the Web sidebar. Stays in the catalog."
+    },
+    "huajikano/dsh-PEC": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/mobile client form — an authenticated phone gateway (Wi-Fi/Tailscale) plus a 25 KB Android shell that drives the running DSH session. Stays in the catalog."
+    },
+    "LUMIAO9527/DSH-Connect": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/mobile client form — after pairing, the full desktop DSH continues in a phone browser (same instance, same sessions). Stays in the catalog."
+    },
+    "liushQAQ/dsh-anywhere-hub": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/mobile client form — a multi-device live-sync hub (LAN + public relay) keeping desktop and DSH iOS App on one session screen; class applied at the rename from dsh-anywhere. Stays in the catalog."
+    },
+    "lcalc-lcalc/dsh-chacha-qq": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/IM form — a two-way QQ face (NapCat/OneBot11) where DSH itself answers in QQ. Stays in the catalog."
+    },
+    "hyun20202023-ui/dsh-qfish": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/IM form — a two-way QQ chat face (NapCat/OneBot11) with persona, memory and a web console. Stays in the catalog."
+    },
+    "MoonLoordSaMa/dsh-starr": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/IM form — a two-way QQ (SnowLuma) + Bilibili companion-bot face with shared character memory. Stays in the catalog."
+    },
+    "kerwingod/dsh-qq-mail": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/IM form — a two-way QQ-mail channel: inbox mail is pushed into DSH and session digests are mailed back. Stays in the catalog."
+    },
+    "Wang-BinNian/dsh-mail-channel": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/IM form — turns a mailbox into a wake-up channel: owner mail drives the bound session and the agent replies by mail. Stays in the catalog."
+    },
+    "HH56715/qq-bridge": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/IM form — a two-way QQ bridge: QQ messages become DSH user messages and answers (incl. tool approvals) go back to QQ. Stays in the catalog."
+    },
+    "gxfc9867/campfire": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/IM form — a self-hosted group-chat bridge: @mentions enter the live DSH session and replies post back to the group. Stays in the catalog."
+    },
+    "Ebony-Vinyl/EAC-design-world": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: stars accrued as the EAC plugin-suite ecosystem's night-hour share bursts — 284 watch events over 6.6 days, 30 stars inside one 10-minute window, 73% of them in Beijing night hours and 78 in a single night hour; two sibling EAC repos are already excluded (giveaway-driven free-model stars; pack installer). Stays in the catalog."
+    },
+    "Zephyr-Song/agent-skill-pack": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: dual-host — one set of five skills installed identically into WorkBuddy / Codex / DeepSeek Harness. Stays in the catalog."
+    },
+    "0xLyn77/ProMentor": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: dual-host — an agent-skill course generator projected in parallel to DSH (dsh-plugin/install.sh + Dashboard bundle), Codex and Claude Code. Stays in the catalog."
+    },
+    "firehuzi/scalpel-downloadx": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: dual-host — the DownloadX downloader ships in parallel forms (pip CLI / browser extension / OpenClaw skill / DSH plugin under dsh-plugin/). Stays in the catalog."
+    },
+    "MRevenger/dsh-skillhub-market": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — an in-host client searching, filtering and installing Skillhub skills; the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "fenshal/dsh-skillbox": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — an in-host panel that discovers community SKILL.md files on GitHub and installs them; the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "SilverKurali/dsh-mesh-access": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/mobile client form — mounts the running DSH Web UI onto a mesh network so a phone browser opens the same instance; renamed from dsh-phone-tunnel. Stays in the catalog."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
