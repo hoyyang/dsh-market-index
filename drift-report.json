@@ -1,34 +1,146 @@
 {
-  "generated_at": "2026-11-10T09:48:41.608Z",
-  "count": 4,
+  "generated_at": "2026-11-10T18:25:51.240Z",
+  "count": 20,
   "items": [
     {
-      "full_name": "feely0208/deepwhale-desktop",
-      "previous": "web-ui",
-      "current": "coding",
-      "desc_now": "已归档：源码迁至私有仓；公开插件、技能与文档见 feely0208/deepwhale-public",
-      "desc_prev": "深鲸桌面 · 永久免费开源的 DeepSeek Harness 桌面壳（背景皮肤/桌面宠物/用量面板）"
+      "full_name": "zaofan-make/dsh-qqbot",
+      "previous": "document",
+      "current": "memory",
+      "desc_now": "AI 统管 QQ 群组：审核放行、群发文件、沟通其余会话的ai! ;气氛组担当：表情包自动入库、AI 自己决定开口、多预设多人格轮班陪聊！； 远程办公：权限审批、提问卡片转发到 QQ。； 自定义互动按钮：AI 帮你轻松搭文字游戏,官机专属按钮卡片功能！ ；省 token 设计：群聊价值评分后才唤醒 AI，上下文自动压缩;结交朋友:群友画像,记忆注入；实现任意功能:提供扩展接口,示例扩展,向ai许愿！",
+      "desc_prev": "AI 统管 QQ 群组：审核放行、群发文件、沟通其他 web 会话的 AI！ ；气氛组担当：表情包自动入库、AI 自己决定开口、多预设多人格轮班陪聊！； 远程办公：权限审批、提问卡片转发到 QQ。； 自定义互动按钮：AI 帮你轻松搭文字游戏 —— 卡片逻辑由 AI 帮你写 ；省 token 设计：群聊价值评分后才唤醒 AI，上下文自动压缩。"
     },
     {
-      "full_name": "SouleyMoni1/dsh-experience-plugin",
+      "full_name": "fyjgtddco/DSH-SW-and-CAD",
+      "previous": "web-ui",
+      "current": "other",
+      "desc_now": "担心AI在SW上面画的好看，实际组装又是另外一个事故？有这个项目在！材料、力学、规范三重校核，凭可追溯证据交付工图。让AI画的图真正能进入工程世界，而不是只是一个漂亮的玩具",
+      "desc_prev": "核弹，椅子，瘫坐！DSH新预设模式“工程模式”，只需要你说出“请帮我完成一个机械臂”，你的AI模型靠内部的工作流，按照要求完成对应机械的设计，完全实现“AI设计机械，无需人工干预”的场景！(测试版本：SW ：2025   DSH:0.2.2 rc1 ）（如果您对此项目感兴趣，请加QQ：639424706。我们需要您的意见）"
+    },
+    {
+      "full_name": "gulagala001/oh-my-dsh",
+      "previous": "memory",
+      "current": "vision",
+      "desc_now": "DeepSeek Harness 增强插件：上下文压缩与 Dream 记忆、Ultra 多智能体、OpenCU 电脑操作、代码理解、扩展管理、人格和主题。 All-in-one plugin for DeepSeek Harness: context compaction and memory, multi-agent Ultra, computer use, code understanding, extensions, personalities and themes.",
+      "desc_prev": "DSH 插件，开箱即用。Ultra 工作流与任务编排 · 长上下文与 Dream 记忆 · AST／CodeGraph 代码理解 · 内置 OpenCU 电脑操作 · Skills／MCP／Hooks 扩展 · 人格与主题定制 — 为您的 DeepSeek Harness 注入强劲动力。最佳 LLM 代理体验，尽在此处。"
+    },
+    {
+      "full_name": "huliux/dsh-asr-plugin",
+      "previous": "web-ui",
+      "current": "memory",
+      "desc_now": "Unofficial local meeting transcription for DeepSeek Harness on Apple Silicon macOS — dual-track recording, live transcripts, @-referenced summaries.",
+      "desc_prev": "Unofficial local meeting transcription for DeepSeek Harness on Apple Silicon macOS"
+    },
+    {
+      "full_name": "Eileenes/dsh-reel",
+      "previous": "web-ui",
+      "current": "vision",
+      "desc_now": "插件宣传台：输入插件名称，用 V0.1 真机管线生成 28s 插件宣传片（真实界面截图 + 四个功能页 + 安装流程）与封面；安利墙 + 生成台，支持终止/重渲染。",
+      "desc_prev": "DSH 插件宣传素材的本地 Remotion 原型：生成横屏视频、封面和竖版宣传图。内置 Better Sidebar 示例；适配其他插件需修改模板，宿主接入待验证。"
+    },
+    {
+      "full_name": "gulagala001/oh-my-agents-above-all",
+      "previous": "conversation",
+      "current": "other",
+      "desc_now": "在 DSH 里用上 Codex、Grok Build、Cursor、Pi 和 ZCode 的工作方式，模型还是你自己的。 Codex, Grok Build, Cursor, Pi and ZCode presets for DeepSeek Harness, running on your own models.",
+      "desc_prev": "Codex, Grok Build, Cursor, Pi and ZCode presets with native conversations, code review, document conversion and workflow controls."
+    },
+    {
+      "full_name": "thus-zhou/dsh-chapter-whale",
+      "previous": "memory",
+      "current": "web-ui",
+      "desc_now": "码章鲸：全自动小说写作与番茄发布。自定义日更任务，按计划无人值守写作、审查修订和发布；接入部分免费模型，支持部分厂商账号登录。Windows x64，内置运行环境。",
+      "desc_prev": "码章鲸：DSH 里的 AI 小说写作与番茄发布工作台。大纲、长篇记忆、多模型写作、审查润色与章节发布。Windows x64，内置运行环境。"
+    },
+    {
+      "full_name": "RaulLazaro/dsh-server-setup",
+      "previous": "other",
+      "current": "resource",
+      "desc_now": "DEPRECATED - no longer maintained. Production-tested DSH-on-a-VPS setup guide (historical reference only)",
+      "desc_prev": "Production-tested setup for running DeepSeek Harness on a VPS with reverse proxy, systemd, and optional Pangolin tunnel"
+    },
+    {
+      "full_name": "gulagala001/dsh-persona-plugin",
+      "previous": "conversation",
+      "current": "tool",
+      "desc_now": "给 DSH 里的 AI 设人格，全局或按会话选，可以新建、导入和分享。 AI personalities for DeepSeek Harness. Choose one globally or per conversation, and create, import or share your own.",
+      "desc_prev": "Create and share AI personality presets with global and per-conversation choices in DeepSeek Harness."
+    },
+    {
+      "full_name": "yubdey/daimeow-dsh",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "呆喵：运行在 DeepSeek Harness 中的《怪物猎人》艾露猫 Live2D 桌面宠物插件",
+      "desc_prev": "DaiMeow Monster Hunter Palico desktop pet plugin for DeepSeek Harness"
+    },
+    {
+      "full_name": "dsh-agent-roster/dsh-agent-roster",
       "previous": "coding",
       "current": "tool",
-      "desc_now": "DeepSeek Harness 日用功能插件：CLI 请求模拟、MCP / Skills 管理、全局指令、设置页优化",
-      "desc_prev": "DSH plugin: per-model reasoning levels for custom API models, with family presets and an official-settings-page editor."
+      "desc_now": "A verifiable roster layer for DeepSeek Harness Agent Teams — review personas, models and tool boundaries before you build, verify after, write drift back. 建团队前可 review、建完能核、跑偏能回写。",
+      "desc_prev": "Static agent roster and member-profile definitions for DSH, designed to compile validated role files into dsh-agent-teams members."
     },
     {
-      "full_name": "tyr1105/dsh-buddy",
+      "full_name": "chenzhenhong/English-Reader",
       "previous": "other",
-      "current": "document",
-      "desc_now": "你的 OPC 专业团队。DeepSeek Harness 桌面版插件：像素办公室里看每位队友在做什么；谁能自己开工、一天最多自己花多少由你定；交代一句，负责人安排分工。",
-      "desc_prev": "你的 OPC 专业团队。DeepSeek Harness 插件：分角色、派任务、验收返工，需要拍板时才找你。"
+      "current": "memory",
+      "desc_now": "AI English reading studio: discover or import articles, get evidence-backed sentence-level analysis, and grow a personal knowledge base.",
+      "desc_prev": "english reader for deepseek harness plugin "
     },
     {
-      "full_name": "sorchk/dsh-event-notice",
-      "previous": "other",
-      "current": "notify",
-      "desc_now": "DSH 事件通知插件。当任务完成、任务中断、需要审批、需要回答问题时，把通知发到你配置的 Ntfy 、Gotify、或通用 Webhook 。",
+      "full_name": "sole373/dsh-agent-checkin",
+      "previous": "tool",
+      "current": "resource",
+      "desc_now": "DeepSeek Harness 插件：聚合各 AI 客户端每日签到 + 余额看板，并把本机客户端模型接入 DSH（中文）",
+      "desc_prev": "some interesting pulgins"
+    },
+    {
+      "full_name": "00wz/dsh-subagent-forge",
+      "previous": "agent",
+      "current": "conversation",
+      "desc_now": "Configurable subagents for DeepSeek Harness: per-child system prompt, model allowlist, reasoning effort and an explicit delegation grant.",
       "desc_prev": null
+    },
+    {
+      "full_name": "odysseykernelt/dsh-dashcam",
+      "previous": "tool",
+      "current": "other",
+      "desc_now": "A dashcam for your AI plugins: records what they actually do in a tamper-evident ledger. Does not block.",
+      "desc_prev": "Plugin dashcam for DSH: capability manifests, runtime guards, and a tamper-evident audit ledger."
+    },
+    {
+      "full_name": "Erfan817/prompt-spark",
+      "previous": "conversation",
+      "current": "tool",
+      "desc_now": "Prompt Spark · 提示词火花：DSH 原生提示词强化插件，支持可编辑预览、强化人格，以及经用户确认的项目级偏好学习；提供跨工具适配器。 | A native DSH prompt enhancer with editable previews, reusable personas, and user-confirmed project-scoped preference learning, plus cross-tool adapters.",
+      "desc_prev": "A DSH composer plugin that expands short drafts into clear, detailed prompts while preserving the input language."
+    },
+    {
+      "full_name": "MoonightsZ/dsh-qqbot-dispatch",
+      "previous": "other",
+      "current": "conversation",
+      "desc_now": "本插件是 @tencent-connect/dsh-qqbot 的社区补充，可向 QQ 机器人建立的群聊或私聊会话下发任务，并在 DSH 侧栏查看会话、管理可自定义的功能模组。",
+      "desc_prev": null
+    },
+    {
+      "full_name": "datawork-technology/dsh-cyber-redteam",
+      "previous": "conversation",
+      "current": "web-ui",
+      "desc_now": "CyberOps runtime for DeepSeek Harness: opt-in masked /cyber and /cyber-2 routes, each on its own loopback port with its own token, plus a Red Team toggle.",
+      "desc_prev": "CyberOps runtime for DeepSeek Harness: per-chat, per-activation masked /cyber and authorized /cyber-2 routes, with a Red Team toggle."
+    },
+    {
+      "full_name": "wisdom-km/dsh-territory-cursor",
+      "previous": "other",
+      "current": "vision",
+      "desc_now": "地盘光标（dsh-territory-cursor）。在一块屏幕或单屏的半边里列出窗口、截图，并对控件做左键或整段赋值。不移动系统鼠标。",
+      "desc_prev": "地盘光标（dsh-territory-cursor）。DeepSeek Harness 桌面设置页。当前版本不移动系统鼠标，也不操作窗口。"
+    },
+    {
+      "full_name": "weiaisuyan/dsh-split-view",
+      "previous": "conversation",
+      "current": "web-ui",
+      "desc_now": "Split the DSH main area into up to four panes, each with its own tab strip, composer and view switcher. Drag a tab to a pane edge to split. Bilingual (zh/en).",
+      "desc_prev": "Hermes-style tabbed multi-pane workspace for the DSH main area: drag sessions in, split into up to four columns, each pane keeps a complete conversation."
     }
   ]
 }
