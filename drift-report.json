@@ -1,13 +1,34 @@
 {
-  "generated_at": "2026-11-10T02:02:33.400Z",
-  "count": 1,
+  "generated_at": "2026-11-10T09:48:41.608Z",
+  "count": 4,
   "items": [
     {
-      "full_name": "ZSY060116/PL-PRISM",
-      "previous": "memory",
-      "current": "other",
-      "desc_now": "给你的 DSH 一位真正懂你的赛博伴侣 · 开源精简版（完整版见 Releases）",
-      "desc_prev": "基于大模型的赛博伴侣控制中枢，支持多频道记忆隔离、PAD情感动力学引擎与零Token动图分类，开箱即用。"
+      "full_name": "feely0208/deepwhale-desktop",
+      "previous": "web-ui",
+      "current": "coding",
+      "desc_now": "已归档：源码迁至私有仓；公开插件、技能与文档见 feely0208/deepwhale-public",
+      "desc_prev": "深鲸桌面 · 永久免费开源的 DeepSeek Harness 桌面壳（背景皮肤/桌面宠物/用量面板）"
+    },
+    {
+      "full_name": "SouleyMoni1/dsh-experience-plugin",
+      "previous": "coding",
+      "current": "tool",
+      "desc_now": "DeepSeek Harness 日用功能插件：CLI 请求模拟、MCP / Skills 管理、全局指令、设置页优化",
+      "desc_prev": "DSH plugin: per-model reasoning levels for custom API models, with family presets and an official-settings-page editor."
+    },
+    {
+      "full_name": "tyr1105/dsh-buddy",
+      "previous": "other",
+      "current": "document",
+      "desc_now": "你的 OPC 专业团队。DeepSeek Harness 桌面版插件：像素办公室里看每位队友在做什么；谁能自己开工、一天最多自己花多少由你定；交代一句，负责人安排分工。",
+      "desc_prev": "你的 OPC 专业团队。DeepSeek Harness 插件：分角色、派任务、验收返工，需要拍板时才找你。"
+    },
+    {
+      "full_name": "sorchk/dsh-event-notice",
+      "previous": "other",
+      "current": "notify",
+      "desc_now": "DSH 事件通知插件。当任务完成、任务中断、需要审批、需要回答问题时，把通知发到你配置的 Ntfy 、Gotify、或通用 Webhook 。",
+      "desc_prev": null
     }
   ]
 }
