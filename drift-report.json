@@ -1,62 +1,90 @@
 {
-  "generated_at": "2026-11-11T10:07:30.671Z",
-  "count": 8,
+  "generated_at": "2026-11-11T18:13:10.300Z",
+  "count": 12,
   "items": [
     {
-      "full_name": "Alice-Marx/dsh-model-router",
-      "previous": "web-ui",
-      "current": "other",
-      "desc_now": "Model Router and Bot plugin for DeepSeek Harness",
-      "desc_prev": "Model Router and GALGame plugin for DeepSeek Harness"
+      "full_name": "Eileenes/dsh-reel",
+      "previous": "vision",
+      "current": "web-ui",
+      "desc_now": "插件宣传台 for DSH：输入插件名，在本机出 28 秒真机界面宣传片与封面。自带逐帧渲染器（本机 Chrome，运动模糊 + 硬切保护），npm 装完即可出片，不需要 Onetake 运行时。",
+      "desc_prev": "插件宣传台：输入插件名称，用 V0.1 真机管线生成 28s 插件宣传片（真实界面截图 + 四个功能页 + 安装流程）与封面；安利墙 + 生成台，支持终止/重渲染。"
     },
     {
-      "full_name": "taxueseek/argo",
+      "full_name": "taxueseek/plugin-fast-adapt",
+      "previous": "agent",
+      "current": "memory",
+      "desc_now": "Keep DSH plugins working across host upgrades: reads official upgrade guides directly, scans plugin code for breaking changes, smoke-tests in memory, scaffolds five plugin forms. Agent-native skill, zero dependencies",
+      "desc_prev": "DSH 插件升级适配与破坏性变更核查，兼五形态插件脚手架与宿主启动诊断；可作为 Claude Code / Agent Skills 技能安装，零外部依赖"
+    },
+    {
+      "full_name": "kazari-qwp/dsh-tiered-plugin-menu",
+      "previous": "conversation",
+      "current": "tool",
+      "desc_now": "按客户端、工作区和会话分层配置 DSH 插件、MCP 与 Skill，支持独立开关、不同配置、逐级继承和插件实例隔离。",
+      "desc_prev": "为每个工作区和会话独立开关 DSH 插件、使用不同配置，支持逐级继承与实例隔离。"
+    },
+    {
+      "full_name": "XiaoZheBrother/dsh-live-studio",
+      "previous": "other",
+      "current": "conversation",
+      "desc_now": "让你的大肥鱼 / Agent 成为虚拟主播：B 站弹幕互动、语音回复、内置 Live2D 舞台与直播账本；不包含模型素材。",
+      "desc_prev": "大肥鱼直播工作室：DSH 虚拟主播、弹幕语音互动、Live2D 桥接与直播账本"
+    },
+    {
+      "full_name": "XiaoZheBrother/dsh-game-agent",
+      "previous": "web-ui",
+      "current": "notify",
+      "desc_now": "让你的大肥鱼 / Agent 通过工具自主玩游戏、接受观众指令并复盘经验；当前适配修改版红警 2 网页接口。",
+      "desc_prev": "大肥鱼游戏 Agent：观众指令、自主操作、自动续局与可追溯对局复盘"
+    },
+    {
+      "full_name": "chenshanhan0711/dsh-session-grep",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "Literal substring search across every conversation in the workspace, from a search box in the conversation header. Finds mid-token fragments the built-in tokenizer misses.",
+      "desc_prev": null
+    },
+    {
+      "full_name": "EnderDAG/dsh-quote-archive",
+      "previous": "memory",
+      "current": "tool",
+      "desc_now": "Local group-chat quote archive for DeepSeek Harness: an agent-callable quote tool plus the full AstrBot management page (library, statistics, insights, trash, people, collections, collaboration); optional SnowLuma / OneBot v11 QQ channel. Node.js 22.13+.",
+      "desc_prev": "Archive, search, and recall group-chat quotes in DeepSeek Harness with a local SQLite library, a SnowLuma / OneBot v11 QQ channel, and the original AstrBot management page."
+    },
+    {
+      "full_name": "lxy0714/dsh-omni-mode",
+      "previous": "agent",
+      "current": "model",
+      "desc_now": "全能模式：跨项目、质量优先的 DeepSeek Harness 预设，支持能力感知推理和自适应信息保留。 / Omni mode: a quality-first, cross-project DeepSeek Harness preset with capability-aware reasoning and adaptive retention.",
+      "desc_prev": "全能模式 / Omni mode: a quality-first, cross-project DeepSeek Harness preset with adaptive context retention."
+    },
+    {
+      "full_name": "zhuifengqug/dsh-ant",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "玄驹：DeepSeek Harness 的多智能体团队插件（AgentTeams 分支版）。一句话组队，队长派活、队员并行、依赖自动调度，全中文任务与全中文协议。",
+      "desc_prev": null
+    },
+    {
+      "full_name": "KhalilJar/Remu-desktop-shortcuts",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "DSH Desktop keyboard shortcuts, including an Alt+Tab style session switcher (DSH NEXT on Windows).",
+      "desc_prev": null
+    },
+    {
+      "full_name": "wodaimnd/multi-platform-releaser",
+      "previous": "other",
+      "current": "coding",
+      "desc_now": "Multi-forge publishing for local DSH plugins: tick any of GitHub / Gitee / Codeberg plus npm, fill the metadata once, then create every repository, push the same commit to each remote, tag, Release and npm publish from a single button. · 多代码平台发布插件：一键把本地 DSH 插件同时发布到 GitHub / Gitee / Codeberg / npm——同一个 commit 推到每个远端，各自建仓、各自发 Release；每个平台用自己账号的令牌，某个…",
+      "desc_prev": "Multi-forge publishing for local DSH plugins"
+    },
+    {
+      "full_name": "orphiczhou/dsh-tree-harness",
       "previous": "resource",
       "current": "tool",
-      "desc_now": "Multi-engine search and deep research for AI agents across 300+ sources, 18 languages, and MCP / CLI.",
-      "desc_prev": "专门为 agent 打造的开源 agent 搜索工具，具备 300的搜索源及多语言搜索能力，覆盖中文/英文/学术/代码/购物/金融/新闻/百科。"
-    },
-    {
-      "full_name": "regrevia/Envoy",
-      "previous": "tool",
-      "current": "document",
-      "desc_now": "把链接分享给你的 AI：提取网页、视频与本地媒体中的可追溯材料。 / Share links with your AI: extract traceable material from web pages, videos, and local media.",
-      "desc_prev": "把链接分享给你的 AI：提取网页、视频与本地媒体中的可追溯材料。 / Share links with your AI: extract traceable material from web pages, videos, and local media."
-    },
-    {
-      "full_name": "ruisenbai/dsh-annotation",
-      "previous": "tool",
-      "current": "coding",
-      "desc_now": "在主会话或侧栏选中文字，直接在原文旁写注解。也可标注文件和代码差异，将多条注解随消息一起发送，并从注解记录跳回原文。",
-      "desc_prev": "Select text in replies, diffs, or files → annotate → send with a message; replies address each annotation in order, with source navigation for easy reference."
-    },
-    {
-      "full_name": "goatliamia/trajectory-tree",
-      "previous": "tool",
-      "current": "agent",
-      "desc_now": "Visualize real agent traces, explore Eval metrics, and build reports with linked evidence across Codex, Claude Code, Pi, and DSH.",
-      "desc_prev": "Visualize and diagnose agent trajectories across DSH, Pi and Codex: execution paths, context composition, tool use and evidence-based analysis."
-    },
-    {
-      "full_name": "ac0033/skills",
-      "previous": "coding",
-      "current": "resource",
-      "desc_now": "面向 Claude Code、Codex、DeepSeek Harness 及其他 Agent 的工具与插件集合。各工具独立维护、按需安装，涵盖产品设计、软件工程与交付。",
-      "desc_prev": "面向 Claude Code、Codex 和其他 Agent 的产品开发工作流。一个入口，根据任务选择路线，推进需求、设计、开发、验证和交付。"
-    },
-    {
-      "full_name": "pomelotea-yuzu/dsh-cona",
-      "previous": "tool",
-      "current": "coding",
-      "desc_now": "A project development management plugin for DeepSeek Harness (DSH), connecting research, planning, coding, and validation through customizable project trees, ongoing analysis, cross-chat continuity, and optional spec-driven workflows. Currently in the design phase.",
-      "desc_prev": "Scaffold for a planned DeepSeek Harness (DSH) plugin: checkpoints, controlled delivery and file rollback. Spun off from the sealed Cona prototype — plain Node ESM, cross-platform, no in-house sandbox. Currently docs, specs and repository gates only; no plugin code yet. MIT."
-    },
-    {
-      "full_name": "Zevin-Labs/task-workbench",
-      "previous": "conversation",
-      "current": "other",
-      "desc_now": "DeepSeek Harness 本机任务工作台：任务、想法池与日/周/月复盘。数据只留在本地 SQLite，AI 帮整理，人来确认。",
-      "desc_prev": "Local-first task workbench for DeepSeek Harness: today/week/all-task views, idea pool, and daily/weekly/monthly reviews. Humans and agents share one write path."
+      "desc_now": "DSH 会话树体系：tree-engine v0.6.0（9 个 tree_* 工具 + 竹节接力 + 叶写面护栏 + tree_doctor 自检）+ session-tree v1.3.6（侧栏会话树 / tree_send / 50% 自交接 / 随包 Skill；含 Agent 安装指南）。先读项目全景地图或 docs/README.md。",
+      "desc_prev": "DSH（DeepSeek Harness）树形任务分解执行 Harness + 插件集合：tree-engine（8 个 tree_* 工具）/ meta-loop（六阶段门禁+面板）/ agent-introspect（self_spec）/ session-tree（单包 v1.0.4）。"
     }
   ]
 }
