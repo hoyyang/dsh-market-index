@@ -1,90 +1,27 @@
 {
-  "generated_at": "2026-11-11T18:13:10.300Z",
-  "count": 12,
+  "generated_at": "2026-11-12T00:20:46.192Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "Eileenes/dsh-reel",
-      "previous": "vision",
+      "full_name": "tia-forge/dsh-tiaforge",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "DSH 博途插件：在 DeepSeek Harness 里接西门子 TIA Portal —— 文档检索、梯形图生成与渲染、PLC 云仿真、本机网关（TiaLink）。装完看不到工具？先领 4 把 Key。",
+      "desc_prev": "TIA Forge for DeepSeek Harness: 5 Siemens TIA Portal skills + 5 MCP endpoints (docs / ladder generation / ladder render / PLC sim / local gateway)"
+    },
+    {
+      "full_name": "SiliconSailor/dsh-dual-browser",
+      "previous": "tool",
       "current": "web-ui",
-      "desc_now": "插件宣传台 for DSH：输入插件名，在本机出 28 秒真机界面宣传片与封面。自带逐帧渲染器（本机 Chrome，运动模糊 + 硬切保护），npm 装完即可出片，不需要 Onetake 运行时。",
-      "desc_prev": "插件宣传台：输入插件名称，用 V0.1 真机管线生成 28s 插件宣传片（真实界面截图 + 四个功能页 + 安装流程）与封面；安利墙 + 生成台，支持终止/重渲染。"
-    },
-    {
-      "full_name": "taxueseek/plugin-fast-adapt",
-      "previous": "agent",
-      "current": "memory",
-      "desc_now": "Keep DSH plugins working across host upgrades: reads official upgrade guides directly, scans plugin code for breaking changes, smoke-tests in memory, scaffolds five plugin forms. Agent-native skill, zero dependencies",
-      "desc_prev": "DSH 插件升级适配与破坏性变更核查，兼五形态插件脚手架与宿主启动诊断；可作为 Claude Code / Agent Skills 技能安装，零外部依赖"
-    },
-    {
-      "full_name": "kazari-qwp/dsh-tiered-plugin-menu",
-      "previous": "conversation",
-      "current": "tool",
-      "desc_now": "按客户端、工作区和会话分层配置 DSH 插件、MCP 与 Skill，支持独立开关、不同配置、逐级继承和插件实例隔离。",
-      "desc_prev": "为每个工作区和会话独立开关 DSH 插件、使用不同配置，支持逐级继承与实例隔离。"
-    },
-    {
-      "full_name": "XiaoZheBrother/dsh-live-studio",
-      "previous": "other",
-      "current": "conversation",
-      "desc_now": "让你的大肥鱼 / Agent 成为虚拟主播：B 站弹幕互动、语音回复、内置 Live2D 舞台与直播账本；不包含模型素材。",
-      "desc_prev": "大肥鱼直播工作室：DSH 虚拟主播、弹幕语音互动、Live2D 桥接与直播账本"
-    },
-    {
-      "full_name": "XiaoZheBrother/dsh-game-agent",
-      "previous": "web-ui",
-      "current": "notify",
-      "desc_now": "让你的大肥鱼 / Agent 通过工具自主玩游戏、接受观众指令并复盘经验；当前适配修改版红警 2 网页接口。",
-      "desc_prev": "大肥鱼游戏 Agent：观众指令、自主操作、自动续局与可追溯对局复盘"
-    },
-    {
-      "full_name": "chenshanhan0711/dsh-session-grep",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "Literal substring search across every conversation in the workspace, from a search box in the conversation header. Finds mid-token fragments the built-in tokenizer misses.",
+      "desc_now": "Agent browser for DeepSeek Harness: hidden sessions for private research, visible sessions in Edge or Chrome, eight browser_* tools and a sidebar panel.",
       "desc_prev": null
     },
     {
-      "full_name": "EnderDAG/dsh-quote-archive",
-      "previous": "memory",
-      "current": "tool",
-      "desc_now": "Local group-chat quote archive for DeepSeek Harness: an agent-callable quote tool plus the full AstrBot management page (library, statistics, insights, trash, people, collections, collaboration); optional SnowLuma / OneBot v11 QQ channel. Node.js 22.13+.",
-      "desc_prev": "Archive, search, and recall group-chat quotes in DeepSeek Harness with a local SQLite library, a SnowLuma / OneBot v11 QQ channel, and the original AstrBot management page."
-    },
-    {
-      "full_name": "lxy0714/dsh-omni-mode",
-      "previous": "agent",
-      "current": "model",
-      "desc_now": "全能模式：跨项目、质量优先的 DeepSeek Harness 预设，支持能力感知推理和自适应信息保留。 / Omni mode: a quality-first, cross-project DeepSeek Harness preset with capability-aware reasoning and adaptive retention.",
-      "desc_prev": "全能模式 / Omni mode: a quality-first, cross-project DeepSeek Harness preset with adaptive context retention."
-    },
-    {
-      "full_name": "zhuifengqug/dsh-ant",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "玄驹：DeepSeek Harness 的多智能体团队插件（AgentTeams 分支版）。一句话组队，队长派活、队员并行、依赖自动调度，全中文任务与全中文协议。",
-      "desc_prev": null
-    },
-    {
-      "full_name": "KhalilJar/Remu-desktop-shortcuts",
-      "previous": "other",
-      "current": "web-ui",
-      "desc_now": "DSH Desktop keyboard shortcuts, including an Alt+Tab style session switcher (DSH NEXT on Windows).",
-      "desc_prev": null
-    },
-    {
-      "full_name": "wodaimnd/multi-platform-releaser",
-      "previous": "other",
+      "full_name": "ExpertKT/dsh-sop-guard",
+      "previous": "tool",
       "current": "coding",
-      "desc_now": "Multi-forge publishing for local DSH plugins: tick any of GitHub / Gitee / Codeberg plus npm, fill the metadata once, then create every repository, push the same commit to each remote, tag, Release and npm publish from a single button. · 多代码平台发布插件：一键把本地 DSH 插件同时发布到 GitHub / Gitee / Codeberg / npm——同一个 commit 推到每个远端，各自建仓、各自发 Release；每个平台用自己账号的令牌，某个…",
-      "desc_prev": "Multi-forge publishing for local DSH plugins"
-    },
-    {
-      "full_name": "orphiczhou/dsh-tree-harness",
-      "previous": "resource",
-      "current": "tool",
-      "desc_now": "DSH 会话树体系：tree-engine v0.6.0（9 个 tree_* 工具 + 竹节接力 + 叶写面护栏 + tree_doctor 自检）+ session-tree v1.3.6（侧栏会话树 / tree_send / 50% 自交接 / 随包 Skill；含 Agent 安装指南）。先读项目全景地图或 docs/README.md。",
-      "desc_prev": "DSH（DeepSeek Harness）树形任务分解执行 Harness + 插件集合：tree-engine（8 个 tree_* 工具）/ meta-loop（六阶段门禁+面板）/ agent-introspect（self_spec）/ session-tree（单包 v1.0.4）。"
+      "desc_now": "把 skill 的 SOP.json 变成真正的分步白名单：模型先申报在第几步，改文件、跑命令、跑代码的范围在工具执行前就被卡住",
+      "desc_prev": "Enforce a skill's SOP.json as per-step tool and command allowlists in DeepSeek Harness"
     }
   ]
 }
