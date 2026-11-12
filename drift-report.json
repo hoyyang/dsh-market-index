@@ -1,90 +1,76 @@
 {
-  "generated_at": "2026-11-12T07:52:40.718Z",
-  "count": 12,
+  "generated_at": "2026-11-12T18:27:35.284Z",
+  "count": 10,
   "items": [
     {
-      "full_name": "tong-io/tongflow",
+      "full_name": "kingOfSoySauce/dsh-skin-market",
+      "previous": "coding",
+      "current": "web-ui",
+      "desc_now": "浏览、搜索、安装并管理 DSH 皮肤",
+      "desc_prev": "DSH皮肤市场Skin Market 已收录五百+皮肤、桌宠、开屏动画等；有便捷的社区收录入口，并且已有多位开发者提交皮肤；有在线页面方便在线浏；有方便安装管理本地皮肤的插件"
+    },
+    {
+      "full_name": "modesthub/dsh-sensenova-freeapi",
+      "previous": "resource",
+      "current": "other",
+      "desc_now": "Sensenova控制台，Sensenova连接器，非官方的 DeepSeek Harness（DSH）LLM 提供商插件。Sensenova console, Sensenova connector, unofficial DeepSeek Harness (DSH) LLM provider plugin.",
+      "desc_prev": "用于 SenseNova 的 DSH 提供者插件，具有运行/阻塞双列表密钥池及双账户轮换功能。DSH provider plugin for SenseNova with running/blocked dual-list key pool & dual-account rotation"
+    },
+    {
+      "full_name": "Cyberbolt/dsh-snapcompact",
+      "previous": "vision",
+      "current": "tool",
+      "desc_now": "A DeepSeek Harness context compaction plugin: renders DSH session history as images instead of text summaries, keeping more information while using fewer tokens. | DeepSeek Harness 上下文压缩插件：将 DSH 的会话历史渲染为图片，用图片代替文本摘要，保留更多信息并减少 token 消耗。",
+      "desc_prev": "A DeepSeek Harness compaction plugin that turns the middle of long sessions into images a vision model reads — no summarizer call, exact text + searchable archive. ｜ DeepSeek Harness 上下文压缩插件：把长会话的中段渲染成视觉模型可读的图片，不调用摘要模型，保留精确文本与可检索归档。"
+    },
+    {
+      "full_name": "Kiant98/dsh-hoi4-modding",
+      "previous": "memory",
+      "current": "web-ui",
+      "desc_now": "HOI4 模组制作全能工具包，可以制作、检查、修改自己的模组。",
+      "desc_prev": "DeepSeek Harness 组合包 + HOI4（钢铁雄心4）模组开发工具包：1 个模组工程师 agent、15 个技能、20 个 MCP 工具，163 篇参考库与以原版 1.19.4.2 为参照的知识库。装进 DSH 后自动注册技能与工具；纯 Python 标准库零依赖，面向 1.19.x。"
+    },
+    {
+      "full_name": "3309602454/dsh-quick-restart",
       "previous": "other",
-      "current": "agent",
-      "desc_now": "Agent-Human-Friendly, Modality-First, Enterprise-Level GenAI Workflow Platform",
-      "desc_prev": "Modality-First GenAI Platform"
+      "current": "tool",
+      "desc_now": "DSH 会话标题栏的一键重启按钮：重启前检查并警告正在运行的会话与后台任务，随后关闭并重新启动桌面端，全程不弹控制台窗口。 | One-click restart button for the DSH desktop app: warns about running work, then closes and relaunches the app without a console window.",
+      "desc_prev": null
     },
     {
-      "full_name": "regrevia/Envoy",
-      "previous": "document",
-      "current": "memory",
-      "desc_now": "蒸馏一切链接：长视频、长 PDF、网页 → 带来源定位的材料，Wiki 和知识库交给你的 AI 组装。别刷干货视频，让 AI 替你刷。 / Distill any link into located material; your AI writes the wiki.",
-      "desc_prev": "把链接分享给你的 AI：提取网页、视频与本地媒体中的可追溯材料。 / Share links with your AI: extract traceable material from web pages, videos, and local media."
+      "full_name": "GuYou9799/dsh-turn-sieve",
+      "previous": "conversation",
+      "current": "web-ui",
+      "desc_now": "手动筛选并移除 DSH 会话中的低价值问答或单条消息：在回复旁原位选中、✓ 确认、内容随即从对话中消失，可撤销；液态玻璃面板。",
+      "desc_prev": "对DSH会话中的低价值对话轮次进行选择性裁剪——可按整组对话或单条消息裁剪，支持一级撤销。Selectively prune low-value conversation turns from a DSH session — by whole exchange or individual message, with one-level undo."
     },
     {
-      "full_name": "JiamingShi-JsPhys/3d-fabric",
+      "full_name": "FzqxDedafeiyu/dsh-approval-reason-dock",
       "previous": "web-ui",
-      "current": "tool",
-      "desc_now": "The whole 3D toolchain for one machine, in one plugin: printable CAD by natural language through the local SolidCraft CLI (build, edit, measure, preview, inspect, repair), plus thirty Blender skills for organic modelling, materials, lighting, cameras, rendering, UV and animation. Ten agent hosts.",
-      "desc_prev": "The complete 3D modelling and 3D-printing toolchain for one machine, in one plugin: natural-language CAD through the local SolidCraft CLI, plus design reading, editing, measuring and previewing, and print-quality mesh inspection and repair. Ten agent hosts."
+      "current": "memory",
+      "desc_now": "Adds an optional note to DSH approval prompts (allow or reject) and confirms every allow before it runs; non-invasive client-only overlay, built-in approval card and security architecture stay untouched.",
+      "desc_prev": "Optional rejection reasons for DSH approval prompts — a non-invasive client-only overlay; the built-in approval card and DSH's security architecture stay untouched."
     },
     {
-      "full_name": "imnotRiv3r/dsh-job-notify",
-      "previous": "conversation",
-      "current": "notify",
-      "desc_now": "为 DeepSeek Harness 提供 Windows 原生通知：无人等待的后台任务结算（完成 / 失败 / 停止）、对话轮次结束，以及 agent 等待你回答问题或审批工具调用时提醒。",
-      "desc_prev": "Native Windows notifications for DeepSeek Harness when a background job settles or a conversation turn ends."
-    },
-    {
-      "full_name": "bzsang/dsh-turn-quote",
-      "previous": "conversation",
+      "full_name": "SonicloudTech/dsh-sonicloud-device",
+      "previous": "other",
       "current": "tool",
-      "desc_now": "引用上文：在 DSH 输入框用 @ 按轮次引用本次对话前文（单轮 / 整轮问答 / 最近多轮，支持正文搜索）。DeepSeek Harness 插件 · Quote earlier turns of the current conversation from the @ menu.",
-      "desc_prev": "Quote an earlier turn of the current conversation into the composer with an @ mention (DeepSeek Harness bundle)."
+      "desc_now": "The Sonicloud smart mouse plugin brings voice typing, translation, search, and AI conversations to DeepSeek Harness. 声云智能鼠标插件，让你在 DeepSeek Harness 中轻松使用语音打字、翻译、搜索和 AI 对话。",
+      "desc_prev": "Deepseek Harness 声云设备插件"
     },
     {
       "full_name": "Ww-Cooooo/media-review-dsh",
-      "previous": "other",
-      "current": "agent",
-      "desc_now": "Media Review DSH — DeepSeek Harness 原生音视频审片侧栏。其他 Agent 可用 Media Review Skill：https://github.com/Ww-Cooooo/media-review",
-      "desc_prev": "Media Review DSH — DeepSeek Harness 原生音视频审片插件：直接标注、波形、返修交接与新版复核。"
-    },
-    {
-      "full_name": "laoyingfuhuole/dsh-browser-use-automation",
-      "previous": "tool",
-      "current": "vision",
-      "desc_now": "完全后台静默运行的浏览器自动化插件：每个对话一个离屏浏览器窗口，真实 CDP 输入与截图，不抢焦点、不弹窗。",
-      "desc_prev": "Fully background browser automation for DeepSeek Harness: one offscreen Electron window per conversation, real CDP input, no focus stealing."
-    },
-    {
-      "full_name": "CoolTea001/dsh-cool-plugins",
-      "previous": "coding",
-      "current": "other",
-      "desc_now": "One repository for every DeepSeek Harness (DSH) plugin. Each plugin is still its own npm package, with its own version and its own install unit — only the source lives here.",
-      "desc_prev": "DeepSeek Harness Plugins：Theme、Terminal、Git、File、Session ..."
-    },
-    {
-      "full_name": "No-ni/billion-context-patched",
-      "previous": "other",
+      "previous": "agent",
       "current": "tool",
-      "desc_now": "DSH 上下文压缩与请求加速插件：fork 继承、图片折叠，内置模型请求加速器。",
-      "desc_prev": "billion-context (bili) with outbound request compression and per-request byte receipts, maintained for DSH"
+      "desc_now": "让 AI 视频改稿反馈更直接：框选画面提要求、拖选时间段或定格写意见、点击识别台词或导入字幕定位。基于 Media Review Skill 改造的 Windows Harness 插件；其他 Agent 可用原版 Skill：https://github.com/Ww-Cooooo/media-review",
+      "desc_prev": "Media Review DSH — DeepSeek Harness 原生音视频审片侧栏。其他 Agent 可用 Media Review Skill：https://github.com/Ww-Cooooo/media-review"
     },
     {
-      "full_name": "h958661134/dsh-plugin-context-studio",
-      "previous": "model",
-      "current": "memory",
-      "desc_now": "Context Studio for DeepSeek Harness: start from sessions to see which ones form a chain and which are independent, which memories (instructions, skills) each session loaded and whether they are stale; then clean, transplant across projects and compose a starting context for a new session.",
-      "desc_prev": "Context Studio for DeepSeek Harness: see, clean and transplant instructions, skills and sessions across projects, then compose a starting context for a new session. · DSH 上下文拼图台"
-    },
-    {
-      "full_name": "DieJob/dsh-session-folders",
-      "previous": "conversation",
-      "current": "web-ui",
-      "desc_now": "Create summary-named per-session folders in a workspace, with per-workspace UI toggles and folder inheritance for new sessions.",
-      "desc_prev": "Create a per-session subfolder in a workspace on the session's first conversation, with per-workspace toggles."
-    },
-    {
-      "full_name": "yjnmedia/dsh-skill-order",
-      "previous": "tool",
-      "current": "other",
-      "desc_now": "DSH 技能管家：排序、改名、自动规范，改完立刻生效。",
-      "desc_prev": "DSH 技能排序插件：拖拽排序、行内改名、改完实时同步到斜杠菜单"
+      "full_name": "Yeti11H/dsh-task-pulse",
+      "previous": "web-ui",
+      "current": "tool",
+      "desc_now": "DSH task status + optional GitHub workbench: browse pinned source, follow check annotations, review Agent diffs and create draft PRs after confirmation.",
+      "desc_prev": "Lightweight task-status sidebar for DeepSeek Harness: activity, pending tools, errors and quiet reminders. No extra AI calls."
     }
   ]
 }
