@@ -1,76 +1,27 @@
 {
-  "generated_at": "2026-11-12T18:27:35.284Z",
-  "count": 10,
+  "generated_at": "2026-11-13T03:34:04.753Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "kingOfSoySauce/dsh-skin-market",
-      "previous": "coding",
-      "current": "web-ui",
-      "desc_now": "浏览、搜索、安装并管理 DSH 皮肤",
-      "desc_prev": "DSH皮肤市场Skin Market 已收录五百+皮肤、桌宠、开屏动画等；有便捷的社区收录入口，并且已有多位开发者提交皮肤；有在线页面方便在线浏；有方便安装管理本地皮肤的插件"
-    },
-    {
-      "full_name": "modesthub/dsh-sensenova-freeapi",
-      "previous": "resource",
-      "current": "other",
-      "desc_now": "Sensenova控制台，Sensenova连接器，非官方的 DeepSeek Harness（DSH）LLM 提供商插件。Sensenova console, Sensenova connector, unofficial DeepSeek Harness (DSH) LLM provider plugin.",
-      "desc_prev": "用于 SenseNova 的 DSH 提供者插件，具有运行/阻塞双列表密钥池及双账户轮换功能。DSH provider plugin for SenseNova with running/blocked dual-list key pool & dual-account rotation"
-    },
-    {
-      "full_name": "Cyberbolt/dsh-snapcompact",
-      "previous": "vision",
-      "current": "tool",
-      "desc_now": "A DeepSeek Harness context compaction plugin: renders DSH session history as images instead of text summaries, keeping more information while using fewer tokens. | DeepSeek Harness 上下文压缩插件：将 DSH 的会话历史渲染为图片，用图片代替文本摘要，保留更多信息并减少 token 消耗。",
-      "desc_prev": "A DeepSeek Harness compaction plugin that turns the middle of long sessions into images a vision model reads — no summarizer call, exact text + searchable archive. ｜ DeepSeek Harness 上下文压缩插件：把长会话的中段渲染成视觉模型可读的图片，不调用摘要模型，保留精确文本与可检索归档。"
-    },
-    {
-      "full_name": "Kiant98/dsh-hoi4-modding",
-      "previous": "memory",
-      "current": "web-ui",
-      "desc_now": "HOI4 模组制作全能工具包，可以制作、检查、修改自己的模组。",
-      "desc_prev": "DeepSeek Harness 组合包 + HOI4（钢铁雄心4）模组开发工具包：1 个模组工程师 agent、15 个技能、20 个 MCP 工具，163 篇参考库与以原版 1.19.4.2 为参照的知识库。装进 DSH 后自动注册技能与工具；纯 Python 标准库零依赖，面向 1.19.x。"
-    },
-    {
-      "full_name": "3309602454/dsh-quick-restart",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "DSH 会话标题栏的一键重启按钮：重启前检查并警告正在运行的会话与后台任务，随后关闭并重新启动桌面端，全程不弹控制台窗口。 | One-click restart button for the DSH desktop app: warns about running work, then closes and relaunches the app without a console window.",
-      "desc_prev": null
-    },
-    {
-      "full_name": "GuYou9799/dsh-turn-sieve",
-      "previous": "conversation",
-      "current": "web-ui",
-      "desc_now": "手动筛选并移除 DSH 会话中的低价值问答或单条消息：在回复旁原位选中、✓ 确认、内容随即从对话中消失，可撤销；液态玻璃面板。",
-      "desc_prev": "对DSH会话中的低价值对话轮次进行选择性裁剪——可按整组对话或单条消息裁剪，支持一级撤销。Selectively prune low-value conversation turns from a DSH session — by whole exchange or individual message, with one-level undo."
-    },
-    {
-      "full_name": "FzqxDedafeiyu/dsh-approval-reason-dock",
-      "previous": "web-ui",
-      "current": "memory",
-      "desc_now": "Adds an optional note to DSH approval prompts (allow or reject) and confirms every allow before it runs; non-invasive client-only overlay, built-in approval card and security architecture stay untouched.",
-      "desc_prev": "Optional rejection reasons for DSH approval prompts — a non-invasive client-only overlay; the built-in approval card and DSH's security architecture stay untouched."
-    },
-    {
-      "full_name": "SonicloudTech/dsh-sonicloud-device",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "The Sonicloud smart mouse plugin brings voice typing, translation, search, and AI conversations to DeepSeek Harness. 声云智能鼠标插件，让你在 DeepSeek Harness 中轻松使用语音打字、翻译、搜索和 AI 对话。",
-      "desc_prev": "Deepseek Harness 声云设备插件"
-    },
-    {
-      "full_name": "Ww-Cooooo/media-review-dsh",
+      "full_name": "v587d/capital-generation",
       "previous": "agent",
-      "current": "tool",
-      "desc_now": "让 AI 视频改稿反馈更直接：框选画面提要求、拖选时间段或定格写意见、点击识别台词或导入字幕定位。基于 Media Review Skill 改造的 Windows Harness 插件；其他 Agent 可用原版 Skill：https://github.com/Ww-Cooooo/media-review",
-      "desc_prev": "Media Review DSH — DeepSeek Harness 原生音视频审片侧栏。其他 Agent 可用 Media Review Skill：https://github.com/Ww-Cooooo/media-review"
+      "current": "coding",
+      "desc_now": "DSH插件：面向中国股市散户的金融投资智能体。Next-Gen AI-Driven Capital Gains Terminal.",
+      "desc_prev": "DSH插件：面向中国股市散户的金融投资智能体。Next-Gen AI-Driven Capital Generation."
     },
     {
-      "full_name": "Yeti11H/dsh-task-pulse",
-      "previous": "web-ui",
-      "current": "tool",
-      "desc_now": "DSH task status + optional GitHub workbench: browse pinned source, follow check annotations, review Agent diffs and create draft PRs after confirmation.",
-      "desc_prev": "Lightweight task-status sidebar for DeepSeek Harness: activity, pending tools, errors and quiet reminders. No extra AI calls."
+      "full_name": "Asuta/dsh-cdx-plus",
+      "previous": "other",
+      "current": "coding",
+      "desc_now": "为 DeepSeek Harness（DSH）补齐 Codex 风格交互与开发工作流：选中引用、侧边对话、Git 工作树、代码审查等 18 项可独立启停的增强功能。Codex-inspired plugin suite for DSH.",
+      "desc_prev": "DSH CDX Plus — DSH 体验增强套件"
+    },
+    {
+      "full_name": "ZzimaR/dsh-yanfield",
+      "previous": "other",
+      "current": "vision",
+      "desc_now": "A long-form fiction writing desk for DeepSeek Harness: drafts, outlines, research, and reviewable AI revisions. 砚田，在 DSH 里写长篇小说。",
+      "desc_prev": "在 DeepSeek Harness 里写长篇小说。砚田写作台：正文、大纲、资料与可审阅的 AI 改稿。"
     }
   ]
 }

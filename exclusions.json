@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-12T23:06:32.933Z",
-  "count": 2779,
+  "generated_at": "2026-11-13T03:34:06.463Z",
+  "count": 2820,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -6387,6 +6387,62 @@
       "kind": "excluded",
       "reason": "不是常规插件——它是 dsh-purge（破甲/红队评测）1.1.90 的个人定制衍生版，回退到 1.1.71 宽松口径并停用区域与目标拦截，属 dsh-purge 破甲家族"
     },
+    "automagik-si/genie": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a general CLI coding agent (\"/wish\": interviews, worktree fan-out, PR review for Claude Code and other harnesses, curl|bash installer); no DSH install path; only carries the dsh-plugin topic tag."
+    },
+    "automagik-si/omni": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a general event-driven omnichannel messaging platform (WhatsApp/Discord/Slack/Telegram) with a CLI, SDKs and NATS event bus; no DSH install path."
+    },
+    "automagik-si/arca": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a self-hosted cloud-infrastructure installer (Linux x86_64/Incus nodes, curl|sh bootstrap) for running apps and agents; no DSH install path."
+    },
+    "dshsea/dshsea": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — the dshsea.com website, a gamified directory/catalog site for dsh-plugin repositories (a page for every repo tagged dsh-plugin); same family as awesome-lists/directory sites."
+    },
+    "Albusriddle/dsh-mobile": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Android WebView mobile client for DSH (companion mobile tooling; no README, no plugin bundle)."
+    },
+    "edison7009/aiwings": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone desktop sidebar utility that docks beside AI chat apps (DSH among ~30 supported apps) to queue prompts; no DSH install path."
+    },
+    "JevonsCode/fuli": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a cross-client memory/companion console for Claude Code/Codex/OpenCode/Cursor etc.; DSH is connected from its own console as one of many clients; no DSH install path."
+    },
+    "MagicalYuYu/vizreport": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent skill that turns Markdown reports into single-file interactive HTML (Claude Code skill); no DSH install path."
+    },
+    "zxrobin01/vmware-console-mcp": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a VMware Player/Workstation/ESXi control MCP server (vmrun/VNC/govc tooling) for generic MCP clients; no DSH install path."
+    },
+    "MykytaStel/ua-tts-text": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a Ukrainian text-normalization npm library for TTS engines (numbers/dates/stress); no DSH install path."
+    },
+    "moluotianshen/pro-202611": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty zero-dependency Node.js ESM project skeleton (self-described November experiment with the direction still undecided)."
+    },
+    "Lee-Eee-Eee/API-MRI": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone API-response inspection workbench (Windows portable exe + browser UI, university research prototype); no DSH plugin install path."
+    },
+    "HimLeoing/dsh-purge": {
+      "kind": "excluded",
+      "reason": "不是常规插件——dsh-purge 破甲家族衍生（自述「提示词注入 + 引擎层补丁」，适配 dsh 0.2.2-rc.2，上游 YuJunZhiXue/dsh-purge）；沿 YuJunZhiXue/dsh-purge 剔除先例"
+    },
+    "tiancaixiexiong1997/deepseek-pojia": {
+      "kind": "excluded",
+      "reason": "不是常规插件——dsh-purge 破甲家族一键安装版（自述「让所有模型都能破甲」，捆绑红队演练台）；沿 YuJunZhiXue/dsh-purge 剔除先例"
+    },
     "01men/kizuna": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a self-hosted agent relay/delivery network (hub+box+web console, Docker/Caddy); the DSH plugin is its console panel — dual-host distribution. Stays in the catalog."
@@ -7931,10 +7987,6 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop launcher for managing DeepSeek Harness instances; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "jiezhengj/DSH-Anywhere": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a remote/mobile client form — opens the desktop DSH web UI from a phone through a self-hosted Cloudflare relay (QR pairing; sessions, tasks and files from anywhere). Stays in the catalog."
-    },
     "JimLiu/baoyu-design": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: dual-host distribution (Agent Skills for Cursor/Claude Code/Codex via npx skills + npm-published DSH plugins); stars accrued as the generic baoyu-design skills. Stays in the catalog."
@@ -9206,10 +9258,6 @@
     "SkyblueeeLabs/dsh-iconic-launcher": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a desktop shell/launcher/client, not an installable DSH plugin. Stays in the catalog."
-    },
-    "sliverp/dsh-hub-plugin": {
-      "kind": "market",
-      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "smallhug/tkless": {
       "kind": "leaderboard",
@@ -10515,14 +10563,6 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a dual-host product — 20-skill microkernel suite packaged as one plugin for Claude Code, Codex, dsh and CodeBuddy plus rule-file hosts. Stays in the catalog."
     },
-    "JiamingShi-JsPhys/motion-weaver": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a dual-host product — multi-host plugin suite (Claude Code, Codex, dsh, CodeBuddy, rule-file hosts); DSH bundle is one distribution form. Stays in the catalog."
-    },
-    "JiamingShi-JsPhys/sem-copilot": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a dual-host product — cross-platform agent skill suite for Claude Code, WorkBuddy, OpenAI Codex and DSH; DSH bundle is one distribution form. Stays in the catalog."
-    },
     "Kanzhenijuede/aurabot-mod-douyin-chat": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a remote/IM form — a Douyin-DM module of the approved dsh-aurabot-qq plugin (installs into ~/.dsh/plugins-data/aurabot/modules/): inbound Douyin DMs drive the persona bot session and replies are posted back to Douyin. Stays in the catalog."
@@ -10686,6 +10726,130 @@
     "zxlbxx/dsh-feishu-channel": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a bidirectional remote IM bridge — pushes session completion to Feishu and inbound-drives sessions from the phone (group messages delivered into workspace sessions, /feishu spawn can create new sessions). Stays in the catalog."
+    },
+    "kunkundi/crossdesk": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: stars accrued as a general cross-platform remote-desktop product (CrossDesk, 1087d-old, 4.7k★, full desktop/mobile/Web clients, crossdesk.cn); the DSH side is one MCP plugin package (dev-build) among Codex/Pi/CLI distribution. Stays in the catalog."
+    },
+    "automagik-si/automagik": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a desktop app (Automagik desktop, Mac/Linux) wrapping the bot team; it ships real DSH plugin packages (@automagik/bots-dsh, welcome-dsh, acp-dsh, locale-pt-br-dsh), so it stays in the catalog."
+    },
+    "xinspark/dsh-next-multi-launcher": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a multi-instance launcher for the DSH-NEXT desktop edition (Tauri app), not an installable DSH plugin. Stays in the catalog."
+    },
+    "dsh-hub-managers/dsh-hub-plugin": {
+      "kind": "market",
+      "reason": "A DSH plugin market / store (DSH Hub, dsh-hub.cc in-client store panel) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "Xraytest/exneo-useful-dsh-workshop": {
+      "kind": "market",
+      "reason": "A self-published DSH plugin-market index source (format-1 marketplace/dsh-index feeds) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "aaa8leitingpifa/dsh-daily-push": {
+      "kind": "market",
+      "reason": "An in-client plugin directory / discovery radar (three ecosystem-wide boards over the dsh-plugin topic) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "02TJS/ProgressTarget": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a dual-host product — two independently installable plugins (DSH 2.1.0 + Codex 0.1.0) sharing one plan engine. Stays in the catalog."
+    },
+    "iasiv5/skills": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a multi-harness skill collection — reusable skills packaged for Claude Code, Codex and DSH beside the script-copy flow; the DSH plugin (@iasiv5/dsh-skills) is one distribution form. Stays in the catalog."
+    },
+    "JiamingShi-JsPhys/web-forager": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a dual-host product — one web-gathering codebase shipped as CLI, MCP server, Claude Code skill and dsh/CodeBuddy plugin commands; follows the same-author multi-host suite exclusions (3d-fabric / chelate-shell / motion-weaver / sem-copilot). Stays in the catalog."
+    },
+    "fengshaoA/dsh-skills-fengshaoA": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a skills.sh multi-harness skill pack (npx skills add) with DSH as one named audience; no DSH-native bundle. Stays in the catalog."
+    },
+    "iswalterwu/agent-site": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a multi-agent desktop monitor — tracks pi, Claude Code and DSH sessions; the dsh-agent-site plugin is one read-only face beside the standalone desktop window. Stays in the catalog."
+    },
+    "Leon-S-7211/insight-charts": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a dual-host chart skill — Claude Code plugin and DeepSeek Harness plugin sharing one matplotlib skill body. Stays in the catalog."
+    },
+    "nonenameless/dsh-a2a": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: an inter-harness bridge — A2A interop driving sessions between dsh, OpenClaw and Hermes. Stays in the catalog."
+    },
+    "Wolfloiz/plugin-janus": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a two-way harness bridge — half DeepSeek Harness plugin, half Herdr mod; either side can drive the other (follows the herdr-bridge exclusion). Stays in the catalog."
+    },
+    "jackdu2333/dsh-hermes-workspace": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a harness bridge — DSH plugin connecting straight to the Hermes TUI Gateway JSON-RPC to restore canonical Bot Chat. Stays in the catalog."
+    },
+    "Ghost233/GhostAgentSentinel": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a dual-host monitor — one codebase, two Cores: a DSH plugin observing DSH agents and a Codex plugin observing local Codex chats. Stays in the catalog."
+    },
+    "yumingtao/agent-skills": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a platform-neutral skill asset pack for Claude Code, Codex, Cursor, OpenCode, Windsurf, Gemini, Copilot, CodeBuddy and Hermes, with dsh plugin add commands as one target beside a self-published index. Stays in the catalog."
+    },
+    "wonvi/five-aspect-review": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a triple-host skill — one skill body installed into WorkBuddy, Doubao and DeepSeek Harness (shared ~/.agents/skills root). Stays in the catalog."
+    },
+    "z324169276/hubei-exam-skills": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a multi-platform exam-skill pack — install paths documented for Claude Code, Trae and DSH (dsh.bundle manifest); the DSH plugin is one distribution form. Stays in the catalog."
+    },
+    "oscarka/deepseekharness-remotecontrol": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/two-way face — phone + Feishu long-connection + self-hosted web console reading local session dirs (DSH/Codex/Claude) and driving approvals, steering and multi-machine switching inbound. Stays in the catalog."
+    },
+    "YveYin/dsh-wechat-away": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: an IM automation face — UI Automation + synthetic clicks that watch WeChat and auto-reply on your behalf while away. Stays in the catalog."
+    },
+    "Bozheng-Li/dsh-Wechat-Agent": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a two-way WeChat face — persona/memory assistant with DSH work tasks, timed reminders, sticker/image automation and Moments automation on Windows x64. Stays in the catalog."
+    },
+    "sweet560/dsh-plugin-wechat-session": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a two-way WeChat face — desktop popup/notification escalation that forwards DSH questions to WeChat via the dsh-im bot and accepts reply selections inbound. Stays in the catalog."
+    },
+    "ZhongYiSS/dsh-onebot-paopao": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a two-way QQ companion face — proactive QQ messages by weighted mood, video picking and voice/image/video understanding on the dsh-onebot base (follows the aurabot companion-module arbitration). Stays in the catalog."
+    },
+    "gaolin89898/dsh-kite": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote-access face — low-latency E2E-encrypted P2P entry to local DSH/Codex/Cursor/Claude Code workspaces from PC, mobile and web clients. Stays in the catalog."
+    },
+    "reshdh/dsh-remote-hub": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/two-way face — mobile PWA gateway, host-scoped workspace switcher, remote directory browser and cross-host @ session references. Stays in the catalog."
+    },
+    "anydoor7/dsh-tslink": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote-access face — opens the running local app on your phone over a private Tailscale URL via the tslink MCP server and preview skill. Stays in the catalog."
+    },
+    "wu1yi2fan/dsh-qqbot-suite": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a two-way QQ face — QQ bot plugin suite for DSH over Cordis (inbound chat drives sessions). Stays in the catalog."
+    },
+    "joymitu/xuyi-memory-release": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a two-way QQ companion face — memory layer plus guided QQ-bot onboarding (official QQ plugin + scan-code bot creation) for chatting with a DSH persona on QQ. Stays in the catalog."
+    },
+    "aaalog/dsh-chat-bridge": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/two-way face — bridges DSH agents into an external chat backend, driving sessions inside the Host without spawning headless runs. Stays in the catalog."
+    },
+    "slow-stack/dsh-cura": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a two-way QQ companion face — life-care core (health logs, AMap/Luckin MCP tools) plus a QQ companion enhancement that makes replies read human. Stays in the catalog."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
