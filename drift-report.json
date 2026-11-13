@@ -1,97 +1,48 @@
 {
-  "generated_at": "2026-11-13T11:49:38.197Z",
-  "count": 13,
+  "generated_at": "2026-11-13T19:04:43.581Z",
+  "count": 6,
   "items": [
     {
       "full_name": "yanfei0725/dsh-qwen-paint",
-      "previous": "vision",
-      "current": "model",
-      "desc_now": "DSH 插件：视频 / 生图 / TTS 全能 · 本机运行。Qwen-Image 2.1 + Wan 2.2 + Qwen3-TTS，CPU 指令集五档加速、蒙版羽化与反选、可选卸载内存。QQ 交流群 454707710",
-      "desc_prev": "DSH 插件 / DeepSeek Harness：本地文生图、图生图、局部重绘、元素移除、四向扩图与高清放大。经本机 ComfyUI 调用 Qwen-Image 2.1 / 官方 Turbo，出图数据仅走 127.0.0.1 回环，无需 API 密钥、零调用费用。Windows / Linux，NVIDIA / Intel Arc / AMD 显卡。"
+      "previous": "model",
+      "current": "resource",
+      "desc_now": "DSH 插件：视频 / 生图 / TTS 全能 · 本机运行。Qwen-Image 2.1 + Wan 2.2 + Qwen3-TTS，生成历史可搜索（SQLite · 软删除不删文件）、CPU 指令集五档加速、蒙版羽化与反选、可选卸载内存；36 条本机端点有机器可读目录供外部集成。QQ 交流群 454707710",
+      "desc_prev": "DSH 插件：视频 / 生图 / TTS 全能 · 本机运行。Qwen-Image 2.1 + Wan 2.2 + Qwen3-TTS，CPU 指令集五档加速、蒙版羽化与反选、可选卸载内存。QQ 交流群 454707710"
     },
     {
-      "full_name": "tingfeng347/dsh-vscode-workbench",
-      "previous": "coding",
-      "current": "document",
-      "desc_now": "DeepSeek Harness 的 VS Code 风格工作台：资源管理器、Monaco 编辑、Markdown 与 PDF 预览、全文搜索、Git 暂存与提交、可分屏的官方终端和内置或系统浏览器都在同一界面，右侧可直接和 DSH 对话，主题、布局与语言服务在 DSH 设置中统一管理。",
-      "desc_prev": "DeepSeek Harness 的 VS Code 风格本地开发工作台：文件管理、Monaco 编辑、文档预览、搜索、Git、分屏终端与 DSH 对话一体化。"
-    },
-    {
-      "full_name": "mobius-2046/dsh-harmonyos-agent",
-      "previous": "coding",
+      "full_name": "komoai2026/dsh-kolmopdf",
+      "previous": "document",
       "current": "vision",
-      "desc_now": "DSH 的 HarmonyOS 应用开发 agent：一个 harmony 工具 15 个动作（构建/编译/依赖/装机/启动/多设备/日志/截图/应用生命周期/环境诊断/签名/界面操作/文件传输/崩溃日志/离线文档），plan / goal / build 三模式预设，以及网页端 hilog 面板。",
-      "desc_prev": "DSH 的 HarmonyOS 应用开发 agent：plan / goal / build 三模式预设，ArkTS、hvigor、ohpm、hdc 技能，一个 harmony 工具（build/run/devices/deploy/logs），以及 Web GUI 里的 hilog 面板。"
+      "desc_now": "Official KolmoPDF plugin for DeepSeek Harness: PDF to Markdown/OCR, layout-preserving PDF translation, and DOCX/PDF/HTML/LaTeX export.",
+      "desc_prev": "Official KolmoPDF tools for DeepSeek Harness with durable API-key and settings integration."
     },
     {
-      "full_name": "27Synthesis/dsh-go-fish-panel",
+      "full_name": "PerryLink/dsh-qms-capa",
+      "previous": "other",
+      "current": "resource",
+      "desc_now": "给质量经理/体系工程师：登记 QMS 不合格品（NCR）、批次与影响评估，跟踪 CAPA/8D 闭环。 QMS NCR / CAPA / 8D tracking.",
+      "desc_prev": "[FROZEN 2026-10-31] QMS NCR ingest, batch alias resolution, impact evaluation, CAPA and 8D state."
+    },
+    {
+      "full_name": "dichi123456/dsh-molingTex",
+      "previous": "document",
+      "current": "resource",
+      "desc_now": "墨灵 LaTeX 的 DSH 插件：右侧栏 LaTeX 工作台（目录树 / 编辑 / 编译 / 日志 / PDF / SyncTeX 双向定位）+ 5 个 Agent 工具，让模型直接编译论文、读报错、定位源码行。",
+      "desc_prev": "?? LaTeX ? DSH ??:??? LaTeX ???(??? / ?? / ?? / PDF)+ 5 ? Agent ??"
+    },
+    {
+      "full_name": "ShawnZhangGy/dsh-whale-reminder",
       "previous": "web-ui",
+      "current": "notify",
+      "desc_now": "DSH 会话提醒插件：Windows 系统通知 + 声音 + 窗口内浮层 + 任务栏/托盘闪烁；点击通知可直达会话（提到最前并聚焦输入框 / 只提窗 / 只提醒三档），DSH 在前台时不打扰，中英双语，已归档与子代理不计入未读",
+      "desc_prev": null
+    },
+    {
+      "full_name": "stone-yu/dsh-sync",
+      "previous": "tool",
       "current": "memory",
-      "desc_now": "鱼·观测台：给 dsh-fish 在 DSH Go 手机上加观测台与设置面板，包括：观测台 + 作息 / 上网 / 说话与记忆三页设置，57 项设置能够直接改。解决了dsh-fish在手机DSH Go上无法正常使用的问题。",
-      "desc_prev": "给 dsh-fish（大肥鱼）在 DSH Go 手机 App 上加观测台与设置面板的原生插件"
-    },
-    {
-      "full_name": "ycAlphi/dsh-labscript",
-      "previous": "other",
-      "current": "web-ui",
-      "desc_now": "DeepSeek Harness plugin for labscript-suite: runmanager panel read/write, engage + wait, YAML fixed-operation protocols with postprocess write-back, panel snapshots/restore, hard limits, and per-shot HDF5 analysis.",
-      "desc_prev": null
-    },
-    {
-      "full_name": "kadaliao/dsh-plugins",
-      "previous": "resource",
-      "current": "vision",
-      "desc_now": "A collection of plugins for DeepSeek Harness: small, focused additions to the chat, the composer and the workspace.",
-      "desc_prev": "A collection of plugins for DeepSeek Harness: small, focused additions to the chat, the composer and the workspace."
-    },
-    {
-      "full_name": "PerryLink/dsh-einvoice",
-      "previous": "tool",
-      "current": "other",
-      "desc_now": "给会计/出纳：把电子发票（数电票/OFD/XML）入库、解析、去重并本地归档，核对发票要素与重复报销。 E-invoice (OFD/XML) ingest, dedupe and archive.",
-      "desc_prev": "File-level Chinese e-invoice (OFD/XML) ingest, parse, dedup and local archive."
-    },
-    {
-      "full_name": "odysseykernelt/dsh-dashcam",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "A dashcam for your AI plugins: records what they actually do in a tamper-evident ledger. Does not block.",
-      "desc_prev": "A dashcam for your AI plugins: records what they actually do in a tamper-evident ledger. Does not block."
-    },
-    {
-      "full_name": "DerekZhangbj/dsh-compaction-selective",
-      "previous": "conversation",
-      "current": "web-ui",
-      "desc_now": "Human-directed selective compaction for DeepSeek Harness (DSH). ｜ 中文：由人指定压缩哪几轮的 DSH 插件，把已结束的一段对话折成一条摘要（工具/面板/＋菜单三个入口，执行前人工确认）。",
-      "desc_prev": "Human-directed selective compaction for DeepSeek Harness: compact an explicitly requested span of finished turns into one summary, with a mandatory approval prompt."
-    },
-    {
-      "full_name": "LXinH3RT/dsh-auto-relay",
-      "previous": "conversation",
-      "current": "notify",
-      "desc_now": "DSH Host plugin: open a continuation session when a conversation keeps compressing near its context limit, and increment the session title's trailing number.",
-      "desc_prev": "DSH Host plugin: open a continuation session when a conversation keeps compressing near its context limit, and increment the session title's trailing number."
-    },
-    {
-      "full_name": "liancheng2020/dsh-aihot-radar",
-      "previous": "resource",
-      "current": "notify",
-      "desc_now": "AIHOT 雷达 · DSH 插件：Codex/Claude/Antigravity 额度重置实时推送 + AI 资讯 Agent 工具 + AI 日报",
-      "desc_prev": "AIHOT 雷达 · DSH 插件：Codex/Claude/Antigravity 额度重置推送 + AIHOT 资讯日报与 Agent 工具"
-    },
-    {
-      "full_name": "chicochol/dsh-holopet",
-      "previous": "tool",
-      "current": "coding",
-      "desc_now": "DSH-HoloPet — 把 DeepSeek Harness 的运行状态投到 HoloCubic 桌搭屏：A 页角色动画 + B 页场景化终端，DSH 插件经局域网 SSE 推送状态。",
-      "desc_prev": "? DeepSeek Harness ??????? HoloCubic ????:A ????? + B ??????,? DSH ???"
-    },
-    {
-      "full_name": "leiboss/dsh-wiring",
-      "previous": "other",
-      "current": "coding",
-      "desc_now": "Wire DeepSeek Harness (dsh) capabilities that ship but are not mounted — LSP, browser use, GitHub webhooks — plus read-only diagnostics that explain what is missing. 把 dsh 已发布但未挂载的能力接上线。",
-      "desc_prev": null
+      "desc_now": "备份与同步 DSH 的配置、模型、MCP、插件清单、技能、记忆和自选目录到 WebDAV，每个内容项可单独设置方向；后续支持 GitHub 同步。",
+      "desc_prev": "Back up and sync DeepSeek Harness content to a NAS over WebDAV"
     }
   ]
 }
