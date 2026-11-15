@@ -1,20 +1,27 @@
 {
-  "generated_at": "2026-11-14T19:22:17.966Z",
-  "count": 2,
+  "generated_at": "2026-11-15T03:03:10.963Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "yangjili6/video-understanding-kit",
-      "previous": "vision",
-      "current": "tool",
-      "desc_now": "DSH专用，这个工具不同于传统的AI理解视频流程（定时切帧-切出的帧猜测上下文），而是以1-12FPS一帧来尽可能获取视频的内容，再以网格的形式存入每一帧；网格使用预训练模型进行分组（相同的场景/内容会尽可能在一个网格大组中），这样你的AI在使用了这个插件/工具后能够更好的形容看到的视频，并且可以减少token消耗",
-      "desc_prev": "DSH专用，这个工具不同于传统的AI理解视频流程（定时切帧-切出的帧猜测上下文），而是以1-12FPS一帧来尽可能获取视频的内容，再以网格的形式存入每一帧；网格使用预训练模型进行分组（相同的场景/内容会尽可能在一个网格大组中），这样你的AI在使用了这个插件/工具后能够更好的形容看到的视频，并且不会花什么token；我接下来会在缩短完成这个流程所需要的时长上做努力（目前中端手机在OCR与ASR全开启的情况下让AI完成一个这样的工作流时长需要原视频的1.5倍～3倍左右），解决这个工具最大的痛点。"
+      "full_name": "1010231693/dsh-bat-runner",
+      "previous": "web-ui",
+      "current": "coding",
+      "desc_now": "一个可以在DSH中运行任何bat脚本的插件，终端日志直接显示在DSH主界面，可控制启停，可设置日志面板外观，可任意拖动/缩放。",
+      "desc_prev": "浮在 DSH 界面上的本地脚本日志面板：逐字显示 bat/cmd 输出，可自己运行/停止脚本，可选接收 BatRunner 启动器转发的日志。"
     },
     {
-      "full_name": "khglobal/dsh-nocco",
-      "previous": "coding",
-      "current": "document",
-      "desc_now": "Describe a web system in chat and get a working one: admin panels, mobile apps, games. Live preview beside the conversation, click an element to change it, start from your Excel data, undo any step. A DeepSeek Harness plugin.",
-      "desc_prev": "Nocco: web application developer workbench for DeepSeek Harness. Build web systems from chat with design-system templates, a live preview, click-to-inspect and one-click undo."
+      "full_name": "ChenYichener/dsh-nce",
+      "previous": "memory",
+      "current": "web-ui",
+      "desc_now": "144 New Concept English Book 1 lessons in one DSH panel — one page per lesson, SRS flashcards, and exercise papers graded by your own model.",
+      "desc_prev": "DSH plugin: a New Concept English Book 1 study panel with one-page lessons, SRS flashcards and a mistake notebook. Textbook data is not bundled."
+    },
+    {
+      "full_name": "Planckbaka/dsh-superagent-relay",
+      "previous": "resource",
+      "current": "agent",
+      "desc_now": "Superagent Relay: a community preview of persistent Worker tickets for DeepSeek Harness.",
+      "desc_prev": "Superagent Relay: a community preview of persistent Worker tickets for DeepSeek Harness."
     }
   ]
 }

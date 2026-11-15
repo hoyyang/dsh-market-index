@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-14T23:36:49.589Z",
-  "count": 2837,
+  "generated_at": "2026-11-15T03:03:12.991Z",
+  "count": 2846,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -6507,6 +6507,42 @@
       "kind": "excluded",
       "reason": "不是常规插件——破甲家族事务化重写版（基于 ZiPengWei/dsh-purge——上游自述「no more refusals, do everything」；本仓补丁改掉 AGENTS.md 不覆盖系统指令与审批/沙箱默认值，快照回滚只是工程外壳）；沿家族剔除先例"
     },
+    "tubeagentkit/youtube-transcript-skills": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a multi-agent Agent Skill for Claude Code / Cursor / Codex / Antigravity / Windsurf that fetches YouTube transcripts through a third-party public API; README carries no DSH install path (topic rider)."
+    },
+    "imlishiyuan/deepseek4j": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a Java client library for the DeepSeek API (Maven dependency) created in 2025-01; no DSH install path."
+    },
+    "wangchengxin666/dsh-dock": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a self-hosted Docker deployment / control plane (Traefik gateway + FastAPI/React management plane) provisioning per-user DSH containers; infrastructure packaging, not an installable plugin."
+    },
+    "18874530790/dsh-default-full-permission": {
+      "kind": "excluded",
+      "reason": "Not a regular plugin — a confirm-gate strip: forces danger-full-access with approval-never onto every session, including sessions that already chose stricter presets; follows the confirm-gate-strip exclusion precedent (vs. the kept explicit permission-tier entry)."
+    },
+    "NaiLuo003/dsh-purge-x": {
+      "kind": "excluded",
+      "reason": "不是常规插件——dsh-purge 破甲家族二开分支（README 自述 fork of YuJunZhiXue/dsh-purge v1.1.71，重锚 dsh 0.2.1-rc.5 / 0.2.2-rc.2，别名 dsh-purge）；沿家族剔除先例"
+    },
+    "panda11445/dsh-purge-go": {
+      "kind": "excluded",
+      "reason": "不是常规插件——dsh-purge 破甲家族的 dsh-Go / Android 移植版（自述原作者 YuJunZhiXue）；沿家族剔除先例"
+    },
+    "ssacko510-stack/dsh-purge-fork": {
+      "kind": "excluded",
+      "reason": "不是常规插件——dsh-purge 破甲家族社区分支（自述「破甲」插件、86 条宿主补丁、徽章指向已剔除的 kingcharleslzy-ai/dsh-purge）；沿家族剔除先例"
+    },
+    "jusspound-netizen/dsh-trends-finder": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone zero-dependency Python CLI that prints dsh.so registry trend reports (top downloads / top stars); no DSH install path."
+    },
+    "ADWMC/helm-d": {
+      "kind": "excluded",
+      "reason": "不是常规插件——破甲（jailbreak）插件：README 自述「DeepSeek Harness 的破甲安全分析插件」，四档破甲人格热切换（ds4.1f / stealth / redteam-max / gpt-6x）+ 流式拒绝拦截计数 + 工作台「破甲」页，topics 自带 jailbreak / llm-jailbreak；「安全分析」为委婉包装，与 chs-1108/dsh-purge 同型，2026-08-17 的核准早于家族剔除先例，本轮以 1283★ 冲入 Top 20（#20）触发告警复查；沿 dsh-purge 破甲家族剔除先例"
+    },
     "01men/kizuna": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a self-hosted agent relay/delivery network (hub+box+web console, Docker/Caddy); the DSH plugin is its console panel — dual-host distribution. Stays in the catalog."
@@ -8678,10 +8714,6 @@
     "moonwellxh/DSH-Launcher": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a desktop launcher/tray form — a one-click launcher generator plus system tray for starting DSH, not a host plugin. Stays in the catalog."
-    },
-    "mos-7/dsh-desktop": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a desktop shell (Electron); stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "moyuqing-man/dsh-plugin-community-source": {
       "kind": "market",
@@ -10899,14 +10931,6 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a two-way QQ companion face — life-care core (health logs, AMap/Luckin MCP tools) plus a QQ companion enhancement that makes replies read human. Stays in the catalog."
     },
-    "ldq0102261819/dsh-market-seed": {
-      "kind": "market",
-      "reason": "A plugin-market index seeder for the in-client Discover tab (installs community market index sources) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "shamilinvestor/dsh-plugin-studio": {
-      "kind": "market",
-      "reason": "A plugin workshop that self-publishes a plugin-market index source (market/index.json for the DSH plugin market) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
     "zhizhuodemao/ai-reverse-resources": {
       "kind": "market",
       "reason": "A plugin marketplace / index for reverse-engineering plugins across Codex, Claude Code and DSH — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -10915,9 +10939,21 @@
       "kind": "market",
       "reason": "An in-client financial skill directory with one-click install/uninstall over the awesome-financial-skills catalog — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "JimLiu/open-artifacts": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: dual-host distribution (Agent Skills for Cursor/Claude Code/Codex via npx skills + npm-published DSH plugins); stars accrued as the generic baoyu-design skills. Stays in the catalog."
+    "LeoAndJellyfish/dsh-plugin-index": {
+      "kind": "market",
+      "reason": "A hand-maintained plugin index published as a Discover-tab index source (index.json for 插件 → 发现) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "jiyuchen1/dsh-pluginmarket-plus": {
+      "kind": "market",
+      "reason": "Caches and serves a local mirror of the plugin-market index JSON to the in-client Discover tab — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "jusspound-netizen/dsh-edge-market": {
+      "kind": "market",
+      "reason": "A curated plugin-market index source for the Discover tab (top-20 from the dsh.so registry) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "mysteriousPldq/dsh-market-seed": {
+      "kind": "market",
+      "reason": "A plugin-market index seeder for the in-client Discover tab (installs community market index sources) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
