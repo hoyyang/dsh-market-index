@@ -1,62 +1,41 @@
 {
-  "generated_at": "2026-11-15T10:57:41.414Z",
-  "count": 8,
+  "generated_at": "2026-11-15T18:04:27.895Z",
+  "count": 5,
   "items": [
     {
-      "full_name": "fyjgtddco/DSH-SW-and-CAD",
-      "previous": "other",
-      "current": "document",
-      "desc_now": "担心AI在SW上面画的好看，实际组装又是另外一个事故？有这个项目在！材料、力学、规范三重校核，凭可追溯证据交付工图。让AI画的图真正能进入工程世界，而不是只是一个漂亮的玩具（暂时停更看论文和研究结构，暂时停更一小波）",
-      "desc_prev": "担心AI在SW上面画的好看，实际组装又是另外一个事故？有这个项目在！材料、力学、规范三重校核，凭可追溯证据交付工图。让AI画的图真正能进入工程世界，而不是只是一个漂亮的玩具"
-    },
-    {
-      "full_name": "pgmi-builds/better-dsh",
-      "previous": "memory",
-      "current": "coding",
-      "desc_now": "MOVED to pgmi-builds/super-dsh — better-dsh & super-dsh now maintained there (npm better-dsh unchanged)",
-      "desc_prev": "Make your dsh ready for serious coding. (Tools x Schemas)^REPL. skill://, ctx://, agent://, dvc://, dsh://, IPython REPL, Context as Variables, cross compaction recallable, full context revive. hash-edit, dvc://browser, subagent as a function, workflow as a function."
-    },
-    {
-      "full_name": "GuYou9799/dsh-turn-sieve",
-      "previous": "model",
-      "current": "web-ui",
-      "desc_now": "Turn Sieve (回合筛) — DeepSeek Harness 插件：在对话里原位筛除低价值问答或单条消息，可随时撤销。Prune low-value parts of a DSH chat in place — whole turns, single messages or just your own prompt — and undo any time.",
-      "desc_prev": "Turn Sieve (回合筛) — DeepSeek Harness 插件：在对话里原位筛除低价值问答或单条消息，可随时撤销。Prune low-value parts of a DSH chat in place — a whole exchange, one message or in-turn notices — with instant undo."
-    },
-    {
-      "full_name": "tia-forge/tiaforge-plugins",
-      "previous": "agent",
+      "full_name": "bruc3van/dsh-desktop-pro",
+      "previous": "notify",
       "current": "tool",
-      "desc_now": "TIA Portal MCP server bundle for AI clients — WorkBuddy / CodeBuddy / DSH / Claude Code / Cursor / pi / Doubao: skills + slash commands + MCP gateway for Siemens PLC engineering automation.",
-      "desc_prev": null
+      "desc_now": "DeepSeek Harness 专业版桌面客户端，主打企业级配置：模型、插件、Skill 和工具权限统一下发，自带管理控制台、模型网关和防篡改审计；个人也能直接用。安全、协作、便捷。",
+      "desc_prev": "一款主打安全且更尊重开发者的开源 DeepSeek Harness 桌面客户端。官方 Web UI ，长任务常驻托盘，支持通知推送；内置安全市场，600+精选插件支持安装审查。"
     },
     {
-      "full_name": "TacitSay/dsh-compact-arsenal",
-      "previous": "web-ui",
+      "full_name": "yanfei0725/dsh-qwen-paint",
+      "previous": "resource",
       "current": "tool",
-      "desc_now": "对上下文的不同内容提供不同的压缩方式,可配置的压缩触发阈值",
-      "desc_prev": "可配置的上下文压缩插件：总压缩 / 思考压缩 / 工具输出压缩，带左栏面板（DeepSeek Harness）"
+      "desc_now": "DSH 插件：视频 / 生图 / TTS 全能 · 本机运行（QQ 群 454707710）。0.34.0 起 SageAttention / Comfy-WaveSpeed 并入加速链，按真实 /object_info 探测、卡片常驻显示；可选 GPT-SoVITS v5 / IndexTTS2 语音克隆、ACE-Step 1.5 / YuE2 音乐、手动超分、Worker 热温冷保活；媒体格式转换、加速链全景、GIF / 自诊断 / 任务队列 / DAG 编排 / 生成历史检索、CPU 指令集五档加速。BSL 1.1（非 OSI，2030-11-15 转 Apache-2.0）。",
+      "desc_prev": "DSH 插件：视频 / 生图 / TTS 全能 · 本机运行。0.32.1 两轮审计加固：ASR 音频路径围栏、按包名安装也能执行引导脚本、草图台四事件点按、错误响应消毒收口。生成历史可搜索（SQLite 软删除）、CPU 指令集五档加速、工作流清单化与契约对账、批量出图幂等保护、Qwen3-TTS 语音克隆、蒙版羽化与反选；端点目录机器可读供外部集成。QQ 交流群 454707710"
     },
     {
-      "full_name": "Chenpi-Sakura/harness-supervisor",
+      "full_name": "peiyucn/dsh-sparrow",
+      "previous": "resource",
+      "current": "memory",
+      "desc_now": "Desk One (同桌) — one desk for you and harness. Notes, tasks, read-only calendar and AI-written notebook review in one DSH panel; plus three small tools.",
+      "desc_prev": "A collection of small DeepSeek Harness (DSH) web plugins."
+    },
+    {
+      "full_name": "GuyeQiuchen/dsh-mode-router",
       "previous": "other",
-      "current": "conversation",
-      "desc_now": "Make other harnesses work for yours. Turn native AI harnesses into subagents your main harness can command and manage. | 让你的主 Harness 当老板，其他 Harness 来干活。把各家原生 Harness 变成它可委派、可管理的子智能体。",
-      "desc_prev": null
+      "current": "tool",
+      "desc_now": "自动分辨每条消息是聊天还是派活，并切换回答协议；/chat /work /auto 手动覆盖，mode_status 可复盘。纯规则打分，不调模型。",
+      "desc_prev": "用来发布能用于DeepSeek Harness的插件"
     },
     {
-      "full_name": "yeweiliang7063/dsh-tcm",
-      "previous": "model",
-      "current": "other",
-      "desc_now": "装上以后，DSH 里多出一个「中医 · 岐黄经方（学习版）」预设，能陪你按经方思路学中医：先像坐诊一样问清寒热、出汗、二便、睡眠、舌象、六部脉，再按《黄帝内经》《难经》《伤寒杂病论》讲清这个证属哪一经、病机在哪、该用哪一类方、该取哪几个穴，并教你服后怎么核对方向对不对。只讲思路，不给剂量，不出处方笺。《npm 上的 dsh-tcm 1.3.0 是旧版、已废弃，请勿安装   》！！！    ",
-      "desc_prev": "DSH 中医预设「岐黄经方（学习版）」2.2.2：先给一行大白话结论，再按经方思路七段讲清辨证定位、治则治法、方名与加减方向、推荐穴位、配伍禁忌、药典用量警示、调护与就医提示；危险动作打 🚨⚠️ 标签，古文翻成白话。只讲思路，不给剂量，不出处方笺。《npm 上的 dsh-tcm 1.3.0 是旧版、已废弃，请勿安装   》！！！    "
-    },
-    {
-      "full_name": "hanhan9999999999999999999/remote-connect-dsh",
-      "previous": "tool",
-      "current": "vision",
-      "desc_now": "DSH 插件 dsh-remote-connect — 手机扫码远程操作电脑上的 DSH，两台电脑之间互相同步插件 / 技能 / 规则 / 配置 / 会话。开源，MIT。",
-      "desc_prev": "DSH 插件 dsh-remote-connect — 手机扫码远程操作电脑上的 DSH，两台电脑之间互相同步插件 / 技能 / 规则 / 配置 / 会话。开源，MIT。"
+      "full_name": "tinyhan9/dsh-ding",
+      "previous": "conversation",
+      "current": "tool",
+      "desc_now": "DeepSeek Harness 的轮次结束提示音插件：一轮对话跑完时播一声合成的水滴声。七种音色、可调音量、总开关，零运行期依赖、不带音频文件、不联网。",
+      "desc_prev": "Turn-end chime plugin for DeepSeek Harness: plays a synthesised water-drop sound when a conversation turn finishes. Seven presets, volume, global switch, zero runtime dependencies."
     }
   ]
 }
