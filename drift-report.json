@@ -1,41 +1,20 @@
 {
-  "generated_at": "2026-11-15T18:04:27.895Z",
-  "count": 5,
+  "generated_at": "2026-11-15T23:00:39.188Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "bruc3van/dsh-desktop-pro",
-      "previous": "notify",
-      "current": "tool",
-      "desc_now": "DeepSeek Harness 专业版桌面客户端，主打企业级配置：模型、插件、Skill 和工具权限统一下发，自带管理控制台、模型网关和防篡改审计；个人也能直接用。安全、协作、便捷。",
-      "desc_prev": "一款主打安全且更尊重开发者的开源 DeepSeek Harness 桌面客户端。官方 Web UI ，长任务常驻托盘，支持通知推送；内置安全市场，600+精选插件支持安装审查。"
+      "full_name": "klaus-2/dsh-redline",
+      "previous": "web-ui",
+      "current": "vision",
+      "desc_now": "Visual feedback & design review for DeepSeek Harness: click any UI element in the browser, comment, tweak CSS live, and send structured context + screenshot to your agent.",
+      "desc_prev": "Point at any element on the page, adjust it live, and send structured visual feedback to your DeepSeek Harness agent."
     },
     {
-      "full_name": "yanfei0725/dsh-qwen-paint",
-      "previous": "resource",
-      "current": "tool",
-      "desc_now": "DSH 插件：视频 / 生图 / TTS 全能 · 本机运行（QQ 群 454707710）。0.34.0 起 SageAttention / Comfy-WaveSpeed 并入加速链，按真实 /object_info 探测、卡片常驻显示；可选 GPT-SoVITS v5 / IndexTTS2 语音克隆、ACE-Step 1.5 / YuE2 音乐、手动超分、Worker 热温冷保活；媒体格式转换、加速链全景、GIF / 自诊断 / 任务队列 / DAG 编排 / 生成历史检索、CPU 指令集五档加速。BSL 1.1（非 OSI，2030-11-15 转 Apache-2.0）。",
-      "desc_prev": "DSH 插件：视频 / 生图 / TTS 全能 · 本机运行。0.32.1 两轮审计加固：ASR 音频路径围栏、按包名安装也能执行引导脚本、草图台四事件点按、错误响应消毒收口。生成历史可搜索（SQLite 软删除）、CPU 指令集五档加速、工作流清单化与契约对账、批量出图幂等保护、Qwen3-TTS 语音克隆、蒙版羽化与反选；端点目录机器可读供外部集成。QQ 交流群 454707710"
-    },
-    {
-      "full_name": "peiyucn/dsh-sparrow",
-      "previous": "resource",
-      "current": "memory",
-      "desc_now": "Desk One (同桌) — one desk for you and harness. Notes, tasks, read-only calendar and AI-written notebook review in one DSH panel; plus three small tools.",
-      "desc_prev": "A collection of small DeepSeek Harness (DSH) web plugins."
-    },
-    {
-      "full_name": "GuyeQiuchen/dsh-mode-router",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "自动分辨每条消息是聊天还是派活，并切换回答协议；/chat /work /auto 手动覆盖，mode_status 可复盘。纯规则打分，不调模型。",
-      "desc_prev": "用来发布能用于DeepSeek Harness的插件"
-    },
-    {
-      "full_name": "tinyhan9/dsh-ding",
+      "full_name": "klaus-2/dsh-nextsteps",
       "previous": "conversation",
-      "current": "tool",
-      "desc_now": "DeepSeek Harness 的轮次结束提示音插件：一轮对话跑完时播一声合成的水滴声。七种音色、可调音量、总开关，零运行期依赖、不带音频文件、不联网。",
-      "desc_prev": "Turn-end chime plugin for DeepSeek Harness: plays a synthesised water-drop sound when a conversation turn finishes. Seven presets, volume, global switch, zero runtime dependencies."
+      "current": "web-ui",
+      "desc_now": "Suggested follow-up prompts for DeepSeek Harness chat: AI-generated next steps as clickable cards under every agent turn — one click sends the reply, zero typing. 15 languages.",
+      "desc_prev": "Suggested next-step prompts under every finished agent turn in the DeepSeek Harness chat — one click sends the followup."
     }
   ]
 }
