@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-15T23:00:41.563Z",
-  "count": 2846,
+  "generated_at": "2026-11-16T02:43:00.912Z",
+  "count": 2853,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -6543,6 +6543,30 @@
       "kind": "excluded",
       "reason": "不是常规插件——破甲（jailbreak）插件：README 自述「DeepSeek Harness 的破甲安全分析插件」，四档破甲人格热切换（ds4.1f / stealth / redteam-max / gpt-6x）+ 流式拒绝拦截计数 + 工作台「破甲」页，topics 自带 jailbreak / llm-jailbreak；「安全分析」为委婉包装，与 chs-1108/dsh-purge 同型，2026-08-17 的核准早于家族剔除先例，本轮以 1283★ 冲入 Top 20（#20）触发告警复查；沿 dsh-purge 破甲家族剔除先例"
     },
+    "Bytedesk/bytedesk": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a self-hosted omnichannel customer-service / team-IM platform (Java/Spring Boot monorepo; MySQL + Elasticsearch + Artemis, Docker Compose deploy) that lists DeepSeek only as one of its LLM providers; no DSH install path (topic rider)."
+    },
+    "huajikano/dsh-feibi-breaker": {
+      "kind": "excluded",
+      "reason": "不是常规插件——破限（jailbreak）插件：系统提示词层注入塑形规则（内置规则打包为 payload.bin 不以明文分发）+ llm/stream 拒绝流拦截（命中即把回复扣在会话之外）+ 破限成功率自测（真实模型调用测「通过率」）；与 ADWMC/helm-d、chs-1108/dsh-purge 同型，沿破甲家族剔除先例"
+    },
+    "show-thesky/bing": {
+      "kind": "excluded",
+      "reason": "不是常规插件——README 自述「破dsh甲」学习仓库：安装的 pierce 工具做提示词组装层注入与探测（persona 探测 / 端点探测 / 历史污染），「仅供研究」声明不改变其破甲形态；沿破甲家族剔除先例"
+    },
+    "xiaotianya14/apk-reverse-skill": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an Android APK reverse-engineering toolkit of standalone bash scripts (decode / decompile / ad-cleanup / patch / re-sign); no DSH plugin install path documented."
+    },
+    "awychoi/cue9": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a macOS control app for the cue9 ESP-32 desk-companion hardware (companion tooling); the DSH plugin body lives in the sibling repo dsh-cue9-mote, approved separately."
+    },
+    "admin6a/dsh-sidebar-extension": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a Chrome side-panel extension plus a local proxy that embeds the DSH web page in the browser (companion browser extension); no installable DSH plugin."
+    },
     "01men/kizuna": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a self-hosted agent relay/delivery network (hub+box+web console, Docker/Caddy); the DSH plugin is its console panel — dual-host distribution. Stays in the catalog."
@@ -7294,10 +7318,6 @@
     "divisioncassini05-lab/find-nyaa-anime-release": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: dual-host — the same core ships as a Codex Skill and a DSH plugin side by side. Stays in the catalog."
-    },
-    "Djokovical5294/DeepSeek-Harness-Token-Free": {
-      "kind": "market",
-      "reason": "Not an installable DSH plugin — a desktop shell/Electron GUI wrapper; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "dlssjdyka0019/dsh-launcher": {
       "kind": "market",
@@ -8710,10 +8730,6 @@
     "MoonLoordSaMa/dsh-starr": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a remote/IM form — a two-way QQ (SnowLuma) + Bilibili companion-bot face with shared character memory. Stays in the catalog."
-    },
-    "moonwellxh/DSH-Launcher": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a desktop launcher/tray form — a one-click launcher generator plus system tray for starting DSH, not a host plugin. Stays in the catalog."
     },
     "moyuqing-man/dsh-plugin-community-source": {
       "kind": "market",
@@ -10954,6 +10970,18 @@
     "mysteriousPldq/dsh-market-seed": {
       "kind": "market",
       "reason": "A plugin-market index seeder for the in-client Discover tab (installs community market index sources) — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "scarletkc/Hatoba": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: an open-source desktop SSH client (Tauri product with its own site and Scoop/AUR packages); its DSH plugin (hatoba-agent-plugin) is a companion skill host and the ~6.5★/day growth accrued as a general-purpose SSH client, not via the DSH plugin. Stays in the catalog."
+    },
+    "bruc3van/dsh-desktop-pro": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a third-party Electron desktop client wrapping the official Web UI (desktop shell/client form). Stays in the catalog."
+    },
+    "haiwenxiang061-dev/dsh-plugins": {
+      "kind": "market",
+      "reason": "Publishes a plugin-market index (format-1 market.json) for the in-client Discover tab covering its own dsh-arcgispro / dsh-envi / dsh-prompt-complete plugins — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
