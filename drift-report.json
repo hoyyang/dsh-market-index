@@ -1,83 +1,69 @@
 {
-  "generated_at": "2026-11-16T14:15:05.299Z",
-  "count": 11,
+  "generated_at": "2026-11-16T21:15:20.094Z",
+  "count": 9,
   "items": [
     {
-      "full_name": "JAdpp/dsh-whale-galgame",
+      "full_name": "KyoMio/dsh-zen-remote",
       "previous": "web-ui",
-      "current": "document",
-      "desc_now": "办公推gal两不误~面向DeepSeek Harness的跨会话事件感知Galgame引擎与界面，支持大肥鱼/GPT/Claude/Grok/Gemini/Kimi多位AI娘角色",
-      "desc_prev": "打工推gal两不误~面向DeepSeek Harness的跨会话事件感知Galgame引擎与界面插件，支持大肥鱼/GPT/Claude/Grok/Gemini/Kimi多位模型娘角色"
+      "current": "tool",
+      "desc_now": "Encrypted peer-to-peer mesh, phone PWA & Web Push, and host/client session sharing for DeepSeek Harness — zero public IPs required. 零公网 IP 加密组网互通多台 DSH 电脑会话，同时支持手机 PWA 远程操控与锁屏推送。",
+      "desc_prev": "Use DeepSeek Harness from your phone or another computer. Host: mobile UI, pairing-code gateway, PWA and Web Push, plus sharing chosen sessions. Client: those sessions appear in another DSH desktop's sidebar. 手机和另一台电脑都能安全远程使用 DSH"
     },
     {
-      "full_name": "lpeixin/dsh-project-compass",
-      "previous": "coding",
-      "current": "other",
-      "desc_now": "Project Compass is a zero-dependency DSH plugin that statically scans a codebase to generate evidence-cited architecture and onboarding docs, plus offline extractive Q&A by default.",
-      "desc_prev": "An AI-powered DSH plugin for codebase analysis, developer onboarding, and project-level Q&A. 项目罗盘 / Project Compass — DSH 插件，通过 AST、依赖图、RAG 和 LLM 分析代码库，自动生成架构、模块、调用链与上手指南，并提供项目级 AI Q&A，帮助开发者快速理解和接手项目。 "
-    },
-    {
-      "full_name": "tia-forge/dsh-tiaforge",
-      "previous": "tool",
+      "full_name": "mzzsfy/dsh-plugin",
+      "previous": "other",
       "current": "coding",
-      "desc_now": "TIA Portal MCP server for DeepSeek Harness (DSH): 5 skills + 5 MCP endpoints - PLC docs retrieval, SCL/ladder generation, ladder render, cloud simulation, local gateway. 博途插件。",
-      "desc_prev": "DSH 博途插件：在 DeepSeek Harness 里接西门子 TIA Portal —— 文档检索、梯形图生成与渲染、PLC 云仿真、本机网关（TiaLink）。装完看不到工具？先领 4 把 Key。"
+      "desc_now": "deepseek harness 插件维护仓库, 个人开发的所有dsh插件都在这",
+      "desc_prev": null
+    },
+    {
+      "full_name": "zaofan-make/dsh-qqbot-plugins",
+      "previous": "resource",
+      "current": "coding",
+      "desc_now": "qqbot扩展市场,不改代码,获得功能,下载别人,分享你的，比如主动关怀,看b站,语音合成,戳一戳,以图搜图",
+      "desc_prev": "DSH QQ 机器人插件市场索引 · 收录扩展包（extension packs）"
     },
     {
       "full_name": "QZyme/dsh-besson-tools",
-      "previous": "coding",
-      "current": "web-ui",
-      "desc_now": "DSH 插件（bundle，v2.3.0）：9 个独立组件 + Web 左栏入口面板；教程检索与学习路线、版本对比、环境搭建、工程体检、迁移清单。217 篇数据来自 beishanair.github.io（2026-11-07 同步）。",
-      "desc_prev": "DSH 插件（7 个独立组件）：北山Besson Minecraft 模组开发教程 — 检索/路线规划/版本对比/环境清单/正文抓取，217 篇数据（2026-11-07），适配 DSH 0.2.2-rc.1+，插件栏一键安装"
-    },
-    {
-      "full_name": "Velestia-star/dsh-docdesk",
       "previous": "web-ui",
-      "current": "resource",
-      "desc_now": "一个适用于在DeepSeek Harness中管理资料的dsh插件",
-      "desc_prev": "A desktop-style materials panel for Markdown documents created in DeepSeek Harness."
+      "current": "coding",
+      "desc_now": "北山Besson 模组开发助手插件（bundle）：11 个工具（教程检索/学习路线/版本对比/环境搭建/工程体检/迁移清单/骨架生成/中文映射）+ 左栏面板 + 内置「Besson 教程助手」agent 预设；DSH 0.2.2-rc.x；数据 2026-11-07（217 篇）。",
+      "desc_prev": "DSH 插件（bundle，v2.3.0）：9 个独立组件 + Web 左栏入口面板；教程检索与学习路线、版本对比、环境搭建、工程体检、迁移清单。217 篇数据来自 beishanair.github.io（2026-11-07 同步）。"
     },
     {
-      "full_name": "NoCandles/dsh-stock-bar",
+      "full_name": "xuiyun/nqe",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "DSH 插件：让 AI 该问的时候问、该确认的时候确认 —— 不再用「任务完成」打发你，动手前也会先把理解说清楚；回答还能直接贴图，贴文件，用指令",
+      "desc_prev": "DSH 插件：让 AI 该问的时候问、该确认的时候确认 —— 不再用「任务完成」打发你，动手前也会先把理解说清楚；回答还能直接贴图。"
+    },
+    {
+      "full_name": "stevenjj33/dsh-obsidian-skills",
+      "previous": "tool",
+      "current": "agent",
+      "desc_now": "Agent skills for Obsidian, packaged as a DeepSeek Harness plugin bundle. Vendored from https://github.com/kepano/obsidian-skills (MIT).",
+      "desc_prev": "Agent skills for Obsidian, packaged as a DeepSeek Harness plugin bundle. Vendored from https://github.com/kepano/obsidian-skills (MIT)."
+    },
+    {
+      "full_name": "scifmat/dsh-bidgenie",
       "previous": "tool",
       "current": "web-ui",
-      "desc_now": "DeepSeek Harness 插件：窗口顶部常驻股票行情条——自选与持仓盈亏、K线/分时、五档盘口、成交流水、价格预警、AI 复盘（可追问/定时跟踪），装了 dsh-better-sidebar 时还可作为右侧栏「股票」页打开。",
-      "desc_prev": "DeepSeek Harness 插件：窗口顶部常驻股票行情条——自选股、持仓（股数与成本）、盈亏、K线/分时图、盘口、成交记录、预警、AI 复盘。"
+      "desc_now": "BidGenie 是专为 DSH（DeepSeek Harness）打造的投标技术方案撰写插件。作为投标专员，我们深知写标书的痛苦，因此它被设计成一个具备高智能、工程化、防漏项、可随时中断并恢复的技术标撰写智能体",
+      "desc_prev": "DSH（DeepSeek Harness） 的投标技术方案自动化插件：从招标文件解析、分包选择、大纲/正文生成、审查优化，到技术方案与工作概览导出。"
     },
     {
-      "full_name": "ygzhang-lab/dsh-plugin-git-commit-push",
-      "previous": "agent",
-      "current": "tool",
-      "desc_now": "0 Token Git 提交推送插件，一次调用完成按 Conventional 为每个变更文件自动生成提交信息并按 type(scope) 拆成多次提交后一次推送到Git，必要时询问打标签。One-call Conventional-Commits git workflow for DeepSeek Harness: survey + one commit per type(scope) + optional tag + push, plus a /git-commit-push slash command that runs with no model involvement",
-      "desc_prev": "One-call Conventional-Commits git workflow for DSH: survey + commit + optional tag + push, plus a /commit-push slash command that runs with no model involvement. Windows and macOS/Linux."
-    },
-    {
-      "full_name": "Azusa-299/dsh-ba-click-fx",
-      "previous": "resource",
-      "current": "other",
-      "desc_now": "DeepSeek Harness Blue Archive鼠标点击特效插件",
-      "desc_prev": "DeepSeek Harness 蔚蓝档案(Blue Archive)鼠标点击特效插件"
-    },
-    {
-      "full_name": "CynthiaYX/dsh-plan-act-models",
-      "previous": "other",
-      "current": "conversation",
-      "desc_now": "在 DeepSeek Harness 的对话框里加一个模式下拉框：Plan、Act 与自定义模式各用一组模型与思考复杂度，并可各带一段提示词；进入 plan 与批准计划时自动切换（思路来自 RooCode），Plan 与 Act 支持按工作区覆盖。",
-      "desc_prev": "为了在plan和act两个模式下使用不同的模型或思考强度，参考RooCode的思路，在DeepSeek Harness内以插件方式实现这一自动切换"
-    },
-    {
-      "full_name": "ayf-master/dsh-worklog",
+      "full_name": "Poy-Coder/dsh-channel-feishu",
       "previous": "conversation",
-      "current": "resource",
-      "desc_now": "将 DSH 会话日志转换为按工作目录分组的每日、每周和每月 Markdown 工作报告。",
-      "desc_prev": "Turn DSH session logs into daily, weekly and monthly Markdown work reports, grouped by working directory."
+      "current": "notify",
+      "desc_now": "Feishu channel for DeepSeek Harness: one chat bound to one DSH session, verbatim inbound, streaming cards, attachments.",
+      "desc_prev": "Feishu channel for DeepSeek Harness: one chat bound to one DSH session, verbatim inbound, streaming cards, attachments."
     },
     {
-      "full_name": "imuyue/dsh-session-optimizer",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "Keep every conversation fluid.",
-      "desc_prev": null
+      "full_name": "Natte/dsh-sidebar-todo",
+      "previous": "web-ui",
+      "current": "notify",
+      "desc_now": "给 DeepSeek Harness 加一个侧栏待办：随手记任务、循环任务、月视图日历和便利贴，重要的事还能自动设成到点提醒；数据只保存在你自己的电脑上。",
+      "desc_prev": "DeepSeek Harness 待办插件：侧栏入口行 + 主面板页，宿主侧持久化，agent 可读写"
     }
   ]
 }
