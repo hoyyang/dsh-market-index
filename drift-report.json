@@ -1,69 +1,41 @@
 {
-  "generated_at": "2026-11-16T21:15:20.094Z",
-  "count": 9,
+  "generated_at": "2026-11-17T03:35:29.355Z",
+  "count": 5,
   "items": [
     {
-      "full_name": "KyoMio/dsh-zen-remote",
-      "previous": "web-ui",
-      "current": "tool",
-      "desc_now": "Encrypted peer-to-peer mesh, phone PWA & Web Push, and host/client session sharing for DeepSeek Harness — zero public IPs required. 零公网 IP 加密组网互通多台 DSH 电脑会话，同时支持手机 PWA 远程操控与锁屏推送。",
-      "desc_prev": "Use DeepSeek Harness from your phone or another computer. Host: mobile UI, pairing-code gateway, PWA and Web Push, plus sharing chosen sessions. Client: those sessions appear in another DSH desktop's sidebar. 手机和另一台电脑都能安全远程使用 DSH"
-    },
-    {
-      "full_name": "mzzsfy/dsh-plugin",
+      "full_name": "xx-hub/dsh-craft-your-textbook",
       "previous": "other",
-      "current": "coding",
-      "desc_now": "deepseek harness 插件维护仓库, 个人开发的所有dsh插件都在这",
+      "current": "vision",
+      "desc_now": "DeepSeek Harness workbench that turns textbook PDFs into a teaching blueprint an AI tutor can teach from — or a readable textbook. Six-stage pipeline with human checkpoints.",
       "desc_prev": null
     },
     {
-      "full_name": "zaofan-make/dsh-qqbot-plugins",
-      "previous": "resource",
+      "full_name": "JMINN0/dsh-go-plugin-adb",
+      "previous": "vision",
       "current": "coding",
-      "desc_now": "qqbot扩展市场,不改代码,获得功能,下载别人,分享你的，比如主动关怀,看b站,语音合成,戳一戳,以图搜图",
-      "desc_prev": "DSH QQ 机器人插件市场索引 · 收录扩展包（extension packs）"
+      "desc_now": "让 AI 在手机内部拿到真 adb shell（uid 2000，无 root、不踢掉你的 Shizuku）",
+      "desc_prev": "安卓手机上的 adb 插件：在手机内部给自己开一个 adb shell，无需 root、无需电脑，关 WiFi 也能用。AI 助手用它可以装 App、看日志、截图、执行 shell 命令。 / Android adb plugin that gives an AI agent a real adb shell from inside the phone — no root, no PC."
     },
     {
-      "full_name": "QZyme/dsh-besson-tools",
-      "previous": "web-ui",
-      "current": "coding",
-      "desc_now": "北山Besson 模组开发助手插件（bundle）：11 个工具（教程检索/学习路线/版本对比/环境搭建/工程体检/迁移清单/骨架生成/中文映射）+ 左栏面板 + 内置「Besson 教程助手」agent 预设；DSH 0.2.2-rc.x；数据 2026-11-07（217 篇）。",
-      "desc_prev": "DSH 插件（bundle，v2.3.0）：9 个独立组件 + Web 左栏入口面板；教程检索与学习路线、版本对比、环境搭建、工程体检、迁移清单。217 篇数据来自 beishanair.github.io（2026-11-07 同步）。"
+      "full_name": "c3115644151/dsh-inbox-bridge",
+      "previous": "notify",
+      "current": "conversation",
+      "desc_now": "让 agent 像维护者一样盯着你的仓库：CI 挂了就修、有 PR 就审、指派给你的 issue 就接。按会话订阅仓库，在回合边界注入与你相关的事件，只读 GitHub。",
+      "desc_prev": "DeepSeek Harness plugin: poll any external source (CI, issues, mail, any command) and inject new events at turn boundaries, with delivered/handled bookkeeping, resurfacing and auto-close"
     },
     {
-      "full_name": "xuiyun/nqe",
+      "full_name": "baibiaowang/dsh-voice-input-wb-asr",
       "previous": "other",
-      "current": "tool",
-      "desc_now": "DSH 插件：让 AI 该问的时候问、该确认的时候确认 —— 不再用「任务完成」打发你，动手前也会先把理解说清楚；回答还能直接贴图，贴文件，用指令",
-      "desc_prev": "DSH 插件：让 AI 该问的时候问、该确认的时候确认 —— 不再用「任务完成」打发你，动手前也会先把理解说清楚；回答还能直接贴图。"
+      "current": "conversation",
+      "desc_now": "Free speech-to-text for DeepSeek Harness: WorkBuddy cloud recognition, hold-to-talk in the composer, and wb_transcribe for long audio and video (WorkBuddy does not bill speech input)",
+      "desc_prev": "Hold-to-talk voice input for DeepSeek Harness, transcribed on the WorkBuddy cloud — no local speech model required."
     },
     {
-      "full_name": "stevenjj33/dsh-obsidian-skills",
-      "previous": "tool",
-      "current": "agent",
-      "desc_now": "Agent skills for Obsidian, packaged as a DeepSeek Harness plugin bundle. Vendored from https://github.com/kepano/obsidian-skills (MIT).",
-      "desc_prev": "Agent skills for Obsidian, packaged as a DeepSeek Harness plugin bundle. Vendored from https://github.com/kepano/obsidian-skills (MIT)."
-    },
-    {
-      "full_name": "scifmat/dsh-bidgenie",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "BidGenie 是专为 DSH（DeepSeek Harness）打造的投标技术方案撰写插件。作为投标专员，我们深知写标书的痛苦，因此它被设计成一个具备高智能、工程化、防漏项、可随时中断并恢复的技术标撰写智能体",
-      "desc_prev": "DSH（DeepSeek Harness） 的投标技术方案自动化插件：从招标文件解析、分包选择、大纲/正文生成、审查优化，到技术方案与工作概览导出。"
-    },
-    {
-      "full_name": "Poy-Coder/dsh-channel-feishu",
-      "previous": "conversation",
-      "current": "notify",
-      "desc_now": "Feishu channel for DeepSeek Harness: one chat bound to one DSH session, verbatim inbound, streaming cards, attachments.",
-      "desc_prev": "Feishu channel for DeepSeek Harness: one chat bound to one DSH session, verbatim inbound, streaming cards, attachments."
-    },
-    {
-      "full_name": "Natte/dsh-sidebar-todo",
-      "previous": "web-ui",
-      "current": "notify",
-      "desc_now": "给 DeepSeek Harness 加一个侧栏待办：随手记任务、循环任务、月视图日历和便利贴，重要的事还能自动设成到点提醒；数据只保存在你自己的电脑上。",
-      "desc_prev": "DeepSeek Harness 待办插件：侧栏入口行 + 主面板页，宿主侧持久化，agent 可读写"
+      "full_name": "diudiu62/dsh-connect-loomy",
+      "previous": "other",
+      "current": "document",
+      "desc_now": "把本机已登录的 Loomy（讯飞办公助手）聊天模型接入 DeepSeek Harness：支持多账号、在输入框旁的抽屉里切换账号、查看各账号积分与扣分流水。",
+      "desc_prev": null
     }
   ]
 }
