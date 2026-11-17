@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-17T14:38:57.089Z",
+  "generated_at": "2026-11-17T18:21:02.832Z",
   "count": 2868,
   "entries": {
     "01men/CDPP": {
@@ -8479,7 +8479,7 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog, kept off the star board and the downstream market."
     },
-    "bruc3van/awesome-dsh-plugin": {
+    "bruc3van/awesome-dsh-plugin-pro": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: this list itself (an awesome-list / directory site), not a plugin; the board does not rank itself. Stays in the catalog."
     },
@@ -8487,7 +8487,7 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a third-party Electron desktop client wrapping the official Web UI (desktop shell/client form). Stays in the catalog."
     },
-    "bruc3van/safer-dsh-market": {
+    "bruc3van/dsh-market-pro": {
       "kind": "market",
       "reason": "the market cannot include another market"
     },
