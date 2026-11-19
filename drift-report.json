@@ -1,34 +1,76 @@
 {
-  "generated_at": "2026-11-19T02:27:54.046Z",
-  "count": 4,
+  "generated_at": "2026-11-19T11:03:47.321Z",
+  "count": 10,
   "items": [
     {
-      "full_name": "Sivan757/dsh-agent-plugins-market",
-      "previous": "coding",
+      "full_name": "chenkezhen480/dsh-world",
+      "previous": "vision",
+      "current": "memory",
+      "desc_now": "给鲸鲸一个完整的世界(包含记忆，配套的压缩策略，人设卡，微信QQ渠道，电脑操作，多世界实例运转等多项能力)",
+      "desc_prev": "给鲸鲸一个完整的世界(包含记忆，配套的压缩策略，人设卡，微信QQ渠道，电脑操作，多世界实例运转等多项能力)"
+    },
+    {
+      "full_name": "fyjgtddco/DSH-SW-and-CAD",
+      "previous": "document",
+      "current": "other",
+      "desc_now": "担心AI在SW上面画的好看，实际组装又是另外一个事故？有这个项目在！材料、力学、规范三重校核，凭可追溯证据交付工图。让AI画的图真正能进入工程世界，而不是只是一个漂亮的玩具",
+      "desc_prev": "担心AI在SW上面画的好看，实际组装又是另外一个事故？有这个项目在！材料、力学、规范三重校核，凭可追溯证据交付工图。让AI画的图真正能进入工程世界，而不是只是一个漂亮的玩具（暂时停更看论文和研究结构，暂时停更一小波）"
+    },
+    {
+      "full_name": "gigaflw/dsh-fft-paper-trading",
+      "previous": "conversation",
       "current": "tool",
-      "desc_now": "Skills and extensions manager for DeepSeek Harness (DSH). Install Claude Code, Codex, Cursor and Kimi plugin repositories as they are, without waiting for a DSH port.",
-      "desc_prev": "One-stop skills, subagent, MCP and LSP manager for DeepSeek Harness (DSH) — compatible with Claude Code, Codex, Cursor, Kimi and other agent plugin layouts."
+      "desc_now": "在 DSH 中进行模拟交易，支持 A 股与商品期货（stock & futures paper trading），本地账本，内置 FTShare 数据源与 K 线，无需购买 API Key 也可用日 K 收盘价练习",
+      "desc_prev": "在 DSH 中进行模拟交易，支持 A 股与商品期货（stock & futures paper trading），本地账本，内置 FTShare 数据源与 K 线，无需购买 API Key 也可用日 K 收盘价练习"
     },
     {
-      "full_name": "surfishs/dsh-prompt-enhance",
+      "full_name": "ECCVIK/LMTAgent",
       "previous": "web-ui",
-      "current": "conversation",
-      "desc_now": "DSH Web GUI 的提示词增强插件：一键把草稿改写为结构化提示词，支持结果卡、回填、复制、重新生成、撤销与右键快捷设置。 | Prompt enhancement plugin for the DSH web GUI: one-click structured rewrite with a result card, apply, copy, regenerate, undo and a right-click settings card.",
-      "desc_prev": "DSH Web GUI 的提示词增强插件：一键把输入框草稿改写为结构化提示词，支持停靠结果卡、回填、复制、重新生成与撤销。 | Prompt enhancement plugin for the DSH web GUI: turn a composer draft into a structured prompt with a docked result card, apply, copy, regenerate and undo."
+      "current": "agent",
+      "desc_now": "Multi-agent full-stack dev workbench for DeepSeek Harness (DSH): true detached OS window (/lmtagent/window), AI wish refiner, 4-Wave DAG dispatch, ShardLock + 1-click Git rollback & budget guard",
+      "desc_prev": "Multi-agent software engineering orchestrator for DeepSeek Harness (DSH): 1:1 session workspaces, AI blueprint sharding, 4-Wave DAG dispatch, PG/SQLite WAL fact store & docked console"
     },
     {
-      "full_name": "Yzm889/TianZheng-ai-plugin",
+      "full_name": "BiXianGoGo/dsh-ESPemotion-pool",
+      "previous": "other",
+      "current": "memory",
+      "desc_now": "鲸汐ESP情绪插件：一款标量情绪形状的尺子，让鱼对自己的情绪的定义还给鱼自己，让真正的情绪由内而发，自我感受并记忆的插件",
+      "desc_prev": "DSH 插件：三轴情绪状态 + 思考轨迹打点（E/S/P，四态、形状、种子冷启动）"
+    },
+    {
+      "full_name": "devzer0o0/dsh-logo-golden",
+      "previous": "web-ui",
+      "current": "other",
+      "desc_now": "HDR高亮黄金SSR大肥鱼brand，闪瞎***",
+      "desc_prev": "Polished-gold rendition of the DeepSeek Harness sidebar brand lockup (whale, deepseek wordmark, HARNESS plate) with a three-second metal sweep."
+    },
+    {
+      "full_name": "tonyous/DSH-AMP-Radio",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "AMP Radio + AMP Bar for DeepSeek Harness: internet radio with a live visualiser, and every chat stat in one tidy bar (top or bottom, each one switchable, phone-friendly).",
+      "desc_prev": null
+    },
+    {
+      "full_name": "SSHOOTING/dsh-plugin-safe-route",
       "previous": "other",
       "current": "tool",
-      "desc_now": "天正建筑 AI 插件 · T20/T30 天正建筑 MCP connector for DeepSeek Harness — 让 AI 直接生成真天正对象：墙体、门窗、轴网、柱、楼梯、阳台、天正文字",
-      "desc_prev": "天正建筑 AI 插件 · T20/T30 天正建筑 MCP connector for DeepSeek Harness — 让 AI 直接生成真天正对象：墙体、门窗、轴网、柱、楼梯、阳台、天正文字"
+      "desc_now": "DSH plugin: read-only /route-check audits which model routes a session used and flags calls outside a configurable allowlist.",
+      "desc_prev": null
     },
     {
-      "full_name": "chocobo77/llama-dsh-launcher",
-      "previous": "tool",
-      "current": "other",
-      "desc_now": "llama.cpp 与 DeepSeek Harness(DSH) 的桌面管理器：参数方案、一键更新、Tauri 桌面壳接管、插件修复与实时监测",
-      "desc_prev": "一款llama.cpp与DeepSeek Harness的多功能管理工具"
+      "full_name": "SSHOOTING/dsh-plugin-session-archive",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "DSH plugin: read-only /session-export exports the current session as redacted Markdown or JSON. No network, no file writes.",
+      "desc_prev": null
+    },
+    {
+      "full_name": "cheny5100/dsh-account-balance-pill",
+      "previous": "model",
+      "current": "web-ui",
+      "desc_now": "Shows the signed-in DeepSeek account's top-up and bonus balance above the DSH sidebar account entry.",
+      "desc_prev": null
     }
   ]
 }
