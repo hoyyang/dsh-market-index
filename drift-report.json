@@ -1,75 +1,75 @@
 {
-  "generated_at": "2026-11-19T11:03:47.321Z",
+  "generated_at": "2026-11-19T19:47:55.523Z",
   "count": 10,
   "items": [
     {
-      "full_name": "chenkezhen480/dsh-world",
+      "full_name": "liyuhan7/dsh-phone-mirror",
+      "previous": "tool",
+      "current": "other",
+      "desc_now": "把安卓设备与 iPhone 投到 DSH 右侧栏并反控：scrcpy + CoreDevice",
+      "desc_prev": "在 DSH 右侧栏投屏并反控安卓手机/平板。scrcpy 内核编 H.264，浏览器 WebCodecs 解码，鼠标键盘直接操作；仅支持 Windows。"
+    },
+    {
+      "full_name": "LotusPrimeUmbra/dsh-plugin-tts",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "TTS (text-to-speech) plugin for DeepSeek Harness — Xiaomi MiMo / Breeze dual-protocol speech synthesis, voice cloning, singing synthesis, send QQ voice messages via OneBot. 小米 MiMo / Breeze 双协议语音合成、克隆音色、唱歌，可直接发 QQ 语音。",
+      "desc_prev": "DeepSeek Harness 的 TTS 语音合成插件：小米 MiMo / Breeze 双协议合成、试听、克隆音色、唱歌，并可直接通过 OneBot 发 QQ 语音。"
+    },
+    {
+      "full_name": "qikairo7/dsh-web-search",
+      "previous": "tool",
+      "current": "resource",
+      "desc_now": "DeepSeek Harness 的免费联网插件：免 Key 即用的网络搜索与网页抓取，多后端聚合、失败自动回退",
+      "desc_prev": "Free web search and fetch providers for DeepSeek Harness — keyless-ready multi-backend aggregation with automatic fallback."
+    },
+    {
+      "full_name": "Kapozux/dsh-xiaobenben",
+      "previous": "agent",
+      "current": "web-ui",
+      "desc_now": "小本本 · DeepSeek Harness 插件：住在右下角的鲸鱼娘桌宠，点一下翻一件你和 AI 干过的真事；台词可用你自己的模型写（选了才发送）。附 agent 年度回顾。",
+      "desc_prev": "小本本 · DeepSeek Harness plugin: agent year-in-review + 翻旧账 (works with dsh-pet)"
+    },
+    {
+      "full_name": "yugyq/dsh-composer-quill",
+      "previous": "web-ui",
+      "current": "conversation",
+      "desc_now": "在 DSH 的输入框里提前把话写好：回合结束后给出下一句，打字时补完后半句，顺手修掉错字和标点。",
+      "desc_prev": "在 DSH 的输入框里提前把话写好：下一句预测、补写与改写，按 Tab 才采用，绝不自动发送"
+    },
+    {
+      "full_name": "DX12xyz/dsh-asar-framework",
+      "previous": "tool",
+      "current": "notify",
+      "desc_now": "让 DSH 桌面插件可以进入 Electron 主进程——托盘菜单、通知、窗口、IPC 通道和运行时补丁——无需重新打包 app.asar。",
+      "desc_prev": "DSH 桌面 asar 外壳桥框架：等长 asar 补丁、外部 bridge、asarShell 服务与文件通道契约。MIT。"
+    },
+    {
+      "full_name": "pscly/dsh-sub2api",
       "previous": "vision",
-      "current": "memory",
-      "desc_now": "给鲸鲸一个完整的世界(包含记忆，配套的压缩策略，人设卡，微信QQ渠道，电脑操作，多世界实例运转等多项能力)",
-      "desc_prev": "给鲸鲸一个完整的世界(包含记忆，配套的压缩策略，人设卡，微信QQ渠道，电脑操作，多世界实例运转等多项能力)"
-    },
-    {
-      "full_name": "fyjgtddco/DSH-SW-and-CAD",
-      "previous": "document",
-      "current": "other",
-      "desc_now": "担心AI在SW上面画的好看，实际组装又是另外一个事故？有这个项目在！材料、力学、规范三重校核，凭可追溯证据交付工图。让AI画的图真正能进入工程世界，而不是只是一个漂亮的玩具",
-      "desc_prev": "担心AI在SW上面画的好看，实际组装又是另外一个事故？有这个项目在！材料、力学、规范三重校核，凭可追溯证据交付工图。让AI画的图真正能进入工程世界，而不是只是一个漂亮的玩具（暂时停更看论文和研究结构，暂时停更一小波）"
-    },
-    {
-      "full_name": "gigaflw/dsh-fft-paper-trading",
-      "previous": "conversation",
       "current": "tool",
-      "desc_now": "在 DSH 中进行模拟交易，支持 A 股与商品期货（stock & futures paper trading），本地账本，内置 FTShare 数据源与 K 线，无需购买 API Key 也可用日 K 收盘价练习",
-      "desc_prev": "在 DSH 中进行模拟交易，支持 A 股与商品期货（stock & futures paper trading），本地账本，内置 FTShare 数据源与 K 线，无需购买 API Key 也可用日 K 收盘价练习"
+      "desc_now": "DeepSeek Harness (DSH) 接入 Psapi 中转站：装完在设置里填一次账号，自动建密钥、同步模型、显示余额与充值入口。",
+      "desc_prev": "Sub2API (sub.pscly.cc) provider for DeepSeek Harness: zero-friction signup, auto-provisioned API key, upstream model sync, balance and recharge"
     },
     {
-      "full_name": "ECCVIK/LMTAgent",
-      "previous": "web-ui",
-      "current": "agent",
-      "desc_now": "Multi-agent full-stack dev workbench for DeepSeek Harness (DSH): true detached OS window (/lmtagent/window), AI wish refiner, 4-Wave DAG dispatch, ShardLock + 1-click Git rollback & budget guard",
-      "desc_prev": "Multi-agent software engineering orchestrator for DeepSeek Harness (DSH): 1:1 session workspaces, AI blueprint sharding, 4-Wave DAG dispatch, PG/SQLite WAL fact store & docked console"
-    },
-    {
-      "full_name": "BiXianGoGo/dsh-ESPemotion-pool",
+      "full_name": "zhou200310/dsh-imessage",
       "previous": "other",
-      "current": "memory",
-      "desc_now": "鲸汐ESP情绪插件：一款标量情绪形状的尺子，让鱼对自己的情绪的定义还给鱼自己，让真正的情绪由内而发，自我感受并记忆的插件",
-      "desc_prev": "DSH 插件：三轴情绪状态 + 思考轨迹打点（E/S/P，四态、形状、种子冷启动）"
+      "current": "conversation",
+      "desc_now": "在 iPhone 的「信息」里直接跟 DeepSeek Harness 对话｜iMessage transport for DSH 0.2.2 (Photon/Spectrum), multimodal in & out",
+      "desc_prev": "photon-hq/dsh-imessage 的 DSH 0.2.2 兼容适配版（4 个兼容坑修复，端到端可用）"
     },
     {
-      "full_name": "devzer0o0/dsh-logo-golden",
-      "previous": "web-ui",
-      "current": "other",
-      "desc_now": "HDR高亮黄金SSR大肥鱼brand，闪瞎***",
-      "desc_prev": "Polished-gold rendition of the DeepSeek Harness sidebar brand lockup (whale, deepseek wordmark, HARNESS plate) with a three-second metal sweep."
+      "full_name": "tbx709/dsh-prompt-gate",
+      "previous": "tool",
+      "current": "conversation",
+      "desc_now": "You type one line and the agent guesses the rest; this plugin rewrites that line into a complete prompt with goal, scope and acceptance criteria and waits for your go-ahead before the agent touches anything, then lets you approve it, ask for a rewrite, send the original as-is.",
+      "desc_prev": "The first message of a new session is held: dsh rewrites it, shows you the result, and only unlocks its tools after you approve. "
     },
     {
-      "full_name": "tonyous/DSH-AMP-Radio",
+      "full_name": "MacilyDots/dsh-session-rescue",
       "previous": "other",
-      "current": "web-ui",
-      "desc_now": "AMP Radio + AMP Bar for DeepSeek Harness: internet radio with a live visualiser, and every chat stat in one tidy bar (top or bottom, each one switchable, phone-friendly).",
-      "desc_prev": null
-    },
-    {
-      "full_name": "SSHOOTING/dsh-plugin-safe-route",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "DSH plugin: read-only /route-check audits which model routes a session used and flags calls outside a configurable allowlist.",
-      "desc_prev": null
-    },
-    {
-      "full_name": "SSHOOTING/dsh-plugin-session-archive",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "DSH plugin: read-only /session-export exports the current session as redacted Markdown or JSON. No network, no file writes.",
-      "desc_prev": null
-    },
-    {
-      "full_name": "cheny5100/dsh-account-balance-pill",
-      "previous": "model",
-      "current": "web-ui",
-      "desc_now": "Shows the signed-in DeepSeek account's top-up and bonus balance above the DSH sidebar account entry.",
+      "current": "model",
+      "desc_now": "DSH 会话可靠性套件：推理退化熔断、空轮重试、原始流记录、干净会话继承与 Ctrl+Shift+R 前端刷新。Session reliability kit for DeepSeek Harness.",
       "desc_prev": null
     }
   ]
