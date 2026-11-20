@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-19T19:47:57.326Z",
+  "generated_at": "2026-11-20T01:30:05.505Z",
   "count": 2879,
   "entries": {
     "01men/CDPP": {
@@ -9935,10 +9935,6 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a remote/mobile client form — a QR-paired phone client for DSH. Stays in the catalog."
     },
-    "oscarka/deepseekharness-remotecontrol": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: a remote/two-way face — phone + Feishu long-connection + self-hosted web console reading local session dirs (DSH/Codex/Claude) and driving approvals, steering and multi-machine switching inbound. Stays in the catalog."
-    },
     "osmondlee/dsh-shell": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -11058,6 +11054,10 @@
     "clickyotter/dsh-wecom-soul-bot": {
       "kind": "leaderboard",
       "reason": "Kept out of the star board: a remote/mobile client form — a WeCom bot chat surface for DSH with persona and long-term memory over a persistent connection. Stays in the catalog."
+    },
+    "oscarka/pocketagent": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: a remote/two-way face — phone + Feishu long-connection + self-hosted web console reading local session dirs (DSH/Codex/Claude) and driving approvals, steering and multi-machine switching inbound. Stays in the catalog."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
