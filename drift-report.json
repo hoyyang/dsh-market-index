@@ -1,13 +1,76 @@
 {
-  "generated_at": "2026-11-20T01:30:03.202Z",
-  "count": 1,
+  "generated_at": "2026-11-20T09:18:01.238Z",
+  "count": 10,
   "items": [
     {
-      "full_name": "xsarthur90-art/dsh-auto-effort",
+      "full_name": "westwall586/dsh-westwall-plugins",
       "previous": "other",
-      "current": "conversation",
-      "desc_now": "Reasoning-effort picker for DeepSeek Harness: one small judge call per message, a 120-character task card, and a per-conversation switch.",
+      "current": "resource",
+      "desc_now": "DeepSeek Harness 插件合集：友好表达、Feed Ultra 等；npm 安装、各包独立版本。",
+      "desc_prev": "DeepSeek Harness Plugins"
+    },
+    {
+      "full_name": "xsarthur90-art/dsh-auto-effort",
+      "previous": "conversation",
+      "current": "other",
+      "desc_now": "Picks the reasoning effort for every message by DeepSeek, so you don't have to.",
+      "desc_prev": "Reasoning-effort picker for DeepSeek Harness: one small judge call per message, a 120-character task card, and a per-conversation switch."
+    },
+    {
+      "full_name": "JEMING-CN/dsh-balance-meter",
+      "previous": "model",
+      "current": "tool",
+      "desc_now": "DeepSeek account balance and today's peak/off-peak token rates in the DeepSeek Harness composer, with automatic price and holiday sync.",
+      "desc_prev": "DeepSeek account balance and today's peak/off-peak token rates in the DeepSeek Harness composer."
+    },
+    {
+      "full_name": "cxydaizihao520/dsh-session-coordinator",
+      "previous": "other",
+      "current": "model",
+      "desc_now": "在 DeepSeek Harness 中，让各自保留历史的独立会话分工、交叉复核，并在批准的范围内共享上下文。",
       "desc_prev": null
+    },
+    {
+      "full_name": "JMINN0/dsh-go-second-screen",
+      "previous": "tool",
+      "current": "vision",
+      "desc_now": "安卓「后台屏」：用虚拟屏让 AI 在后台操作手机，完全不抢用户主屏和键盘。无 root，scrcpy + app_process，含悬浮窗实时预览。让 AI 操控手机时你可以继续刷手机。",
+      "desc_prev": "让 AI 在后台操作手机，不抢你的屏幕 —— 虚拟屏 + 浏览器控制 + 实测 1500 行"
+    },
+    {
+      "full_name": "afeiaswell/dsh-hkm",
+      "previous": "web-ui",
+      "current": "notify",
+      "desc_now": "DeepSeek Harness 热键管理面板：查看并修改 DSH 快捷键，扫描系统与第三方来源，并可将窗口最小化到 Windows 通知区域。",
+      "desc_prev": "Hotkey manager panel for DeepSeek Harness: browse and edit DSH shortcuts, scan system and third-party sources, and minimize the window to the Windows notification area."
+    },
+    {
+      "full_name": "DevTarlow/dsh-peak-price-pal",
+      "previous": "model",
+      "current": "web-ui",
+      "desc_now": "A DeepSeek Harness plugin: DeepSeek halves its rates off-peak. A small indicator icon in the composer shows which rate is live, plus your balance and today's spend.",
+      "desc_prev": "A DeepSeek Harness plugin: DeepSeek halves its rates off-peak. A small sun or moon in the composer shows which rate is live, plus your balance and today's spend."
+    },
+    {
+      "full_name": "jyz48prsbr-netizen/dsh-plugin-autoupdate",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "Scheduled in-place updates for DSH profile plugins",
+      "desc_prev": "DSH plugin: dsh-plugin-autoupdate"
+    },
+    {
+      "full_name": "jyz48prsbr-netizen/dsh-my-rules",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "Editable rule files injected into every session system prompt",
+      "desc_prev": "DSH plugin: dsh-my-rules"
+    },
+    {
+      "full_name": "jyz48prsbr-netizen/dsh-web-link",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "Opens chat.deepseek.com in a DSH sidebar webview",
+      "desc_prev": "DSH plugin: dsh-web-link"
     }
   ]
 }
