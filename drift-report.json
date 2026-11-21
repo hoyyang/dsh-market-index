@@ -1,62 +1,34 @@
 {
-  "generated_at": "2026-11-20T18:48:10.746Z",
-  "count": 8,
+  "generated_at": "2026-11-21T06:21:20.741Z",
+  "count": 4,
   "items": [
     {
-      "full_name": "STARDUSTLC666/dsh-ppt",
-      "previous": "document",
-      "current": "resource",
-      "desc_now": "DeepSeek Harness 大师级演示文稿引擎与工作台：支持零资料调研核验与 SLOP-13 事实溯源、20 套标杆范本与弱模型零调用自检修复、24 主题 / 37+ 原生可编辑图谱（全球/中国点阵地图、2.5D 等轴测架构/柱碑、Mermaid/公式/代码/魔力象限/雷达/哑铃/热力图）、智能配图协作槽位与双屏提词台，导出离线 HTML + 100% 可编辑 PPTX。欢迎 PR 与 Issues。",
-      "desc_prev": "DeepSeek Harness 演示文稿生成与编辑工作台：输入材料即可导出离线 HTML 放映、可编辑 PPTX 与工程包，支持按页编辑、数据推演与预审演练，以及原生清透 / 米白纸感 / Claude 暖书卷 / 8-Bit 像素 / 晴空薄荷五套明亮工作台主题。欢迎提交 issues 和 PR。"
-    },
-    {
-      "full_name": "MrmoLabs/dsh-mermaid",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "Render and edit Mermaid diagrams in DeepSeek Harness Web and Desktop, with streaming previews, custom themes, and SVG/PNG export.",
-      "desc_prev": "Render Mermaid code blocks as SVG diagrams in DeepSeek Harness Web, with diagram/code switching, streaming support, dark mode, strict security, and npm/GitHub installation."
-    },
-    {
-      "full_name": "Hana-ame/dsh-gear-grid-model",
-      "previous": "other",
-      "current": "model",
-      "desc_now": "把 composer 的 model seat 换成 Gear Grid（2D Cosmic Shifter）风格：元素×强度 2D 网格，一次选择模型与推理等级。数据复用 ctx.modelDirectories，只做显示层。",
-      "desc_prev": "Gear Grid (2D Cosmic Shifter) style model seat for DSH: pick model and reasoning strength in one 2D grid, reusing ctx.modelDirectories as the data source."
-    },
-    {
-      "full_name": "GxyFly/dsh-message-rewind",
+      "full_name": "taxueseek/dsh-suggestion-chips",
       "previous": "conversation",
-      "current": "model",
-      "desc_now": "DeepSeek Harness 消息撤回：编辑历史消息，在原对话中回退模型上下文并继续，无需新建会话。",
-      "desc_prev": "Codex-style message editing and conversation rewind for DeepSeek Harness"
-    },
-    {
-      "full_name": "Gaudi-XIX/dsbot-session-create",
-      "previous": "tool",
       "current": "web-ui",
-      "desc_now": "给 DSH 加四个会话工具的宿主插件。放弃界面与云端中转，直接调用宿主会话控制器；派会话钉死派活者模型与全权限档，停下的会话一律续投同一条不另开。终态标记只管回执，不拦续投；派单台账可查，未知会话拒投。",
-      "desc_prev": "会话编排层：Chief 能把活派给别的 Bot，却派不进「某个项目的那个会话」；宿主已有开会话的原语，但没开成工具。这个插件把原语开成四个工具（建会话、插话、读回话、列派单），派单只追加自己的台账，不另造调度器。"
+      "desc_now": "Clickable suggestion chips + Tab ghost text under every DeepSeek Harness reply — stance-ranked, L0 deterministic fallback, high-risk safe gate · 回复建议按钮与 Tab 幽灵投影，高危操作安全门禁",
+      "desc_prev": "Clickable suggestion chips under every reply for DeepSeek Harness"
     },
     {
-      "full_name": "Hao0311/dsh-deferred-approvals",
+      "full_name": "dhr2333/dsh-ledger",
+      "previous": "coding",
+      "current": "web-ui",
+      "desc_now": "本地、纯文本、复式的 DSH 账本面板（Beancount）：Agent 提案，你审批和对账。",
+      "desc_prev": "Local-first Beancount ledger panel for DSH: agents propose, you approve and reconcile. Ships a managed Python engine and ledger template."
+    },
+    {
+      "full_name": "createjy/dsh-plugin-update-entry",
+      "previous": "resource",
+      "current": "memory",
+      "desc_now": "DSH plugin: an update entry before each plugin card switch, a version picker with release notes on hover, and a toolbar panel that updates a chosen subset of plugins with live timing.",
+      "desc_prev": "在 DSH 插件页的可更新卡片上提供就地更新入口：可选版本、悬停查看每个版本的更新说明。"
+    },
+    {
+      "full_name": "coldrainthreeautumnleaves/dsh-concierge",
       "previous": "other",
-      "current": "agent",
-      "desc_now": "Non-blocking approvals and timed questions for DeepSeek Harness: permission requests park as pending items while the model keeps working, and ask_user_question runs in timed mode.",
-      "desc_prev": "Non-blocking approvals and timed questions for DeepSeek Harness: permission requests park as pending items while the model keeps working, and ask_user_question runs in timed mode."
-    },
-    {
-      "full_name": "Hao0311/dsh-price-badge",
-      "previous": "conversation",
-      "current": "model",
-      "desc_now": "Peak/off-peak DeepSeek API pricing badge in the DeepSeek Harness composer, shown only while the session model is a DeepSeek route.",
-      "desc_prev": "Peak/off-peak DeepSeek API pricing badge in the DeepSeek Harness composer, shown only while the session model is a DeepSeek route."
-    },
-    {
-      "full_name": "aaa8leitingpifa/dsh-daily-push",
-      "previous": "notify",
-      "current": "resource",
-      "desc_now": "每日推送：DSH 插件雷达。GitHub 与 npm 全量对照（G / G∩N / N 角标）+ 三榜并列 + 中文搜索，能看你正在做什么再推荐，可填 GitHub 令牌提高上限。",
-      "desc_prev": "每日推送：DSH 插件雷达。星数榜 / 新建榜 / 活跃榜三榜并列，官方仓库单独追踪，内置咨询、关注列表与已装插件更新提醒。"
+      "current": "web-ui",
+      "desc_now": "DeepSeek Harness 维护中心：应用与插件更新、回退与启停、GitHub 来源与 npm 安装、启动加速、聊天性能面板、打字机。",
+      "desc_prev": null
     }
   ]
 }

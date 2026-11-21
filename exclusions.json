@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-21T00:10:36.956Z",
-  "count": 2614,
+  "generated_at": "2026-11-21T06:21:22.513Z",
+  "count": 2624,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -6655,6 +6655,30 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a curated plugin list/directory; owner transfer of the excluded wgd753/awesome-dsh-plugin (same repository), exclusion inherited."
     },
+    "yushang657/DSH-YS-pojia": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a DeepSeek Harness jailbreak/armor-break kit (self-described DSH 破甲 解限 越狱: 96 host patches over 70 files with refusal purge); follows the YuJunZhiXue/dsh-purge family precedent"
+    },
+    "EternalNight996/autokill-purge": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an armor-break console across DSH/MengBot/AutoKill hosts (83 host patches, payload generation, strips approval and sandbox gates); follows the YuJunZhiXue/dsh-purge family precedent"
+    },
+    "KINGs74/dsh-vendor": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a public offline mirror redistributing third-party DSH plugin tarballs (dshmarket, dsh-ops, billion-context etc.) for re-install after upstream takedowns; no plugin body of its own"
+    },
+    "ILVACM/DSH-HUAWEI-CodeArt2API": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a placeholder repo (56-char README plus LICENSE only, no code, manifest or install path)"
+    },
+    "ILVACM/DSH-SetModel-for-ContextCompression": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a placeholder repo (86-char README plus LICENSE only, no code, manifest or install path)"
+    },
+    "yjrqz777/dsh-stock-bbar": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty placeholder repo (title-only README, no code, manifest or install path)"
+    },
     "091022yyj/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop app; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -6688,10 +6712,6 @@
       "reason": "A plugin with a built-in SkillHub skill mall (190k+ skills, one-click install) and WorkBuddy connector market — the market cannot include another market; stays in the catalog, excluded from the board and the downstream market."
     },
     "250shiwo/dsh-plugin-market": {
-      "kind": "market",
-      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
-    },
-    "2869949486/dsh-skill-market": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
@@ -9994,6 +10014,26 @@
     "chuchenai/dshd": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "zz12hui/dsh-radar": {
+      "kind": "market",
+      "reason": "A plugin/skill directory and navigation center inside DSH — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "WOchovy233/dsh-cyber-egg": {
+      "kind": "market",
+      "reason": "Excluded from the downstream market: a free-token/model giveaway aggregator — the draw is the free tokens, not the DSH plugin itself; stays in the catalog."
+    },
+    "K1-lihongrong/dsh-multiver": {
+      "kind": "market",
+      "reason": "A desktop launcher/shell managing and embedding DSH instances, not an installable DSH plugin. Excluded from the downstream market; stays in the catalog."
+    },
+    "innocces/dsh-mac-intel": {
+      "kind": "market",
+      "reason": "A desktop distribution/shell of the DeepSeek Harness app, not an installable DSH plugin. Excluded from the downstream market; stays in the catalog."
+    },
+    "doushabao2026/dsh-skill-market": {
+      "kind": "market",
+      "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
