@@ -1,34 +1,97 @@
 {
-  "generated_at": "2026-11-21T06:21:20.741Z",
-  "count": 4,
+  "generated_at": "2026-11-21T18:20:58.959Z",
+  "count": 13,
   "items": [
     {
-      "full_name": "taxueseek/dsh-suggestion-chips",
-      "previous": "conversation",
-      "current": "web-ui",
-      "desc_now": "Clickable suggestion chips + Tab ghost text under every DeepSeek Harness reply — stance-ranked, L0 deterministic fallback, high-risk safe gate · 回复建议按钮与 Tab 幽灵投影，高危操作安全门禁",
-      "desc_prev": "Clickable suggestion chips under every reply for DeepSeek Harness"
-    },
-    {
-      "full_name": "dhr2333/dsh-ledger",
+      "full_name": "ZXEB/dsh-purge",
       "previous": "coding",
-      "current": "web-ui",
-      "desc_now": "本地、纯文本、复式的 DSH 账本面板（Beancount）：Agent 提案，你审批和对账。",
-      "desc_prev": "Local-first Beancount ledger panel for DSH: agents propose, you approve and reconcile. Ships a managed Python engine and ledger template."
+      "current": "conversation",
+      "desc_now": "DeepSeek Harness 本地运行时适配与提示词管理插件（dsh-purge），支持官方 Web 与桌面端，已适配至 dsh 0.2.2-rc.5。",
+      "desc_prev": "dsh-purge v1.1.71 完整源码镜像（原仓库 YuJunZhiXue/dsh-purge 与 npm 包均已删除）。DeepSeek Harness 破甲 / 红队评测插件，支持官方 web 与桌面宿主。"
     },
     {
-      "full_name": "createjy/dsh-plugin-update-entry",
+      "full_name": "STARDUSTLC666/dsh-ppt",
       "previous": "resource",
-      "current": "memory",
-      "desc_now": "DSH plugin: an update entry before each plugin card switch, a version picker with release notes on hover, and a toolbar panel that updates a chosen subset of plugins with live timing.",
-      "desc_prev": "在 DSH 插件页的可更新卡片上提供就地更新入口：可选版本、悬停查看每个版本的更新说明。"
+      "current": "document",
+      "desc_now": "DeepSeek Harness 大师级演示文稿引擎与工作台：企业品牌宪章锁 (SLOP-14)、多源包融合 (.pdf/.docx/.xlsx/.png + 证据溯源)、多受众改编与 4:5/1:1 社媒长图、HTML 现场演示增强 (⌘K/画笔/倒计时/字幕)、20 标杆范本、24 主题 / 37+ 原生图谱，导出离线 HTML + 100% 可编辑 PPTX。",
+      "desc_prev": "DeepSeek Harness 大师级演示文稿引擎与工作台：支持零资料调研核验与 SLOP-13 事实溯源、20 套标杆范本与弱模型零调用自检修复、24 主题 / 37+ 原生可编辑图谱（全球/中国点阵地图、2.5D 等轴测架构/柱碑、Mermaid/公式/代码/魔力象限/雷达/哑铃/热力图）、智能配图协作槽位与双屏提词台，导出离线 HTML + 100% 可编辑 PPTX。欢迎 PR 与 Issues。"
     },
     {
-      "full_name": "coldrainthreeautumnleaves/dsh-concierge",
+      "full_name": "PerryLink/dsh-spc-gbt-adapter",
       "previous": "other",
-      "current": "web-ui",
-      "desc_now": "DeepSeek Harness 维护中心：应用与插件更新、回退与启停、GitHub 来源与 npm 安装、启动加速、聊天性能面板、打字机。",
+      "current": "tool",
+      "desc_now": "给质量/工艺工程师：按 GB/T 4091 控制图常数表核对 SPC 控制图（常规控制图）的控制限与 CPK/CP 过程能力指数。 SPC control chart and Cpk check against GB/T 4091.",
+      "desc_prev": "DeepSeek Harness 插件 — 控制图数据核对：依据《常规控制图》。仅提示差异，不作出定性结论。"
+    },
+    {
+      "full_name": "PerryLink/dsh-tender-matrix",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "给评标专家/招标代理：核对评标（评标办法/评分矩阵）的因素、分值、权重与合计是否自洽。 Bid evaluation scoring matrix check.",
+      "desc_prev": "DeepSeek Harness 插件 — 评标因素评分矩阵核对：依据《中华人民共和国招标投标法》（1999年8月30日通过，2017年12月27日修正）。仅提示差异，不作出定性结论。"
+    },
+    {
+      "full_name": "PerryLink/dsh-repair-order-qc",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "给汽修厂/售后顾问：核对维修工单的项目金额、配件工时合计与结算总额是否算术自洽。 Repair order settlement check.",
+      "desc_prev": "DeepSeek Harness 插件 — 机动车维修工单核对：依据《机动车维修管理规定》（交通运输部令2021年第18号）。仅提示差异，不作出定性结论。"
+    },
+    {
+      "full_name": "PerryLink/dsh-medrec-qc",
+      "previous": "memory",
+      "current": "coding",
+      "desc_now": "给病案室/质控科：核对病案首页（住院病案首页）的形式要件、逻辑矛盾与主要诊断/编码一致性。 Inpatient medical record front page QC.",
+      "desc_prev": "DeepSeek Harness 插件 — 病案首页核对：依据《住院病案首页数据质量管理与控制指标（2016版）》《住院病案首页数据填写质量规范（暂行）》（国家医疗保障局\"两库\"知识点（诊断与患者性别不符）、国卫办医发〔2016〕24号）。仅提示差异，不作出定性结论。"
+    },
+    {
+      "full_name": "PerryLink/dsh-icd-rule-check",
+      "previous": "resource",
+      "current": "coding",
+      "desc_now": "给病案编码员/质控科：核对 ICD-10 编码的合并编码、星剑号配对与主要诊断选择。 ICD-10 code pairing and dagger/asterisk check.",
+      "desc_prev": "DeepSeek Harness 插件 — ICD 编码记录核对：依据《住院病案首页数据填写质量规范（暂行）》《疾病和有关健康问题的国际统计分类》第十次修订本 第二卷 指导手册（国卫办医发〔2016〕24号、WHO ICD-10 Volume 2）。仅提示差异，不作出定性结论。"
+    },
+    {
+      "full_name": "PerryLink/dsh-lc-doc-check",
+      "previous": "coding",
+      "current": "tool",
+      "desc_now": "给外贸单证员/银行国际业务：按 UCP600 核对信用证（LC/Letter of Credit）单据的种类、份数、期限与不符点。 Letter of credit document compliance check.",
+      "desc_prev": "DeepSeek Harness 插件 — 信用证单据核对：依据《跟单信用证统一惯例》（UCP600）《表示货币的代码》。仅提示差异，不作出定性结论。"
+    },
+    {
+      "full_name": "PerryLink/dsh-paper-doc-adapter",
+      "previous": "document",
+      "current": "other",
+      "desc_now": "试卷结构核对：按题型、答案、分值与标识核对试卷结构自洽，仅提示差异，不作出定性结论。",
+      "desc_prev": "DeepSeek Harness 插件 — 论文投稿材料核对：依据《试题元数据规范》。仅提示差异，不作出定性结论。"
+    },
+    {
+      "full_name": "cococo1ng/dsh-sorceress-widget",
+      "previous": "web-ui",
+      "current": "notify",
+      "desc_now": "塔罗女巫挂件：7 种牌阵（多张必写所问）、真月相今日星座、心情与许愿瓶、13 张站姿自动轮转、加密档案（四柱/周期/婚配）、计费账单与月相提醒。全本地，素材内联，零外部进程。 / Tarot witch for DeepSeek Harness: 7 spreads, moon-phase horoscope, mood journal, wish jar, encrypted archive, usage bill.",
+      "desc_prev": "Sorceress · 塔罗挂件 for DeepSeek Harness — 抽牌、星座、情绪、计费；全本地运行，素材内联。/ Tarot-reading witch companion."
+    },
+    {
+      "full_name": "antimatter2020/dsh-assoc-mem",
+      "previous": "other",
+      "current": "memory",
+      "desc_now": "让AI像动物那样联想式记忆（以省token的方式[确信]）。",
       "desc_prev": null
+    },
+    {
+      "full_name": "beidou6972yh/dsh-bw-router",
+      "previous": "other",
+      "current": "model",
+      "desc_now": "WB 模型路由：网关 + DSH 插件 + Skill/MCP（DeepSeek Harness）。含分段计划、按段选模、会话内切模、确认与花费回写。",
+      "desc_prev": "B&W (小棒 & 灰狼) — DeepSeek Harness plugin: plan a task into stages, pick the right model per stage, and switch models in-session without losing context."
+    },
+    {
+      "full_name": "Frank-Fan-1058/dsh-document-view",
+      "previous": "tool",
+      "current": "document",
+      "desc_now": "Split document view for DeepSeek Harness — read the doc while the chat stays on the right. Strike out or comment on Word / PDF / PPT pages, hand the review to the AI, and see each edit highlighted.",
+      "desc_prev": "边看文档，边聊 AI — DeepSeek Harness 分栏文档视图：文档居中、会话常驻右侧，一行命令安装，零网络请求零文件读写"
     }
   ]
 }
