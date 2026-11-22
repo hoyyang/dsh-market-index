@@ -1,34 +1,69 @@
 {
-  "generated_at": "2026-11-22T08:43:58.658Z",
-  "count": 4,
+  "generated_at": "2026-11-22T18:31:16.614Z",
+  "count": 9,
   "items": [
     {
-      "full_name": "bloodarea/dsh-agent-team-ui-testing",
-      "previous": "coding",
-      "current": "vision",
-      "desc_now": "Frontend GUI debugging and testing for DeepSeekHarness agents: Web/Chromium ships 44 browser_* tools (43 execution + a discovery entry) for structured GUI automation, visual comparison, dynamic frames, annotations and network debugging; 3D has a Blender viewport (observation, annotation, screenshots); other targets are planned.",
-      "desc_prev": "Frontend GUI debugging and testing for DeepSeekHarness agents: Web/Chromium is implemented with 37 browser_* tools for structured GUI automation, visual comparison, dynamic frame analysis, annotation read/write and network debugging; Windows/Linux/macOS desktop, Android, TUI, HarmonyOS, mini programs, games and 3D (nine environments) are planned."
+      "full_name": "MochiNek0/dsh-desktop",
+      "previous": "tool",
+      "current": "coding",
+      "desc_now": "Unofficial lightweight desktop client for DeepSeek Harness (dsh web), built with Tauri. A few-MB installer that runs dsh in a native window and lets your phone connect to it over LAN, Tailscale or Cloudflare. Same sessions as the CLI.",
+      "desc_prev": "Unofficial lightweight desktop client for DeepSeek Harness (dsh web), built with Tauri. A few-MB installer that runs dsh in a native window and lets your phone connect to it over LAN, Tailscale or Cloudflare. Same sessions as the CLI."
     },
     {
-      "full_name": "Starlit-Sky-code/dsh-experience-optimizer",
-      "previous": "agent",
-      "current": "model",
-      "desc_now": "DSH plugin diet, compatibility diagnostics, and workflow blueprints",
-      "desc_prev": "DSH plugin diet, compatibility diagnostics, and workflow blueprints"
+      "full_name": "Stijnus/dsh-moodboard",
+      "previous": "memory",
+      "current": "web-ui",
+      "desc_now": "Visual reference moodboard for DeepSeek Harness: capture links, Mobbin and Are.na references, pin a style guide, and turn inspiration into your own UI components.",
+      "desc_prev": "Visual reference moodboards for DeepSeek Harness: collect images, add tags and notes, and pin a style guide for AI-assisted UI design."
     },
     {
-      "full_name": "yjh248619/dsh-floating-assistant",
-      "previous": "conversation",
-      "current": "vision",
-      "desc_now": "悬浮助手（dsh-floating-assistant）：任意 Windows 应用里划词即解释/总结/翻译，答案流式落在原生置顶卡里；深度模式带窗口文本与只读文件，截图/扫描件可用 OCR 取词，页内多卡并存与连续追问。npm: dsh-floating-assistant",
-      "desc_prev": "划词助手 Plus（dsh-select-assist-plus）：DSH / Codex / Claude 桌面划词浮窗，支持解释、总结、翻译与引用进当前会话，含 LaTeX 公式渲染、多窗口并存、折叠与最小化到任务栏。"
+      "full_name": "IKEASven69/dsh-takeover",
+      "previous": "notify",
+      "current": "memory",
+      "desc_now": "跨 agent 会话接力插件：二十三家 CLI 会话只读拉取与接管、handoff:1 开放协议收件箱、救生艇抢出失败会话、git 同步换机、环境加密备份与写回——会话/记忆/配置一起交接。",
+      "desc_prev": "会话接管插件：拉取九家外部 agent 会话（/resume-*）、把当前会话按 handoff: 1 开放协议寄存进 ~/.handoff/pending/、开局取件接着干"
     },
     {
-      "full_name": "hechenhao9/dsh-judge-loop",
-      "previous": "agent",
+      "full_name": "JiewiW/dsh-step-governor",
+      "previous": "other",
       "current": "tool",
-      "desc_now": "Two rival AI teams for DeepSeek Harness: a blind professor writes the rubric, a tutor has to meet it, and every claim is checked against real files. 95 分交付 / 双团队评审 / 可核证据",
-      "desc_prev": "Delivery quality gate for DeepSeek Harness: a blind professor writes the rubric, a tutor meets it, a local script enforces the evidence. ????? / ????? / gate ????"
+      "desc_now": "DSH 确定性步数治理插件（L2）：步级熔断（pre-step reject）+ 工具支线熔断（pre-execute deny），五档模式默认 g1g2 强拦截，fail-open",
+      "desc_prev": "实验·未发布：DSH 确定性步数治理插件（pre-step reject / pre-execute deny），shadow 默认、fail-open"
+    },
+    {
+      "full_name": "AIcivilization/dsh-pick",
+      "previous": "other",
+      "current": "resource",
+      "desc_now": "DSH 插件选型助手：把 dshmarket、dsh-plugin-shop、官方和 npm 的 3 万多个插件合成一个榜，去噪排名、AI 精选、一键安装，插件作者可领 README 排名徽章。Pick the right DeepSeek Harness plugin from 30k+.",
+      "desc_prev": "DSH 插件选购顾问：说需求 → 算去噪指标 → 给首选/备选/不推荐。Plugin advisor for DeepSeek Harness: pick the right plugin from 2,250+ candidates with denoised npm metrics."
+    },
+    {
+      "full_name": "tangdancol-jpg/dsh-pipeline",
+      "previous": "web-ui",
+      "current": "tool",
+      "desc_now": "DSH 多 AI 协作流水线插件：Superagent 接活，Pipeline 保交付 —— 三权分立、跳步拦截、多AI协调群聊（投票/打断/审批转发）、工具分配（矩阵冻结 + 临时授权）、五块政策版本与关单复评；41 个 pipeline_* 工具 / 171 套自测",
+      "desc_prev": "DSH 多 AI 协作流水线插件：主对话只调度不干活，编写/测试/审核三权分立；含自建控制面板（任务/席位/归档/批量/悬浮会话预览）"
+    },
+    {
+      "full_name": "Jessicaisleep/dsh-mihome",
+      "previous": "web-ui",
+      "current": "tool",
+      "desc_now": "DeepSeek Harness 全屋智能工作台：局域网/BLE 发现、米家云端、Home Assistant 实体与已支持的本地协议，按设备实际能力提供中文控件，支持私有连接与自定义场景。 · DSH smart-home workbench: LAN/BLE discovery, Mi Home cloud, Home Assistant entities and supported local protocols, with capability-based Chinese controls, private connections and scenes.",
+      "desc_prev": "DeepSeek Harness plugin: control Mi Home (米家) devices through mijiaAPI — device tiles, device detail pages, scenes and consumables in a sidebar workbench. · 通过 mijiaAPI 控制米家设备的 DSH 插件，侧栏工作台复刻米家 App 的设备页。"
+    },
+    {
+      "full_name": "Fahaoxi/dsh-tdx-tools",
+      "previous": "tool",
+      "current": "resource",
+      "desc_now": "DeepSeek Harness 插件：将通达信 MCP 行情服务注册为 13 个原生工具，覆盖实时行情、K 线、期权链、条件选股、F10 财务、新闻公告、研报与宏观数据；共用常驻会话，服务端回收时自动重新握手。",
+      "desc_prev": "DeepSeek Harness 插件：将通达信 MCP 行情服务注册为原生工具，支持期权链、K 线与实时行情，内置 MCP 会话自愈。"
+    },
+    {
+      "full_name": "AR-26710-1/dsh-plugin-scu-urp",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "DeepSeek Harness 四川大学教务系统 (URP) 与微服务助手：免密自动登录、高颜值课表、手机日历同步、培养方案大纲与保研GPA测算、考试与空闲教室、一卡通流水与宿舍电费监控",
+      "desc_prev": null
     }
   ]
 }
