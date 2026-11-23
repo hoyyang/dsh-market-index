@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-22T22:45:10.957Z",
-  "count": 2632,
+  "generated_at": "2026-11-23T03:05:07.151Z",
+  "count": 2639,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -6703,6 +6703,26 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a generic MCP memory server for coding agents."
     },
+    "fxylabs/superself-runtime": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone Company State Runtime CLI (agent state-management runtime); README has no DSH integration surface or install path."
+    },
+    "Lukeluoluo/dsh-trip-agent": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a one-line travel-agent description README with no plugin code or install path."
+    },
+    "TGSWYH/dsh-plugin-update": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an external PowerShell updater that pnpm-installs into DSH profile directories from outside DSH; no plugin manifest or DSH install path."
+    },
+    "fubai-fenzhi/dsh-plugin-submissions": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a PR-based plugin-submission process repo (intake rules and CI preflight); no plugin code or installable bundle."
+    },
+    "wangchengxin666/metis": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a self-hosted multi-user cloud-workspace and control-plane platform (Traefik + FastAPI + Docker orchestration) around DSH; no plugin code or install path."
+    },
     "091022yyj/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop app; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -10066,6 +10086,14 @@
     "zz12hui/dsh-radar": {
       "kind": "market",
       "reason": "A plugin/skill directory and navigation center inside DSH — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "fongap-labs/delta": {
+      "kind": "market",
+      "reason": "Excluded from the downstream market: a desktop distribution/shell of DeepSeek Harness, not an installable DSH plugin. Stays in the catalog and leaderboard."
+    },
+    "240xu/dsh-nightly-automation": {
+      "kind": "market",
+      "reason": "Excluded from the downstream market: author-archived plugin superseded by the built-in Automation tasks page. Stays in the catalog and leaderboard."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",

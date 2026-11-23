@@ -1,13 +1,20 @@
 {
-  "generated_at": "2026-11-22T22:45:07.263Z",
-  "count": 1,
+  "generated_at": "2026-11-23T03:05:04.862Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "scottzhb-hue/dsh-ai-translation",
+      "full_name": "angel291592/dsh-submodel",
+      "previous": "agent",
+      "current": "model",
+      "desc_now": "Two-way cross-model delegation for the official DSH subagent: routine execution runs on a cheap route (e.g. DeepSeek Flash), architecture-level code/logic escalates to a strong expert route (e.g. Claude), so routine token spend stays cheap. 官方 subagent 的双向跨模型派活：常规执行走便宜模型、难题升级强模型，token 花在刀刃上。",
+      "desc_prev": "官方 subagent 的默认策略包：装上一次配好「什么时候自己干、什么时候派出去、派给谁」。"
+    },
+    {
+      "full_name": "fenglin233o/dsh-jingshen",
       "previous": "other",
-      "current": "tool",
-      "desc_now": "AI-aided translation, inside DeepSeek Harness. Based on dsh-cait by JoviLecca.",
-      "desc_prev": "AI-aided translation, inside DeepSeek Harness. Based on dsh-cait by JoviLecca."
+      "current": "conversation",
+      "desc_now": "精神 · fenglin 的个人 AI 助手插件。以《精神现象学》探索 AGI 架构，在 DeepSeek Harness 中支持跨会话自主活动、可打断的语音通话和连续视觉。",
+      "desc_prev": null
     }
   ]
 }
