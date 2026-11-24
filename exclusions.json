@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-24T00:20:05.696Z",
-  "count": 2639,
+  "generated_at": "2026-11-24T10:39:26.029Z",
+  "count": 2655,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -6723,6 +6723,54 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a self-hosted multi-user cloud-workspace and control-plane platform (Traefik + FastAPI + Docker orchestration) around DSH; no plugin code or install path."
     },
+    "mvanhorn/last30days-skill": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a cross-platform AI agent research skill pack (Claude Code / Codex / Grok plugin formats, a 73k-star generic project) with no DSH install path."
+    },
+    "Minglink/dsh-jailbreak-workflow": {
+      "kind": "excluded",
+      "reason": "Not a plugin for the catalog — a visual jailbreak-prompt factory (canvas-to-plan-prompt engine with jailbreak-forum promotion); its content is tooling for building prompts that bypass model safety guardrails."
+    },
+    "leiyiqi070630-arch/dsh-purge": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty repository self-described as a jailbreak prompt-swap plugin; no code, no manifest, no install path."
+    },
+    "yayabxa-spec/dsh-purge-A": {
+      "kind": "excluded",
+      "reason": "Not a plugin for the catalog — a third-party archive fork of the dsh-purge jailbreak prompt-swap plugin ('jailbreak: every model, swap prompts per model')."
+    },
+    "abworks-dev/dsh-plugin-ui-conventions": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an unofficial plugin-UI conventions handbook packaged as a skills-folder document pack; no plugin manifest or install shell."
+    },
+    "youkucola/dsh-aurabot-agenda": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an extension module loaded by the Aurabot plugin's own module system; no DSH install path of its own."
+    },
+    "youkucola/dsh-aurabot-daybook": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an extension module loaded by the Aurabot plugin's own module system; no DSH install path of its own."
+    },
+    "duma520/dsh-session-manager-patch": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an external PowerShell patch script that rewrites the installed dsh-session-manager files; itself not installable as a plugin."
+    },
+    "dsh-external/dsh-deeptag": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an archived design-phase documentation repo that states no installable plugin exists yet."
+    },
+    "dsh-external/dsh-grok-tui": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an external TUI launcher that fronts the dsh engine with grok-build's TUI; a companion front-end, not an installable plugin."
+    },
+    "dsh-external/dsh-sentinel": {
+      "kind": "excluded",
+      "reason": "Stale mirror — this deprecated copy declares it has moved to fuhefei/dsh-sentinel (already in the catalog); kept out to avoid double-listing the same plugin."
+    },
+    "dsh-plugins/dsh-model-selector": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — an empty repository with no code, manifest, or install path."
+    },
     "091022yyj/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop app; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -9083,10 +9131,6 @@
       "kind": "market",
       "reason": "A DSH plugin market / directory / store — the market cannot include another market; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "sakanamaru/dsh-minato": {
-      "kind": "market",
-      "reason": "A desktop client/shell/launcher or local DSH deployment launcher, including any companion bundles. Excluded from the downstream market."
-    },
     "Sakura025/dsh-skill-picker": {
       "kind": "market",
       "reason": "A DSH plugin market / directory / store / installer — the market cannot include another market (skill picker with an in-app installer from repo / URL / pasted text / the skills.sh registry); stays in the catalog, kept off the star board, excluded from the downstream market."
@@ -10094,6 +10138,26 @@
     "240xu/dsh-nightly-automation": {
       "kind": "market",
       "reason": "Excluded from the downstream market: author-archived plugin superseded by the built-in Automation tasks page. Stays in the catalog and leaderboard."
+    },
+    "lennney/stop-that-shit": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: stars accrued as a multi-host agent hook/skill guard (Claude Code / Codex-first audience, ~47:1 star-to-fork ratio); the DSH adapter is one of several hosts. Stays in the catalog and market."
+    },
+    "omnimux-ai/omnimux-client": {
+      "kind": "market",
+      "reason": "A desktop application — a local AI video studio (native macOS/Windows installers) whose DSH plugin is a companion connector. Excluded from the downstream market."
+    },
+    "IKEASven69/AnyFind": {
+      "kind": "market",
+      "reason": "A desktop application — a Windows full-disk instant-search tool (Tauri desktop shell) whose DSH plugin is the agent query end. Excluded from the downstream market."
+    },
+    "dsh-external/dsh-pet": {
+      "kind": "market",
+      "reason": "A standalone desktop app (Electron floating pet) that watches DSH session state from outside the host. Excluded from the downstream market."
+    },
+    "dsh-external/dsh-island": {
+      "kind": "market",
+      "reason": "A standalone macOS Swift notch panel that mirrors DSH task state. Excluded from the downstream market."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
