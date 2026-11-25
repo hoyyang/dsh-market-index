@@ -1,90 +1,27 @@
 {
-  "generated_at": "2026-11-25T19:55:19.466Z",
-  "count": 12,
+  "generated_at": "2026-11-25T23:36:24.524Z",
+  "count": 3,
   "items": [
     {
-      "full_name": "Mt-Youya/dsh-plugins",
-      "previous": "resource",
-      "current": "memory",
-      "desc_now": "DSH Web GUI 的「会话洞察」面板：解析 Claude Code / DSH / Codex 以及 Cursor / Pi / Antigravity / VS Code 系 / Cline·Roo 的会话日志，把模型每一轮实际收到的上下文拆开给人看——系统提示、工具定义、记忆与指令、历史、工具结果、图片各占多少，以及每个数字是精确的 usage 还是按字符折算的估算。A plugin collection for DeepSeek Harness (DSH). Install this one bundle to get every plugin listed below.",
-      "desc_prev": "A plugin collection for DeepSeek Harness (DSH). Install this one bundle to get every plugin listed below; each plugin can also be installed on its own."
-    },
-    {
-      "full_name": "dannndouglas/dsh-antigravity-acp",
-      "previous": "tool",
-      "current": "other",
-      "desc_now": "Independent DeepSeek Harness plugin using Google Antigravity ACP. Unauthorized subscription use can lead to account suspension or termination.",
-      "desc_prev": "Official Antigravity ACP primary provider for DeepSeek Harness, with DSH-owned tools over MCP and automatic setup."
-    },
-    {
-      "full_name": "efrem-labs/niro-releases",
-      "previous": "coding",
-      "current": "memory",
-      "desc_now": "NIRO 0.4 — Your coding agents on iPhone. Universal Search, Project Memory and session continuation for Hermes, DeepSeek Harness, OpenCode, Qwen Code, Kimi Code and MiMo. Mac Bridge installers and docs.",
-      "desc_prev": "NIRO 0.4 — Your desktop Coding Agents on iPhone. Universal Search, real session continuation, Qwen Code, Kimi Code, Hermes, OpenCode, ZCode and DSH; Mac Bridge installers and docs."
-    },
-    {
-      "full_name": "airainal/dsh-edge-companion",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "Connects DeepSeek Harness to the user's logged-in Microsoft Edge: local bridge, MV3 side panel, and real-tab control over CDP.",
-      "desc_prev": "Drive DeepSeek Harness with your real, logged-in Microsoft Edge: MV3 extension + local CDP bridge + DSH plugin."
-    },
-    {
-      "full_name": "ashareapi/ashareapi-dsh-plugin",
+      "full_name": "soffits/dsh-custom-css",
       "previous": "web-ui",
-      "current": "resource",
-      "desc_now": "A股数据 API 官方 DeepSeek Harness 插件 —— 桌面端 / Web UI 输个包名即装，94 个 A股工具（行情 / K线 / L2 大单 / 财务 / 资金 / 龙虎榜 / 板块 / 因子选股 / 量化回测 / 期货外汇 / 资讯公告），免费工具无需 Key｜Official DSH plugin, 94 A-share tools, free tools need no key",
-      "desc_prev": "A股数据 API 官方 DeepSeek Harness 插件 —— 桌面端 / Web UI 输个包名即装，31 个 A股工具（行情 / K线 / 分时 / 财务 / 资金 / 龙虎榜 / 板块 / 选股 / 量化回测），免费工具无需 Key｜Official DeepSeek Harness plugin for the A-Share Data API — install by name; 31 A-share tools (quotes, K-lines, financials, money flow, sectors, quant backtests), free tools need no key"
+      "current": "other",
+      "desc_now": "Moved into soffits/dsh-web-tweaks. Archived.",
+      "desc_prev": "Custom CSS for the DeepSeek Harness Web UI, with a default fix that stops the whole page from scrolling."
     },
     {
-      "full_name": "Ep1phanyw/project_manager",
-      "previous": "other",
+      "full_name": "Merziller/prompt-fusion",
+      "previous": "web-ui",
       "current": "tool",
-      "desc_now": "Project orchestration plugin for DeepSeek Harness (DSH): parallel subagent parts, plugin-executed acceptance checks, user-only approval.",
-      "desc_prev": null
+      "desc_now": "Agent-neutral prompt-rule core: DSH one-button, portable Skills, CLI, MCP stdio/HTTP and REST/OpenAPI. Quality limitations disclosed; not a semantic rewriter.",
+      "desc_prev": "Intent-preserving prompt enhancement: offline core, DSH preview UI, CLI, MCP and portable Agent Skills."
     },
     {
-      "full_name": "Travis13197/NatSci-Writing-skills",
-      "previous": "other",
-      "current": "tool",
-      "desc_now": "Skill that produces complete manuscripts and complete figure sets at Nature/Science standard, then revise, format and defend them. ",
-      "desc_prev": "Skill that produces complete manuscripts and complete figure sets at Nature/Science standard, then revise, format and defend them. "
-    },
-    {
-      "full_name": "soffits/dsh-fallback-models",
-      "previous": "resource",
-      "current": "tool",
-      "desc_now": "Fallback model chain for DeepSeek Harness: when a model request keeps failing after DSH's own retries, the work continues on the next model in a configured list.",
-      "desc_prev": "Fallback model chain for DeepSeek Harness: when a model request keeps failing, the work continues on the next model in your list."
-    },
-    {
-      "full_name": "Pondsi/dsh-diwen",
-      "previous": "other",
-      "current": "agent",
-      "desc_now": "迪文（Diwen）dsh 插件：模型自行判断何时使用；AI↔AI 通讯（本体↔子代理、多 agent、机械化批处理）强制走迪文概念坐标。开源 CC BY 4.0，署名即用（Pondsi）。",
-      "desc_prev": null
-    },
-    {
-      "full_name": "miorin-chan/dsh-local-plugin-reload",
-      "previous": "other",
-      "current": "resource",
-      "desc_now": "Identify local plugins in DeepSeek Harness and reinstall them from their original source.",
-      "desc_prev": "Identify local plugins in DeepSeek Harness and reinstall them from their original source."
-    },
-    {
-      "full_name": "ethanrise/dsh-cua-linux",
-      "previous": "other",
-      "current": "vision",
-      "desc_now": "Computer use on Linux for DeepSeek Harness: enumerate windows, take screenshots, inject mouse and keyboard through XTEST, and drive Chromium over the DevTools Protocol. X11/XWayland, 15 tools, one dependency.",
-      "desc_prev": null
-    },
-    {
-      "full_name": "Hornjin/Microsoft-rewards-dsh",
-      "previous": "vision",
-      "current": "agent",
-      "desc_now": "微软奖励 DeepSeek Harness 自动化插件 | Microsoft Rewards automation as a DSH plugin. Upstream: TheNetsky/Microsoft-Rewards-Script (GPL-3.0)",
-      "desc_prev": "微软奖励 DeepSeek Harness 自动化插件 | Microsoft Rewards automation as a DSH plugin. main = one-click provisioning, manual-setup = install prerequisites yourself. Upstream: TheNetsky/Microsoft-Rewards-Script (GPL-3.0)"
+      "full_name": "duma520/dsh-run2skill",
+      "previous": "conversation",
+      "current": "web-ui",
+      "desc_now": "dsh-run2skill：把 DSH 会话里你明确表达的做事方式，沉淀成可审核、可回滚的原生 Skill。带自有 JSONL 日志、运行代际自检（改了没重启会提示）、技能召回遥测（近 30 天谁被喂给过模型）、发布历史快照（每个 Skill 留 3 版可回滚），左侧栏有「技能沉淀」面板。适合长期用 DSH 干活、反复交代同一套做法的人。",
+      "desc_prev": "dsh-run2skill：把 DSH 会话里明确表达的做事方式沉淀成可审核、可回滚的原生 Skill。四件套增强版——自有 JSONL 日志、运行代际自检（改了没重启会提示）、技能召回遥测（近 30 天谁被喂给过模型）、发布历史快照（每个 Skill 留 3 版可回滚）。适合长期用 DSH 干活的用户。"
     }
   ]
 }
