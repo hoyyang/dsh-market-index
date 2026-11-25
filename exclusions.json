@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-24T21:08:02.095Z",
-  "count": 2655,
+  "generated_at": "2026-11-25T04:03:51.738Z",
+  "count": 2669,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -6771,6 +6771,46 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — an empty repository with no code, manifest, or install path."
     },
+    "HometownVoyager/DSH-OrcaMind": {
+      "kind": "excluded",
+      "reason": "不是 DSH 插件：个人自用工作区存档（源码克隆+Electron 壳+文档）"
+    },
+    "Travis13197/NatSci-Writing-skills": {
+      "kind": "excluded",
+      "reason": "不是 DSH 插件：通用 agent 技能包（装 ~/.agents/skills，无 DSH 路径）"
+    },
+    "fubai-fenzhi/dsh-procedures-community": {
+      "kind": "excluded",
+      "reason": "不是 DSH 插件：dsh-procedures 的社区经验卡库，自身无 dsh 清单"
+    },
+    "AyaseMinami/dsh-whale-widget-planbar": {
+      "kind": "excluded",
+      "reason": "不是 DSH 插件：给已装挂件打补丁的 PowerShell 外部脚本"
+    },
+    "HometownVoyager/dsh-image-mcp": {
+      "kind": "excluded",
+      "reason": "不是 DSH 插件：自述非 cordis 插件的独立 MCP 脚本，仅配置接入"
+    },
+    "Sealkeeper/dsh-purge": {
+      "kind": "excluded",
+      "reason": "自述破甲越狱插件，YuJunZhiXue/dsh-purge fork 全族剔除"
+    },
+    "cauthy12/research-paradigm-by-wtd-kit": {
+      "kind": "excluded",
+      "reason": "不是 DSH 插件：通用研究工作区脚手架，作者自述非插件，无 dsh 安装路径"
+    },
+    "idvwork/dsh-purge": {
+      "kind": "excluded",
+      "reason": "自述破甲：59 项引擎补丁绕审批/破沙箱，YuJunZhiXue 家族包装"
+    },
+    "idvwork/dsh-purge-llm-security": {
+      "kind": "excluded",
+      "reason": "同 dsh-purge@1.6.1 破甲补丁包的马甲仓，家族剔除"
+    },
+    "jszjdyt/dsh-bioinformatics-plugins": {
+      "kind": "excluded",
+      "reason": "不是 DSH 插件：本体为 9 个子插件仓的文档总览站"
+    },
     "091022yyj/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop app; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -8851,10 +8891,6 @@
       "kind": "leaderboard",
       "reason": "Kept out of the star board: stars accrued as a standalone universal virtualization-management platform (Proxmox VE / LXD / Incus / Docker / QEMU / KubeVirt, 421 days old, 1,258 commits, Docker/binary/1Panel installs); the DSH plugin panel landed 2026-11-17 and fronts an existing deployment. Stays in the catalog."
     },
-    "onehumanbeing/esp32-iphone-agent": {
-      "kind": "leaderboard",
-      "reason": "Kept out of the star board: stars accrued as a standalone iPhone-automation hardware product (Manina AI, ESP32-based); the DSH adapter is secondary. Restored repository, verdict of 2026-11-06 reaffirmed."
-    },
     "Onenightcarnival/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -10151,13 +10187,33 @@
       "kind": "market",
       "reason": "A desktop application — a Windows full-disk instant-search tool (Tauri desktop shell) whose DSH plugin is the agent query end. Excluded from the downstream market."
     },
-    "dsh-external/dsh-pet": {
-      "kind": "market",
-      "reason": "A standalone desktop app (Electron floating pet) that watches DSH session state from outside the host. Excluded from the downstream market."
+    "ximizhou/convenient_window_free": {
+      "kind": "leaderboard",
+      "reason": "stars accrued as a standalone Windows 11 window tool: 142 of 200 stars landed in the 2026-09 desktop-release burst, before any DSH-plugin code existed (apps/dsh-plugin first committed 2026-11-22); the DSH plugin itself is genuine (npm dsh-convenient-window), so it stays in the catalog and market, off the Star board"
     },
-    "dsh-external/dsh-island": {
+    "LingMowen/dsh-magpie-hub": {
       "kind": "market",
-      "reason": "A standalone macOS Swift notch panel that mirrors DSH task state. Excluded from the downstream market."
+      "reason": "内嵌插件市场（market.js），the market cannot include another market"
+    },
+    "beicaiai/dsh-magpie": {
+      "kind": "market",
+      "reason": "内嵌插件商店，the market cannot include another market"
+    },
+    "sakanamaru/dsh-minato-legacy": {
+      "kind": "market",
+      "reason": "本机部署运维套件（安装包分发），沿 dsh-minato 先例双记"
+    },
+    "Fox1990125/dsh-radar-workbench": {
+      "kind": "market",
+      "reason": "插件/技能发现+一键装商店，the market cannot include another market"
+    },
+    "solgridai/dsh-plugin": {
+      "kind": "market",
+      "reason": "付费第三方工具/技能商城，the market cannot include another market"
+    },
+    "zoeyzhang233666/chemclaw-bot": {
+      "kind": "market",
+      "reason": "主体为桌面 App（安装包为推荐分发），DSH 插件仅次要入口，双记"
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",

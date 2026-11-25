@@ -1,48 +1,20 @@
 {
-  "generated_at": "2026-11-24T21:08:00.164Z",
-  "count": 6,
+  "generated_at": "2026-11-25T04:03:49.919Z",
+  "count": 2,
   "items": [
     {
-      "full_name": "jackxiao17/dsh-session-cleaner",
-      "previous": "tool",
-      "current": "conversation",
-      "desc_now": "DSH 会话清理：冷会话直接回收，已打开/最近浏览会话确认后通过官方句柄关闭；支持恢复、定时任务暂停/恢复与彻底删除。要求 DSH >=0.2.3-alpha.2 <0.3.0 | DSH session cleaner with reversible recycle bin, confirmed force delete for open sessions, and official lifecycle disposal; requires DSH >=0.2.3-alpha.2 <0.3.0",
-      "desc_prev": "DSH 会话清理：冷会话可恢复回收站、定时任务暂停/恢复、实时会话与未知后端安全拒绝；要求 DSH >=0.2.3-alpha.2 <0.3.0 | DSH session cleaner with reversible recycle bin, pausable schedules, and fail-closed safety; requires DSH >=0.2.3-alpha.2 <0.3.0"
+      "full_name": "houyanchao/dsh-open-model",
+      "previous": "other",
+      "current": "model",
+      "desc_now": "安装后，无需注册或登录，即可在 DSH 中使用免费 AI 模型。连接 ChatGPT 账号后，还能直接使用已有套餐的额度。",
+      "desc_prev": "在 DeepSeek Harness 中使用和管理 Kilo 匿名免费模型"
     },
     {
-      "full_name": "MaRi23333/dsh-subagent-library",
-      "previous": "tool",
-      "current": "conversation",
-      "desc_now": "DeepSeek Harness 的具名子代理库。把常用角色、提示词和模型保存成名册，在对话里按名字派活。支持临时换模型，也可以把多个角色编队。Named subagent roster for DeepSeek Harness Desktop and Web.",
-      "desc_prev": "DeepSeek Harness 具名子代理库插件：settings 驱动的角色名册，list_subagents / delegate 工具与设置页。Named subagent roster plugin for DeepSeek Harness."
-    },
-    {
-      "full_name": "RestRegular/dsh-powerup",
+      "full_name": "KevinZhangNothing/dsh-nico",
       "previous": "other",
       "current": "web-ui",
-      "desc_now": "Install this plugin and you can: right-click Trajectory rows to copy, quote, export, fork and copy step refs; add stop reasons to background jobs; one-click install/update plugins; make the sidebar a drag-sortable icon grid with folders and back/restart/close tiles; switch running sessions from the title; locate the current session in the workspace",
-      "desc_prev": "Power-Up — small, opt-in upgrades for DeepSeek Harness."
-    },
-    {
-      "full_name": "Nico-2222/dsh-mys-checkin",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "MiYoushe (米游社) 全游戏每日签到 for DeepSeek Harness — 原神 / 星穹铁道 / 绝区零 / 崩坏3 / 未定事件簿 / 崩坏学园2。仅限国服（mainland China servers only）。",
-      "desc_prev": "MiYoushe (米游社) daily check-in for DeepSeek Harness — 原神 / 星穹铁道 / 绝区零 / 崩坏3 / 未定事件簿 / 崩坏学园2"
-    },
-    {
-      "full_name": "nan1010082085/aigc-suite-skills",
-      "previous": "other",
-      "current": "web-ui",
-      "desc_now": "漫剧（AI 短剧）创作技能套件：从小说 / 想法到成片的 18 个 Claude Code / WorkBuddy skill，覆盖剧本、人物·场景·道具素材、分镜、出片执行、机检质检与成片回流",
-      "desc_prev": "漫剧（AI 短剧）创作技能套件：从小说/想法到成片的 14 个 Claude Code skill"
-    },
-    {
-      "full_name": "superltmajor-pixel/dsh-structured-output",
-      "previous": "other",
-      "current": "conversation",
-      "desc_now": "DeepSeek Harness 的自适应表达插件",
-      "desc_prev": "DeepSeek Harness 的自适应表达插件"
+      "desc_now": "Nico — 按住右 ⌘ 说一句，本地 AI 替我操作电脑。DSH cordis 插件：本地 SenseVoice 识别 → DSH 固定会话 → CosyVoice2 流式播报，可选 Live2D 鲸鱼娘悬浮窗。",
+      "desc_prev": "Nico — 按住右⌘说一句，本地 AI 替我操作电脑。DSH cordis plugin: SenseVoice STT + headless session + hotkey daemon."
     }
   ]
 }
