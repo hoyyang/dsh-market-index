@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-25T23:36:26.639Z",
-  "count": 2669,
+  "generated_at": "2026-11-26T05:23:58.940Z",
+  "count": 2688,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -6811,6 +6811,58 @@
       "kind": "excluded",
       "reason": "不是 DSH 插件：本体为 9 个子插件仓的文档总览站"
     },
+    "xing-shuyin/keel": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a standalone browser/desktop workbench (pi-web-ui) that drives pi, DSH, Claude Code and Codex as interchangeable engines; DSH is one of several backends and the README has no plugin install path; rides the dsh-plugin topic."
+    },
+    "L1ch404/jolink-runtime": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic MCP server + agent skill (joLink) that helps AI coding agents start Java apps and rerun tests; no DeepSeek Harness integration or install path in the README; rides the dsh-plugin topic."
+    },
+    "BankGPT/bankgpt-skills": {
+      "kind": "excluded",
+      "reason": "不是 DSH 插件：BankGPT 通用 agent 技能包（面向 Claude Code / Codex / Cursor 的 agentskills.io 金融技能集），README 无任何 DSH 安装路径；沿通用技能包剔除先例。"
+    },
+    "elonzh/dshjk": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a Java/Kotlin SDK library (Maven Central) for embedding the dsh runtime into JVM applications; a development library, not an installable DSH plugin."
+    },
+    "dsAI-Q/browser-pilot": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a generic agent browser-automation npm package (@dsai-q/browser-pilot) with no DeepSeek Harness integration or install path in the README; rides the dsh-plugin topic."
+    },
+    "rogersgalih80/plugin-boutique-carbon-electra": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a description dump of Plugin Boutique Carbon Electra, a subtractive-synthesis music synthesizer (DAW VST plugin for Windows); unrelated to DeepSeek Harness, rides the topic name."
+    },
+    "Scu9277/DSH": {
+      "kind": "excluded",
+      "reason": "dsh-unrestricted 破甲插件（把「无限制本地执行契约」注入系统提示词组装流水线的一键安装器）；沿破甲家族剔除先例。"
+    },
+    "lldwb/dsh-side-ask": {
+      "kind": "excluded",
+      "reason": "不是可维护插件：已归档的历史归档仓（「侧边提问」组件已并入 lldwb/dsh-session-enhance），本仓库仅作存档。"
+    },
+    "ackniuw/dsh-image-drag-fix": {
+      "kind": "excluded",
+      "reason": "不是可安装插件：DSH Desktop 拖图被拒的根因分析与 asar 手术脚本（直接改宿主 node_modules 内文件），无可安装插件包；沿宿主补丁脚本剔除先例。"
+    },
+    "voidobserve/dsh-explorer-open-patch": {
+      "kind": "excluded",
+      "reason": "不是可安装插件：给第三方插件 @reed-io/dsh-explorer-open 打补丁的脚本仓（apply-patch.ps1 修改已装插件的 client.js），本仓库无自身插件包。"
+    },
+    "hyper-open/memorydex": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a general-purpose AI memory service (npm CLI + MCP stdio + REST/web UI); its DSH lane is a documented cordis.patch.yml MCP-server wiring recipe with no plugin manifest or plugin runtime install path."
+    },
+    "whyissodifficult/dsh-plugin-audit": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — a read-only static audit CLI (npx tool) that scans published DSH plugin packages; companion tooling with no plugin install path of its own."
+    },
+    "anweat/dsh-plugin-dev-guide": {
+      "kind": "excluded",
+      "reason": "不是 DSH 插件：DSH 插件开发指南文档站（docs + 示例骨架 + 发布巡检脚本），无可安装插件包；沿手册/文档站剔除先例。"
+    },
     "091022yyj/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop app; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -10214,6 +10266,30 @@
     "zoeyzhang233666/chemclaw-bot": {
       "kind": "market",
       "reason": "主体为桌面 App（安装包为推荐分发），DSH 插件仅次要入口，双记"
+    },
+    "dsh-suite-store/dsh-suite-store": {
+      "kind": "market",
+      "reason": "A visual plugin-suite marketplace (browse, search, one-click install of plugin suites) — the market cannot include another market; stays in the catalog, excluded from the downstream market."
+    },
+    "dsh-suite-store/dsh-suite-store-catalog": {
+      "kind": "market",
+      "reason": "Catalog data of the dsh-suite-store marketplace — the market cannot include another market; stays in the catalog, excluded from the downstream market."
+    },
+    "dshcrate/dsh-crate": {
+      "kind": "market",
+      "reason": "A plugin market living inside DeepSeek Harness (browse dshcrate.com, copy install commands) — the market cannot include another market; stays in the catalog, excluded from the downstream market."
+    },
+    "lanxiake/dsh-vyra-plugins": {
+      "kind": "market",
+      "reason": "A DeepSeek Harness plugin & skill market maintained alongside the dsh-Veyra fork — the market cannot include another market; stays in the catalog, excluded from the downstream market."
+    },
+    "tzzs/dsh-skill-dashboard": {
+      "kind": "market",
+      "reason": "A skills manager whose Discover tab searches and installs skills from public registries (skills.sh, Tencent SkillHub, GitHub) — the market cannot include another market; stays in the catalog, excluded from the downstream market."
+    },
+    "HAppy-2436/dsh-status": {
+      "kind": "market",
+      "reason": "Not an installable DSH plugin — a standalone macOS menu bar companion app; stays in the catalog, excluded from the downstream market."
     },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",

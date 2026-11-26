@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-11-25T23:36:24.524Z",
+  "generated_at": "2026-11-26T05:23:57.131Z",
   "count": 3,
   "items": [
     {
-      "full_name": "soffits/dsh-custom-css",
-      "previous": "web-ui",
-      "current": "other",
-      "desc_now": "Moved into soffits/dsh-web-tweaks. Archived.",
-      "desc_prev": "Custom CSS for the DeepSeek Harness Web UI, with a default fix that stops the whole page from scrolling."
+      "full_name": "omdsh-dev/dsh-better-dsh",
+      "previous": "conversation",
+      "current": "agent",
+      "desc_now": "DSH一站式增强套件，让多代理协作更高效，让复杂任务从想法走向交付",
+      "desc_prev": "把单一会话不可能的巨任务拆成无数可验证子系统，大规模并行有纪律执行"
     },
     {
-      "full_name": "Merziller/prompt-fusion",
+      "full_name": "breakjck/dsh-aside-ask",
+      "previous": "model",
+      "current": "conversation",
+      "desc_now": "DeepSeek Harness 插件：在对话记录里圈出一段右键提问，答案走旁支子对话，不打断主对话；同一窗口可连续追问，可拖动并记住位置。",
+      "desc_prev": "自建的一个deepseek harness 插件，可以在主对话中进行旁支提问，并且会将提问结果写入上下文"
+    },
+    {
+      "full_name": "Stook-404/dsh-trigger-prompts",
       "previous": "web-ui",
       "current": "tool",
-      "desc_now": "Agent-neutral prompt-rule core: DSH one-button, portable Skills, CLI, MCP stdio/HTTP and REST/OpenAPI. Quality limitations disclosed; not a semantic rewriter.",
-      "desc_prev": "Intent-preserving prompt enhancement: offline core, DSH preview UI, CLI, MCP and portable Agent Skills."
-    },
-    {
-      "full_name": "duma520/dsh-run2skill",
-      "previous": "conversation",
-      "current": "web-ui",
-      "desc_now": "dsh-run2skill：把 DSH 会话里你明确表达的做事方式，沉淀成可审核、可回滚的原生 Skill。带自有 JSONL 日志、运行代际自检（改了没重启会提示）、技能召回遥测（近 30 天谁被喂给过模型）、发布历史快照（每个 Skill 留 3 版可回滚），左侧栏有「技能沉淀」面板。适合长期用 DSH 干活、反复交代同一套做法的人。",
-      "desc_prev": "dsh-run2skill：把 DSH 会话里明确表达的做事方式沉淀成可审核、可回滚的原生 Skill。四件套增强版——自有 JSONL 日志、运行代际自检（改了没重启会提示）、技能召回遥测（近 30 天谁被喂给过模型）、发布历史快照（每个 Skill 留 3 版可回滚）。适合长期用 DSH 干活的用户。"
+      "desc_now": "DSH 插件：把各插件注册给 Agent 的工具、以及技能（skills）的触发说法汇总成一张中文清单——可搜索、一键复制、可置顶。入口在「对话 / 轨迹 / 画廊」右侧。",
+      "desc_prev": "DSH 插件:把各已装插件注册给 Agent 的工具描述(触发提示词)汇总成「触发词」面板,可搜索、一键复制、可置顶。入口在「对话/轨迹/画廊」右侧。"
     }
   ]
 }
