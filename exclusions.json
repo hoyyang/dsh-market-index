@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-27T09:03:48.223Z",
-  "count": 2688,
+  "generated_at": "2026-11-27T19:28:14.534Z",
+  "count": 2703,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -6863,6 +6863,54 @@
       "kind": "excluded",
       "reason": "不是 DSH 插件：DSH 插件开发指南文档站（docs + 示例骨架 + 发布巡检脚本），无可安装插件包；沿手册/文档站剔除先例。"
     },
+    "DK-Zhu/mcp-consult": {
+      "kind": "excluded",
+      "reason": "Not a DSH plugin — repurposed into a generic MCP server for any MCP host (claude mcp add / npx); the DSH plugin survives only at the historical v0.2.0 tag, no installable DSH plugin at HEAD."
+    },
+    "Dreftian/Rea": {
+      "kind": "excluded",
+      "reason": "不是 DSH 插件：README 无任何 DSH 安装路径，是 morluto/rea 的西语转录副本，经 npx rea-agents setup 为其他编码 agent 注册逆向工程 MCP"
+    },
+    "SI-sases/sases-control": {
+      "kind": "excluded",
+      "reason": "Not a plugin: an MCP stdio server plus CLI skill (SKILL.md + mcp_server.py, installed via generic mcpServers config) for operating self-hosted SASES instances — no DSH plugin package and no DSH-targeted install path."
+    },
+    "dehong831-arch/dsh-ComboLab": {
+      "kind": "excluded",
+      "reason": "Standalone Windows x64 offline diagnostic lab: boots sealed DSH Web builds inside its own viewer to reproduce plugin-combination bugs; the dsh-combolab attachment is lab-only and explicitly not for live DSH profiles."
+    },
+    "hbx111/dsh-unlock": {
+      "kind": "excluded",
+      "reason": "Loosens content policy: swaps strict content_policy blocks in the system prompt for a permissive policy and appends a 用户至上总纲 fallback section — content-policy-loosening family, excluded per precedent."
+    },
+    "jqlong17/doublecheck-ios": {
+      "kind": "excluded",
+      "reason": "非 DSH 插件：通用运维预检/断言/回滚 CLI（python3 ops.py、dc）加 agent-plugins.org 通用 MCP server，无 dsh plugin 安装路径，也无 dsh bundle/cordis manifest"
+    },
+    "li1378380/dsh-file-search": {
+      "kind": "excluded",
+      "reason": "仓库已 archived 归档停更；README 曾示 dsh plugin add dsh-file-search 的本地全文搜索插件，按归档仓库规则排除"
+    },
+    "seinan27/dsh-armor-suite": {
+      "kind": "excluded",
+      "reason": "破甲套件：armor-inject/guard 按路由注入并清洗受保护提示，armor-retry 在模型拒答时换形续问以提高服从率"
+    },
+    "slobaloncar/livelaunch-mcp": {
+      "kind": "excluded",
+      "reason": "仓库自述仅含远程 MCP 端点的连接信息与文档，DSH 用法是安装官方 dsh-mcp-client 再加 cordis.patch 配置片段，本身无可安装插件包"
+    },
+    "truecih/dsh-live-ops": {
+      "kind": "excluded",
+      "reason": "GitHub API 对仓库与 README 均返回 404：仓库已删除或改名，无任何可核验内容。"
+    },
+    "ultrafastmov/ultrafast": {
+      "kind": "excluded",
+      "reason": "非 DSH 插件：通用 GPU 视频渲染 CLI/MCP（Rust），安装走 `curl ultrafast.mov/install.sh`，面向 Claude Code/Codex/Cursor/Gemini CLI；仓库仅有 plugin.json/.claude-plugin/gemini-extension.json 等他家宿主清单，无 dsh 安装路径或 dsh bundle 字段。"
+    },
+    "zhaojiale001016/video-hub": {
+      "kind": "excluded",
+      "reason": "不是常规插件——自动搬运流水线：订阅他人 YouTube 频道，yt-dlp 批量下载、翻译烧录字幕后一键再分发到 B 站/快手/抖音等平台，属侵犯第三方版权的批量搬运自动化"
+    },
     "091022yyj/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop app; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -10291,6 +10339,18 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone macOS menu bar companion app; stays in the catalog, excluded from the downstream market."
     },
+    "nexu-io/opengame": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: stars accrued as a general-purpose multi-host AI game studio (OpenGame, 22 local agents, BYOA/BYOK, OpenDesign ecosystem launch); the DeepSeek Harness side is one optional source-checkout integration (integrations/dsh). Stays in the catalog."
+    },
+    "dake6767/dsh-phalanx": {
+      "kind": "market",
+      "reason": "desktop client/standalone app, not an installable DSH plugin"
+    },
+    "zj6511235/dsh-skill-manager": {
+      "kind": "market",
+      "reason": "the market cannot include another market"
+    },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -10711,7 +10771,7 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a user-level patcher script for installed bundle files; stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "xuedai-mayi/dsh-wenshan": {
+    "xuedai-mayi/wenshan": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a domain application that vendors a customized copy of the DSH platform plus its own plugins; stays in the catalog and leaderboard, excluded from the downstream market."
     },

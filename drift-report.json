@@ -1,55 +1,83 @@
 {
-  "generated_at": "2026-11-27T09:03:46.018Z",
-  "count": 7,
+  "generated_at": "2026-11-27T19:28:12.648Z",
+  "count": 11,
   "items": [
     {
-      "full_name": "omnimux-ai/omnimux-client",
-      "previous": "coding",
-      "current": "vision",
-      "desc_now": "Open-source local AI video studio & editor for e-commerce product videos, UGC ads & AI agent workflows (macOS/Windows). 开源本地 AI 电商带货与 UGC 短视频工作台，集成数字人资产库、灵感拆解、无限多模态画布与多轨剪辑。",
-      "desc_prev": "OmniMux — Local AI content commerce workbench for product videos, ads, and creator workflows. Built-in product & asset library, inspiration teardown, infinite multimodal canvas, and timeline editor for macOS & Windows."
+      "full_name": "LittleChenLiya/dsh-superagent",
+      "previous": "agent",
+      "current": "memory",
+      "desc_now": "DeepSeek Harness 超级智能体插件：你给目标，它拆任务、派会话、持续跟进，最后交付一份汇总；支持多会话并行、持久记忆、长周期续跑、定时与事件触发。",
+      "desc_prev": "Long-running autonomous execution plugin for DeepSeek Harness: one goal, model-planned parallel subtasks, one merged report, durable across restarts."
     },
     {
       "full_name": "linhuanwen/dsh-plugin-agent-browser",
-      "previous": "tool",
-      "current": "web-ui",
-      "desc_now": "在 DeepSeek Harness 桌面端右侧栏里开一个 Agent 能操作、你能随时接管的真浏览器：16 个 browser_* 工具（快照 / 点选与框选指路 / 标签页 / 拖拽 / 网络与 console 尾巴）+ 人机验证交接",
-      "desc_prev": "在 DeepSeek Harness 桌面端右侧栏里开一个 Agent 能操作、你能随时接管的真浏览器：11 个 browser_* 工具 + 人机验证交接"
+      "previous": "web-ui",
+      "current": "vision",
+      "desc_now": "在 DeepSeek Harness 桌面端右侧栏里开一个 Agent 能操作、你能随时接管的真浏览器：17 个 browser_* 工具（快照 / 点选与框选指路 / 标签页 / 拖拽 / 页面内动作落点痕迹 / 动作时间线与截图证据 / 网络与 console 尾巴）+ 人机验证交接",
+      "desc_prev": "在 DeepSeek Harness 桌面端右侧栏里开一个 Agent 能操作、你能随时接管的真浏览器：16 个 browser_* 工具（快照 / 点选与框选指路 / 标签页 / 拖拽 / 网络与 console 尾巴）+ 人机验证交接"
     },
     {
-      "full_name": "Antares422/dsh-design-board",
+      "full_name": "dingchenhui0618-arch/dsh-plugin-daily",
+      "previous": "tool",
+      "current": "resource",
+      "desc_now": "DSH 每日简报：到点读市场自己发布的目录（快照 13445 条），按真实下载量与 star 挑靶子，产出「在别人作品上往前走一步」的具体改法 + 生态里还没有的方向；每条过纯函数校验（证据逐字命中、空话丢弃、改名重发拒绝）。点一下走宿主「新会话」同一条路径开窗，把固定交付契约交给它独立实现并发布。面板是对话视图里的「日报」Tab；202 个单测、零运行时依赖。原名 dsh-daily。",
+      "desc_prev": "Daily plugin brief for DeepSeek Harness: ranks the ecosystem against your own profile, proposes evidence-backed ideas, and hands an approved one to an agent to build and publish."
+    },
+    {
+      "full_name": "Laucky67/DSH-CalorieHelper",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": null,
+      "desc_prev": null
+    },
+    {
+      "full_name": "fly3366/dsh-o11y-plugin",
+      "previous": "tool",
+      "current": "other",
+      "desc_now": "Unified metric/log/trace adaptation for dsh and its plugins (enterprise OpenTelemetry).",
+      "desc_prev": "Unified plugin-dimension observability (trace/log/metric) for deepseek-harness: registers global OTel providers + OTLP export, bridges dsh session telemetry, GenAI semconv ready"
+    },
+    {
+      "full_name": "fly3366/DeepJIT",
+      "previous": "agent",
+      "current": "coding",
+      "desc_now": "JIT-compile repeated agent workflows into reusable skills and flows for deepseek-harness (dsh).",
+      "desc_prev": "JIT compiler plugin for deepseek-harness: compiles recurring agent workflows into hot skills and flow templates"
+    },
+    {
+      "full_name": "G57651/dsh-diy-layout",
       "previous": "web-ui",
       "current": "coding",
-      "desc_now": "给 DeepSeek Harness 装上一块设计画布：内置 165 套设计体系，选好风格直接出交互页面，支持单页精修、多方案并排对比与点选元素原地改稿。",
-      "desc_prev": "给 DeepSeek Harness 装上一块设计画布：内置 165 套设计体系，选好风格直接出交互页面，支持单页精修、多方案并排对比与点选元素原地改稿。"
+      "desc_now": "DeepSeek Harness（DSH）侧边栏 DIY 布局插件：全局面板与底部插件行支持单栏 / 双栏、仅图标悬浮提示、逐项排序与隐藏，零侵入，无需修改源码。",
+      "desc_prev": "DIY Layout for the DSH home sidebar — one/two columns, icon-only with tooltips, ordering & hiding. No source changes."
     },
     {
-      "full_name": "MorseWayne/dsh-team-router",
-      "previous": "model",
-      "current": "agent",
-      "desc_now": "Route native DeepSeek Harness subagent and team delegations across 12 built-in and up to 8 custom task categories.",
-      "desc_prev": "Rule-based model routing for native DeepSeek Harness Agent Teams"
+      "full_name": "ccl4-56-23-5/DSH-Plugins",
+      "previous": "coding",
+      "current": "resource",
+      "desc_now": "DSH 宿主插件合集。提供插件源码、使用说明与安装包。",
+      "desc_prev": "DSH插件：最高指令1.1.2、Api-Switcher2.1.5。完整源码、图文使用说明与最新版安装包。"
     },
     {
-      "full_name": "Testiphi/dsh-stage-prose",
-      "previous": "other",
-      "current": "agent",
-      "desc_now": "Live, non-intrusive progress updates every N silent steps in DeepSeek Harness — auto-folded on completion to keep final answers clean.",
-      "desc_prev": "Progress narration and readable collapsed turns for DeepSeek Harness"
-    },
-    {
-      "full_name": "Kirakila7/dsh-plugin-devlog-poster",
-      "previous": "conversation",
-      "current": "tool",
-      "desc_now": "DSH (DeepSeek Harness) Build-in-Public devlog generator & multi-platform publisher for GitHub, Xiaohongshu, Bilibili, and Douyin (Big Fat Fish / Gemini / ChatGPT / Claude styles)",
-      "desc_prev": "DSH (DeepSeek Harness) Build-in-Public devlog generator & multi-platform publisher for GitHub, Xiaohongshu, Bilibili, and Douyin (Big Fat Fish / Gemini / ChatGPT / Claude styles)"
-    },
-    {
-      "full_name": "ouyang111/video-preview",
-      "previous": "other",
+      "full_name": "mujiannan/dsh-synced-tabs",
+      "previous": "tool",
       "current": "web-ui",
-      "desc_now": "在 DeepSeek Harness 侧边栏直接播放 mp4、m4v、webm、ogv、mov，替代“该格式文件暂无法预览”，支持原生播放控件。",
+      "desc_now": "Start a DSH session on your phone, pick it up on your laptop: one shared tab set of open sessions across every device on the same DeepSeek Harness (DSH) host, with running/waiting/unread status dots and a phone-first bottom bar.",
+      "desc_prev": "Cross-device session tabs for the DeepSeek Harness (DSH) Web GUI: one shared set of open sessions across every device, with workspace grouping, status dots and a phone-first bottom bar."
+    },
+    {
+      "full_name": "lukstei/dsh-plugins",
+      "previous": "other",
+      "current": "coding",
+      "desc_now": "Run several coding agents side by side in DeepSeek Harness, see at a glance which one needs you, and review their changes without leaving the browser.",
       "desc_prev": null
+    },
+    {
+      "full_name": "nixuejun888/dsh-jarvis-sphere",
+      "previous": "tool",
+      "current": "memory",
+      "desc_now": "贾维斯球 for DeepSeek Harness Web：全息神经元球 + 记忆地图 + 操作员。球随任务真实执行数据变化，球面每颗光点是一条真实记忆，并注入 JARVIS 人格与 9 个工具（记忆审计/归档/编年史/日报/自检/场景/提醒）。A JARVIS sphere: live-activity visualization, a memory map, and a resident operator.",
+      "desc_prev": "贾维斯式球形神经元背景 for DeepSeek Harness Web：背景里的神经元球由任务真实执行数据驱动（运行状态 / 模型流式速率 / 工具调用），整层穿透点击。A Jarvis-style neural sphere driven by live agent activity."
     }
   ]
 }
