@@ -1,12 +1,54 @@
 {
-  "generated_at": "2026-11-27T00:28:14.365Z",
-  "count": 1,
+  "generated_at": "2026-11-27T09:03:46.018Z",
+  "count": 7,
   "items": [
     {
-      "full_name": "Dstrue/dsh-responses-api-injector",
+      "full_name": "omnimux-ai/omnimux-client",
+      "previous": "coding",
+      "current": "vision",
+      "desc_now": "Open-source local AI video studio & editor for e-commerce product videos, UGC ads & AI agent workflows (macOS/Windows). 开源本地 AI 电商带货与 UGC 短视频工作台，集成数字人资产库、灵感拆解、无限多模态画布与多轨剪辑。",
+      "desc_prev": "OmniMux — Local AI content commerce workbench for product videos, ads, and creator workflows. Built-in product & asset library, inspiration teardown, infinite multimodal canvas, and timeline editor for macOS & Windows."
+    },
+    {
+      "full_name": "linhuanwen/dsh-plugin-agent-browser",
+      "previous": "tool",
+      "current": "web-ui",
+      "desc_now": "在 DeepSeek Harness 桌面端右侧栏里开一个 Agent 能操作、你能随时接管的真浏览器：16 个 browser_* 工具（快照 / 点选与框选指路 / 标签页 / 拖拽 / 网络与 console 尾巴）+ 人机验证交接",
+      "desc_prev": "在 DeepSeek Harness 桌面端右侧栏里开一个 Agent 能操作、你能随时接管的真浏览器：11 个 browser_* 工具 + 人机验证交接"
+    },
+    {
+      "full_name": "Antares422/dsh-design-board",
+      "previous": "web-ui",
+      "current": "coding",
+      "desc_now": "给 DeepSeek Harness 装上一块设计画布：内置 165 套设计体系，选好风格直接出交互页面，支持单页精修、多方案并排对比与点选元素原地改稿。",
+      "desc_prev": "给 DeepSeek Harness 装上一块设计画布：内置 165 套设计体系，选好风格直接出交互页面，支持单页精修、多方案并排对比与点选元素原地改稿。"
+    },
+    {
+      "full_name": "MorseWayne/dsh-team-router",
+      "previous": "model",
+      "current": "agent",
+      "desc_now": "Route native DeepSeek Harness subagent and team delegations across 12 built-in and up to 8 custom task categories.",
+      "desc_prev": "Rule-based model routing for native DeepSeek Harness Agent Teams"
+    },
+    {
+      "full_name": "Testiphi/dsh-stage-prose",
       "previous": "other",
+      "current": "agent",
+      "desc_now": "Live, non-intrusive progress updates every N silent steps in DeepSeek Harness — auto-folded on completion to keep final answers clean.",
+      "desc_prev": "Progress narration and readable collapsed turns for DeepSeek Harness"
+    },
+    {
+      "full_name": "Kirakila7/dsh-plugin-devlog-poster",
+      "previous": "conversation",
       "current": "tool",
-      "desc_now": "通过本地回环中转，把任意字段注入 Responses API 请求体，让 web_search 等服务端工具无需改动 DSH 即可生效。",
+      "desc_now": "DSH (DeepSeek Harness) Build-in-Public devlog generator & multi-platform publisher for GitHub, Xiaohongshu, Bilibili, and Douyin (Big Fat Fish / Gemini / ChatGPT / Claude styles)",
+      "desc_prev": "DSH (DeepSeek Harness) Build-in-Public devlog generator & multi-platform publisher for GitHub, Xiaohongshu, Bilibili, and Douyin (Big Fat Fish / Gemini / ChatGPT / Claude styles)"
+    },
+    {
+      "full_name": "ouyang111/video-preview",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "在 DeepSeek Harness 侧边栏直接播放 mp4、m4v、webm、ogv、mov，替代“该格式文件暂无法预览”，支持原生播放控件。",
       "desc_prev": null
     }
   ]
