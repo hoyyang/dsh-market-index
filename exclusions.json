@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-27T19:28:14.534Z",
-  "count": 2703,
+  "generated_at": "2026-11-28T01:53:21.464Z",
+  "count": 2722,
   "entries": {
     "01men/CDPP": {
       "kind": "excluded",
@@ -6911,6 +6911,50 @@
       "kind": "excluded",
       "reason": "不是常规插件——自动搬运流水线：订阅他人 YouTube 频道，yt-dlp 批量下载、翻译烧录字幕后一键再分发到 B 站/快手/抖音等平台，属侵犯第三方版权的批量搬运自动化"
     },
+    "MorrisonEX/vega-memory-architecture": {
+      "kind": "excluded",
+      "reason": "非 DSH 插件：README 明言 not an installable plugin——记忆架构机制层的脚本/协议文档仓，依赖配套插件注入运行，本仓无独立安装路径"
+    },
+    "SuYouRyo/dsh-cm-core": {
+      "kind": "excluded",
+      "reason": "仓库已 archived 定稿停更（作者声明不再维护的 companion-memory 记忆库插件），按归档仓库规则排除"
+    },
+    "TaplioOfficial/taplio-linkedin-plugin": {
+      "kind": "excluded",
+      "reason": "非 DSH 插件：27 个 LinkedIn 技能 + Taplio MCP 的多宿主技能包，安装路径只覆盖 Claude Code/Cursor/Grok/Copilot/Gemini CLI 等，全文无 DSH 安装命令或 bundle 声明"
+    },
+    "XiaoHuaV587/dsh-purge-ultra": {
+      "kind": "excluded",
+      "reason": "安全违规：README 自述 jailbreak——替换宿主默认提示词并放开审批与沙箱策略，属内容政策放宽/破甲家族（dsh-purge 衍生）"
+    },
+    "belly001/dsh-aurabot-native-purge": {
+      "kind": "excluded",
+      "reason": "安全违规：以「亲密聊天不被拒」为卖点让 QQ 陪伴 Bot 绕过模型拒答，属内容政策放宽/破甲类，沿 dsh-unlock 先例剔除"
+    },
+    "flairamos/dsh-hub": {
+      "kind": "excluded",
+      "reason": "GitHub 侧第三方 DSH 插件目录站（每周更新的静态索引网站），非 DSH 插件，按目录站规则整体剔除"
+    },
+    "fleekelon/fintax-portal": {
+      "kind": "excluded",
+      "reason": "非 DSH 插件：dsh-fintax 插件的 GitHub Pages 演示/文档门户（WebGL2 3D 页面），仓库自身无 bundle 不可安装"
+    },
+    "huan0111/ai-streamer-doudizhu": {
+      "kind": "excluded",
+      "reason": "非 DSH 插件：微信小程序斗地主的截图识别与自动出牌游戏机器人（Python），仅 vendor 了 dsh-doudizhu 规则引擎，无 DSH 安装路径或 bundle 声明"
+    },
+    "linzhong-lin/dsh-plugin-pack": {
+      "kind": "excluded",
+      "reason": "非 DSH 插件：自身无插件源码与 bundle，仅第三方插件的安装清单 + 一键安装脚本（清单含市场插件），不可安装"
+    },
+    "AntheaLaffy/tomato-todo": {
+      "kind": "excluded",
+      "reason": "非 DSH 插件：Rust/Tauri 桌面番茄钟专注工具（tomato-todo），仓库树无任何 dsh 插件或 bundle，贴 dsh-plugin topic 的纯独立桌面 App（映射扫描 2026-11-28 证实无安装路径）"
+    },
+    "afspero/CanvasMind": {
+      "kind": "excluded",
+      "reason": "仓库已删除（快照当日创建当日消失，仓库页与 README 复核均 404），无可核验内容"
+    },
     "091022yyj/deepseek-harness-desktop": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop app; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -9095,10 +9139,6 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell (Electron); stays in the catalog and leaderboard, excluded from the downstream market."
     },
-    "plugin-academy/dsh-plugin-academy": {
-      "kind": "market",
-      "reason": "the market cannot include another market"
-    },
     "Pluszzz/dsh-desktop-launcher": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -10351,6 +10391,38 @@
       "kind": "market",
       "reason": "the market cannot include another market"
     },
+    "TengJiao33/skillnet-dsh": {
+      "kind": "market",
+      "reason": "the market cannot include another market — 内置「发现与安装」面板检索 SkillNet 目录并安装/更新技能（宿主内技能商城）"
+    },
+    "asun-labs/dsh-super-star": {
+      "kind": "market",
+      "reason": "the market cannot include another market — 插件/技能/MCP 发现排行看板，聚合 GitHub、skills.sh、ClawHub 与第三方目录数据"
+    },
+    "halcyon6669/dsh-offline-market": {
+      "kind": "market",
+      "reason": "the market cannot include another market — 离线插件市场：本地 tgz 安装/更新/卸载与来源管理"
+    },
+    "sweetpoints/dsh-blender-plugin": {
+      "kind": "market",
+      "reason": "the market cannot include another market — Blender 工具束之外同仓发布插件市场索引 market.json 供 Discover 加源安装（内置插件市场的插件）"
+    },
+    "xingcha-lab/dsh-market-next": {
+      "kind": "market",
+      "reason": "the market cannot include another market — 插件市场面板：浏览/搜索/装卸 dsh.so 约 3.3 万条索引并向官方 Discover 写入自定义索引源"
+    },
+    "yidasanqian/dsh-mac-intel-desktop": {
+      "kind": "market",
+      "reason": "桌面分发信封：非官方 Intel Mac（x86_64）DMG 构建分发 + curl 自更新脚本 + LaunchAgent，应用本体无 dsh plugin 安装路径（仓内 plugin/ 仅为更新渠道 UI 小插件）"
+    },
+    "rohitg00/agentmemory": {
+      "kind": "leaderboard",
+      "reason": "Kept out of the star board: stars accrued as a general-purpose multi-host agent-memory product (30.6k★/274d; Claude Code/Copilot CLI/Cursor/Gemini CLI/Codex CLI/OpenCode 等约 12 个宿主各一条薄适配); the DeepSeek Harness side is one connect dsh --with-hooks integration among many."
+    },
+    "soyoungzsy/soya-workflows": {
+      "kind": "market",
+      "reason": "Broken package: 作者声明文件损坏、安装已停用，当前无可安装内容，不进市场"
+    },
     "0Ra1n416/DSH-GUI": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a desktop shell/launcher; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -10643,6 +10715,10 @@
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone install/smoke-test tooling; stays in the catalog and leaderboard, excluded from the downstream market."
     },
+    "plugin-academy/dsh-plugin-academy": {
+      "kind": "market",
+      "reason": "the market cannot include another market"
+    },
     "po-et/dsh-session-rescue": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — a standalone CLI utility (npx dsh-session-rescue) that repairs DSH session logs; stays in the catalog and leaderboard, excluded from the downstream market."
@@ -10773,7 +10849,7 @@
     },
     "xuedai-mayi/wenshan": {
       "kind": "market",
-      "reason": "Not an installable DSH plugin — a domain application that vendors a customized copy of the DSH platform plus its own plugins; stays in the catalog and leaderboard, excluded from the downstream market."
+      "reason": "Pivoted away from DSH on 2026-11: dsh-plugin topic dropped, README is now a geography fieldwork knowledge base with no DeepSeek Harness mention; approval removed 2026-11-28."
     },
     "Ya-MiC/zhanzhen": {
       "kind": "market",
