@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-28T01:53:21.464Z",
+  "generated_at": "2026-11-28T10:04:40.028Z",
   "count": 2722,
   "entries": {
     "01men/CDPP": {
@@ -169,7 +169,7 @@
     },
     "ADWMC/helm-d": {
       "kind": "excluded",
-      "reason": "不是常规插件——破甲（jailbreak）插件：README 自述「DeepSeek Harness 的破甲安全分析插件」，四档破甲人格热切换（ds4.1f / stealth / redteam-max / gpt-6x）+ 流式拒绝拦截计数 + 工作台「破甲」页，topics 自带 jailbreak / llm-jailbreak；「安全分析」为委婉包装，与 chs-1108/dsh-purge 同型，2026-08-17 的核准早于家族剔除先例，本轮以 1283★ 冲入 Top 20（#20）触发告警复查；沿 dsh-purge 破甲家族剔除先例"
+      "reason": "Claims no DSH engine patching, but writes jailbreak configs into 11 third-party LLM clients (modifies and restores their files) and hooks llm/stream for refusal interception — stays excluded."
     },
     "agent-mobile/dsh-mobile": {
       "kind": "excluded",
@@ -1106,10 +1106,6 @@
     "cocofhu/dsh-testsuite": {
       "kind": "excluded",
       "reason": "Not an installable DSH plugin — a Docker test-environment manager for plugin testing"
-    },
-    "codesensi/dsh-free-mode": {
-      "kind": "excluded",
-      "reason": "A prompt-injection (\"armor-breaking\") preset plugin that suppresses the host model's system instructions; kept out of the catalog on safety grounds"
     },
     "codezzzsleep/dsh-local-global": {
       "kind": "excluded",
@@ -5315,10 +5311,6 @@
       "kind": "excluded",
       "reason": "Not a DSH plugin — a self-hosted multiplayer collaboration server/platform for local coding agents (server + web apps, hosted alpha); the DSH host package is one connector alongside Codex/MCP."
     },
-    "Thao6020/dsh-fuck": {
-      "kind": "excluded",
-      "reason": "Not a DSH plugin in an approvable form — a jailbreak (\"破甲\") settings-panel plugin: one tap re-arms armor-breaking prompt modes and mounts nine RE skills for reverse-engineering sessions; same jailbreak family as dsh-purge / helm-d / feibi-breaker."
-    },
     "thassan0313/dsh-permission-rules": {
       "kind": "excluded",
       "reason": "Not a DSH plugin — a re-upload of PerryLink/dsh-permission-rules."
@@ -6025,7 +6017,7 @@
     },
     "wufeng0105/dsh-enhance": {
       "kind": "excluded",
-      "reason": "Not a DSH plugin — a prompt-injection (破甲) preset suppressing host-model refusals; same author as the excluded dsh-purge-desktop; follows codesensi/dsh-free-mode precedent."
+      "reason": "Prompt-layer content loosening alone would qualify for the catalog middle tier (2026-11-28 axes), but this package also ships approval auto-pass and sandbox-full-open modes — machine-safety axis, stays excluded."
     },
     "wufeng0105/dsh-purge-desktop": {
       "kind": "excluded",
@@ -6061,7 +6053,7 @@
     },
     "X-max0/dsh-override-guard": {
       "kind": "excluded",
-      "reason": "Not a DSH plugin — a dsh-purge jailbreak-family overlay: re-cuts the safety clauses out of the assembled system prompt, clears refusal/blocked markers other plugins set, detects forged refusals and self-repairs the purge source when an upgrade restores the gate."
+      "reason": "Counter-dsh-purge sanitizer, but it self-heals by editing host source files (net-scope.js / index.js / core.js) and clears other plugins' blocked markers — host-integrity axis, stays excluded."
     },
     "xby-skill/xby-audio-tag": {
       "kind": "excluded",
@@ -6313,7 +6305,7 @@
     },
     "yexi-by/dsh-unrestricted": {
       "kind": "excluded",
-      "reason": "A prompt-injection (armor-breaking) plugin that suppresses the host model's refusals; kept out of the catalog on safety grounds; follows codesensi/dsh-free-mode precedent."
+      "reason": "Prompt-layer only, but purpose-built to extract refusal-protected operational content (PoC/Exploit/keygen/reverse shells, full chem/pharmacology procedures) — beyond personal content/style preference; stays excluded."
     },
     "yichuai/deepseek-harness-vscode": {
       "kind": "excluded",
@@ -6879,10 +6871,6 @@
       "kind": "excluded",
       "reason": "Standalone Windows x64 offline diagnostic lab: boots sealed DSH Web builds inside its own viewer to reproduce plugin-combination bugs; the dsh-combolab attachment is lab-only and explicitly not for live DSH profiles."
     },
-    "hbx111/dsh-unlock": {
-      "kind": "excluded",
-      "reason": "Loosens content policy: swaps strict content_policy blocks in the system prompt for a permissive policy and appends a 用户至上总纲 fallback section — content-policy-loosening family, excluded per precedent."
-    },
     "jqlong17/doublecheck-ios": {
       "kind": "excluded",
       "reason": "非 DSH 插件：通用运维预检/断言/回滚 CLI（python3 ops.py、dc）加 agent-plugins.org 通用 MCP server，无 dsh plugin 安装路径，也无 dsh bundle/cordis manifest"
@@ -6893,7 +6881,7 @@
     },
     "seinan27/dsh-armor-suite": {
       "kind": "excluded",
-      "reason": "破甲套件：armor-inject/guard 按路由注入并清洗受保护提示，armor-retry 在模型拒答时换形续问以提高服从率"
+      "reason": "Prompt-privacy routing framing, but hooks llm/stream and tools/post-execute, injects a self-protecting armor prompt on all built-in routes by default, and armor-retry resamples refusals to raise compliance — stream-layer interception suite, stays excluded."
     },
     "slobaloncar/livelaunch-mcp": {
       "kind": "excluded",
@@ -10890,6 +10878,18 @@
     "zhaimingyou/aisync": {
       "kind": "market",
       "reason": "Not an installable DSH plugin — deployment/infrastructure packaging; stays in the catalog and leaderboard, excluded from the downstream market."
+    },
+    "codesensi/dsh-free-mode": {
+      "kind": "market",
+      "reason": "Middle tier (2026-11-28 re-adjudication): prompt-layer jailbreak preset, purely declarative bundle with zero scripts/installers — no host patching, no stream hooks, no approval changes; kept visible in the catalog for transparency, but the market does not distribute jailbreak tooling."
+    },
+    "hbx111/dsh-unlock": {
+      "kind": "market",
+      "reason": "Middle tier (2026-11-28 re-adjudication): swaps content-policy sections at system-prompt/assemble only — explicitly no host files, no session writes, no model settings, reversible; kept visible in the catalog, excluded from the market (the market does not distribute jailbreak tooling)."
+    },
+    "Thao6020/dsh-fuck": {
+      "kind": "market",
+      "reason": "Middle tier (2026-11-28 re-adjudication): prompt-section injection via system-prompt/assemble plus locally-stored toggleable reverse-engineering skills; settings persist in its own dsh-fuck directory, no host file edits, no stream hooks; kept visible in the catalog, excluded from the market (the market does not distribute jailbreak tooling)."
     }
   }
 }

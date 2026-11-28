@@ -1,20 +1,27 @@
 {
-  "generated_at": "2026-11-28T01:53:18.940Z",
-  "count": 2,
+  "generated_at": "2026-11-28T10:04:37.003Z",
+  "count": 3,
   "items": [
     {
       "full_name": "linhuanwen/dsh-plugin-agent-browser",
-      "previous": "vision",
-      "current": "document",
-      "desc_now": "在 DeepSeek Harness 桌面端右侧栏里开一个 Agent 能操作、你能随时接管的真浏览器：18 个 browser_* 工具（快照 / 点选与框选 / 页面文字与表格阅读 / 标签页 / 拖拽 / 页面内落点痕迹 / 动作时间线 / 网络与 console 尾巴）+ 人机验证交接",
-      "desc_prev": "在 DeepSeek Harness 桌面端右侧栏里开一个 Agent 能操作、你能随时接管的真浏览器：17 个 browser_* 工具（快照 / 点选与框选指路 / 标签页 / 拖拽 / 页面内动作落点痕迹 / 动作时间线与截图证据 / 网络与 console 尾巴）+ 人机验证交接"
+      "previous": "document",
+      "current": "web-ui",
+      "desc_now": "在 DeepSeek Harness 桌面端右侧栏里开一个 Agent 能操作、你能随时接管的真浏览器：20 个 browser_* 工具（快照 / 点选与框选 / 页面阅读 / 表单批量填写 / 批量上传下载 / 标签页 / 拖拽 / 落点痕迹 / 动作时间线 / 网络与 console 尾巴）+ 人机验证交接",
+      "desc_prev": "在 DeepSeek Harness 桌面端右侧栏里开一个 Agent 能操作、你能随时接管的真浏览器：18 个 browser_* 工具（快照 / 点选与框选 / 页面文字与表格阅读 / 标签页 / 拖拽 / 页面内落点痕迹 / 动作时间线 / 网络与 console 尾巴）+ 人机验证交接"
     },
     {
-      "full_name": "LeoHwang74/DeepSeekHarness-delete-chat",
-      "previous": "conversation",
-      "current": "resource",
-      "desc_now": "给 DeepSeek Harness（DSH）加一个真正的「删除会话」动作：整个会话目录移入 Windows 回收站（可配置为 session-trash），列表立即消失、随时可还原。 A DSH plugin that deletes a conversation for real: the whole session folder goes to the Windows Recycle Bin (configurable), restorable at any time.",
-      "desc_prev": "给 DeepSeek Harness（DSH）加一个真正的「删除会话」动作：把会话日志移入 $DSH_HOME/session-trash，而不只是归档。 A DeepSeek Harness (DSH) plugin that adds a real Delete conversation action: moves the session log into $DSH_HOME/session-trash instead of only archiving it."
+      "full_name": "egg2023001-cmd/dsh-fish-pay-counter",
+      "previous": "other",
+      "current": "web-ui",
+      "desc_now": "摸鱼发薪局 · DSH 摸鱼桌宠。等 AI 干活时，点一下金鱼放烟花，右键喂宠物、戳泡泡。想看钱涨？填班表就能估算今天的工资。",
+      "desc_prev": "摸鱼发薪局：左键点鱼放烟花，右键喂鱼或在 DSH 工作台上戳泡泡。"
+    },
+    {
+      "full_name": "WantToSnuggle/dsh-cocos-workbench",
+      "previous": "other",
+      "current": "tool",
+      "desc_now": "DSH 插件：在 DSH 里驱动 Cocos Creator 4 项目——建项目、异步构建、本地预览、场景 MCP 工具与右侧栏工作台。",
+      "desc_prev": null
     }
   ]
 }
